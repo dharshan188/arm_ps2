@@ -28,18 +28,18 @@ Put a piece of waste in front of the camera. Sorti finds every item, tells you w
 
 ## Results
 
-Measured on the Raspberry Pi 5 on 19 Nov 2026 with the full app running (camera, 3 detectors, 2 classifiers, mic, speaker, Llama, translator, sorter). Source: [Pi 5 test report](docs/reports/Sorti_RaspberryPi5_Test_Report.pdf).
+Measured on the Raspberry Pi 5 with the full app running (camera, 3 detectors, 2 classifiers, mic, speaker, Llama, translator, sorter). Speed rows are from the Pi re-test of 25 Nov 2026 after the optimisation update. Accuracy, RAM, power and sorter rows are from the 19 Nov run in the [Pi 5 test report](docs/reports/Sorti_RaspberryPi5_Test_Report.pdf).
 
 | Metric | Result |
 |---|---|
 | Correct bin, 540 held-out test images¹ | 95.2 % (93.9 % correct type) |
 | Hazard + e-waste recall (battery, bulb, e-waste images) | 170 / 180 = 94.4 % |
-| Classification time per item | 78 ms median, 92 ms p90 |
-| Live camera with all 3 detectors | 2.8–4.8 FPS |
-| Rule answer ("which bin?") | 0.13 s typical, 0.20 s worst |
-| English Llama answer, first words / complete | 1.7 s / 6.3 s typical |
-| Tamil / Hindi Llama answer (translate, answer, translate back) | ~19 s typical, 23.0 s worst |
-| Speech-to-text, typical | en 0.71 s · ta 1.14 s · hi 1.85 s |
+| Classification time per item | 54 ms median, 68 ms p90 |
+| Live camera with all 3 detectors | 3.8–5.6 FPS |
+| Rule answer ("which bin?") | 0.11 s typical, 0.16 s worst |
+| English Llama answer, first words / complete | 0.85 s / 3.4 s typical |
+| Tamil / Hindi Llama answer (translate, answer, translate back) | 4.8 s typical, 5.6 s worst |
+| Speech-to-text, typical | en 0.48 s · ta 0.72 s · hi 0.85 s |
 | Language understanding (intent + item) | 216/216 · held-out 27/27 · code-mixed 13/13 |
 | App RAM, everything loaded | 3.89 GB (whole Pi 5.47–5.59 GB of 8.06 GB, no swap) |
 | Arduino sort cycle | 5.8 s typical, 5/5 live sorts acknowledged |
@@ -108,14 +108,14 @@ The streams follow India's Solid Waste Management Rules, 2016 (wet, dry, domesti
 <img src="docs/images/mot_scene_plastic_paper_ewaste.jpg" width="49%" alt="Plastic, paper and e-waste items confirmed"/>
 </p>
 
-Three detectors propose boxes and an IoU tracker keeps one identity per item. The ensemble classifies each crop. An item is confirmed after 6 steady frames that clear its class's confidence bar. The cardboard base is masked by colour, so it is never counted as an item. These frames are from an earlier laptop build (4.4–4.5 FPS), and its bin labels have since changed. On the Pi the live app runs at 2.8–4.8 FPS.
+Three detectors propose boxes and an IoU tracker keeps one identity per item. The ensemble classifies each crop. An item is confirmed after 6 steady frames that clear its class's confidence bar. The cardboard base is masked by colour, so it is never counted as an item. These frames are from an earlier laptop build (4.4–4.5 FPS), and its bin labels have since changed. The current build runs at 6.2–6.5 FPS on the laptop and 3.8–5.6 FPS on the Pi.
 
 ## Arm optimisations
 
 | What we changed | Measured effect on the Pi |
 |---|---|
 | Llama system prompt prefilled into the KV cache while idle | First token 7.3 s → 0.85 s |
-| NLLB output restricted to the target script's tokens, 2 threads | Translation 9.2 s → 3.5 s |
+| NLLB output restricted to the target script's tokens, 2 threads | Translation 9.2 s → 1.1 s |
 | Language ID encodes only the speech that VAD keeps | 1.12 s → 0.23 s |
 | Llama 3.2 1B in SpinQuant INT4, in its own worker process | 1.57 GB resident; a worker crash falls back to a rule answer |
 | Lazy load and idle unload of Llama and NLLB, RAM check before each load | 3.89 GB app peak, no swap |
@@ -181,7 +181,7 @@ docs/       reports (PDF), architecture, benchmarks, Pi setup, figures
 
 ## Limitations
 
-- Tamil and Hindi open questions that miss the answer bank take about 19 s, because NLLB translates both ways on the CPU.
+- Tamil and Hindi open questions that miss the answer bank take about 4.8 s, because NLLB translates both ways on the CPU.
 - Metal is the weakest class (81.7 %), mostly confused with plastic or e-waste.
 - Speech accuracy was measured with synthetic voices. Real voices in a noisy room were tested only informally.
 - The Arduino sketch is not in this repository. The serial protocol is in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md#5-arduino-sorter).

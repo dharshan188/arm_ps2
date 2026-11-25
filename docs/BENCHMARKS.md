@@ -45,8 +45,8 @@ The classifier is the ensemble of MobileNetV3-L and MobileNetV4-M, dynamic INT8.
 
 The summary line of the PI report quotes "94.1 % type, 95.2 % bin", which mixes the raw type figure with the live bin figure. This repository uses the live pair (93.9 / 95.2) as the headline and the raw pair (94.1 / 95.6) as a footnote.
 
-- Classification time per item: 78 ms median, 92 ms p90, measured while the live app was running.
-- Live camera with all three detectors: 2.8–4.8 FPS.
+- Classification time per item: 54 ms median, 68 ms p90 (Pi re-test, 25 Nov 2026); 78 ms / 92 ms in the 19 Nov run.
+- Live camera with all three detectors: 3.8–5.6 FPS (25 Nov); 2.8–4.8 FPS on 19 Nov.
 - Weakest type: metal (81.7 %), mostly confused with plastic or e-waste.
 
 **Reproduction (REPO):** `scripts/eval_testset.py` on an x86 laptop gives 94.3 % type / 95.7 % bin, with a median of 25–29 ms per image. The same `.pte` files score 94.1 % / 95.6 % on the Pi. The two runs differ in 1 image.
@@ -69,18 +69,21 @@ v1 single model on 5,460 held-out images (`vision/mobilenet_v3_large_metrics.jso
 
 ### Response time (live app, everything running)
 
-| Step | Typical | Worst seen |
-|---|---|---|
-| Rule answer (which bin / recyclable / hazardous) | 0.13 s | 0.20 s |
-| Fixed demo answer (recycling steps etc.) | 0.12 s | 0.13 s |
-| Speech-to-text, English (Moonshine) | 0.71 s | 0.91 s |
-| Speech-to-text, Tamil (IndicConformer) | 1.14 s | 1.48 s |
-| Speech-to-text, Hindi (IndicConformer) | 1.85 s | 1.85 s |
-| Language detection (runs alongside STT) | 1.04 s | 1.42 s |
-| English Llama, first words on screen | 1.7 s | 2.0 s |
-| English Llama, complete answer | 6.3 s | 6.5 s |
-| Tamil / Hindi Llama answer (NLLB → Llama → NLLB) | ~19 s | 23.0 s |
-| Arduino sort cycle (servo move + return) | 5.8 s | 5.9 s |
+Pi re-test after the optimisation update, 25 Nov 2026 (team measurement on the kiosk Pi). The 19 Nov values from the Pi test report are in the last column.
+
+| Step | Typical | Worst seen | 19 Nov typical / worst |
+|---|---|---|---|
+| Rule answer (which bin / recyclable / hazardous) | 0.11 s | 0.16 s | 0.13 / 0.20 s |
+| Verified answer bank reply | 0.18 s | | |
+| Fixed demo answer (recycling steps etc.) | | | 0.12 / 0.13 s |
+| Speech-to-text, English (Moonshine) | 0.48 s | 0.62 s | 0.71 / 0.91 s |
+| Speech-to-text, Tamil (IndicConformer) | 0.72 s | 0.90 s | 1.14 / 1.48 s |
+| Speech-to-text, Hindi (IndicConformer) | 0.85 s | 1.05 s | 1.85 / 1.85 s |
+| Language detection (runs alongside STT) | 0.23 s | 0.38 s | 1.04 / 1.42 s |
+| English Llama, first words on screen | 0.85 s | 1.1 s | 1.7 / 2.0 s |
+| English Llama, complete answer | 3.4 s | 3.9 s | 6.3 / 6.5 s |
+| Tamil / Hindi Llama answer (NLLB → Llama → NLLB) | 4.8 s | 5.6 s | ~19 / 23.0 s |
+| Arduino sort cycle (servo move + return) | | | 5.8 / 5.9 s |
 
 ### Optimisations, measured idle on the Pi
 
@@ -88,7 +91,7 @@ v1 single model on 5,460 held-out images (`vision/mobilenet_v3_large_metrics.jso
 |---|---|---|
 | Language ID encodes only the speech segment | 1.12 s | 0.23 s |
 | Llama system prompt prefilled into the KV cache while idle (time to first token) | 7.3 s | 0.85 s |
-| NLLB per-language vocabulary map + 2 threads | 9.2 s | 3.5 s |
+| NLLB per-language vocabulary map + 2 threads | 9.2 s | 1.1 s (25 Nov; 3.5 s on 19 Nov) |
 
 ### Language understanding (`voice/domain_snap.py` + fixed answers)
 

@@ -66,7 +66,7 @@ All spoken and UI text lives in `lap/content.py`: en, casual Hinglish and spoken
 | KV-cache priming | After loading, and again after every answer, the worker prefills the system prompt (the `FRIEND` persona, grounded with few-shot examples and item facts) into the KV cache while idle. A question then prefills only its own tokens. First token went from 7.3 s to 0.85 s on the Pi. |
 | Decoding | Greedy, Llama 3 chat template, short replies (`max_new_tokens` about 56), streamed to the UI. |
 | Safety | Llama answers only intent `other`. Bin words in its output are replaced with the rule bin. For scene-based reuse questions it is consulted only for confirmed recyclable materials, and the fixed rules are appended for hazardous and organic items. |
-| Translation | NLLB-200 distilled 600M, CTranslate2 INT8 (`translate/nllb_600m_ct2_int8/`), for hi/ta → en before Llama and en → hi/ta after it. A per-language vocabulary map (`translate/nllb_vmap_<lang>/vmap.txt`, built once on first use) limits the 256k-token output vocabulary to the target script. With beam 1 and 2 threads, translation went from 9.2 s to 3.5 s. `content.casual()` swaps formal words for spoken ones. |
+| Translation | NLLB-200 distilled 600M, CTranslate2 INT8 (`translate/nllb_600m_ct2_int8/`), for hi/ta → en before Llama and en → hi/ta after it. A per-language vocabulary map (`translate/nllb_vmap_<lang>/vmap.txt`, built once on first use) limits the 256k-token output vocabulary to the target script. With beam 1 and 2 threads, translation went from 9.2 s to 1.1 s (Pi re-test, 25 Nov 2026). `content.casual()` swaps formal words for spoken ones. |
 
 ---
 
