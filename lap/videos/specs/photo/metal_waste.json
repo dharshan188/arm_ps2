@@ -1,0 +1,217 @@
+{
+ "cls": "metal_waste",
+ "slug": "general_photo",
+ "title": {
+  "en": "Metal: worth keeping in the loop",
+  "hi": "मेटल: फिर काम आ सकता है",
+  "ta": "மெட்டல்: திரும்பவும் பயன்படும்"
+ },
+ "beats": {
+  "intro": {
+   "en": "A used drink can may look finished. But its metal can become useful material again.",
+   "hi": "खाली ड्रिंक कैन का काम ख़त्म लग सकता है। पर उसका मेटल फिर काम आ सकता है।",
+   "ta": "காலியான டிரிங்க் கேனோட வேலை முடிஞ்ச மாதிரி தெரியும். ஆனா அதுல இருக்குற மெட்டல் திரும்பவும் பயன்படும்."
+  },
+  "harm": {
+   "en": "Making metal from ore takes energy. The International Aluminium Institute estimates that recycling aluminium saves about ninety five per cent compared with primary production.",
+   "hi": "अयस्क से मेटल बनाने में एनर्जी लगती है। इंटरनेशनल ऐल्युमिनियम इंस्टिट्यूट के मुताबिक, नए ऐल्युमिनियम के प्रोडक्शन के मुकाबले रीसायक्लिंग से करीब पचानवे परसेंट एनर्जी बचती है।",
+   "ta": "தாதுவிலிருந்து மெட்டல் செய்ய எனர்ஜி தேவை. இன்டர்நேஷனல் அலுமினியம் இன்ஸ்டிட்யூட் கணக்குப்படி, தாதுவிலிருந்து புதுசா அலுமினியம் செய்யுறதோட ஒப்பிட்டா, ரீசைக்கிள் பண்றதுல சுமார் தொண்ணூத்தஞ்சு பர்சன்ட் எனர்ஜி மிச்சமாகுது."
+  },
+  "who": {
+   "en": "Sharp can edges can cut waste workers. Careful separation makes their handling safer.",
+   "hi": "कैन के नुकीले किनारों से सफ़ाई वर्कर्स को चोट लग सकती है। ध्यान से अलग रखने पर उन्हें सँभालना ज़्यादा सुरक्षित होता है।",
+   "ta": "கேனோட கூரான ஓரம் குப்பை எடுக்குறவங்கள காயப்படுத்தலாம். கவனமா தனியா பிரிச்சு வெச்சா, அவங்க பாதுகாப்பா கையாள உதவும்."
+  },
+  "dispose": {
+   "en": "For food and drink cans, empty them, rinse them, let them dry, then put them in the blue bin. Avoid touching sharp edges.",
+   "hi": "खाने और ड्रिंक वाले कैन खाली करो, धोओ, सूखने दो, फिर ब्लू बिन में डालो। नुकीले किनारे छूने से बचो।",
+   "ta": "சாப்பாடும் டிரிங்க்கும் இருந்த கேன்கள காலி பண்ணி, கழுவி, காய விடுங்க. அப்புறம் ப்ளூ பின்ல போடுங்க. கூரான ஓரத்த தொடாதீங்க."
+  },
+  "prevent": {
+   "en": "Carry a reusable steel tiffin. Repair utensils where possible, and keep using containers that still work.",
+   "hi": "बार-बार इस्तेमाल होने वाला स्टील टिफ़िन साथ रखो। जहाँ हो सके, बर्तन रिपेयर करो और काम के कंटेनर यूज़ करते रहो।",
+   "ta": "திரும்பத் திரும்ப யூஸ் பண்ற ஸ்டீல் டிஃபின் எடுத்துட்டு போங்க. முடிஞ்சா பாத்திரங்கள ரிப்பேர் பண்ணுங்க. நல்லா இருக்குற டப்பாக்கள தொடர்ந்து யூஸ் பண்ணுங்க."
+  }
+ },
+ "shots": {
+  "intro": [
+   {
+    "img": "intro0_02.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "harm": [
+   {
+    "img": "bauxite_00.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "bauxite_02.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "who": [
+   {
+    "img": "who0_00.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "cans_03.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "dispose": [
+   {
+    "img": "intro0_00.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "cans_00.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "prevent": [
+   {
+    "img": "prevent1_00.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   }
+  ]
+ },
+ "overlays": {
+  "harm": [
+   {
+    "type": "stat",
+    "value": 95,
+    "fmt": "{:.0f}%",
+    "unit": "energy saved · recycled aluminium",
+    "at": 0.46,
+    "count": true
+   }
+  ],
+  "dispose": [
+   {
+    "type": "steps",
+    "n": 4,
+    "steps_at": [
+     0.19,
+     0.29,
+     0.4,
+     0.56
+    ],
+    "bin": "blue",
+    "bin_at": 0.56,
+    "until": 1.0
+   }
+  ]
+ },
+ "sources": [
+  "International Aluminium Institute, Aluminium recycling saves 95% of the energy needed for primary aluminium production: model compares global primary-production data for 2019 with recycling datasets from Europe and North America; estimated saving is 95.5%, rounded here to about 95%. This is an energy comparison for aluminium, not a collection rate or a claim for every metal. https://international-aluminium.org/landing/aluminium-recycling-saves-95-of-the-energy-needed-for-primary-aluminium-production/",
+  "US EPA, Frequent Questions on Recycling: metal recyclables should be empty and rinsed free of food residue. https://www.epa.gov/recycle/frequent-questions-recycling",
+  "BBMP, Waste Management FAQs: keep kitchen recyclables clean and dry; blue bin for recyclable dry waste, including metal. Sorti routing is applied to ordinary food and drink cans. https://apps.bbmpgov.in/SWM/Home/Forms/PublicInformation.aspx?page=FAQs",
+  "US EPA, Public Health, Occupational Safety, and Environmental Concerns in Municipal Solid Waste Recycling Operations: handling recyclables can expose consumers and waste workers to sharp-object injuries. https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=30002V62.TXT"
+ ]
+}

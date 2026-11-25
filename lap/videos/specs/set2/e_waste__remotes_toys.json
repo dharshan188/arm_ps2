@@ -1,0 +1,58 @@
+{
+  "cls": "e_waste",
+  "slug": "remotes_toys",
+  "item": "remote",
+  "title": {
+    "en": "Remote control, responsible exit",
+    "hi": "रिमोट का सही रास्ता",
+    "ta": "ரிமோட்டுக்கு சரியான வழி"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This remote hit my head and changed my channel! Broken remotes and electronic toys need their own exit.",
+      "hi": "अरे सुनो! रिमोट सिर पर गिरा और मेरा चैनल बदल गया! टूटे रिमोट और इलेक्ट्रॉनिक खिलौनों का अलग एग्ज़िट होता है।",
+      "ta": "ஹே நீங்க! ரிமோட் தலையில விழுந்து என் சேனலையே மாத்திடுச்சு! உடைஞ்ச ரிமோட்டுக்கும் எலக்ட்ரானிக் பொம்மைக்கும் தனியா எக்ஸிட் வேணும். எங்கன்னு பார்க்கலாம் வாங்க."
+    },
+    "harm": {
+      "en": "The world generated sixty two million tonnes of electronic waste in twenty twenty two. Even tiny gadgets join that enormous pile!",
+      "hi": "दो हज़ार बाईस में दुनिया में छह करोड़ बीस लाख टन इलेक्ट्रॉनिक वेस्ट बना। छोटे गैजेट्स भी उस बड़े ढेर में जुड़ते हैं!",
+      "ta": "ரெண்டாயிரத்து இருபத்தி ரெண்டுல உலகம் முழுக்க ஆறு கோடியே இருபது லட்சம் டன் எலக்ட்ரானிக் வேஸ்ட் வந்துச்சு. சின்ன கேஜெட்டும் அந்த பெரிய குவியல்ல சேருதுங்க!",
+      "stats": [
+        {
+          "value": 62,
+          "unit": "million t / 2022"
+        }
+      ]
+    },
+    "who": {
+      "en": "Children can reach loose batteries, while workers handle sharp electronic pieces. Sorting both separately protects the people behind your entertainment.",
+      "hi": "खुली बैटरी बच्चों के हाथ लग सकती है, और वर्कर्स को नुकीले इलेक्ट्रॉनिक टुकड़े लगते हैं। दोनों अलग करना सबको बचाता है।",
+      "ta": "கழட்டுன பேட்டரி குழந்தைங்க கைக்கு போயிடலாம், கூர்மையான எலக்ட்ரானிக் துண்டு வொர்க்கர்ஸுக்கு காயம் பண்ணலாம். ரெண்டையும் தனியா பிரிச்சா எல்லாருக்கும் நல்லதுங்க.",
+      "victims": [
+        "child",
+        "worker"
+      ]
+    },
+    "dispose": {
+      "en": "Remove replaceable batteries first; send them to red battery collection. Give the empty remote or electronic toy to authorised electronic waste collection.",
+      "hi": "पहले निकाली जा सकने वाली बैटरी निकालो, रेड बैटरी कलेक्शन को दो। खाली रिमोट या इलेक्ट्रॉनिक खिलौना ऑथराइज़्ड ई वेस्ट कलेक्शन को दो।",
+      "ta": "முதல்ல கழட்ட முடிஞ்ச பேட்டரிய எடுத்து ரெட் பேட்டரி கலெக்ஷன்ல குடுங்க. காலி ரிமோட் இல்ல எலக்ட்ரானிக் பொம்மைய அங்கீகாரம் வாங்குன ஈ வேஸ்ட் கலெக்ஷன்ல குடுங்க.",
+      "bin": "ewaste",
+      "steps": [
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Try cleaning contacts or repairing before replacing. Share working toys with batteries secured; your remote deserves fewer dramatic final episodes!",
+      "hi": "बदलने से पहले कॉन्टैक्ट साफ़ कराओ या रिपेयर ट्राय करो। चलती टॉय की बैटरी सेफ़ करके शेयर करो। फ़िनाले ड्रामा कम करो!",
+      "ta": "புதுசு வாங்க முன்னாடி கான்டாக்ட் சுத்தம் பண்ணி ரிப்பேர் பாருங்க. வேலை செய்யுற பொம்மைய பேட்டரி மூடி பத்திரமா ஷேர் பண்ணுங்க. ஃபைனல் எபிசோட் டிராமா வேணாமே!",
+      "swap_from": "remote",
+      "swap_to": "wrench"
+    }
+  },
+  "sources": [
+    "UNITAR/ITU, Global E-waste Monitor 2024: globally 62 million tonnes generated in 2022; 22.3% documented formally collected and recycled. https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+    "WHO, Electronic waste, 1 October 2024: informal burning releases hazardous substances; children and workers vulnerable. https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)",
+    "US EPA, Used Household Batteries: separate collection, insulate terminals; lithium batteries never in household garbage or recycling. https://www.epa.gov/recycle/used-household-batteries"
+  ]
+}

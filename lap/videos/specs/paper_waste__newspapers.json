@@ -1,0 +1,60 @@
+{
+ "cls": "paper_waste",
+ "slug": "newspapers",
+ "item": "newspaper",
+ "title": {
+  "en": "Old Newspapers",
+  "hi": "पुराने अख़बार",
+  "ta": "பழைய பேப்பர்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Thwack! Today's newspaper hit me right on the head. Breaking news: you're about to become a paper recycling pro!",
+   "hi": "धड़ाम! आज का अख़बार सीधा मेरे सिर पे पड़ा। ब्रेकिंग न्यूज़: तुम पेपर रीसायकलिंग के उस्ताद बनने वाले हो!",
+   "ta": "பட்! இன்னிக்கு நியூஸ்பேப்பர் நேரா என் தலைல வந்து விழுந்துச்சு. பிரேக்கிங் நியூஸ்: நீங்க பேப்பர் ரீசைக்ளிங் எக்ஸ்பர்ட் ஆகப்போறீங்க!"
+  },
+  "harm": {
+   "en": "Paper is made from trees, water and lots of energy. Recycling one tonne of newspaper can save about twelve trees. Throwing it away wastes all that.",
+   "hi": "पेपर पेड़, पानी और बहुत सारी बिजली से बनता है। एक टन अख़बार रीसायकल करने से करीब बारह पेड़ बच सकते हैं। फेंक दो तो सब बर्बाद।",
+   "ta": "பேப்பர் மரம், தண்ணி, நிறைய கரண்ட் வெச்சு தான் பண்றாங்க. ஒரு டன் நியூஸ்பேப்பர ரீசைக்கிள் பண்ணா கிட்டத்தட்ட பன்னெண்டு மரம் காப்பாத்தலாம். தூக்கி போட்டா எல்லாம் வேஸ்ட்.",
+   "stats": [
+    {
+     "value": 12,
+     "unit": "trees saved / tonne"
+    }
+   ]
+  },
+  "who": {
+   "en": "Wet paper rotting in dumps releases methane into the air, the soil gets messy, and the kabadiwala loses paper he could have sold.",
+   "hi": "कूड़े में सड़ता गीला पेपर हवा में मीथेन गैस छोड़ता है, मिट्टी ख़राब होती है, और कबाड़ी वाले का बिकने वाला पेपर बर्बाद हो जाता है।",
+   "ta": "குப்பை மேட்டுல நனைஞ்சு அழுகுற பேப்பர் காத்துல மீத்தேன் கேஸ் விடுது, மண்ணு கெடுது, பழைய பேப்பர் கடைக்காரருக்கு விக்க வேண்டிய பேப்பர் வீணா போகுது.",
+   "victims": [
+    "air",
+    "soil",
+    "worker"
+   ]
+  },
+  "dispose": {
+   "en": "Keep newspapers dry, stack them neatly, tie them with string, and put them in the blue bin or sell them to the kabadiwala. Easy money!",
+   "hi": "अख़बार सूखे रखो, अच्छे से जमाओ, रस्सी से बाँधो, और ब्लू बिन में डालो या कबाड़ी वाले को बेचो। आसान कमाई!",
+   "ta": "பேப்பர காய்ஞ்ச நிலைல வெச்சு, அழகா அடுக்கி, கயிறு போட்டு கட்டி, ப்ளூ பின்ல போடுங்க, இல்லனா பழைய பேப்பர் கடைல வித்துடுங்க. ஈஸி காசு!",
+   "bin": "blue",
+   "steps": [
+    "dry",
+    "wrap"
+   ]
+  },
+  "prevent": {
+   "en": "Read the news on your phone sometimes, and fold old newspapers into paper bags for the shop. Recycled headlines, how cool is that?",
+   "hi": "कभी कभी ख़बरें फ़ोन पे पढ़ो, और पुराने अख़बार से दुकान के लिए लिफ़ाफ़े बनाओ। रीसायकल वाली हेडलाइन, कितना कूल!",
+   "ta": "சில நேரம் நியூஸ போன்லயே படிங்க, பழைய பேப்பர மடிச்சு கடைக்கு பேப்பர் கவர் பண்ணுங்க. ரீசைக்கிள் ஆன ஹெட்லைன், செம கூல் தானே?",
+   "swap_from": "newspaper",
+   "swap_to": "phone",
+   "swap_to2": "paper_bag"
+  }
+ },
+ "sources": [
+  "Conservatree, How Much Paper Can Be Made From a Tree?: about 12 trees per ton of newsprint (conservative figure for newsprint)",
+  "IPCC 2006 Guidelines, Vol. 5 Waste: paper decomposing in landfills is a source of methane"
+ ]
+}

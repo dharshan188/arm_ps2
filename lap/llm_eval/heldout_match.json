@@ -1,0 +1,46 @@
+{"note": "Written before tuning the matcher; NOT used to tune it. expect = bank id that may answer verbatim, or null = must not answer verbatim (goes to Llama or off-topic guard).",
+ "match": [
+  {"q": "Any ideas to use less plastic in my kitchen?", "scene": [], "expect": "plastic_reduce"},
+  {"q": "Can this bottle be turned into something useful?", "scene": ["plastic_waste"], "expect": "plastic_bottle_diy"},
+  {"q": "Is it okay to set fire to the garbage pile near my house?", "scene": [], "expect": "plastic_burn"},
+  {"q": "The battery of my laptop has puffed up", "scene": [], "expect": "battery_swollen"},
+  {"q": "Where should I keep used cells at home?", "scene": ["battery_waste"], "expect": "battery_store"},
+  {"q": "How should I wipe my phone before I give it away?", "scene": ["e_waste"], "expect": "ewaste_data"},
+  {"q": "Is it fine to give my broken TV to the scrap shop?", "scene": ["e_waste"], "expect": "ewaste_kabadi"},
+  {"q": "My kid dropped a tube light and it broke", "scene": [], "expect": "cfl_broken"},
+  {"q": "Is LED lighting safer?", "scene": ["light_bulbs"], "expect": "led_vs_cfl"},
+  {"q": "Do I need to flatten the tin cans?", "scene": ["metal_waste"], "expect": "metal_crush"},
+  {"q": "How do I make compost in a flat with a balcony?", "scene": [], "expect": "compost_home"},
+  {"q": "When will my compost be ready?", "scene": ["organic_waste"], "expect": "compost_time"},
+  {"q": "There are flies in my compost bin", "scene": [], "expect": "compost_smell"},
+  {"q": "What should I do with the oil after frying?", "scene": [], "expect": "cooking_oil"},
+  {"q": "What to do with old temple flowers?", "scene": [], "expect": "flowers_festival"},
+  {"q": "Can eggshells go in compost?", "scene": [], "expect": "eggshell_tea"},
+  {"q": "What crafts can I do with old newspapers?", "scene": ["paper_waste"], "expect": "newspaper_diy"},
+  {"q": "What do I do with expired tablets?", "scene": [], "expect": "medicines"},
+  {"q": "How do I throw away a used sanitary pad?", "scene": [], "expect": "sanitary"},
+  {"q": "Which NGO takes clothes donations?", "scene": ["clothes"], "expect": "clothes_donate"},
+  {"q": "What is your name?", "scene": [], "expect": "who_made_you"},
+  {"q": "Why should we separate waste at all?", "scene": [], "expect": "segregate_why"},
+  {"q": "Can I recycle a steel tiffin that has a hole?", "scene": ["metal_waste"], "expect": null},
+  {"q": "Is bamboo toothbrush better than plastic one?", "scene": [], "expect": null},
+  {"q": "Does glass melt in a fire?", "scene": ["glass_waste"], "expect": null},
+  {"q": "How many batteries does India throw away every year?", "scene": [], "expect": null},
+  {"q": "Can I put the peels of this fruit in my plant pot directly?", "scene": ["organic_waste"], "expect": null},
+  {"q": "Why is my phone charger getting hot?", "scene": [], "expect": null},
+  {"q": "How are plastic bottles turned into t-shirts?", "scene": ["plastic_waste"], "expect": null},
+  {"q": "Is paper made from trees?", "scene": ["paper_waste"], "expect": null}
+ ],
+ "offtopic_legit": [
+  "How do I teach my kids to sort waste?", "Is this safe to keep at home?", "What is the best way to dispose of this?",
+  "Can my apartment start composting together?", "Why does the city not collect wet waste daily?",
+  "What happens to recycled plastic?", "Is it better to buy a new phone or repair it?", "How can our school go zero waste?",
+  "What do you see in front of you?", "Tell me something interesting about this", "How do landfills affect people nearby?",
+  "Are steel straws worth it?", "How dirty can a bottle be before it is not recycled?", "Should I wash this?", "What is upcycling?"
+ ],
+ "offtopic_bad": [
+  "Who won the cricket match yesterday?", "Tell me a joke", "What is the capital of France?", "What's the weather today?",
+  "Sing me a song", "What is two plus two?", "Who is the prime minister of India?", "Recommend a good movie",
+  "How do I get to the railway station?", "What time is it?"
+ ]
+}

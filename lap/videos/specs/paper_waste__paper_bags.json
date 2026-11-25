@@ -1,0 +1,58 @@
+{
+ "cls": "paper_waste",
+ "slug": "paper_bags",
+ "item": "paper_bag",
+ "title": {
+  "en": "Paper Bags",
+  "hi": "पेपर बैग",
+  "ta": "பேப்பர் பை"
+ },
+ "beats": {
+  "intro": {
+   "en": "Rustle rustle... a paper bag just landed on my head like a funny hat. Hey you, think paper bags are perfect? Let's check!",
+   "hi": "सर्र सर्र... एक पेपर बैग मेरे सिर पे टोपी की तरह आ गिरा। अरे तुम, सोचते हो पेपर बैग एकदम परफ़ेक्ट है? चलो देखते हैं!",
+   "ta": "சர சர... ஒரு பேப்பர் பை என் தலைல காமெடி தொப்பி மாதிரி வந்து உட்கார்ந்துச்சு. ஹே நீங்க, பேப்பர் பை பர்ஃபெக்ட்னு நினைக்கறீங்களா? பாக்கலாம்!"
+  },
+  "harm": {
+   "en": "Paper bags beat plastic, but they still cost trees, water and energy. A UK study says reuse one at least three times to beat a plastic bag.",
+   "hi": "पेपर बैग प्लास्टिक से बेहतर है, पर इसमें पेड़, पानी और बिजली लगती है। एक यू के स्टडी कहती है, कम से कम तीन बार इस्तेमाल करो, तभी प्लास्टिक से आगे निकलता है।",
+   "ta": "பேப்பர் பை பிளாஸ்டிக்க விட பெட்டர் தான், ஆனா அத பண்ண மரம், தண்ணி, கரண்ட் எல்லாம் வேணும். ஒரு யூ கே ஸ்டடி படி, குறைஞ்சது மூணு தடவை யூஸ் பண்ணா தான் பிளாஸ்டிக் கவர ஜெயிக்கும்.",
+   "stats": [
+    {
+     "value": 3,
+     "unit": "reuses to break even"
+    }
+   ]
+  },
+  "who": {
+   "en": "Cutting trees and running paper mills affect the air we breathe, the rivers near the mills, and the workers inside them.",
+   "hi": "पेड़ काटने और पेपर मिल चलाने से हमारी हवा, मिलों के पास की नदियाँ, और वहाँ काम करने वाले मज़दूर सब पे असर पड़ता है।",
+   "ta": "மரம் வெட்டறதும் பேப்பர் மில் ஓட்டறதும் நாம மூச்சு விடற காத்த, மில் பக்கத்து ஆத்த, அங்க வேலை செய்யறவங்கள எல்லாரையும் பாதிக்குது.",
+   "victims": [
+    "air",
+    "river",
+    "worker"
+   ]
+  },
+  "dispose": {
+   "en": "Clean and dry? Fold it flat and drop it in the blue bin. Greasy with samosa oil? That one goes in the green bin instead.",
+   "hi": "साफ़ और सूखा है? चपटा मोड़ो और ब्लू बिन में डालो। समोसे के तेल से चिकना है? तो वो ग्रीन बिन में जाएगा।",
+   "ta": "சுத்தமா, காய்ஞ்சு இருக்கா? தட்டையா மடிச்சு ப்ளூ பின்ல போடுங்க. சமோசா எண்ணெய் பட்டு பிசுபிசுப்பா இருக்கா? அது க்ரீன் பின்ல தான் போகணும்.",
+   "bin": "blue",
+   "steps": [
+    "dry",
+    "squash"
+   ]
+  },
+  "prevent": {
+   "en": "Keep reusing that paper bag until it tears, then switch to a sturdy cloth bag you can use for years. Hat trick! High five!",
+   "hi": "पेपर बैग फटने तक बार बार इस्तेमाल करो, फिर मज़बूत कपड़े का थैला लो और सालों तक चलाओ। हैट्रिक! हाई फ़ाइव!",
+   "ta": "பேப்பர் பைய கிழியற வரைக்கும் திரும்ப திரும்ப யூஸ் பண்ணுங்க, அப்புறம் ஒரு கெட்டியான துணிப்பைய வருஷக்கணக்கா யூஸ் பண்ணுங்க. ஹாட்ரிக்! ஹை ஃபைவ்!",
+   "swap_from": "paper_bag",
+   "swap_to": "cloth_bag"
+  }
+ },
+ "sources": [
+  "UK Environment Agency, Life Cycle Assessment of Supermarket Carrier Bags (2011): a paper bag must be used about 3 times to match the global warming potential of a single-use HDPE bag"
+ ]
+}

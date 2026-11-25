@@ -1,0 +1,58 @@
+{
+ "cls": "plastic_waste",
+ "slug": "straws",
+ "item": "straw",
+ "title": {
+  "en": "Plastic Straws",
+  "hi": "प्लास्टिक स्ट्रॉ",
+  "ta": "பிளாஸ்டிக் ஸ்ட்ரா"
+ },
+ "beats": {
+  "intro": {
+   "en": "Hey! Somebody's straw just poked me in the eye like a tiny sword. You there, put down the juice, this one's important!",
+   "hi": "अरे! किसी का स्ट्रॉ छोटी तलवार जैसा मेरी आँख में घुस गया। तुम, जूस एक सेकंड नीचे रखो, ये ज़रूरी है!",
+   "ta": "ஹே! யாரோட ஸ்ட்ராவோ குட்டி கத்தி மாதிரி என் கண்ணுல குத்திடுச்சு. நீங்க தான், ஜூஸ ஒரு செகண்ட் கீழ வைங்க, இது முக்கியம்!"
+  },
+  "harm": {
+   "en": "Straws are tiny and light, so they slip into drains and the sea. About eleven million tonnes of plastic end up in the ocean every year.",
+   "hi": "स्ट्रॉ छोटे और हल्के होते हैं, तो नालियों और समंदर में फिसल जाते हैं। हर साल करीब एक करोड़ दस लाख टन प्लास्टिक समंदर में पहुँचता है।",
+   "ta": "ஸ்ட்ரா சின்னது, லேசானது, அதனால சாக்கடைக்கும் கடலுக்கும் ஈஸியா போயிடுது. ஒவ்வொரு வருஷமும் கிட்டத்தட்ட ஒரு கோடியே பத்து லட்சம் டன் பிளாஸ்டிக் கடலுக்கு போகுது.",
+   "stats": [
+    {
+     "value": 11,
+     "unit": "million t / yr to ocean",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Fish and sea turtles mistake them for food, birds get them stuck in their beaks, and rivers carry them all the way to the beach.",
+   "hi": "मछलियाँ और कछुए इन्हें खाना समझ लेते हैं, चिड़ियों की चोंच में फँस जाते हैं, और नदियाँ इन्हें बहा के बीच तक ले जाती हैं।",
+   "ta": "மீனுங்களும் ஆமைங்களும் இத சாப்பாடுன்னு நினைச்சுக்குது, குருவிங்க மூக்குல மாட்டிக்குது, ஆறு இத பீச் வரைக்கும் அடிச்சுட்டு போகுது.",
+   "victims": [
+    "fish",
+    "bird",
+    "river"
+   ]
+  },
+  "dispose": {
+   "en": "Straws are too small for sorting machines. So rinse them, drop them inside a bottle, and put the whole bottle in the blue bin.",
+   "hi": "स्ट्रॉ इतने छोटे हैं कि मशीन पकड़ नहीं पाती। तो धोओ, एक बोतल के अंदर डालो, और पूरी बोतल ब्लू बिन में डालो।",
+   "ta": "ஸ்ட்ரா ரொம்ப சின்னது, மெஷின்ல பிடிபடாது. அதனால கழுவி, ஒரு பாட்டிலுக்குள்ள போட்டு, அந்த பாட்டில அப்படியே ப்ளூ பின்ல போடுங்க.",
+   "bin": "blue",
+   "steps": [
+    "rinse"
+   ]
+  },
+  "prevent": {
+   "en": "Honestly? Just sip straight from the glass, or carry your own steel straw. No straw, no sword in my eye. Deal? High five!",
+   "hi": "सच बोलूँ? सीधा गिलास से पियो, या अपना स्टील स्ट्रॉ साथ रखो। स्ट्रॉ नहीं, तो मेरी आँख में तलवार नहीं। डील? हाई फ़ाइव!",
+   "ta": "நேர்மையா சொல்லணும்னா? டம்ளர்ல இருந்தே நேரா குடிங்க, இல்லனா உங்க ஸ்டீல் ஸ்ட்ரா வெச்சுக்கோங்க. ஸ்ட்ரா இல்லனா, என் கண்ணுல கத்தி இல்ல. டீலா? ஹை ஃபைவ்!",
+   "swap_from": "straw",
+   "swap_to": "steel_cup"
+  }
+ },
+ "sources": [
+  "Pew Charitable Trusts & SYSTEMIQ, Breaking the Plastic Wave (2020), cited by UNEP: about 11 million tonnes of plastic enter the ocean each year"
+ ]
+}

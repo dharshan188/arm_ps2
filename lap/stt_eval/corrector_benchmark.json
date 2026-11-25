@@ -1,0 +1,7 @@
+{
+  "calls": 8640,
+  "mean_ms": 0.03317681331018518,
+  "p95_ms": 0.062621,
+  "max_ms": 0.655751,
+  "note": "Isolated text benchmark after model processes exited; all saved raw/pre hypotheses, three passes."
+}

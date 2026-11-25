@@ -1,0 +1,21 @@
+{
+  "wavs": 960,
+  "conditions": {
+    "clean": 320,
+    "snr15": 320,
+    "snr5": 320
+  },
+  "languages": {
+    "en": 240,
+    "hi": 240,
+    "ta": 480
+  },
+  "peak_by_condition": {
+    "clean": 1.0,
+    "snr15": 0.980010986328125,
+    "snr5": 0.980010986328125
+  },
+  "all_mono_pcm16_16khz": true,
+  "all_nonempty": true,
+  "total_audio_seconds": 1735.0486875000008
+}

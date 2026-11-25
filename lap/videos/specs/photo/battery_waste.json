@@ -1,0 +1,206 @@
+{
+ "cls": "battery_waste",
+ "slug": "general_photo",
+ "title": {
+  "en": "Batteries: energy still inside",
+  "hi": "बैटरी: अंदर अब भी चार्ज है",
+  "ta": "பேட்டரி: உள்ள இன்னும் சார்ஜ் இருக்கு"
+ },
+ "beats": {
+  "intro": {
+   "en": "A battery may stop powering a remote, yet still hold energy. Even a used battery needs careful handling.",
+   "hi": "बैटरी से रिमोट चलना बंद हो सकता है, फिर भी उसमें चार्ज बचा रहता है। यूज़ हुई बैटरी भी सँभालकर रखनी चाहिए।",
+   "ta": "பேட்டரியால ரிமோட் வேலை செய்யாம போனாலும், அதுக்குள்ள சார்ஜ் மிச்சமிருக்கலாம். யூஸ் பண்ண பேட்டரியையும் கவனமா கையாளணும்."
+  },
+  "harm": {
+   "en": "Lithium batteries can start fires if crushed or shorted. Loose terminals touching metal can turn mixed rubbish into a fire risk.",
+   "hi": "लिथियम बैटरी दबने या शॉर्ट होने से आग लग सकती है। खुले टर्मिनल धातु से छुएँ तो मिले हुए कचरे में भी आग का ख़तरा बनता है।",
+   "ta": "லித்தியம் பேட்டரி நசுங்கினாலோ ஷார்ட் ஆனாலோ தீ பிடிக்கலாம். வெளிய தெரியுற டெர்மினல் மெட்டல்ல பட்டா, கலந்த குப்பையிலயும் தீ பிடிக்கிற ஆபத்து வரும்."
+  },
+  "who": {
+   "en": "That puts waste workers at risk. Swallowed button cells can seriously injure children, so keep batteries out of reach.",
+   "hi": "इससे कचरा सँभालने वाले वर्कर्स ख़तरे में पड़ते हैं। बटन सेल निगलने से बच्चों को गंभीर चोट लग सकती है। बैटरी उनकी पहुँच से दूर रखो।",
+   "ta": "இதனால குப்பை கையாளுற தொழிலாளர்களுக்கு ஆபத்து. பட்டன் செல்ல முழுங்கினா குழந்தைகளுக்கு பெரிய காயம் ஆகலாம். பேட்டரிகளை அவங்க கைக்கு எட்டாம வைங்க."
+  },
+  "dispose": {
+   "en": "Tape the metal ends of each battery with insulating tape. Keep them separate, and put them in the red bin, never in normal trash. A swollen battery should go straight to a battery collection point.",
+   "hi": "हर बैटरी के मेटल वाले सिरों पर इंसुलेटिंग टेप लगाओ। उन्हें अलग रखो, और रेड बिन में डालो, आम कचरे में कभी नहीं। फूली हुई बैटरी सीधे बैटरी कलेक्शन पॉइंट पर दो।",
+   "ta": "ஒவ்வொரு பேட்டரியோட மெட்டல் முனையிலயும் இன்சுலேட்டிங் டேப் ஒட்டுங்க. தனியா வெச்சு, ரெட் பின்ல போடுங்க, சாதாரண குப்பைல போடவே கூடாது. வீங்குன பேட்டரிய நேரா பேட்டரி கலெக்ஷன் பாயிண்ட்ல குடுங்க."
+  },
+  "prevent": {
+   "en": "Choose compatible rechargeables where possible. Never recharge disposable batteries or force built-in batteries out.",
+   "hi": "जहाँ हो सके, डिवाइस के लिए सही रिचार्जेबल बैटरी चुनो। डिस्पोज़ेबल बैटरी कभी चार्ज मत करो, अंदर लगी बैटरी ज़बरदस्ती मत निकालो।",
+   "ta": "முடிஞ்சா டிவைஸுக்கு பொருத்தமான ரீசார்ஜபிள் பேட்டரிய தேர்ந்தெடுங்க. ஒருமுறை மட்டும் யூஸ் பண்ற பேட்டரிய சார்ஜ் பண்ணாதீங்க. உள்ள பொருத்தியிருக்கிற பேட்டரிய வலுக்கட்டாயமா எடுக்காதீங்க."
+  }
+ },
+ "shots": {
+  "intro": [
+   {
+    "img": "collect_02.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "harm": [
+   {
+    "img": "intro0_02.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "collect_00.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "who": [
+   {
+    "img": "picker_00.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "who1_02.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "dispose": [
+   {
+    "img": "collect_01.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "collect_03.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "prevent": [
+   {
+    "img": "prevent0_00.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   }
+  ]
+ },
+ "overlays": {
+  "dispose": [
+   {
+    "type": "steps",
+    "n": 3,
+    "steps_at": [
+     0.0,
+     0.36,
+     0.49
+    ],
+    "bin": "red",
+    "bin_at": 0.57,
+    "until": 0.8
+   }
+  ]
+ },
+ "sources": [
+  "US EPA, Used Household Batteries: used cells can retain energy; lithium batteries may ignite if damaged or shorted; insulate terminals, collect separately, and consult the manufacturer for damaged batteries. Built-in cells may require professional removal. https://www.epa.gov/recycle/used-household-batteries",
+  "US CPSC, Button Cell and Coin Batteries: swallowing cells can cause serious injury; keep them away from children. https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Button-Cell-Coin-Battery-Information-Center",
+  "US EPA, Frequent Questions on Lithium-ion Batteries: compatible chargers and battery handling; single-use lithium batteries must not be recharged. https://www.epa.gov/recycle/frequent-questions-lithium-ion-batteries",
+  "red is Sorti's dedicated hazardous battery collection route, not a claim about universal municipal bin colours. Swollen batteries require staff guidance rather than dropping them in the collection bin."
+ ]
+}

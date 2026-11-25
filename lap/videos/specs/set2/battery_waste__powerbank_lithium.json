@@ -1,0 +1,56 @@
+{
+  "cls": "battery_waste",
+  "slug": "powerbank_lithium",
+  "item": "battery",
+  "title": {
+    "en": "Powerbank fire safety",
+    "hi": "पावरबैंक की फ़ायर सेफ़्टी",
+    "ta": "பவர்பேங்க் ஃபயர் சேஃப்டி"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This powerbank tried charging my brain by impact! A damaged lithium battery needs careful handling, never a rubbish bin.",
+      "hi": "अरे तुम! पावरबैंक ने टक्कर मारकर मेरा ब्रेन चार्ज करना चाहा! डैमेज्ड लिथियम बैटरी सावधानी माँगती है, कचरे का बिन नहीं।",
+      "ta": "ஹே நீங்க! பவர்பேங்க் மோதியே என் மூளைய சார்ஜ் பண்ண பாத்துச்சு! டேமேஜ் ஆன லித்தியம் பேட்டரிய கவனமா கையாளணும், குப்பை பின்ல போடாதீங்க."
+    },
+    "harm": {
+      "en": "An American study linked two hundred forty five waste facility fires to lithium batteries, definitely or probably. Crushing powerbanks can start fires.",
+      "hi": "अमेरिकी स्टडी में दो सौ पैंतालीस वेस्ट फ़ैसिलिटी आग लिथियम बैटरी से पक्के या संभावित तौर पर जुड़ीं। कुचलने से आग लग सकती है।",
+      "ta": "அமெரிக்க ஆய்வுல இருநூத்தி நாப்பத்தி அஞ்சு குப்பை நிலைய தீ விபத்துக்கு லித்தியம் பேட்டரி உறுதியான இல்ல சாத்தியமான காரணம்னு சொன்னாங்க. நசுக்குனா தீ பிடிக்கலாம்.",
+      "stats": [
+        {
+          "value": 245,
+          "unit": "US fires / 2013-20"
+        }
+      ]
+    },
+    "who": {
+      "en": "Collection workers, firefighters, and nearby families face smoke and burns when batteries ignite. Your dead powerbank can still hold dangerous energy.",
+      "hi": "बैटरी जलने पर कलेक्शन वर्कर्स, फ़ायरफ़ाइटर्स और पास की फ़ैमिली को धुएँ और जलने का रिस्क है। डेड पावरबैंक में भी एनर्जी बचती है।",
+      "ta": "பேட்டரி எரிஞ்சா கலெக்ஷன் வொர்க்கர்ஸ், தீ அணைக்குறவங்க, பக்கத்து குடும்பத்துக்கு புகையும் தீக்காயமும் ஆபத்து. டெட் பவர்பேங்க்லயும் ஆபத்தான எனர்ஜி இருக்கலாமுங்க.",
+      "victims": [
+        "worker",
+        "person",
+        "air"
+      ]
+    },
+    "dispose": {
+      "en": "Never put powerbanks in any household bin. Hand directly to red hazardous collection staff; ask them about swollen or damaged units.",
+      "hi": "पावरबैंक किसी घरेलू बिन में मत डालो। सीधे रेड हैज़र्डस कलेक्शन स्टाफ़ को दो। फूला या डैमेज्ड हो तो पहले उनसे पूछो।",
+      "ta": "பவர்பேங்க்க எந்த வீட்டு பின்லயும் போடாதீங்க. ரெட் ஆபத்தான வேஸ்ட் கலெக்ஷன் ஸ்டாஃப்கிட்ட நேரா குடுங்க. வீங்கினா இல்ல டேமேஜ் ஆனா முதல்ல அவங்ககிட்ட கேளுங்க.",
+      "bin": "red",
+      "steps": []
+    },
+    "prevent": {
+      "en": "Use the correct charger, avoid heat, and stop using swollen powerbanks. Buy reliable replacements only when needed; keep your pocket spark free!",
+      "hi": "सही चार्जर यूज़ करो, गर्मी से बचाओ, फूला पावरबैंक बंद करो। ज़रूरत पर भरोसेमंद नया लो। जेब को स्पार्क फ़्री रखो!",
+      "ta": "சரியான சார்ஜர் யூஸ் பண்ணுங்க, சூடுல வைக்காதீங்க, வீங்குன பவர்பேங்க்க யூஸ் பண்ணாதீங்க. தேவையிருந்தா நம்பகமானது வாங்குங்க. பாக்கெட்ல ஸ்பார்க் ஷோ வேணாமே!",
+      "swap_from": "battery",
+      "swap_to": "charger"
+    }
+  },
+  "sources": [
+    "US EPA, Used Household Batteries: separate collection, insulate terminals; lithium batteries never in household garbage or recycling. https://www.epa.gov/recycle/used-household-batteries",
+    "US EPA, An Analysis of Lithium-ion Battery Fires in Waste Management and Recycling (2021): 245 known/probable lithium metal or ion battery fires, 64 US facilities, 2013–2020; not annual or Indian statistics. https://www.epa.gov/system/files/documents/2021-08/lithium-ion-battery-report-update-7.01_508.pdf"
+  ]
+}

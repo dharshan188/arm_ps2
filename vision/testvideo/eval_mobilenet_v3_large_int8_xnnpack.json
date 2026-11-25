@@ -1,0 +1,8603 @@
+{
+  "model": "~/arm2026/vision/mobilenet_v3_large_int8_xnnpack.pte",
+  "labels": "~/arm2026/vision/labels.json",
+  "video": "~/arm2026/vision/testvideo/sorti_test_40s.mp4",
+  "fps": 25.0,
+  "classes": [
+    "battery_waste",
+    "clothes",
+    "e_waste",
+    "glass_waste",
+    "light_bulbs",
+    "metal_waste",
+    "organic_waste",
+    "paper_waste",
+    "plastic_waste"
+  ],
+  "confirmation_rule": {
+    "frames": 8,
+    "confidence": 0.7,
+    "reset_at_segment": true,
+    "segment_success": "first confirmation correct"
+  },
+  "summary": {
+    "overall_frame_accuracy": 0.47845303867403316,
+    "segment_accuracy": 0.5384615384615384,
+    "supported_frame_accuracy": 0.6230215827338129,
+    "supported_segment_accuracy": 0.7777777777777778,
+    "scored_frames": 905,
+    "crossfade_frames": 120,
+    "wrong_confirmations": 4
+  },
+  "segments": [
+    {
+      "t0": 0.0,
+      "t1": 3.4,
+      "class": "light_bulbs",
+      "supported": true,
+      "frames": 85,
+      "correct_frames": 73,
+      "confirmations": [
+        {
+          "frame": 7,
+          "time": 0.28,
+          "seconds_from_start": 0.28,
+          "class": "light_bulbs",
+          "confidence": 0.910947859287262,
+          "correct": true
+        },
+        {
+          "frame": 62,
+          "time": 2.48,
+          "seconds_from_start": 2.48,
+          "class": "light_bulbs",
+          "confidence": 0.8629629015922546,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.8588235294117647,
+      "confirmed_class": "light_bulbs",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 0.28,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 0.28,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 3.8,
+      "t1": 6.8,
+      "class": "background",
+      "supported": false,
+      "frames": 75,
+      "correct_frames": 0,
+      "confirmations": [],
+      "frame_accuracy": 0.0,
+      "confirmed_class": null,
+      "confirmed_correct": false,
+      "seconds_to_first_confirmation": null,
+      "any_correct_confirmation": false,
+      "seconds_to_first_correct_confirmation": null,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 7.2,
+      "t1": 10.2,
+      "class": "general_waste",
+      "supported": false,
+      "frames": 75,
+      "correct_frames": 0,
+      "confirmations": [
+        {
+          "frame": 209,
+          "time": 8.36,
+          "seconds_from_start": 1.16,
+          "class": "organic_waste",
+          "confidence": 0.8429408073425293,
+          "correct": false
+        }
+      ],
+      "frame_accuracy": 0.0,
+      "confirmed_class": "organic_waste",
+      "confirmed_correct": false,
+      "seconds_to_first_confirmation": 1.16,
+      "any_correct_confirmation": false,
+      "seconds_to_first_correct_confirmation": null,
+      "wrong_confirmations": [
+        {
+          "frame": 209,
+          "time": 8.36,
+          "seconds_from_start": 1.16,
+          "class": "organic_waste",
+          "confidence": 0.8429408073425293,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "t0": 10.6,
+      "t1": 13.6,
+      "class": "clothes",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 46,
+      "confirmations": [
+        {
+          "frame": 302,
+          "time": 12.08,
+          "seconds_from_start": 1.48,
+          "class": "clothes",
+          "confidence": 0.8517926931381226,
+          "correct": true
+        },
+        {
+          "frame": 324,
+          "time": 12.96,
+          "seconds_from_start": 2.36,
+          "class": "clothes",
+          "confidence": 0.8500105738639832,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.6133333333333333,
+      "confirmed_class": "clothes",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 1.48,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 1.48,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 14.0,
+      "t1": 17.0,
+      "class": "e_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 57,
+      "confirmations": [
+        {
+          "frame": 370,
+          "time": 14.8,
+          "seconds_from_start": 0.8,
+          "class": "e_waste",
+          "confidence": 0.8561344146728516,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.76,
+      "confirmed_class": "e_waste",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 0.8,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 0.8,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 17.4,
+      "t1": 20.4,
+      "class": "battery_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 56,
+      "confirmations": [],
+      "frame_accuracy": 0.7466666666666667,
+      "confirmed_class": null,
+      "confirmed_correct": false,
+      "seconds_to_first_confirmation": null,
+      "any_correct_confirmation": false,
+      "seconds_to_first_correct_confirmation": null,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 20.8,
+      "t1": 23.8,
+      "class": "plastic_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 43,
+      "confirmations": [
+        {
+          "frame": 554,
+          "time": 22.16,
+          "seconds_from_start": 1.36,
+          "class": "plastic_waste",
+          "confidence": 0.9136340618133545,
+          "correct": true
+        },
+        {
+          "frame": 580,
+          "time": 23.2,
+          "seconds_from_start": 2.4,
+          "class": "e_waste",
+          "confidence": 0.9384526014328003,
+          "correct": false
+        }
+      ],
+      "frame_accuracy": 0.5733333333333334,
+      "confirmed_class": "plastic_waste",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 1.36,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 1.36,
+      "wrong_confirmations": [
+        {
+          "frame": 580,
+          "time": 23.2,
+          "seconds_from_start": 2.4,
+          "class": "e_waste",
+          "confidence": 0.9384526014328003,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "t0": 24.2,
+      "t1": 27.2,
+      "class": "organic_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 1,
+      "confirmations": [
+        {
+          "frame": 672,
+          "time": 26.88,
+          "seconds_from_start": 2.68,
+          "class": "e_waste",
+          "confidence": 0.8691695332527161,
+          "correct": false
+        }
+      ],
+      "frame_accuracy": 0.013333333333333334,
+      "confirmed_class": "e_waste",
+      "confirmed_correct": false,
+      "seconds_to_first_confirmation": 2.68,
+      "any_correct_confirmation": false,
+      "seconds_to_first_correct_confirmation": null,
+      "wrong_confirmations": [
+        {
+          "frame": 672,
+          "time": 26.88,
+          "seconds_from_start": 2.68,
+          "class": "e_waste",
+          "confidence": 0.8691695332527161,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "t0": 27.6,
+      "t1": 30.6,
+      "class": "metal_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 57,
+      "confirmations": [
+        {
+          "frame": 717,
+          "time": 28.68,
+          "seconds_from_start": 1.08,
+          "class": "metal_waste",
+          "confidence": 0.8467636704444885,
+          "correct": true
+        },
+        {
+          "frame": 731,
+          "time": 29.24,
+          "seconds_from_start": 1.64,
+          "class": "metal_waste",
+          "confidence": 0.9102447628974915,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.76,
+      "confirmed_class": "metal_waste",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 1.08,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 1.08,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 31.0,
+      "t1": 32.2,
+      "class": "background",
+      "supported": false,
+      "frames": 30,
+      "correct_frames": 0,
+      "confirmations": [
+        {
+          "frame": 782,
+          "time": 31.28,
+          "seconds_from_start": 0.28,
+          "class": "e_waste",
+          "confidence": 0.917978823184967,
+          "correct": false
+        }
+      ],
+      "frame_accuracy": 0.0,
+      "confirmed_class": "e_waste",
+      "confirmed_correct": false,
+      "seconds_to_first_confirmation": 0.28,
+      "any_correct_confirmation": false,
+      "seconds_to_first_correct_confirmation": null,
+      "wrong_confirmations": [
+        {
+          "frame": 782,
+          "time": 31.28,
+          "seconds_from_start": 0.28,
+          "class": "e_waste",
+          "confidence": 0.917978823184967,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "t0": 32.6,
+      "t1": 35.6,
+      "class": "glass_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 60,
+      "confirmations": [
+        {
+          "frame": 843,
+          "time": 33.72,
+          "seconds_from_start": 1.12,
+          "class": "glass_waste",
+          "confidence": 0.9178083539009094,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.8,
+      "confirmed_class": "glass_waste",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 1.12,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 1.12,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 36.0,
+      "t1": 37.2,
+      "class": "background",
+      "supported": false,
+      "frames": 30,
+      "correct_frames": 0,
+      "confirmations": [],
+      "frame_accuracy": 0.0,
+      "confirmed_class": null,
+      "confirmed_correct": false,
+      "seconds_to_first_confirmation": null,
+      "any_correct_confirmation": false,
+      "seconds_to_first_correct_confirmation": null,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 37.6,
+      "t1": 41.0,
+      "class": "paper_waste",
+      "supported": true,
+      "frames": 85,
+      "correct_frames": 40,
+      "confirmations": [
+        {
+          "frame": 975,
+          "time": 39.0,
+          "seconds_from_start": 1.4,
+          "class": "paper_waste",
+          "confidence": 0.9226771593093872,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.47058823529411764,
+      "confirmed_class": "paper_waste",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 1.4,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 1.4,
+      "wrong_confirmations": []
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "class": "light_bulbs",
+      "confidence": 0.9158608913421631,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 1,
+      "time": 0.04,
+      "class": "light_bulbs",
+      "confidence": 0.9139013290405273,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 2,
+      "time": 0.08,
+      "class": "light_bulbs",
+      "confidence": 0.9395443201065063,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 3,
+      "time": 0.12,
+      "class": "light_bulbs",
+      "confidence": 0.9114775657653809,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 4,
+      "time": 0.16,
+      "class": "light_bulbs",
+      "confidence": 0.8811216950416565,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 5,
+      "time": 0.2,
+      "class": "light_bulbs",
+      "confidence": 0.8897873163223267,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 6,
+      "time": 0.24,
+      "class": "light_bulbs",
+      "confidence": 0.8955675363540649,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 7,
+      "time": 0.28,
+      "class": "light_bulbs",
+      "confidence": 0.910947859287262,
+      "segment": 0,
+      "confirmed": true
+    },
+    {
+      "frame": 8,
+      "time": 0.32,
+      "class": "light_bulbs",
+      "confidence": 0.8935933113098145,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 9,
+      "time": 0.36,
+      "class": "light_bulbs",
+      "confidence": 0.8996706008911133,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 10,
+      "time": 0.4,
+      "class": "light_bulbs",
+      "confidence": 0.9222713708877563,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 11,
+      "time": 0.44,
+      "class": "light_bulbs",
+      "confidence": 0.9255252480506897,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 12,
+      "time": 0.48,
+      "class": "light_bulbs",
+      "confidence": 0.922738254070282,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 13,
+      "time": 0.52,
+      "class": "light_bulbs",
+      "confidence": 0.8750321865081787,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 14,
+      "time": 0.56,
+      "class": "light_bulbs",
+      "confidence": 0.9067308902740479,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 15,
+      "time": 0.6,
+      "class": "light_bulbs",
+      "confidence": 0.9115905165672302,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 16,
+      "time": 0.64,
+      "class": "light_bulbs",
+      "confidence": 0.8854143023490906,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 17,
+      "time": 0.68,
+      "class": "light_bulbs",
+      "confidence": 0.9175182580947876,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 18,
+      "time": 0.72,
+      "class": "light_bulbs",
+      "confidence": 0.8990313410758972,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 19,
+      "time": 0.76,
+      "class": "light_bulbs",
+      "confidence": 0.9386573433876038,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 20,
+      "time": 0.8,
+      "class": "light_bulbs",
+      "confidence": 0.8976314067840576,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 21,
+      "time": 0.84,
+      "class": "light_bulbs",
+      "confidence": 0.8232889771461487,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 22,
+      "time": 0.88,
+      "class": "light_bulbs",
+      "confidence": 0.787932276725769,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 23,
+      "time": 0.92,
+      "class": "light_bulbs",
+      "confidence": 0.8549457788467407,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 24,
+      "time": 0.96,
+      "class": "light_bulbs",
+      "confidence": 0.8958254456520081,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 25,
+      "time": 1.0,
+      "class": "light_bulbs",
+      "confidence": 0.8440907001495361,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 26,
+      "time": 1.04,
+      "class": "light_bulbs",
+      "confidence": 0.9080655574798584,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 27,
+      "time": 1.08,
+      "class": "light_bulbs",
+      "confidence": 0.8923749327659607,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 28,
+      "time": 1.12,
+      "class": "light_bulbs",
+      "confidence": 0.9246129989624023,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 29,
+      "time": 1.16,
+      "class": "light_bulbs",
+      "confidence": 0.8867533802986145,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 30,
+      "time": 1.2,
+      "class": "light_bulbs",
+      "confidence": 0.8183620572090149,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 31,
+      "time": 1.24,
+      "class": "light_bulbs",
+      "confidence": 0.7049901485443115,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 32,
+      "time": 1.28,
+      "class": "light_bulbs",
+      "confidence": 0.5269014239311218,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 33,
+      "time": 1.32,
+      "class": "light_bulbs",
+      "confidence": 0.5616039037704468,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 34,
+      "time": 1.36,
+      "class": "light_bulbs",
+      "confidence": 0.4394119679927826,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 35,
+      "time": 1.4,
+      "class": "e_waste",
+      "confidence": 0.4944603145122528,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 36,
+      "time": 1.44,
+      "class": "e_waste",
+      "confidence": 0.7031345963478088,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 37,
+      "time": 1.48,
+      "class": "e_waste",
+      "confidence": 0.5374478101730347,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 38,
+      "time": 1.52,
+      "class": "e_waste",
+      "confidence": 0.5568658113479614,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 39,
+      "time": 1.56,
+      "class": "e_waste",
+      "confidence": 0.619269609451294,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 40,
+      "time": 1.6,
+      "class": "e_waste",
+      "confidence": 0.7981919646263123,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 41,
+      "time": 1.64,
+      "class": "e_waste",
+      "confidence": 0.6639155745506287,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 42,
+      "time": 1.68,
+      "class": "e_waste",
+      "confidence": 0.6828749179840088,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 43,
+      "time": 1.72,
+      "class": "e_waste",
+      "confidence": 0.47699224948883057,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 44,
+      "time": 1.76,
+      "class": "e_waste",
+      "confidence": 0.66338050365448,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 45,
+      "time": 1.8,
+      "class": "e_waste",
+      "confidence": 0.6170454025268555,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 46,
+      "time": 1.84,
+      "class": "light_bulbs",
+      "confidence": 0.5411770343780518,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 47,
+      "time": 1.88,
+      "class": "light_bulbs",
+      "confidence": 0.63087397813797,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 48,
+      "time": 1.92,
+      "class": "light_bulbs",
+      "confidence": 0.6846354603767395,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 49,
+      "time": 1.96,
+      "class": "light_bulbs",
+      "confidence": 0.5018875598907471,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 50,
+      "time": 2.0,
+      "class": "e_waste",
+      "confidence": 0.5845306515693665,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 51,
+      "time": 2.04,
+      "class": "light_bulbs",
+      "confidence": 0.43250572681427,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 52,
+      "time": 2.08,
+      "class": "light_bulbs",
+      "confidence": 0.47943931818008423,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 53,
+      "time": 2.12,
+      "class": "light_bulbs",
+      "confidence": 0.6400927305221558,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 54,
+      "time": 2.16,
+      "class": "light_bulbs",
+      "confidence": 0.6530670523643494,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 55,
+      "time": 2.2,
+      "class": "light_bulbs",
+      "confidence": 0.717208206653595,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 56,
+      "time": 2.24,
+      "class": "light_bulbs",
+      "confidence": 0.8660753965377808,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 57,
+      "time": 2.28,
+      "class": "light_bulbs",
+      "confidence": 0.8564175963401794,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 58,
+      "time": 2.32,
+      "class": "light_bulbs",
+      "confidence": 0.8515213131904602,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 59,
+      "time": 2.36,
+      "class": "light_bulbs",
+      "confidence": 0.8519308567047119,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 60,
+      "time": 2.4,
+      "class": "light_bulbs",
+      "confidence": 0.8859290480613708,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 61,
+      "time": 2.44,
+      "class": "light_bulbs",
+      "confidence": 0.879040539264679,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 62,
+      "time": 2.48,
+      "class": "light_bulbs",
+      "confidence": 0.8629629015922546,
+      "segment": 0,
+      "confirmed": true
+    },
+    {
+      "frame": 63,
+      "time": 2.52,
+      "class": "light_bulbs",
+      "confidence": 0.7950120568275452,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 64,
+      "time": 2.56,
+      "class": "light_bulbs",
+      "confidence": 0.8227620720863342,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 65,
+      "time": 2.6,
+      "class": "light_bulbs",
+      "confidence": 0.8822059631347656,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 66,
+      "time": 2.64,
+      "class": "light_bulbs",
+      "confidence": 0.7971892952919006,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 67,
+      "time": 2.68,
+      "class": "light_bulbs",
+      "confidence": 0.8077635765075684,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 68,
+      "time": 2.72,
+      "class": "light_bulbs",
+      "confidence": 0.8839526176452637,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 69,
+      "time": 2.76,
+      "class": "light_bulbs",
+      "confidence": 0.8988696336746216,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 70,
+      "time": 2.8,
+      "class": "light_bulbs",
+      "confidence": 0.8777393102645874,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 71,
+      "time": 2.84,
+      "class": "light_bulbs",
+      "confidence": 0.835352897644043,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 72,
+      "time": 2.88,
+      "class": "light_bulbs",
+      "confidence": 0.926792562007904,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 73,
+      "time": 2.92,
+      "class": "light_bulbs",
+      "confidence": 0.8799555897712708,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 74,
+      "time": 2.96,
+      "class": "light_bulbs",
+      "confidence": 0.9132025241851807,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 75,
+      "time": 3.0,
+      "class": "light_bulbs",
+      "confidence": 0.9217216372489929,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 76,
+      "time": 3.04,
+      "class": "light_bulbs",
+      "confidence": 0.9295395016670227,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 77,
+      "time": 3.08,
+      "class": "light_bulbs",
+      "confidence": 0.8926794528961182,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 78,
+      "time": 3.12,
+      "class": "light_bulbs",
+      "confidence": 0.933138370513916,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 79,
+      "time": 3.16,
+      "class": "light_bulbs",
+      "confidence": 0.9167839288711548,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 80,
+      "time": 3.2,
+      "class": "light_bulbs",
+      "confidence": 0.9232390522956848,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 81,
+      "time": 3.24,
+      "class": "light_bulbs",
+      "confidence": 0.8929225206375122,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 82,
+      "time": 3.28,
+      "class": "light_bulbs",
+      "confidence": 0.8041576743125916,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 83,
+      "time": 3.32,
+      "class": "light_bulbs",
+      "confidence": 0.869834303855896,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 84,
+      "time": 3.36,
+      "class": "light_bulbs",
+      "confidence": 0.830131471157074,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 85,
+      "time": 3.4,
+      "class": "light_bulbs",
+      "confidence": 0.8682880997657776,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 86,
+      "time": 3.44,
+      "class": "light_bulbs",
+      "confidence": 0.8230860233306885,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 87,
+      "time": 3.48,
+      "class": "light_bulbs",
+      "confidence": 0.8162975311279297,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 88,
+      "time": 3.52,
+      "class": "light_bulbs",
+      "confidence": 0.49793916940689087,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 89,
+      "time": 3.56,
+      "class": "plastic_waste",
+      "confidence": 0.44368019700050354,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 90,
+      "time": 3.6,
+      "class": "plastic_waste",
+      "confidence": 0.7538057565689087,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 91,
+      "time": 3.64,
+      "class": "plastic_waste",
+      "confidence": 0.6544747948646545,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 92,
+      "time": 3.68,
+      "class": "plastic_waste",
+      "confidence": 0.45042648911476135,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 93,
+      "time": 3.72,
+      "class": "plastic_waste",
+      "confidence": 0.6365329027175903,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 94,
+      "time": 3.76,
+      "class": "glass_waste",
+      "confidence": 0.48522013425827026,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 95,
+      "time": 3.8,
+      "class": "glass_waste",
+      "confidence": 0.3258061707019806,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 96,
+      "time": 3.84,
+      "class": "metal_waste",
+      "confidence": 0.39187294244766235,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 97,
+      "time": 3.88,
+      "class": "metal_waste",
+      "confidence": 0.5385950803756714,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 98,
+      "time": 3.92,
+      "class": "glass_waste",
+      "confidence": 0.355937123298645,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 99,
+      "time": 3.96,
+      "class": "glass_waste",
+      "confidence": 0.3895859122276306,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 100,
+      "time": 4.0,
+      "class": "metal_waste",
+      "confidence": 0.2834450304508209,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 101,
+      "time": 4.04,
+      "class": "glass_waste",
+      "confidence": 0.356463223695755,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 102,
+      "time": 4.08,
+      "class": "metal_waste",
+      "confidence": 0.2934887409210205,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 103,
+      "time": 4.12,
+      "class": "metal_waste",
+      "confidence": 0.5499976277351379,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 104,
+      "time": 4.16,
+      "class": "glass_waste",
+      "confidence": 0.5169224739074707,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 105,
+      "time": 4.2,
+      "class": "glass_waste",
+      "confidence": 0.5077539682388306,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 106,
+      "time": 4.24,
+      "class": "glass_waste",
+      "confidence": 0.44206002354621887,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 107,
+      "time": 4.28,
+      "class": "metal_waste",
+      "confidence": 0.40647369623184204,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 108,
+      "time": 4.32,
+      "class": "glass_waste",
+      "confidence": 0.30849766731262207,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 109,
+      "time": 4.36,
+      "class": "metal_waste",
+      "confidence": 0.48134663701057434,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 110,
+      "time": 4.4,
+      "class": "metal_waste",
+      "confidence": 0.3932584822177887,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 111,
+      "time": 4.44,
+      "class": "metal_waste",
+      "confidence": 0.4053754508495331,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 112,
+      "time": 4.48,
+      "class": "metal_waste",
+      "confidence": 0.30178406834602356,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 113,
+      "time": 4.52,
+      "class": "metal_waste",
+      "confidence": 0.46890509128570557,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 114,
+      "time": 4.56,
+      "class": "glass_waste",
+      "confidence": 0.3642271161079407,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 115,
+      "time": 4.6,
+      "class": "glass_waste",
+      "confidence": 0.3418809473514557,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 116,
+      "time": 4.64,
+      "class": "metal_waste",
+      "confidence": 0.34937748312950134,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 117,
+      "time": 4.68,
+      "class": "glass_waste",
+      "confidence": 0.5743840932846069,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 118,
+      "time": 4.72,
+      "class": "glass_waste",
+      "confidence": 0.4061524569988251,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 119,
+      "time": 4.76,
+      "class": "glass_waste",
+      "confidence": 0.3848027288913727,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 120,
+      "time": 4.8,
+      "class": "glass_waste",
+      "confidence": 0.4128175675868988,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 121,
+      "time": 4.84,
+      "class": "metal_waste",
+      "confidence": 0.43202006816864014,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 122,
+      "time": 4.88,
+      "class": "metal_waste",
+      "confidence": 0.6574388742446899,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 123,
+      "time": 4.92,
+      "class": "metal_waste",
+      "confidence": 0.638245165348053,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 124,
+      "time": 4.96,
+      "class": "glass_waste",
+      "confidence": 0.44242215156555176,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 125,
+      "time": 5.0,
+      "class": "glass_waste",
+      "confidence": 0.4523792564868927,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 126,
+      "time": 5.04,
+      "class": "metal_waste",
+      "confidence": 0.3456741273403168,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 127,
+      "time": 5.08,
+      "class": "metal_waste",
+      "confidence": 0.45209434628486633,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 128,
+      "time": 5.12,
+      "class": "glass_waste",
+      "confidence": 0.3679126799106598,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 129,
+      "time": 5.16,
+      "class": "glass_waste",
+      "confidence": 0.41406217217445374,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 130,
+      "time": 5.2,
+      "class": "metal_waste",
+      "confidence": 0.383339524269104,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 131,
+      "time": 5.24,
+      "class": "metal_waste",
+      "confidence": 0.5509512424468994,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 132,
+      "time": 5.28,
+      "class": "metal_waste",
+      "confidence": 0.45594295859336853,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 133,
+      "time": 5.32,
+      "class": "metal_waste",
+      "confidence": 0.4642041027545929,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 134,
+      "time": 5.36,
+      "class": "metal_waste",
+      "confidence": 0.5552782416343689,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 135,
+      "time": 5.4,
+      "class": "glass_waste",
+      "confidence": 0.34522438049316406,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 136,
+      "time": 5.44,
+      "class": "glass_waste",
+      "confidence": 0.44078966975212097,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 137,
+      "time": 5.48,
+      "class": "metal_waste",
+      "confidence": 0.5380911231040955,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 138,
+      "time": 5.52,
+      "class": "glass_waste",
+      "confidence": 0.3549002707004547,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 139,
+      "time": 5.56,
+      "class": "glass_waste",
+      "confidence": 0.3004269599914551,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 140,
+      "time": 5.6,
+      "class": "glass_waste",
+      "confidence": 0.42182475328445435,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 141,
+      "time": 5.64,
+      "class": "glass_waste",
+      "confidence": 0.36884769797325134,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 142,
+      "time": 5.68,
+      "class": "metal_waste",
+      "confidence": 0.44418787956237793,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 143,
+      "time": 5.72,
+      "class": "metal_waste",
+      "confidence": 0.32363465428352356,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 144,
+      "time": 5.76,
+      "class": "metal_waste",
+      "confidence": 0.33404847979545593,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 145,
+      "time": 5.8,
+      "class": "glass_waste",
+      "confidence": 0.46040835976600647,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 146,
+      "time": 5.84,
+      "class": "glass_waste",
+      "confidence": 0.38178908824920654,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 147,
+      "time": 5.88,
+      "class": "metal_waste",
+      "confidence": 0.38940301537513733,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 148,
+      "time": 5.92,
+      "class": "metal_waste",
+      "confidence": 0.6075139045715332,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 149,
+      "time": 5.96,
+      "class": "e_waste",
+      "confidence": 0.28419286012649536,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 150,
+      "time": 6.0,
+      "class": "glass_waste",
+      "confidence": 0.30683085322380066,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 151,
+      "time": 6.04,
+      "class": "metal_waste",
+      "confidence": 0.42195016145706177,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 152,
+      "time": 6.08,
+      "class": "e_waste",
+      "confidence": 0.27640920877456665,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 153,
+      "time": 6.12,
+      "class": "metal_waste",
+      "confidence": 0.4305781126022339,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 154,
+      "time": 6.16,
+      "class": "metal_waste",
+      "confidence": 0.4368075728416443,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 155,
+      "time": 6.2,
+      "class": "metal_waste",
+      "confidence": 0.33680152893066406,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 156,
+      "time": 6.24,
+      "class": "metal_waste",
+      "confidence": 0.5011957287788391,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 157,
+      "time": 6.28,
+      "class": "e_waste",
+      "confidence": 0.37417614459991455,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 158,
+      "time": 6.32,
+      "class": "e_waste",
+      "confidence": 0.3038066625595093,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 159,
+      "time": 6.36,
+      "class": "metal_waste",
+      "confidence": 0.3510396182537079,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 160,
+      "time": 6.4,
+      "class": "glass_waste",
+      "confidence": 0.3735400140285492,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 161,
+      "time": 6.44,
+      "class": "metal_waste",
+      "confidence": 0.30971166491508484,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 162,
+      "time": 6.48,
+      "class": "e_waste",
+      "confidence": 0.5616756081581116,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 163,
+      "time": 6.52,
+      "class": "e_waste",
+      "confidence": 0.29508453607559204,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 164,
+      "time": 6.56,
+      "class": "metal_waste",
+      "confidence": 0.3941982686519623,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 165,
+      "time": 6.6,
+      "class": "e_waste",
+      "confidence": 0.3679821491241455,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 166,
+      "time": 6.64,
+      "class": "glass_waste",
+      "confidence": 0.3414554297924042,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 167,
+      "time": 6.68,
+      "class": "glass_waste",
+      "confidence": 0.3660212755203247,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 168,
+      "time": 6.72,
+      "class": "metal_waste",
+      "confidence": 0.41000446677207947,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 169,
+      "time": 6.76,
+      "class": "e_waste",
+      "confidence": 0.395729660987854,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 170,
+      "time": 6.8,
+      "class": "e_waste",
+      "confidence": 0.41095849871635437,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 171,
+      "time": 6.84,
+      "class": "plastic_waste",
+      "confidence": 0.4421854317188263,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 172,
+      "time": 6.88,
+      "class": "glass_waste",
+      "confidence": 0.6205713748931885,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 173,
+      "time": 6.92,
+      "class": "glass_waste",
+      "confidence": 0.43967270851135254,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 174,
+      "time": 6.96,
+      "class": "paper_waste",
+      "confidence": 0.533788800239563,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 175,
+      "time": 7.0,
+      "class": "glass_waste",
+      "confidence": 0.5040672421455383,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 176,
+      "time": 7.04,
+      "class": "clothes",
+      "confidence": 0.34838175773620605,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 177,
+      "time": 7.08,
+      "class": "organic_waste",
+      "confidence": 0.3674357533454895,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 178,
+      "time": 7.12,
+      "class": "clothes",
+      "confidence": 0.3029163181781769,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 179,
+      "time": 7.16,
+      "class": "paper_waste",
+      "confidence": 0.4531996250152588,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 180,
+      "time": 7.2,
+      "class": "clothes",
+      "confidence": 0.6498655676841736,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 181,
+      "time": 7.24,
+      "class": "clothes",
+      "confidence": 0.5525988936424255,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 182,
+      "time": 7.28,
+      "class": "clothes",
+      "confidence": 0.5769380331039429,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 183,
+      "time": 7.32,
+      "class": "clothes",
+      "confidence": 0.6071860194206238,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 184,
+      "time": 7.36,
+      "class": "clothes",
+      "confidence": 0.75475013256073,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 185,
+      "time": 7.4,
+      "class": "clothes",
+      "confidence": 0.44710373878479004,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 186,
+      "time": 7.44,
+      "class": "organic_waste",
+      "confidence": 0.5064325928688049,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 187,
+      "time": 7.48,
+      "class": "clothes",
+      "confidence": 0.42457759380340576,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 188,
+      "time": 7.52,
+      "class": "clothes",
+      "confidence": 0.7012781500816345,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 189,
+      "time": 7.56,
+      "class": "clothes",
+      "confidence": 0.5579723715782166,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 190,
+      "time": 7.6,
+      "class": "paper_waste",
+      "confidence": 0.37537550926208496,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 191,
+      "time": 7.64,
+      "class": "clothes",
+      "confidence": 0.688380777835846,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 192,
+      "time": 7.68,
+      "class": "clothes",
+      "confidence": 0.670737624168396,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 193,
+      "time": 7.72,
+      "class": "clothes",
+      "confidence": 0.6960537433624268,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 194,
+      "time": 7.76,
+      "class": "clothes",
+      "confidence": 0.6035881042480469,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 195,
+      "time": 7.8,
+      "class": "clothes",
+      "confidence": 0.49671804904937744,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 196,
+      "time": 7.84,
+      "class": "clothes",
+      "confidence": 0.8651949167251587,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 197,
+      "time": 7.88,
+      "class": "clothes",
+      "confidence": 0.8136009573936462,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 198,
+      "time": 7.92,
+      "class": "clothes",
+      "confidence": 0.6340603828430176,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 199,
+      "time": 7.96,
+      "class": "clothes",
+      "confidence": 0.5663942694664001,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 200,
+      "time": 8.0,
+      "class": "clothes",
+      "confidence": 0.6319636106491089,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 201,
+      "time": 8.04,
+      "class": "clothes",
+      "confidence": 0.6924111247062683,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 202,
+      "time": 8.08,
+      "class": "organic_waste",
+      "confidence": 0.895119309425354,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 203,
+      "time": 8.12,
+      "class": "organic_waste",
+      "confidence": 0.7856888175010681,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 204,
+      "time": 8.16,
+      "class": "organic_waste",
+      "confidence": 0.8053064942359924,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 205,
+      "time": 8.2,
+      "class": "organic_waste",
+      "confidence": 0.834570586681366,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 206,
+      "time": 8.24,
+      "class": "organic_waste",
+      "confidence": 0.8128710389137268,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 207,
+      "time": 8.28,
+      "class": "organic_waste",
+      "confidence": 0.8865864872932434,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 208,
+      "time": 8.32,
+      "class": "organic_waste",
+      "confidence": 0.860592246055603,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 209,
+      "time": 8.36,
+      "class": "organic_waste",
+      "confidence": 0.8429408073425293,
+      "segment": 2,
+      "confirmed": true
+    },
+    {
+      "frame": 210,
+      "time": 8.4,
+      "class": "organic_waste",
+      "confidence": 0.8743749260902405,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 211,
+      "time": 8.44,
+      "class": "organic_waste",
+      "confidence": 0.8673381805419922,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 212,
+      "time": 8.48,
+      "class": "organic_waste",
+      "confidence": 0.872072160243988,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 213,
+      "time": 8.52,
+      "class": "organic_waste",
+      "confidence": 0.9150888919830322,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 214,
+      "time": 8.56,
+      "class": "organic_waste",
+      "confidence": 0.9147592186927795,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 215,
+      "time": 8.6,
+      "class": "organic_waste",
+      "confidence": 0.8892793655395508,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 216,
+      "time": 8.64,
+      "class": "organic_waste",
+      "confidence": 0.8456743359565735,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 217,
+      "time": 8.68,
+      "class": "organic_waste",
+      "confidence": 0.8833609223365784,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 218,
+      "time": 8.72,
+      "class": "organic_waste",
+      "confidence": 0.8972739577293396,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 219,
+      "time": 8.76,
+      "class": "organic_waste",
+      "confidence": 0.9142815470695496,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 220,
+      "time": 8.8,
+      "class": "organic_waste",
+      "confidence": 0.8958646655082703,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 221,
+      "time": 8.84,
+      "class": "organic_waste",
+      "confidence": 0.8772463798522949,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 222,
+      "time": 8.88,
+      "class": "organic_waste",
+      "confidence": 0.7944340705871582,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 223,
+      "time": 8.92,
+      "class": "organic_waste",
+      "confidence": 0.8319845199584961,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 224,
+      "time": 8.96,
+      "class": "organic_waste",
+      "confidence": 0.8181137442588806,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 225,
+      "time": 9.0,
+      "class": "organic_waste",
+      "confidence": 0.8397679328918457,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 226,
+      "time": 9.04,
+      "class": "organic_waste",
+      "confidence": 0.8706337213516235,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 227,
+      "time": 9.08,
+      "class": "organic_waste",
+      "confidence": 0.8646109104156494,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 228,
+      "time": 9.12,
+      "class": "organic_waste",
+      "confidence": 0.8723621964454651,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 229,
+      "time": 9.16,
+      "class": "organic_waste",
+      "confidence": 0.7893078327178955,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 230,
+      "time": 9.2,
+      "class": "organic_waste",
+      "confidence": 0.7033392786979675,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 231,
+      "time": 9.24,
+      "class": "organic_waste",
+      "confidence": 0.5789178013801575,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 232,
+      "time": 9.28,
+      "class": "organic_waste",
+      "confidence": 0.8195717930793762,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 233,
+      "time": 9.32,
+      "class": "organic_waste",
+      "confidence": 0.5774262547492981,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 234,
+      "time": 9.36,
+      "class": "organic_waste",
+      "confidence": 0.36445045471191406,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 235,
+      "time": 9.4,
+      "class": "organic_waste",
+      "confidence": 0.5434432625770569,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 236,
+      "time": 9.44,
+      "class": "light_bulbs",
+      "confidence": 0.34805500507354736,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 237,
+      "time": 9.48,
+      "class": "paper_waste",
+      "confidence": 0.48443078994750977,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 238,
+      "time": 9.52,
+      "class": "paper_waste",
+      "confidence": 0.8547447919845581,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 239,
+      "time": 9.56,
+      "class": "paper_waste",
+      "confidence": 0.7345740795135498,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 240,
+      "time": 9.6,
+      "class": "paper_waste",
+      "confidence": 0.6608808040618896,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 241,
+      "time": 9.64,
+      "class": "paper_waste",
+      "confidence": 0.6357915997505188,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 242,
+      "time": 9.68,
+      "class": "organic_waste",
+      "confidence": 0.27571794390678406,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 243,
+      "time": 9.72,
+      "class": "paper_waste",
+      "confidence": 0.4948385953903198,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 244,
+      "time": 9.76,
+      "class": "paper_waste",
+      "confidence": 0.7194592356681824,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 245,
+      "time": 9.8,
+      "class": "paper_waste",
+      "confidence": 0.3295823931694031,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 246,
+      "time": 9.84,
+      "class": "organic_waste",
+      "confidence": 0.40685081481933594,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 247,
+      "time": 9.88,
+      "class": "organic_waste",
+      "confidence": 0.3012425899505615,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 248,
+      "time": 9.92,
+      "class": "paper_waste",
+      "confidence": 0.42332494258880615,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 249,
+      "time": 9.96,
+      "class": "paper_waste",
+      "confidence": 0.690329909324646,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 250,
+      "time": 10.0,
+      "class": "paper_waste",
+      "confidence": 0.6291806101799011,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 251,
+      "time": 10.04,
+      "class": "paper_waste",
+      "confidence": 0.5152667164802551,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 252,
+      "time": 10.08,
+      "class": "paper_waste",
+      "confidence": 0.41742661595344543,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 253,
+      "time": 10.12,
+      "class": "paper_waste",
+      "confidence": 0.6021138429641724,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 254,
+      "time": 10.16,
+      "class": "paper_waste",
+      "confidence": 0.7252088189125061,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 255,
+      "time": 10.2,
+      "class": "light_bulbs",
+      "confidence": 0.24146032333374023,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 256,
+      "time": 10.24,
+      "class": "paper_waste",
+      "confidence": 0.3984009027481079,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 257,
+      "time": 10.28,
+      "class": "e_waste",
+      "confidence": 0.9239436388015747,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 258,
+      "time": 10.32,
+      "class": "glass_waste",
+      "confidence": 0.22313140332698822,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 259,
+      "time": 10.36,
+      "class": "e_waste",
+      "confidence": 0.31068167090415955,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 260,
+      "time": 10.4,
+      "class": "plastic_waste",
+      "confidence": 0.8499258756637573,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 261,
+      "time": 10.44,
+      "class": "e_waste",
+      "confidence": 0.54498291015625,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 262,
+      "time": 10.48,
+      "class": "plastic_waste",
+      "confidence": 0.5697919130325317,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 263,
+      "time": 10.52,
+      "class": "glass_waste",
+      "confidence": 0.3486349582672119,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 264,
+      "time": 10.56,
+      "class": "metal_waste",
+      "confidence": 0.37185385823249817,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 265,
+      "time": 10.6,
+      "class": "metal_waste",
+      "confidence": 0.30448317527770996,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 266,
+      "time": 10.64,
+      "class": "battery_waste",
+      "confidence": 0.21115005016326904,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 267,
+      "time": 10.68,
+      "class": "battery_waste",
+      "confidence": 0.2552824318408966,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 268,
+      "time": 10.72,
+      "class": "glass_waste",
+      "confidence": 0.2184256613254547,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 269,
+      "time": 10.76,
+      "class": "plastic_waste",
+      "confidence": 0.2469160407781601,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 270,
+      "time": 10.8,
+      "class": "e_waste",
+      "confidence": 0.3079097867012024,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 271,
+      "time": 10.84,
+      "class": "battery_waste",
+      "confidence": 0.3715251088142395,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 272,
+      "time": 10.88,
+      "class": "e_waste",
+      "confidence": 0.2689397633075714,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 273,
+      "time": 10.92,
+      "class": "e_waste",
+      "confidence": 0.22313261032104492,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 274,
+      "time": 10.96,
+      "class": "glass_waste",
+      "confidence": 0.3498806059360504,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 275,
+      "time": 11.0,
+      "class": "clothes",
+      "confidence": 0.3397655189037323,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 276,
+      "time": 11.04,
+      "class": "e_waste",
+      "confidence": 0.38787075877189636,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 277,
+      "time": 11.08,
+      "class": "plastic_waste",
+      "confidence": 0.5055354237556458,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 278,
+      "time": 11.12,
+      "class": "e_waste",
+      "confidence": 0.5132575631141663,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 279,
+      "time": 11.16,
+      "class": "plastic_waste",
+      "confidence": 0.35624513030052185,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 280,
+      "time": 11.2,
+      "class": "e_waste",
+      "confidence": 0.3839856684207916,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 281,
+      "time": 11.24,
+      "class": "plastic_waste",
+      "confidence": 0.2412925511598587,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 282,
+      "time": 11.28,
+      "class": "light_bulbs",
+      "confidence": 0.32717153429985046,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 283,
+      "time": 11.32,
+      "class": "light_bulbs",
+      "confidence": 0.38126590847969055,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 284,
+      "time": 11.36,
+      "class": "light_bulbs",
+      "confidence": 0.4150533676147461,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 285,
+      "time": 11.4,
+      "class": "light_bulbs",
+      "confidence": 0.25486138463020325,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 286,
+      "time": 11.44,
+      "class": "e_waste",
+      "confidence": 0.36586877703666687,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 287,
+      "time": 11.48,
+      "class": "paper_waste",
+      "confidence": 0.7423766851425171,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 288,
+      "time": 11.52,
+      "class": "paper_waste",
+      "confidence": 0.7154554128646851,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 289,
+      "time": 11.56,
+      "class": "paper_waste",
+      "confidence": 0.48841017484664917,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 290,
+      "time": 11.6,
+      "class": "paper_waste",
+      "confidence": 0.386813223361969,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 291,
+      "time": 11.64,
+      "class": "paper_waste",
+      "confidence": 0.4362082779407501,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 292,
+      "time": 11.68,
+      "class": "paper_waste",
+      "confidence": 0.39872249960899353,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 293,
+      "time": 11.72,
+      "class": "paper_waste",
+      "confidence": 0.614946186542511,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 294,
+      "time": 11.76,
+      "class": "clothes",
+      "confidence": 0.44490301609039307,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 295,
+      "time": 11.8,
+      "class": "clothes",
+      "confidence": 0.7447282671928406,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 296,
+      "time": 11.84,
+      "class": "clothes",
+      "confidence": 0.8291392922401428,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 297,
+      "time": 11.88,
+      "class": "clothes",
+      "confidence": 0.8361951112747192,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 298,
+      "time": 11.92,
+      "class": "clothes",
+      "confidence": 0.8627086281776428,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 299,
+      "time": 11.96,
+      "class": "clothes",
+      "confidence": 0.861264169216156,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 300,
+      "time": 12.0,
+      "class": "clothes",
+      "confidence": 0.8526684045791626,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 301,
+      "time": 12.04,
+      "class": "clothes",
+      "confidence": 0.8448408246040344,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 302,
+      "time": 12.08,
+      "class": "clothes",
+      "confidence": 0.8517926931381226,
+      "segment": 3,
+      "confirmed": true
+    },
+    {
+      "frame": 303,
+      "time": 12.12,
+      "class": "clothes",
+      "confidence": 0.8380980491638184,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 304,
+      "time": 12.16,
+      "class": "clothes",
+      "confidence": 0.8734937906265259,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 305,
+      "time": 12.2,
+      "class": "clothes",
+      "confidence": 0.8666049838066101,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 306,
+      "time": 12.24,
+      "class": "clothes",
+      "confidence": 0.8371336460113525,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 307,
+      "time": 12.28,
+      "class": "clothes",
+      "confidence": 0.7487282156944275,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 308,
+      "time": 12.32,
+      "class": "clothes",
+      "confidence": 0.8756937980651855,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 309,
+      "time": 12.36,
+      "class": "clothes",
+      "confidence": 0.7965533137321472,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 310,
+      "time": 12.4,
+      "class": "clothes",
+      "confidence": 0.649908185005188,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 311,
+      "time": 12.44,
+      "class": "clothes",
+      "confidence": 0.5740156173706055,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 312,
+      "time": 12.48,
+      "class": "clothes",
+      "confidence": 0.6551367044448853,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 313,
+      "time": 12.52,
+      "class": "clothes",
+      "confidence": 0.7792586088180542,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 314,
+      "time": 12.56,
+      "class": "clothes",
+      "confidence": 0.7444630265235901,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 315,
+      "time": 12.6,
+      "class": "clothes",
+      "confidence": 0.45038673281669617,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 316,
+      "time": 12.64,
+      "class": "clothes",
+      "confidence": 0.6786423921585083,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 317,
+      "time": 12.68,
+      "class": "clothes",
+      "confidence": 0.7533866167068481,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 318,
+      "time": 12.72,
+      "class": "clothes",
+      "confidence": 0.8624323606491089,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 319,
+      "time": 12.76,
+      "class": "clothes",
+      "confidence": 0.867332935333252,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 320,
+      "time": 12.8,
+      "class": "clothes",
+      "confidence": 0.853162944316864,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 321,
+      "time": 12.84,
+      "class": "clothes",
+      "confidence": 0.8419049382209778,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 322,
+      "time": 12.88,
+      "class": "clothes",
+      "confidence": 0.8351609706878662,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 323,
+      "time": 12.92,
+      "class": "clothes",
+      "confidence": 0.855816662311554,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 324,
+      "time": 12.96,
+      "class": "clothes",
+      "confidence": 0.8500105738639832,
+      "segment": 3,
+      "confirmed": true
+    },
+    {
+      "frame": 325,
+      "time": 13.0,
+      "class": "clothes",
+      "confidence": 0.8380234241485596,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 326,
+      "time": 13.04,
+      "class": "clothes",
+      "confidence": 0.818247377872467,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 327,
+      "time": 13.08,
+      "class": "clothes",
+      "confidence": 0.7538923025131226,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 328,
+      "time": 13.12,
+      "class": "clothes",
+      "confidence": 0.835093080997467,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 329,
+      "time": 13.16,
+      "class": "clothes",
+      "confidence": 0.762212336063385,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 330,
+      "time": 13.2,
+      "class": "clothes",
+      "confidence": 0.7344709038734436,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 331,
+      "time": 13.24,
+      "class": "clothes",
+      "confidence": 0.7146682739257812,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 332,
+      "time": 13.28,
+      "class": "clothes",
+      "confidence": 0.7772518396377563,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 333,
+      "time": 13.32,
+      "class": "clothes",
+      "confidence": 0.7878506183624268,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 334,
+      "time": 13.36,
+      "class": "clothes",
+      "confidence": 0.8259126543998718,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 335,
+      "time": 13.4,
+      "class": "clothes",
+      "confidence": 0.8173578977584839,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 336,
+      "time": 13.44,
+      "class": "clothes",
+      "confidence": 0.5076747536659241,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 337,
+      "time": 13.48,
+      "class": "clothes",
+      "confidence": 0.32650884985923767,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 338,
+      "time": 13.52,
+      "class": "clothes",
+      "confidence": 0.3641987144947052,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 339,
+      "time": 13.56,
+      "class": "plastic_waste",
+      "confidence": 0.30712395906448364,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 340,
+      "time": 13.6,
+      "class": "clothes",
+      "confidence": 0.41817548871040344,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 341,
+      "time": 13.64,
+      "class": "plastic_waste",
+      "confidence": 0.5427404642105103,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 342,
+      "time": 13.68,
+      "class": "plastic_waste",
+      "confidence": 0.7018307447433472,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 343,
+      "time": 13.72,
+      "class": "plastic_waste",
+      "confidence": 0.6507360339164734,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 344,
+      "time": 13.76,
+      "class": "plastic_waste",
+      "confidence": 0.5156397819519043,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 345,
+      "time": 13.8,
+      "class": "plastic_waste",
+      "confidence": 0.4926297664642334,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 346,
+      "time": 13.84,
+      "class": "e_waste",
+      "confidence": 0.45822110772132874,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 347,
+      "time": 13.88,
+      "class": "e_waste",
+      "confidence": 0.718892514705658,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 348,
+      "time": 13.92,
+      "class": "plastic_waste",
+      "confidence": 0.45776817202568054,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 349,
+      "time": 13.96,
+      "class": "e_waste",
+      "confidence": 0.5172172784805298,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 350,
+      "time": 14.0,
+      "class": "light_bulbs",
+      "confidence": 0.3933381140232086,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 351,
+      "time": 14.04,
+      "class": "e_waste",
+      "confidence": 0.28472188115119934,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 352,
+      "time": 14.08,
+      "class": "e_waste",
+      "confidence": 0.5622608661651611,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 353,
+      "time": 14.12,
+      "class": "e_waste",
+      "confidence": 0.6455873250961304,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 354,
+      "time": 14.16,
+      "class": "e_waste",
+      "confidence": 0.6058159470558167,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 355,
+      "time": 14.2,
+      "class": "e_waste",
+      "confidence": 0.7386858463287354,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 356,
+      "time": 14.24,
+      "class": "e_waste",
+      "confidence": 0.7791150808334351,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 357,
+      "time": 14.28,
+      "class": "e_waste",
+      "confidence": 0.7758253812789917,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 358,
+      "time": 14.32,
+      "class": "e_waste",
+      "confidence": 0.7220492362976074,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 359,
+      "time": 14.36,
+      "class": "e_waste",
+      "confidence": 0.7728710174560547,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 360,
+      "time": 14.4,
+      "class": "e_waste",
+      "confidence": 0.6305674910545349,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 361,
+      "time": 14.44,
+      "class": "e_waste",
+      "confidence": 0.5477907657623291,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 362,
+      "time": 14.48,
+      "class": "e_waste",
+      "confidence": 0.6914677023887634,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 363,
+      "time": 14.52,
+      "class": "e_waste",
+      "confidence": 0.7671300172805786,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 364,
+      "time": 14.56,
+      "class": "e_waste",
+      "confidence": 0.7457315921783447,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 365,
+      "time": 14.6,
+      "class": "e_waste",
+      "confidence": 0.9116981029510498,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 366,
+      "time": 14.64,
+      "class": "e_waste",
+      "confidence": 0.8530086278915405,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 367,
+      "time": 14.68,
+      "class": "e_waste",
+      "confidence": 0.8856582045555115,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 368,
+      "time": 14.72,
+      "class": "e_waste",
+      "confidence": 0.8783385157585144,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 369,
+      "time": 14.76,
+      "class": "e_waste",
+      "confidence": 0.8508540391921997,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 370,
+      "time": 14.8,
+      "class": "e_waste",
+      "confidence": 0.8561344146728516,
+      "segment": 4,
+      "confirmed": true
+    },
+    {
+      "frame": 371,
+      "time": 14.84,
+      "class": "e_waste",
+      "confidence": 0.8936379551887512,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 372,
+      "time": 14.88,
+      "class": "e_waste",
+      "confidence": 0.46312564611434937,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 373,
+      "time": 14.92,
+      "class": "e_waste",
+      "confidence": 0.3857968747615814,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 374,
+      "time": 14.96,
+      "class": "battery_waste",
+      "confidence": 0.30454447865486145,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 375,
+      "time": 15.0,
+      "class": "e_waste",
+      "confidence": 0.4043516516685486,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 376,
+      "time": 15.04,
+      "class": "e_waste",
+      "confidence": 0.6971728205680847,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 377,
+      "time": 15.08,
+      "class": "e_waste",
+      "confidence": 0.8355470895767212,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 378,
+      "time": 15.12,
+      "class": "e_waste",
+      "confidence": 0.5677436590194702,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 379,
+      "time": 15.16,
+      "class": "e_waste",
+      "confidence": 0.6414679288864136,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 380,
+      "time": 15.2,
+      "class": "e_waste",
+      "confidence": 0.6111263632774353,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 381,
+      "time": 15.24,
+      "class": "e_waste",
+      "confidence": 0.3749347925186157,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 382,
+      "time": 15.28,
+      "class": "e_waste",
+      "confidence": 0.7038396000862122,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 383,
+      "time": 15.32,
+      "class": "e_waste",
+      "confidence": 0.6005606055259705,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 384,
+      "time": 15.36,
+      "class": "e_waste",
+      "confidence": 0.41191598773002625,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 385,
+      "time": 15.4,
+      "class": "e_waste",
+      "confidence": 0.7700545191764832,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 386,
+      "time": 15.44,
+      "class": "e_waste",
+      "confidence": 0.7745332717895508,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 387,
+      "time": 15.48,
+      "class": "e_waste",
+      "confidence": 0.6920202374458313,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 388,
+      "time": 15.52,
+      "class": "e_waste",
+      "confidence": 0.3704971969127655,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 389,
+      "time": 15.56,
+      "class": "metal_waste",
+      "confidence": 0.3719528913497925,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 390,
+      "time": 15.6,
+      "class": "e_waste",
+      "confidence": 0.48119765520095825,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 391,
+      "time": 15.64,
+      "class": "metal_waste",
+      "confidence": 0.46866559982299805,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 392,
+      "time": 15.68,
+      "class": "e_waste",
+      "confidence": 0.3245597779750824,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 393,
+      "time": 15.72,
+      "class": "e_waste",
+      "confidence": 0.4091939926147461,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 394,
+      "time": 15.76,
+      "class": "metal_waste",
+      "confidence": 0.5042078495025635,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 395,
+      "time": 15.8,
+      "class": "glass_waste",
+      "confidence": 0.5930670499801636,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 396,
+      "time": 15.84,
+      "class": "glass_waste",
+      "confidence": 0.7105639576911926,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 397,
+      "time": 15.88,
+      "class": "metal_waste",
+      "confidence": 0.6825141906738281,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 398,
+      "time": 15.92,
+      "class": "glass_waste",
+      "confidence": 0.5859197974205017,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 399,
+      "time": 15.96,
+      "class": "glass_waste",
+      "confidence": 0.37807443737983704,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 400,
+      "time": 16.0,
+      "class": "metal_waste",
+      "confidence": 0.7978244423866272,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 401,
+      "time": 16.04,
+      "class": "glass_waste",
+      "confidence": 0.4916519522666931,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 402,
+      "time": 16.08,
+      "class": "glass_waste",
+      "confidence": 0.384060263633728,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 403,
+      "time": 16.12,
+      "class": "plastic_waste",
+      "confidence": 0.26037150621414185,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 404,
+      "time": 16.16,
+      "class": "plastic_waste",
+      "confidence": 0.4661098122596741,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 405,
+      "time": 16.2,
+      "class": "glass_waste",
+      "confidence": 0.3046253025531769,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 406,
+      "time": 16.24,
+      "class": "paper_waste",
+      "confidence": 0.2778724431991577,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 407,
+      "time": 16.28,
+      "class": "glass_waste",
+      "confidence": 0.49529334902763367,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 408,
+      "time": 16.32,
+      "class": "e_waste",
+      "confidence": 0.6826828718185425,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 409,
+      "time": 16.36,
+      "class": "e_waste",
+      "confidence": 0.578095555305481,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 410,
+      "time": 16.4,
+      "class": "e_waste",
+      "confidence": 0.7916487455368042,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 411,
+      "time": 16.44,
+      "class": "e_waste",
+      "confidence": 0.707946240901947,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 412,
+      "time": 16.48,
+      "class": "e_waste",
+      "confidence": 0.7822713851928711,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 413,
+      "time": 16.52,
+      "class": "e_waste",
+      "confidence": 0.6623041033744812,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 414,
+      "time": 16.56,
+      "class": "e_waste",
+      "confidence": 0.6602473855018616,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 415,
+      "time": 16.6,
+      "class": "e_waste",
+      "confidence": 0.3535645008087158,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 416,
+      "time": 16.64,
+      "class": "e_waste",
+      "confidence": 0.5304970741271973,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 417,
+      "time": 16.68,
+      "class": "e_waste",
+      "confidence": 0.47341644763946533,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 418,
+      "time": 16.72,
+      "class": "e_waste",
+      "confidence": 0.520650327205658,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 419,
+      "time": 16.76,
+      "class": "e_waste",
+      "confidence": 0.36765265464782715,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 420,
+      "time": 16.8,
+      "class": "e_waste",
+      "confidence": 0.4511146545410156,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 421,
+      "time": 16.84,
+      "class": "e_waste",
+      "confidence": 0.5178444385528564,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 422,
+      "time": 16.88,
+      "class": "e_waste",
+      "confidence": 0.2814359664916992,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 423,
+      "time": 16.92,
+      "class": "e_waste",
+      "confidence": 0.4744070768356323,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 424,
+      "time": 16.96,
+      "class": "e_waste",
+      "confidence": 0.36382564902305603,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 425,
+      "time": 17.0,
+      "class": "paper_waste",
+      "confidence": 0.573241114616394,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 426,
+      "time": 17.04,
+      "class": "paper_waste",
+      "confidence": 0.7388668656349182,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 427,
+      "time": 17.08,
+      "class": "paper_waste",
+      "confidence": 0.871294379234314,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 428,
+      "time": 17.12,
+      "class": "paper_waste",
+      "confidence": 0.9074561595916748,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 429,
+      "time": 17.16,
+      "class": "paper_waste",
+      "confidence": 0.908683180809021,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 430,
+      "time": 17.2,
+      "class": "paper_waste",
+      "confidence": 0.9206655025482178,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 431,
+      "time": 17.24,
+      "class": "paper_waste",
+      "confidence": 0.7908515334129333,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 432,
+      "time": 17.28,
+      "class": "paper_waste",
+      "confidence": 0.4137774407863617,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 433,
+      "time": 17.32,
+      "class": "battery_waste",
+      "confidence": 0.7615967392921448,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 434,
+      "time": 17.36,
+      "class": "battery_waste",
+      "confidence": 0.8460853695869446,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 435,
+      "time": 17.4,
+      "class": "battery_waste",
+      "confidence": 0.802497923374176,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 436,
+      "time": 17.44,
+      "class": "battery_waste",
+      "confidence": 0.7849113941192627,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 437,
+      "time": 17.48,
+      "class": "battery_waste",
+      "confidence": 0.8296130299568176,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 438,
+      "time": 17.52,
+      "class": "battery_waste",
+      "confidence": 0.8189621567726135,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 439,
+      "time": 17.56,
+      "class": "battery_waste",
+      "confidence": 0.822344958782196,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 440,
+      "time": 17.6,
+      "class": "battery_waste",
+      "confidence": 0.7323126792907715,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 441,
+      "time": 17.64,
+      "class": "battery_waste",
+      "confidence": 0.6389427185058594,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 442,
+      "time": 17.68,
+      "class": "battery_waste",
+      "confidence": 0.8191547393798828,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 443,
+      "time": 17.72,
+      "class": "battery_waste",
+      "confidence": 0.8574560284614563,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 444,
+      "time": 17.76,
+      "class": "battery_waste",
+      "confidence": 0.7316953539848328,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 445,
+      "time": 17.8,
+      "class": "battery_waste",
+      "confidence": 0.8095417022705078,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 446,
+      "time": 17.84,
+      "class": "battery_waste",
+      "confidence": 0.7312277555465698,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 447,
+      "time": 17.88,
+      "class": "battery_waste",
+      "confidence": 0.8084936738014221,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 448,
+      "time": 17.92,
+      "class": "battery_waste",
+      "confidence": 0.6677044034004211,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 449,
+      "time": 17.96,
+      "class": "battery_waste",
+      "confidence": 0.5361491441726685,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 450,
+      "time": 18.0,
+      "class": "battery_waste",
+      "confidence": 0.6164291501045227,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 451,
+      "time": 18.04,
+      "class": "battery_waste",
+      "confidence": 0.5493776202201843,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 452,
+      "time": 18.08,
+      "class": "paper_waste",
+      "confidence": 0.39098793268203735,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 453,
+      "time": 18.12,
+      "class": "paper_waste",
+      "confidence": 0.5787482261657715,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 454,
+      "time": 18.16,
+      "class": "paper_waste",
+      "confidence": 0.5769311785697937,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 455,
+      "time": 18.2,
+      "class": "paper_waste",
+      "confidence": 0.5590125322341919,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 456,
+      "time": 18.24,
+      "class": "paper_waste",
+      "confidence": 0.6914819478988647,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 457,
+      "time": 18.28,
+      "class": "battery_waste",
+      "confidence": 0.8852583169937134,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 458,
+      "time": 18.32,
+      "class": "battery_waste",
+      "confidence": 0.8391533493995667,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 459,
+      "time": 18.36,
+      "class": "battery_waste",
+      "confidence": 0.8309799432754517,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 460,
+      "time": 18.4,
+      "class": "battery_waste",
+      "confidence": 0.8510484099388123,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 461,
+      "time": 18.44,
+      "class": "battery_waste",
+      "confidence": 0.8580777049064636,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 462,
+      "time": 18.48,
+      "class": "battery_waste",
+      "confidence": 0.726237952709198,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 463,
+      "time": 18.52,
+      "class": "battery_waste",
+      "confidence": 0.5702776312828064,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 464,
+      "time": 18.56,
+      "class": "battery_waste",
+      "confidence": 0.799545168876648,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 465,
+      "time": 18.6,
+      "class": "battery_waste",
+      "confidence": 0.7558761239051819,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 466,
+      "time": 18.64,
+      "class": "battery_waste",
+      "confidence": 0.6651720404624939,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 467,
+      "time": 18.68,
+      "class": "battery_waste",
+      "confidence": 0.4951755106449127,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 468,
+      "time": 18.72,
+      "class": "battery_waste",
+      "confidence": 0.6136121153831482,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 469,
+      "time": 18.76,
+      "class": "battery_waste",
+      "confidence": 0.6696498990058899,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 470,
+      "time": 18.8,
+      "class": "battery_waste",
+      "confidence": 0.7448196411132812,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 471,
+      "time": 18.84,
+      "class": "battery_waste",
+      "confidence": 0.5852536559104919,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 472,
+      "time": 18.88,
+      "class": "battery_waste",
+      "confidence": 0.8175533413887024,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 473,
+      "time": 18.92,
+      "class": "battery_waste",
+      "confidence": 0.7815256714820862,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 474,
+      "time": 18.96,
+      "class": "battery_waste",
+      "confidence": 0.856309711933136,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 475,
+      "time": 19.0,
+      "class": "battery_waste",
+      "confidence": 0.838507354259491,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 476,
+      "time": 19.04,
+      "class": "battery_waste",
+      "confidence": 0.8259813785552979,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 477,
+      "time": 19.08,
+      "class": "battery_waste",
+      "confidence": 0.7508787512779236,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 478,
+      "time": 19.12,
+      "class": "battery_waste",
+      "confidence": 0.48116713762283325,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 479,
+      "time": 19.16,
+      "class": "battery_waste",
+      "confidence": 0.6467594504356384,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 480,
+      "time": 19.2,
+      "class": "battery_waste",
+      "confidence": 0.6431357860565186,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 481,
+      "time": 19.24,
+      "class": "battery_waste",
+      "confidence": 0.4320092499256134,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 482,
+      "time": 19.28,
+      "class": "battery_waste",
+      "confidence": 0.4477798342704773,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 483,
+      "time": 19.32,
+      "class": "battery_waste",
+      "confidence": 0.7061322331428528,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 484,
+      "time": 19.36,
+      "class": "battery_waste",
+      "confidence": 0.34646037220954895,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 485,
+      "time": 19.4,
+      "class": "battery_waste",
+      "confidence": 0.49424517154693604,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 486,
+      "time": 19.44,
+      "class": "battery_waste",
+      "confidence": 0.45563438534736633,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 487,
+      "time": 19.48,
+      "class": "battery_waste",
+      "confidence": 0.5575231313705444,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 488,
+      "time": 19.52,
+      "class": "metal_waste",
+      "confidence": 0.6186773777008057,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 489,
+      "time": 19.56,
+      "class": "metal_waste",
+      "confidence": 0.7901100516319275,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 490,
+      "time": 19.6,
+      "class": "metal_waste",
+      "confidence": 0.6117740869522095,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 491,
+      "time": 19.64,
+      "class": "metal_waste",
+      "confidence": 0.37655124068260193,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 492,
+      "time": 19.68,
+      "class": "battery_waste",
+      "confidence": 0.3882817327976227,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 493,
+      "time": 19.72,
+      "class": "metal_waste",
+      "confidence": 0.5451008081436157,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 494,
+      "time": 19.76,
+      "class": "glass_waste",
+      "confidence": 0.24603350460529327,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 495,
+      "time": 19.8,
+      "class": "e_waste",
+      "confidence": 0.3648708164691925,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 496,
+      "time": 19.84,
+      "class": "metal_waste",
+      "confidence": 0.31322023272514343,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 497,
+      "time": 19.88,
+      "class": "e_waste",
+      "confidence": 0.22118376195430756,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 498,
+      "time": 19.92,
+      "class": "e_waste",
+      "confidence": 0.2872776389122009,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 499,
+      "time": 19.96,
+      "class": "metal_waste",
+      "confidence": 0.2919749915599823,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 500,
+      "time": 20.0,
+      "class": "metal_waste",
+      "confidence": 0.4399811327457428,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 501,
+      "time": 20.04,
+      "class": "e_waste",
+      "confidence": 0.5391499400138855,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 502,
+      "time": 20.08,
+      "class": "e_waste",
+      "confidence": 0.31849405169487,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 503,
+      "time": 20.12,
+      "class": "battery_waste",
+      "confidence": 0.4477256238460541,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 504,
+      "time": 20.16,
+      "class": "battery_waste",
+      "confidence": 0.5927862524986267,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 505,
+      "time": 20.2,
+      "class": "battery_waste",
+      "confidence": 0.44561874866485596,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 506,
+      "time": 20.24,
+      "class": "battery_waste",
+      "confidence": 0.717612087726593,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 507,
+      "time": 20.28,
+      "class": "battery_waste",
+      "confidence": 0.9085038900375366,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 508,
+      "time": 20.32,
+      "class": "battery_waste",
+      "confidence": 0.8662712574005127,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 509,
+      "time": 20.36,
+      "class": "battery_waste",
+      "confidence": 0.8838378190994263,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 510,
+      "time": 20.4,
+      "class": "battery_waste",
+      "confidence": 0.936027467250824,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 511,
+      "time": 20.44,
+      "class": "battery_waste",
+      "confidence": 0.9142594933509827,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 512,
+      "time": 20.48,
+      "class": "battery_waste",
+      "confidence": 0.876886248588562,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 513,
+      "time": 20.52,
+      "class": "battery_waste",
+      "confidence": 0.7649142742156982,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 514,
+      "time": 20.56,
+      "class": "e_waste",
+      "confidence": 0.4964756667613983,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 515,
+      "time": 20.6,
+      "class": "e_waste",
+      "confidence": 0.37562498450279236,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 516,
+      "time": 20.64,
+      "class": "e_waste",
+      "confidence": 0.6259996294975281,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 517,
+      "time": 20.68,
+      "class": "plastic_waste",
+      "confidence": 0.5104691386222839,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 518,
+      "time": 20.72,
+      "class": "plastic_waste",
+      "confidence": 0.7127137184143066,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 519,
+      "time": 20.76,
+      "class": "plastic_waste",
+      "confidence": 0.5480112433433533,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 520,
+      "time": 20.8,
+      "class": "plastic_waste",
+      "confidence": 0.6352713108062744,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 521,
+      "time": 20.84,
+      "class": "e_waste",
+      "confidence": 0.42118313908576965,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 522,
+      "time": 20.88,
+      "class": "plastic_waste",
+      "confidence": 0.7824244499206543,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 523,
+      "time": 20.92,
+      "class": "plastic_waste",
+      "confidence": 0.5270187854766846,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 524,
+      "time": 20.96,
+      "class": "e_waste",
+      "confidence": 0.5272850394248962,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 525,
+      "time": 21.0,
+      "class": "plastic_waste",
+      "confidence": 0.5239081382751465,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 526,
+      "time": 21.04,
+      "class": "plastic_waste",
+      "confidence": 0.37291356921195984,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 527,
+      "time": 21.08,
+      "class": "plastic_waste",
+      "confidence": 0.48454323410987854,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 528,
+      "time": 21.12,
+      "class": "plastic_waste",
+      "confidence": 0.5524423718452454,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 529,
+      "time": 21.16,
+      "class": "plastic_waste",
+      "confidence": 0.5626824498176575,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 530,
+      "time": 21.2,
+      "class": "plastic_waste",
+      "confidence": 0.3717227578163147,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 531,
+      "time": 21.24,
+      "class": "e_waste",
+      "confidence": 0.2771286964416504,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 532,
+      "time": 21.28,
+      "class": "e_waste",
+      "confidence": 0.3729436993598938,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 533,
+      "time": 21.32,
+      "class": "e_waste",
+      "confidence": 0.5332748293876648,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 534,
+      "time": 21.36,
+      "class": "plastic_waste",
+      "confidence": 0.2976003587245941,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 535,
+      "time": 21.4,
+      "class": "plastic_waste",
+      "confidence": 0.6088433861732483,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 536,
+      "time": 21.44,
+      "class": "plastic_waste",
+      "confidence": 0.546180248260498,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 537,
+      "time": 21.48,
+      "class": "e_waste",
+      "confidence": 0.4592355489730835,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 538,
+      "time": 21.52,
+      "class": "plastic_waste",
+      "confidence": 0.7035951018333435,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 539,
+      "time": 21.56,
+      "class": "plastic_waste",
+      "confidence": 0.8253728747367859,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 540,
+      "time": 21.6,
+      "class": "plastic_waste",
+      "confidence": 0.5144213438034058,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 541,
+      "time": 21.64,
+      "class": "plastic_waste",
+      "confidence": 0.5694193243980408,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 542,
+      "time": 21.68,
+      "class": "plastic_waste",
+      "confidence": 0.8461526036262512,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 543,
+      "time": 21.72,
+      "class": "plastic_waste",
+      "confidence": 0.696193516254425,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 544,
+      "time": 21.76,
+      "class": "plastic_waste",
+      "confidence": 0.8617251515388489,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 545,
+      "time": 21.8,
+      "class": "plastic_waste",
+      "confidence": 0.7518680095672607,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 546,
+      "time": 21.84,
+      "class": "plastic_waste",
+      "confidence": 0.6333011984825134,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 547,
+      "time": 21.88,
+      "class": "plastic_waste",
+      "confidence": 0.8882039785385132,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 548,
+      "time": 21.92,
+      "class": "plastic_waste",
+      "confidence": 0.9027640223503113,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 549,
+      "time": 21.96,
+      "class": "plastic_waste",
+      "confidence": 0.8998209834098816,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 550,
+      "time": 22.0,
+      "class": "plastic_waste",
+      "confidence": 0.887765109539032,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 551,
+      "time": 22.04,
+      "class": "plastic_waste",
+      "confidence": 0.852264940738678,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 552,
+      "time": 22.08,
+      "class": "plastic_waste",
+      "confidence": 0.8436295986175537,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 553,
+      "time": 22.12,
+      "class": "plastic_waste",
+      "confidence": 0.8690770268440247,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 554,
+      "time": 22.16,
+      "class": "plastic_waste",
+      "confidence": 0.9136340618133545,
+      "segment": 6,
+      "confirmed": true
+    },
+    {
+      "frame": 555,
+      "time": 22.2,
+      "class": "plastic_waste",
+      "confidence": 0.874276876449585,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 556,
+      "time": 22.24,
+      "class": "plastic_waste",
+      "confidence": 0.846935510635376,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 557,
+      "time": 22.28,
+      "class": "plastic_waste",
+      "confidence": 0.8011341094970703,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 558,
+      "time": 22.32,
+      "class": "plastic_waste",
+      "confidence": 0.85635906457901,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 559,
+      "time": 22.36,
+      "class": "plastic_waste",
+      "confidence": 0.761735737323761,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 560,
+      "time": 22.4,
+      "class": "plastic_waste",
+      "confidence": 0.8882943987846375,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 561,
+      "time": 22.44,
+      "class": "plastic_waste",
+      "confidence": 0.8419997096061707,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 562,
+      "time": 22.48,
+      "class": "plastic_waste",
+      "confidence": 0.8713114261627197,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 563,
+      "time": 22.52,
+      "class": "plastic_waste",
+      "confidence": 0.8376657962799072,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 564,
+      "time": 22.56,
+      "class": "plastic_waste",
+      "confidence": 0.7079334855079651,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 565,
+      "time": 22.6,
+      "class": "plastic_waste",
+      "confidence": 0.7641913294792175,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 566,
+      "time": 22.64,
+      "class": "plastic_waste",
+      "confidence": 0.4526791274547577,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 567,
+      "time": 22.68,
+      "class": "clothes",
+      "confidence": 0.41545528173446655,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 568,
+      "time": 22.72,
+      "class": "clothes",
+      "confidence": 0.4087238311767578,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 569,
+      "time": 22.76,
+      "class": "plastic_waste",
+      "confidence": 0.4307369887828827,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 570,
+      "time": 22.8,
+      "class": "plastic_waste",
+      "confidence": 0.41000330448150635,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 571,
+      "time": 22.84,
+      "class": "clothes",
+      "confidence": 0.4607212543487549,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 572,
+      "time": 22.88,
+      "class": "e_waste",
+      "confidence": 0.2658463418483734,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 573,
+      "time": 22.92,
+      "class": "e_waste",
+      "confidence": 0.8000120520591736,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 574,
+      "time": 22.96,
+      "class": "e_waste",
+      "confidence": 0.8269349932670593,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 575,
+      "time": 23.0,
+      "class": "e_waste",
+      "confidence": 0.9183759689331055,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 576,
+      "time": 23.04,
+      "class": "e_waste",
+      "confidence": 0.9413670301437378,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 577,
+      "time": 23.08,
+      "class": "e_waste",
+      "confidence": 0.9332537055015564,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 578,
+      "time": 23.12,
+      "class": "e_waste",
+      "confidence": 0.9264436364173889,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 579,
+      "time": 23.16,
+      "class": "e_waste",
+      "confidence": 0.9446089267730713,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 580,
+      "time": 23.2,
+      "class": "e_waste",
+      "confidence": 0.9384526014328003,
+      "segment": 6,
+      "confirmed": true
+    },
+    {
+      "frame": 581,
+      "time": 23.24,
+      "class": "e_waste",
+      "confidence": 0.9307414293289185,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 582,
+      "time": 23.28,
+      "class": "e_waste",
+      "confidence": 0.937881350517273,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 583,
+      "time": 23.32,
+      "class": "e_waste",
+      "confidence": 0.9367428421974182,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 584,
+      "time": 23.36,
+      "class": "e_waste",
+      "confidence": 0.9324988126754761,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 585,
+      "time": 23.4,
+      "class": "e_waste",
+      "confidence": 0.9198777675628662,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 586,
+      "time": 23.44,
+      "class": "e_waste",
+      "confidence": 0.9419078826904297,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 587,
+      "time": 23.48,
+      "class": "e_waste",
+      "confidence": 0.9231472015380859,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 588,
+      "time": 23.52,
+      "class": "e_waste",
+      "confidence": 0.9264345169067383,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 589,
+      "time": 23.56,
+      "class": "e_waste",
+      "confidence": 0.9324561953544617,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 590,
+      "time": 23.6,
+      "class": "e_waste",
+      "confidence": 0.9668859839439392,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 591,
+      "time": 23.64,
+      "class": "e_waste",
+      "confidence": 0.9174593687057495,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 592,
+      "time": 23.68,
+      "class": "e_waste",
+      "confidence": 0.5749053359031677,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 593,
+      "time": 23.72,
+      "class": "e_waste",
+      "confidence": 0.7831171751022339,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 594,
+      "time": 23.76,
+      "class": "e_waste",
+      "confidence": 0.7324655652046204,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 595,
+      "time": 23.8,
+      "class": "e_waste",
+      "confidence": 0.4375610947608948,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 596,
+      "time": 23.84,
+      "class": "e_waste",
+      "confidence": 0.7144443392753601,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 597,
+      "time": 23.88,
+      "class": "e_waste",
+      "confidence": 0.8521678447723389,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 598,
+      "time": 23.92,
+      "class": "e_waste",
+      "confidence": 0.7334149479866028,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 599,
+      "time": 23.96,
+      "class": "e_waste",
+      "confidence": 0.42244166135787964,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 600,
+      "time": 24.0,
+      "class": "plastic_waste",
+      "confidence": 0.8761280179023743,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 601,
+      "time": 24.04,
+      "class": "plastic_waste",
+      "confidence": 0.8489754796028137,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 602,
+      "time": 24.08,
+      "class": "plastic_waste",
+      "confidence": 0.8726209402084351,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 603,
+      "time": 24.12,
+      "class": "plastic_waste",
+      "confidence": 0.8460919857025146,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 604,
+      "time": 24.16,
+      "class": "plastic_waste",
+      "confidence": 0.6840788125991821,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 605,
+      "time": 24.2,
+      "class": "plastic_waste",
+      "confidence": 0.8480190634727478,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 606,
+      "time": 24.24,
+      "class": "plastic_waste",
+      "confidence": 0.5595306754112244,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 607,
+      "time": 24.28,
+      "class": "plastic_waste",
+      "confidence": 0.5752441883087158,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 608,
+      "time": 24.32,
+      "class": "plastic_waste",
+      "confidence": 0.3965188264846802,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 609,
+      "time": 24.36,
+      "class": "organic_waste",
+      "confidence": 0.34724605083465576,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 610,
+      "time": 24.4,
+      "class": "plastic_waste",
+      "confidence": 0.280099481344223,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 611,
+      "time": 24.44,
+      "class": "plastic_waste",
+      "confidence": 0.3356958031654358,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 612,
+      "time": 24.48,
+      "class": "glass_waste",
+      "confidence": 0.39222830533981323,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 613,
+      "time": 24.52,
+      "class": "glass_waste",
+      "confidence": 0.4356641471385956,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 614,
+      "time": 24.56,
+      "class": "glass_waste",
+      "confidence": 0.45969051122665405,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 615,
+      "time": 24.6,
+      "class": "paper_waste",
+      "confidence": 0.27402523159980774,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 616,
+      "time": 24.64,
+      "class": "plastic_waste",
+      "confidence": 0.43536534905433655,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 617,
+      "time": 24.68,
+      "class": "glass_waste",
+      "confidence": 0.3506860136985779,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 618,
+      "time": 24.72,
+      "class": "paper_waste",
+      "confidence": 0.37987568974494934,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 619,
+      "time": 24.76,
+      "class": "plastic_waste",
+      "confidence": 0.3266262114048004,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 620,
+      "time": 24.8,
+      "class": "paper_waste",
+      "confidence": 0.37224632501602173,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 621,
+      "time": 24.84,
+      "class": "paper_waste",
+      "confidence": 0.22244511544704437,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 622,
+      "time": 24.88,
+      "class": "paper_waste",
+      "confidence": 0.30799922347068787,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 623,
+      "time": 24.92,
+      "class": "paper_waste",
+      "confidence": 0.5164362788200378,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 624,
+      "time": 24.96,
+      "class": "glass_waste",
+      "confidence": 0.3259546458721161,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 625,
+      "time": 25.0,
+      "class": "plastic_waste",
+      "confidence": 0.25780102610588074,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 626,
+      "time": 25.04,
+      "class": "glass_waste",
+      "confidence": 0.24879927933216095,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 627,
+      "time": 25.08,
+      "class": "glass_waste",
+      "confidence": 0.794029176235199,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 628,
+      "time": 25.12,
+      "class": "paper_waste",
+      "confidence": 0.5191218852996826,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 629,
+      "time": 25.16,
+      "class": "glass_waste",
+      "confidence": 0.42228585481643677,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 630,
+      "time": 25.2,
+      "class": "glass_waste",
+      "confidence": 0.5272029638290405,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 631,
+      "time": 25.24,
+      "class": "e_waste",
+      "confidence": 0.36029618978500366,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 632,
+      "time": 25.28,
+      "class": "glass_waste",
+      "confidence": 0.4648459851741791,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 633,
+      "time": 25.32,
+      "class": "glass_waste",
+      "confidence": 0.7897732853889465,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 634,
+      "time": 25.36,
+      "class": "glass_waste",
+      "confidence": 0.82725590467453,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 635,
+      "time": 25.4,
+      "class": "e_waste",
+      "confidence": 0.3955446779727936,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 636,
+      "time": 25.44,
+      "class": "e_waste",
+      "confidence": 0.6805654764175415,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 637,
+      "time": 25.48,
+      "class": "e_waste",
+      "confidence": 0.829614520072937,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 638,
+      "time": 25.52,
+      "class": "e_waste",
+      "confidence": 0.3055817484855652,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 639,
+      "time": 25.56,
+      "class": "glass_waste",
+      "confidence": 0.30531808733940125,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 640,
+      "time": 25.6,
+      "class": "glass_waste",
+      "confidence": 0.4035987854003906,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 641,
+      "time": 25.64,
+      "class": "glass_waste",
+      "confidence": 0.5192398428916931,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 642,
+      "time": 25.68,
+      "class": "e_waste",
+      "confidence": 0.2806452810764313,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 643,
+      "time": 25.72,
+      "class": "metal_waste",
+      "confidence": 0.23520131409168243,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 644,
+      "time": 25.76,
+      "class": "metal_waste",
+      "confidence": 0.37713730335235596,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 645,
+      "time": 25.8,
+      "class": "e_waste",
+      "confidence": 0.41602441668510437,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 646,
+      "time": 25.84,
+      "class": "glass_waste",
+      "confidence": 0.3201809227466583,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 647,
+      "time": 25.88,
+      "class": "e_waste",
+      "confidence": 0.3441978096961975,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 648,
+      "time": 25.92,
+      "class": "e_waste",
+      "confidence": 0.24046483635902405,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 649,
+      "time": 25.96,
+      "class": "glass_waste",
+      "confidence": 0.5520749688148499,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 650,
+      "time": 26.0,
+      "class": "glass_waste",
+      "confidence": 0.5774595737457275,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 651,
+      "time": 26.04,
+      "class": "light_bulbs",
+      "confidence": 0.4531610310077667,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 652,
+      "time": 26.08,
+      "class": "light_bulbs",
+      "confidence": 0.53838050365448,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 653,
+      "time": 26.12,
+      "class": "light_bulbs",
+      "confidence": 0.28442564606666565,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 654,
+      "time": 26.16,
+      "class": "glass_waste",
+      "confidence": 0.46467912197113037,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 655,
+      "time": 26.2,
+      "class": "glass_waste",
+      "confidence": 0.39000052213668823,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 656,
+      "time": 26.24,
+      "class": "glass_waste",
+      "confidence": 0.46320897340774536,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 657,
+      "time": 26.28,
+      "class": "e_waste",
+      "confidence": 0.4176776707172394,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 658,
+      "time": 26.32,
+      "class": "e_waste",
+      "confidence": 0.7053514719009399,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 659,
+      "time": 26.36,
+      "class": "e_waste",
+      "confidence": 0.7530401349067688,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 660,
+      "time": 26.4,
+      "class": "e_waste",
+      "confidence": 0.7293540239334106,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 661,
+      "time": 26.44,
+      "class": "e_waste",
+      "confidence": 0.6067502498626709,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 662,
+      "time": 26.48,
+      "class": "e_waste",
+      "confidence": 0.7626407742500305,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 663,
+      "time": 26.52,
+      "class": "e_waste",
+      "confidence": 0.5008664131164551,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 664,
+      "time": 26.56,
+      "class": "e_waste",
+      "confidence": 0.532260000705719,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 665,
+      "time": 26.6,
+      "class": "e_waste",
+      "confidence": 0.7435351610183716,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 666,
+      "time": 26.64,
+      "class": "e_waste",
+      "confidence": 0.815851092338562,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 667,
+      "time": 26.68,
+      "class": "e_waste",
+      "confidence": 0.7722571492195129,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 668,
+      "time": 26.72,
+      "class": "e_waste",
+      "confidence": 0.8763260841369629,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 669,
+      "time": 26.76,
+      "class": "e_waste",
+      "confidence": 0.8903956413269043,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 670,
+      "time": 26.8,
+      "class": "e_waste",
+      "confidence": 0.8537300229072571,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 671,
+      "time": 26.84,
+      "class": "e_waste",
+      "confidence": 0.8874061703681946,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 672,
+      "time": 26.88,
+      "class": "e_waste",
+      "confidence": 0.8691695332527161,
+      "segment": 7,
+      "confirmed": true
+    },
+    {
+      "frame": 673,
+      "time": 26.92,
+      "class": "e_waste",
+      "confidence": 0.8878160715103149,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 674,
+      "time": 26.96,
+      "class": "e_waste",
+      "confidence": 0.7604714035987854,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 675,
+      "time": 27.0,
+      "class": "e_waste",
+      "confidence": 0.8288496136665344,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 676,
+      "time": 27.04,
+      "class": "e_waste",
+      "confidence": 0.8692874908447266,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 677,
+      "time": 27.08,
+      "class": "e_waste",
+      "confidence": 0.6402576565742493,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 678,
+      "time": 27.12,
+      "class": "e_waste",
+      "confidence": 0.835591197013855,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 679,
+      "time": 27.16,
+      "class": "e_waste",
+      "confidence": 0.7305318117141724,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 680,
+      "time": 27.2,
+      "class": "e_waste",
+      "confidence": 0.5652154088020325,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 681,
+      "time": 27.24,
+      "class": "plastic_waste",
+      "confidence": 0.545450747013092,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 682,
+      "time": 27.28,
+      "class": "metal_waste",
+      "confidence": 0.38714930415153503,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 683,
+      "time": 27.32,
+      "class": "plastic_waste",
+      "confidence": 0.5120044350624084,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 684,
+      "time": 27.36,
+      "class": "plastic_waste",
+      "confidence": 0.6621551513671875,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 685,
+      "time": 27.4,
+      "class": "plastic_waste",
+      "confidence": 0.46457573771476746,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 686,
+      "time": 27.44,
+      "class": "metal_waste",
+      "confidence": 0.4413519501686096,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 687,
+      "time": 27.48,
+      "class": "metal_waste",
+      "confidence": 0.41714906692504883,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 688,
+      "time": 27.52,
+      "class": "metal_waste",
+      "confidence": 0.3046649098396301,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 689,
+      "time": 27.56,
+      "class": "plastic_waste",
+      "confidence": 0.48488885164260864,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 690,
+      "time": 27.6,
+      "class": "metal_waste",
+      "confidence": 0.5521262288093567,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 691,
+      "time": 27.64,
+      "class": "metal_waste",
+      "confidence": 0.5844252705574036,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 692,
+      "time": 27.68,
+      "class": "metal_waste",
+      "confidence": 0.5187533497810364,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 693,
+      "time": 27.72,
+      "class": "light_bulbs",
+      "confidence": 0.3841085135936737,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 694,
+      "time": 27.76,
+      "class": "plastic_waste",
+      "confidence": 0.4706933796405792,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 695,
+      "time": 27.8,
+      "class": "metal_waste",
+      "confidence": 0.6372985243797302,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 696,
+      "time": 27.84,
+      "class": "metal_waste",
+      "confidence": 0.35959872603416443,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 697,
+      "time": 27.88,
+      "class": "metal_waste",
+      "confidence": 0.371064692735672,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 698,
+      "time": 27.92,
+      "class": "metal_waste",
+      "confidence": 0.6261255145072937,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 699,
+      "time": 27.96,
+      "class": "metal_waste",
+      "confidence": 0.47062045335769653,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 700,
+      "time": 28.0,
+      "class": "metal_waste",
+      "confidence": 0.45875415205955505,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 701,
+      "time": 28.04,
+      "class": "metal_waste",
+      "confidence": 0.5851566791534424,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 702,
+      "time": 28.08,
+      "class": "metal_waste",
+      "confidence": 0.5746636986732483,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 703,
+      "time": 28.12,
+      "class": "metal_waste",
+      "confidence": 0.7353520393371582,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 704,
+      "time": 28.16,
+      "class": "metal_waste",
+      "confidence": 0.693874716758728,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 705,
+      "time": 28.2,
+      "class": "metal_waste",
+      "confidence": 0.563050389289856,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 706,
+      "time": 28.24,
+      "class": "metal_waste",
+      "confidence": 0.49976569414138794,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 707,
+      "time": 28.28,
+      "class": "metal_waste",
+      "confidence": 0.41099971532821655,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 708,
+      "time": 28.32,
+      "class": "metal_waste",
+      "confidence": 0.6410683989524841,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 709,
+      "time": 28.36,
+      "class": "metal_waste",
+      "confidence": 0.6303014159202576,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 710,
+      "time": 28.4,
+      "class": "metal_waste",
+      "confidence": 0.7382192015647888,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 711,
+      "time": 28.44,
+      "class": "metal_waste",
+      "confidence": 0.772199809551239,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 712,
+      "time": 28.48,
+      "class": "metal_waste",
+      "confidence": 0.8841274380683899,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 713,
+      "time": 28.52,
+      "class": "metal_waste",
+      "confidence": 0.8623510599136353,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 714,
+      "time": 28.56,
+      "class": "metal_waste",
+      "confidence": 0.7563930749893188,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 715,
+      "time": 28.6,
+      "class": "metal_waste",
+      "confidence": 0.7465100884437561,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 716,
+      "time": 28.64,
+      "class": "metal_waste",
+      "confidence": 0.7444158792495728,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 717,
+      "time": 28.68,
+      "class": "metal_waste",
+      "confidence": 0.8467636704444885,
+      "segment": 8,
+      "confirmed": true
+    },
+    {
+      "frame": 718,
+      "time": 28.72,
+      "class": "metal_waste",
+      "confidence": 0.8290956020355225,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 719,
+      "time": 28.76,
+      "class": "metal_waste",
+      "confidence": 0.879443347454071,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 720,
+      "time": 28.8,
+      "class": "metal_waste",
+      "confidence": 0.8302287459373474,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 721,
+      "time": 28.84,
+      "class": "metal_waste",
+      "confidence": 0.8127761483192444,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 722,
+      "time": 28.88,
+      "class": "metal_waste",
+      "confidence": 0.7402427792549133,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 723,
+      "time": 28.92,
+      "class": "metal_waste",
+      "confidence": 0.6068512201309204,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 724,
+      "time": 28.96,
+      "class": "metal_waste",
+      "confidence": 0.7571291327476501,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 725,
+      "time": 29.0,
+      "class": "metal_waste",
+      "confidence": 0.7552440166473389,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 726,
+      "time": 29.04,
+      "class": "metal_waste",
+      "confidence": 0.8714179992675781,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 727,
+      "time": 29.08,
+      "class": "metal_waste",
+      "confidence": 0.8614323735237122,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 728,
+      "time": 29.12,
+      "class": "metal_waste",
+      "confidence": 0.8371861577033997,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 729,
+      "time": 29.16,
+      "class": "metal_waste",
+      "confidence": 0.858823299407959,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 730,
+      "time": 29.2,
+      "class": "metal_waste",
+      "confidence": 0.9023565649986267,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 731,
+      "time": 29.24,
+      "class": "metal_waste",
+      "confidence": 0.9102447628974915,
+      "segment": 8,
+      "confirmed": true
+    },
+    {
+      "frame": 732,
+      "time": 29.28,
+      "class": "metal_waste",
+      "confidence": 0.9049971103668213,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 733,
+      "time": 29.32,
+      "class": "metal_waste",
+      "confidence": 0.8850246667861938,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 734,
+      "time": 29.36,
+      "class": "metal_waste",
+      "confidence": 0.8540474772453308,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 735,
+      "time": 29.4,
+      "class": "metal_waste",
+      "confidence": 0.8867988586425781,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 736,
+      "time": 29.44,
+      "class": "metal_waste",
+      "confidence": 0.9016839265823364,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 737,
+      "time": 29.48,
+      "class": "metal_waste",
+      "confidence": 0.915611982345581,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 738,
+      "time": 29.52,
+      "class": "metal_waste",
+      "confidence": 0.8641649484634399,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 739,
+      "time": 29.56,
+      "class": "metal_waste",
+      "confidence": 0.8764839768409729,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 740,
+      "time": 29.6,
+      "class": "metal_waste",
+      "confidence": 0.8605093359947205,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 741,
+      "time": 29.64,
+      "class": "metal_waste",
+      "confidence": 0.8595107197761536,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 742,
+      "time": 29.68,
+      "class": "metal_waste",
+      "confidence": 0.6227090954780579,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 743,
+      "time": 29.72,
+      "class": "metal_waste",
+      "confidence": 0.6774361729621887,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 744,
+      "time": 29.76,
+      "class": "metal_waste",
+      "confidence": 0.6671268939971924,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 745,
+      "time": 29.8,
+      "class": "metal_waste",
+      "confidence": 0.6729179620742798,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 746,
+      "time": 29.84,
+      "class": "glass_waste",
+      "confidence": 0.3468705117702484,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 747,
+      "time": 29.88,
+      "class": "metal_waste",
+      "confidence": 0.41638728976249695,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 748,
+      "time": 29.92,
+      "class": "glass_waste",
+      "confidence": 0.5433908104896545,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 749,
+      "time": 29.96,
+      "class": "plastic_waste",
+      "confidence": 0.30422815680503845,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 750,
+      "time": 30.0,
+      "class": "metal_waste",
+      "confidence": 0.5291872620582581,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 751,
+      "time": 30.04,
+      "class": "glass_waste",
+      "confidence": 0.7704749703407288,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 752,
+      "time": 30.08,
+      "class": "glass_waste",
+      "confidence": 0.5573117136955261,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 753,
+      "time": 30.12,
+      "class": "glass_waste",
+      "confidence": 0.4545777142047882,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 754,
+      "time": 30.16,
+      "class": "glass_waste",
+      "confidence": 0.3154366612434387,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 755,
+      "time": 30.2,
+      "class": "glass_waste",
+      "confidence": 0.3682766556739807,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 756,
+      "time": 30.24,
+      "class": "plastic_waste",
+      "confidence": 0.41937410831451416,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 757,
+      "time": 30.28,
+      "class": "plastic_waste",
+      "confidence": 0.5304305553436279,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 758,
+      "time": 30.32,
+      "class": "plastic_waste",
+      "confidence": 0.5047051906585693,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 759,
+      "time": 30.36,
+      "class": "glass_waste",
+      "confidence": 0.3581486642360687,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 760,
+      "time": 30.4,
+      "class": "glass_waste",
+      "confidence": 0.6739946007728577,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 761,
+      "time": 30.44,
+      "class": "glass_waste",
+      "confidence": 0.8281933665275574,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 762,
+      "time": 30.48,
+      "class": "glass_waste",
+      "confidence": 0.6032930612564087,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 763,
+      "time": 30.52,
+      "class": "glass_waste",
+      "confidence": 0.3894529640674591,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 764,
+      "time": 30.56,
+      "class": "metal_waste",
+      "confidence": 0.6000033020973206,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 765,
+      "time": 30.6,
+      "class": "glass_waste",
+      "confidence": 0.46903178095817566,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 766,
+      "time": 30.64,
+      "class": "glass_waste",
+      "confidence": 0.2775341272354126,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 767,
+      "time": 30.68,
+      "class": "e_waste",
+      "confidence": 0.6881107091903687,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 768,
+      "time": 30.72,
+      "class": "glass_waste",
+      "confidence": 0.30503562092781067,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 769,
+      "time": 30.76,
+      "class": "e_waste",
+      "confidence": 0.733024001121521,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 770,
+      "time": 30.8,
+      "class": "plastic_waste",
+      "confidence": 0.5922587513923645,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 771,
+      "time": 30.84,
+      "class": "e_waste",
+      "confidence": 0.9251484870910645,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 772,
+      "time": 30.88,
+      "class": "e_waste",
+      "confidence": 0.9201053977012634,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 773,
+      "time": 30.92,
+      "class": "e_waste",
+      "confidence": 0.9056024551391602,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 774,
+      "time": 30.96,
+      "class": "e_waste",
+      "confidence": 0.8992869257926941,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 775,
+      "time": 31.0,
+      "class": "e_waste",
+      "confidence": 0.898755669593811,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 776,
+      "time": 31.04,
+      "class": "e_waste",
+      "confidence": 0.9067350625991821,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 777,
+      "time": 31.08,
+      "class": "e_waste",
+      "confidence": 0.9221481084823608,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 778,
+      "time": 31.12,
+      "class": "e_waste",
+      "confidence": 0.9134510159492493,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 779,
+      "time": 31.16,
+      "class": "e_waste",
+      "confidence": 0.9097918272018433,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 780,
+      "time": 31.2,
+      "class": "e_waste",
+      "confidence": 0.9145864844322205,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 781,
+      "time": 31.24,
+      "class": "e_waste",
+      "confidence": 0.9190849661827087,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 782,
+      "time": 31.28,
+      "class": "e_waste",
+      "confidence": 0.917978823184967,
+      "segment": 9,
+      "confirmed": true
+    },
+    {
+      "frame": 783,
+      "time": 31.32,
+      "class": "e_waste",
+      "confidence": 0.9222542643547058,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 784,
+      "time": 31.36,
+      "class": "e_waste",
+      "confidence": 0.9144763946533203,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 785,
+      "time": 31.4,
+      "class": "e_waste",
+      "confidence": 0.9183642268180847,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 786,
+      "time": 31.44,
+      "class": "e_waste",
+      "confidence": 0.921499490737915,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 787,
+      "time": 31.48,
+      "class": "e_waste",
+      "confidence": 0.9102888703346252,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 788,
+      "time": 31.52,
+      "class": "e_waste",
+      "confidence": 0.927495002746582,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 789,
+      "time": 31.56,
+      "class": "e_waste",
+      "confidence": 0.9076527953147888,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 790,
+      "time": 31.6,
+      "class": "e_waste",
+      "confidence": 0.9267162084579468,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 791,
+      "time": 31.64,
+      "class": "e_waste",
+      "confidence": 0.9217574000358582,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 792,
+      "time": 31.68,
+      "class": "e_waste",
+      "confidence": 0.9188894629478455,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 793,
+      "time": 31.72,
+      "class": "e_waste",
+      "confidence": 0.9284502267837524,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 794,
+      "time": 31.76,
+      "class": "e_waste",
+      "confidence": 0.9090431928634644,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 795,
+      "time": 31.8,
+      "class": "e_waste",
+      "confidence": 0.928901731967926,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 796,
+      "time": 31.84,
+      "class": "e_waste",
+      "confidence": 0.9214144945144653,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 797,
+      "time": 31.88,
+      "class": "e_waste",
+      "confidence": 0.9197584390640259,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 798,
+      "time": 31.92,
+      "class": "e_waste",
+      "confidence": 0.9098317623138428,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 799,
+      "time": 31.96,
+      "class": "e_waste",
+      "confidence": 0.9134013652801514,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 800,
+      "time": 32.0,
+      "class": "e_waste",
+      "confidence": 0.9219189882278442,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 801,
+      "time": 32.04,
+      "class": "e_waste",
+      "confidence": 0.9190081357955933,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 802,
+      "time": 32.08,
+      "class": "e_waste",
+      "confidence": 0.8977131843566895,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 803,
+      "time": 32.12,
+      "class": "e_waste",
+      "confidence": 0.924130380153656,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 804,
+      "time": 32.16,
+      "class": "e_waste",
+      "confidence": 0.9255719780921936,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 805,
+      "time": 32.2,
+      "class": "e_waste",
+      "confidence": 0.9165582656860352,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 806,
+      "time": 32.24,
+      "class": "e_waste",
+      "confidence": 0.8975476622581482,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 807,
+      "time": 32.28,
+      "class": "e_waste",
+      "confidence": 0.8968390226364136,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 808,
+      "time": 32.32,
+      "class": "e_waste",
+      "confidence": 0.908231258392334,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 809,
+      "time": 32.36,
+      "class": "e_waste",
+      "confidence": 0.9066049456596375,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 810,
+      "time": 32.4,
+      "class": "light_bulbs",
+      "confidence": 0.5985686779022217,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 811,
+      "time": 32.44,
+      "class": "e_waste",
+      "confidence": 0.41208943724632263,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 812,
+      "time": 32.48,
+      "class": "light_bulbs",
+      "confidence": 0.45472532510757446,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 813,
+      "time": 32.52,
+      "class": "glass_waste",
+      "confidence": 0.8283525109291077,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 814,
+      "time": 32.56,
+      "class": "glass_waste",
+      "confidence": 0.8787509799003601,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 815,
+      "time": 32.6,
+      "class": "glass_waste",
+      "confidence": 0.8393004536628723,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 816,
+      "time": 32.64,
+      "class": "glass_waste",
+      "confidence": 0.726796567440033,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 817,
+      "time": 32.68,
+      "class": "glass_waste",
+      "confidence": 0.5276774168014526,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 818,
+      "time": 32.72,
+      "class": "glass_waste",
+      "confidence": 0.5881291627883911,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 819,
+      "time": 32.76,
+      "class": "glass_waste",
+      "confidence": 0.8444963693618774,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 820,
+      "time": 32.8,
+      "class": "glass_waste",
+      "confidence": 0.4702770411968231,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 821,
+      "time": 32.84,
+      "class": "glass_waste",
+      "confidence": 0.7553735971450806,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 822,
+      "time": 32.88,
+      "class": "glass_waste",
+      "confidence": 0.6828669905662537,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 823,
+      "time": 32.92,
+      "class": "metal_waste",
+      "confidence": 0.678949236869812,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 824,
+      "time": 32.96,
+      "class": "glass_waste",
+      "confidence": 0.6614052057266235,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 825,
+      "time": 33.0,
+      "class": "metal_waste",
+      "confidence": 0.7120361924171448,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 826,
+      "time": 33.04,
+      "class": "metal_waste",
+      "confidence": 0.6329522728919983,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 827,
+      "time": 33.08,
+      "class": "metal_waste",
+      "confidence": 0.6495383977890015,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 828,
+      "time": 33.12,
+      "class": "glass_waste",
+      "confidence": 0.6326746344566345,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 829,
+      "time": 33.16,
+      "class": "glass_waste",
+      "confidence": 0.4948332905769348,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 830,
+      "time": 33.2,
+      "class": "glass_waste",
+      "confidence": 0.6383181810379028,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 831,
+      "time": 33.24,
+      "class": "metal_waste",
+      "confidence": 0.4458410441875458,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 832,
+      "time": 33.28,
+      "class": "metal_waste",
+      "confidence": 0.6372764110565186,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 833,
+      "time": 33.32,
+      "class": "glass_waste",
+      "confidence": 0.5626517534255981,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 834,
+      "time": 33.36,
+      "class": "metal_waste",
+      "confidence": 0.5737991333007812,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 835,
+      "time": 33.4,
+      "class": "metal_waste",
+      "confidence": 0.6414806842803955,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 836,
+      "time": 33.44,
+      "class": "glass_waste",
+      "confidence": 0.774496853351593,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 837,
+      "time": 33.48,
+      "class": "glass_waste",
+      "confidence": 0.925864577293396,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 838,
+      "time": 33.52,
+      "class": "glass_waste",
+      "confidence": 0.8876485228538513,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 839,
+      "time": 33.56,
+      "class": "glass_waste",
+      "confidence": 0.9021375179290771,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 840,
+      "time": 33.6,
+      "class": "glass_waste",
+      "confidence": 0.8914701342582703,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 841,
+      "time": 33.64,
+      "class": "glass_waste",
+      "confidence": 0.8982160091400146,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 842,
+      "time": 33.68,
+      "class": "glass_waste",
+      "confidence": 0.91856849193573,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 843,
+      "time": 33.72,
+      "class": "glass_waste",
+      "confidence": 0.9178083539009094,
+      "segment": 10,
+      "confirmed": true
+    },
+    {
+      "frame": 844,
+      "time": 33.76,
+      "class": "glass_waste",
+      "confidence": 0.890961766242981,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 845,
+      "time": 33.8,
+      "class": "glass_waste",
+      "confidence": 0.872372031211853,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 846,
+      "time": 33.84,
+      "class": "glass_waste",
+      "confidence": 0.876023530960083,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 847,
+      "time": 33.88,
+      "class": "glass_waste",
+      "confidence": 0.8470640778541565,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 848,
+      "time": 33.92,
+      "class": "glass_waste",
+      "confidence": 0.9142544269561768,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 849,
+      "time": 33.96,
+      "class": "glass_waste",
+      "confidence": 0.8867877125740051,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 850,
+      "time": 34.0,
+      "class": "glass_waste",
+      "confidence": 0.9055432081222534,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 851,
+      "time": 34.04,
+      "class": "glass_waste",
+      "confidence": 0.8737898468971252,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 852,
+      "time": 34.08,
+      "class": "glass_waste",
+      "confidence": 0.8719118237495422,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 853,
+      "time": 34.12,
+      "class": "glass_waste",
+      "confidence": 0.8837732672691345,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 854,
+      "time": 34.16,
+      "class": "glass_waste",
+      "confidence": 0.9127504229545593,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 855,
+      "time": 34.2,
+      "class": "glass_waste",
+      "confidence": 0.9154666662216187,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 856,
+      "time": 34.24,
+      "class": "glass_waste",
+      "confidence": 0.9231358170509338,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 857,
+      "time": 34.28,
+      "class": "glass_waste",
+      "confidence": 0.9128718972206116,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 858,
+      "time": 34.32,
+      "class": "glass_waste",
+      "confidence": 0.9300486445426941,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 859,
+      "time": 34.36,
+      "class": "glass_waste",
+      "confidence": 0.9237767457962036,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 860,
+      "time": 34.4,
+      "class": "glass_waste",
+      "confidence": 0.9371981024742126,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 861,
+      "time": 34.44,
+      "class": "glass_waste",
+      "confidence": 0.9540421366691589,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 862,
+      "time": 34.48,
+      "class": "glass_waste",
+      "confidence": 0.933526873588562,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 863,
+      "time": 34.52,
+      "class": "glass_waste",
+      "confidence": 0.9410884380340576,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 864,
+      "time": 34.56,
+      "class": "glass_waste",
+      "confidence": 0.9228196740150452,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 865,
+      "time": 34.6,
+      "class": "glass_waste",
+      "confidence": 0.9234396815299988,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 866,
+      "time": 34.64,
+      "class": "glass_waste",
+      "confidence": 0.9112558960914612,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 867,
+      "time": 34.68,
+      "class": "glass_waste",
+      "confidence": 0.9406893849372864,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 868,
+      "time": 34.72,
+      "class": "glass_waste",
+      "confidence": 0.5263813734054565,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 869,
+      "time": 34.76,
+      "class": "metal_waste",
+      "confidence": 0.5136990547180176,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 870,
+      "time": 34.8,
+      "class": "metal_waste",
+      "confidence": 0.5926271080970764,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 871,
+      "time": 34.84,
+      "class": "metal_waste",
+      "confidence": 0.47412917017936707,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 872,
+      "time": 34.88,
+      "class": "glass_waste",
+      "confidence": 0.5520243644714355,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 873,
+      "time": 34.92,
+      "class": "glass_waste",
+      "confidence": 0.642705500125885,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 874,
+      "time": 34.96,
+      "class": "glass_waste",
+      "confidence": 0.572360634803772,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 875,
+      "time": 35.0,
+      "class": "metal_waste",
+      "confidence": 0.4629872739315033,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 876,
+      "time": 35.04,
+      "class": "metal_waste",
+      "confidence": 0.7198712825775146,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 877,
+      "time": 35.08,
+      "class": "metal_waste",
+      "confidence": 0.7095677852630615,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 878,
+      "time": 35.12,
+      "class": "metal_waste",
+      "confidence": 0.4915336072444916,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 879,
+      "time": 35.16,
+      "class": "glass_waste",
+      "confidence": 0.709516167640686,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 880,
+      "time": 35.2,
+      "class": "glass_waste",
+      "confidence": 0.624600887298584,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 881,
+      "time": 35.24,
+      "class": "glass_waste",
+      "confidence": 0.7105271816253662,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 882,
+      "time": 35.28,
+      "class": "glass_waste",
+      "confidence": 0.5603340268135071,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 883,
+      "time": 35.32,
+      "class": "glass_waste",
+      "confidence": 0.8104705214500427,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 884,
+      "time": 35.36,
+      "class": "glass_waste",
+      "confidence": 0.8965499401092529,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 885,
+      "time": 35.4,
+      "class": "glass_waste",
+      "confidence": 0.8853166103363037,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 886,
+      "time": 35.44,
+      "class": "glass_waste",
+      "confidence": 0.8478327989578247,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 887,
+      "time": 35.48,
+      "class": "glass_waste",
+      "confidence": 0.9004396200180054,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 888,
+      "time": 35.52,
+      "class": "glass_waste",
+      "confidence": 0.9066694378852844,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 889,
+      "time": 35.56,
+      "class": "glass_waste",
+      "confidence": 0.88686603307724,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 890,
+      "time": 35.6,
+      "class": "glass_waste",
+      "confidence": 0.8175957798957825,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 891,
+      "time": 35.64,
+      "class": "glass_waste",
+      "confidence": 0.7982057929039001,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 892,
+      "time": 35.68,
+      "class": "glass_waste",
+      "confidence": 0.8263638615608215,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 893,
+      "time": 35.72,
+      "class": "e_waste",
+      "confidence": 0.4858573079109192,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 894,
+      "time": 35.76,
+      "class": "glass_waste",
+      "confidence": 0.8844076991081238,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 895,
+      "time": 35.8,
+      "class": "glass_waste",
+      "confidence": 0.8594329357147217,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 896,
+      "time": 35.84,
+      "class": "glass_waste",
+      "confidence": 0.8107002973556519,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 897,
+      "time": 35.88,
+      "class": "glass_waste",
+      "confidence": 0.7598897218704224,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 898,
+      "time": 35.92,
+      "class": "plastic_waste",
+      "confidence": 0.4401248097419739,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 899,
+      "time": 35.96,
+      "class": "plastic_waste",
+      "confidence": 0.5711779594421387,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 900,
+      "time": 36.0,
+      "class": "paper_waste",
+      "confidence": 0.5641985535621643,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 901,
+      "time": 36.04,
+      "class": "paper_waste",
+      "confidence": 0.5666612982749939,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 902,
+      "time": 36.08,
+      "class": "paper_waste",
+      "confidence": 0.6476007699966431,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 903,
+      "time": 36.12,
+      "class": "e_waste",
+      "confidence": 0.41299906373023987,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 904,
+      "time": 36.16,
+      "class": "paper_waste",
+      "confidence": 0.4841405153274536,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 905,
+      "time": 36.2,
+      "class": "paper_waste",
+      "confidence": 0.4720475971698761,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 906,
+      "time": 36.24,
+      "class": "paper_waste",
+      "confidence": 0.5238940715789795,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 907,
+      "time": 36.28,
+      "class": "paper_waste",
+      "confidence": 0.443091481924057,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 908,
+      "time": 36.32,
+      "class": "e_waste",
+      "confidence": 0.6101929545402527,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 909,
+      "time": 36.36,
+      "class": "e_waste",
+      "confidence": 0.45126768946647644,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 910,
+      "time": 36.4,
+      "class": "paper_waste",
+      "confidence": 0.41842612624168396,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 911,
+      "time": 36.44,
+      "class": "paper_waste",
+      "confidence": 0.4392836093902588,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 912,
+      "time": 36.48,
+      "class": "paper_waste",
+      "confidence": 0.49599313735961914,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 913,
+      "time": 36.52,
+      "class": "paper_waste",
+      "confidence": 0.4618348777294159,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 914,
+      "time": 36.56,
+      "class": "paper_waste",
+      "confidence": 0.39109256863594055,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 915,
+      "time": 36.6,
+      "class": "paper_waste",
+      "confidence": 0.6153931021690369,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 916,
+      "time": 36.64,
+      "class": "paper_waste",
+      "confidence": 0.39349043369293213,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 917,
+      "time": 36.68,
+      "class": "e_waste",
+      "confidence": 0.3876688480377197,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 918,
+      "time": 36.72,
+      "class": "e_waste",
+      "confidence": 0.4958769679069519,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 919,
+      "time": 36.76,
+      "class": "paper_waste",
+      "confidence": 0.41040685772895813,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 920,
+      "time": 36.8,
+      "class": "paper_waste",
+      "confidence": 0.3837040662765503,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 921,
+      "time": 36.84,
+      "class": "e_waste",
+      "confidence": 0.46255168318748474,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 922,
+      "time": 36.88,
+      "class": "paper_waste",
+      "confidence": 0.3966515362262726,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 923,
+      "time": 36.92,
+      "class": "e_waste",
+      "confidence": 0.2665207087993622,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 924,
+      "time": 36.96,
+      "class": "e_waste",
+      "confidence": 0.35728517174720764,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 925,
+      "time": 37.0,
+      "class": "paper_waste",
+      "confidence": 0.44956088066101074,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 926,
+      "time": 37.04,
+      "class": "e_waste",
+      "confidence": 0.39431723952293396,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 927,
+      "time": 37.08,
+      "class": "paper_waste",
+      "confidence": 0.3398669958114624,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 928,
+      "time": 37.12,
+      "class": "paper_waste",
+      "confidence": 0.4839722514152527,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 929,
+      "time": 37.16,
+      "class": "paper_waste",
+      "confidence": 0.6144846081733704,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 930,
+      "time": 37.2,
+      "class": "plastic_waste",
+      "confidence": 0.5488365888595581,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 931,
+      "time": 37.24,
+      "class": "e_waste",
+      "confidence": 0.3549063205718994,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 932,
+      "time": 37.28,
+      "class": "e_waste",
+      "confidence": 0.7858757376670837,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 933,
+      "time": 37.32,
+      "class": "e_waste",
+      "confidence": 0.348336398601532,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 934,
+      "time": 37.36,
+      "class": "e_waste",
+      "confidence": 0.5698074698448181,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 935,
+      "time": 37.4,
+      "class": "e_waste",
+      "confidence": 0.6609542369842529,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 936,
+      "time": 37.44,
+      "class": "e_waste",
+      "confidence": 0.7783769965171814,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 937,
+      "time": 37.48,
+      "class": "e_waste",
+      "confidence": 0.6571199297904968,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 938,
+      "time": 37.52,
+      "class": "e_waste",
+      "confidence": 0.6189531087875366,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 939,
+      "time": 37.56,
+      "class": "e_waste",
+      "confidence": 0.8001492023468018,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 940,
+      "time": 37.6,
+      "class": "e_waste",
+      "confidence": 0.8154609799385071,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 941,
+      "time": 37.64,
+      "class": "e_waste",
+      "confidence": 0.7495944499969482,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 942,
+      "time": 37.68,
+      "class": "e_waste",
+      "confidence": 0.5638666749000549,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 943,
+      "time": 37.72,
+      "class": "e_waste",
+      "confidence": 0.8244771957397461,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 944,
+      "time": 37.76,
+      "class": "e_waste",
+      "confidence": 0.909827709197998,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 945,
+      "time": 37.8,
+      "class": "e_waste",
+      "confidence": 0.8927924036979675,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 946,
+      "time": 37.84,
+      "class": "e_waste",
+      "confidence": 0.8707877993583679,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 947,
+      "time": 37.88,
+      "class": "e_waste",
+      "confidence": 0.8297556638717651,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 948,
+      "time": 37.92,
+      "class": "e_waste",
+      "confidence": 0.8434421420097351,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 949,
+      "time": 37.96,
+      "class": "e_waste",
+      "confidence": 0.45284292101860046,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 950,
+      "time": 38.0,
+      "class": "battery_waste",
+      "confidence": 0.3832591772079468,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 951,
+      "time": 38.04,
+      "class": "e_waste",
+      "confidence": 0.6932548880577087,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 952,
+      "time": 38.08,
+      "class": "e_waste",
+      "confidence": 0.5984910726547241,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 953,
+      "time": 38.12,
+      "class": "e_waste",
+      "confidence": 0.7157653570175171,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 954,
+      "time": 38.16,
+      "class": "e_waste",
+      "confidence": 0.6189150810241699,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 955,
+      "time": 38.2,
+      "class": "e_waste",
+      "confidence": 0.47998666763305664,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 956,
+      "time": 38.24,
+      "class": "e_waste",
+      "confidence": 0.63105309009552,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 957,
+      "time": 38.28,
+      "class": "e_waste",
+      "confidence": 0.8287626504898071,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 958,
+      "time": 38.32,
+      "class": "e_waste",
+      "confidence": 0.5901470184326172,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 959,
+      "time": 38.36,
+      "class": "e_waste",
+      "confidence": 0.3462011516094208,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 960,
+      "time": 38.4,
+      "class": "battery_waste",
+      "confidence": 0.3772708773612976,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 961,
+      "time": 38.44,
+      "class": "battery_waste",
+      "confidence": 0.7027060985565186,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 962,
+      "time": 38.48,
+      "class": "paper_waste",
+      "confidence": 0.8434379696846008,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 963,
+      "time": 38.52,
+      "class": "paper_waste",
+      "confidence": 0.8659725189208984,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 964,
+      "time": 38.56,
+      "class": "paper_waste",
+      "confidence": 0.9042070508003235,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 965,
+      "time": 38.6,
+      "class": "paper_waste",
+      "confidence": 0.7187053561210632,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 966,
+      "time": 38.64,
+      "class": "paper_waste",
+      "confidence": 0.7464548945426941,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 967,
+      "time": 38.68,
+      "class": "paper_waste",
+      "confidence": 0.5446366667747498,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 968,
+      "time": 38.72,
+      "class": "paper_waste",
+      "confidence": 0.8658084869384766,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 969,
+      "time": 38.76,
+      "class": "paper_waste",
+      "confidence": 0.9024146199226379,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 970,
+      "time": 38.8,
+      "class": "paper_waste",
+      "confidence": 0.8383048176765442,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 971,
+      "time": 38.84,
+      "class": "paper_waste",
+      "confidence": 0.8958631157875061,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 972,
+      "time": 38.88,
+      "class": "paper_waste",
+      "confidence": 0.9165837168693542,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 973,
+      "time": 38.92,
+      "class": "paper_waste",
+      "confidence": 0.9200143218040466,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 974,
+      "time": 38.96,
+      "class": "paper_waste",
+      "confidence": 0.9143374562263489,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 975,
+      "time": 39.0,
+      "class": "paper_waste",
+      "confidence": 0.9226771593093872,
+      "segment": 12,
+      "confirmed": true
+    },
+    {
+      "frame": 976,
+      "time": 39.04,
+      "class": "paper_waste",
+      "confidence": 0.9000236988067627,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 977,
+      "time": 39.08,
+      "class": "paper_waste",
+      "confidence": 0.9305545687675476,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 978,
+      "time": 39.12,
+      "class": "paper_waste",
+      "confidence": 0.9339573383331299,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 979,
+      "time": 39.16,
+      "class": "paper_waste",
+      "confidence": 0.9242991209030151,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 980,
+      "time": 39.2,
+      "class": "paper_waste",
+      "confidence": 0.9262566566467285,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 981,
+      "time": 39.24,
+      "class": "paper_waste",
+      "confidence": 0.9129259586334229,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 982,
+      "time": 39.28,
+      "class": "paper_waste",
+      "confidence": 0.8831373453140259,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 983,
+      "time": 39.32,
+      "class": "paper_waste",
+      "confidence": 0.8935937881469727,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 984,
+      "time": 39.36,
+      "class": "paper_waste",
+      "confidence": 0.9029034972190857,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 985,
+      "time": 39.4,
+      "class": "paper_waste",
+      "confidence": 0.8952931761741638,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 986,
+      "time": 39.44,
+      "class": "paper_waste",
+      "confidence": 0.8947990536689758,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 987,
+      "time": 39.48,
+      "class": "paper_waste",
+      "confidence": 0.8880107998847961,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 988,
+      "time": 39.52,
+      "class": "paper_waste",
+      "confidence": 0.90491783618927,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 989,
+      "time": 39.56,
+      "class": "paper_waste",
+      "confidence": 0.9204000234603882,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 990,
+      "time": 39.6,
+      "class": "paper_waste",
+      "confidence": 0.9263023734092712,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 991,
+      "time": 39.64,
+      "class": "paper_waste",
+      "confidence": 0.9313986897468567,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 992,
+      "time": 39.68,
+      "class": "paper_waste",
+      "confidence": 0.8938137888908386,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 993,
+      "time": 39.72,
+      "class": "paper_waste",
+      "confidence": 0.5205965638160706,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 994,
+      "time": 39.76,
+      "class": "paper_waste",
+      "confidence": 0.7702776789665222,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 995,
+      "time": 39.8,
+      "class": "clothes",
+      "confidence": 0.4391268193721771,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 996,
+      "time": 39.84,
+      "class": "paper_waste",
+      "confidence": 0.45131173729896545,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 997,
+      "time": 39.88,
+      "class": "paper_waste",
+      "confidence": 0.4568280875682831,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 998,
+      "time": 39.92,
+      "class": "paper_waste",
+      "confidence": 0.4194824695587158,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 999,
+      "time": 39.96,
+      "class": "paper_waste",
+      "confidence": 0.5950354933738708,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1000,
+      "time": 40.0,
+      "class": "paper_waste",
+      "confidence": 0.4179529845714569,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1001,
+      "time": 40.04,
+      "class": "metal_waste",
+      "confidence": 0.4260818064212799,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1002,
+      "time": 40.08,
+      "class": "metal_waste",
+      "confidence": 0.2969970703125,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1003,
+      "time": 40.12,
+      "class": "metal_waste",
+      "confidence": 0.42802104353904724,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1004,
+      "time": 40.16,
+      "class": "metal_waste",
+      "confidence": 0.40140384435653687,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1005,
+      "time": 40.2,
+      "class": "metal_waste",
+      "confidence": 0.3124742805957794,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1006,
+      "time": 40.24,
+      "class": "plastic_waste",
+      "confidence": 0.4805138409137726,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1007,
+      "time": 40.28,
+      "class": "plastic_waste",
+      "confidence": 0.23404473066329956,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1008,
+      "time": 40.32,
+      "class": "e_waste",
+      "confidence": 0.26111918687820435,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1009,
+      "time": 40.36,
+      "class": "paper_waste",
+      "confidence": 0.34362855553627014,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1010,
+      "time": 40.4,
+      "class": "paper_waste",
+      "confidence": 0.3374617397785187,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1011,
+      "time": 40.44,
+      "class": "e_waste",
+      "confidence": 0.6951994895935059,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1012,
+      "time": 40.48,
+      "class": "e_waste",
+      "confidence": 0.6660726070404053,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1013,
+      "time": 40.52,
+      "class": "e_waste",
+      "confidence": 0.5725482106208801,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1014,
+      "time": 40.56,
+      "class": "clothes",
+      "confidence": 0.3464590907096863,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1015,
+      "time": 40.6,
+      "class": "e_waste",
+      "confidence": 0.4040696620941162,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1016,
+      "time": 40.64,
+      "class": "e_waste",
+      "confidence": 0.5675554275512695,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1017,
+      "time": 40.68,
+      "class": "e_waste",
+      "confidence": 0.7756639122962952,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1018,
+      "time": 40.72,
+      "class": "clothes",
+      "confidence": 0.2633141577243805,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1019,
+      "time": 40.76,
+      "class": "e_waste",
+      "confidence": 0.46273699402809143,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1020,
+      "time": 40.8,
+      "class": "e_waste",
+      "confidence": 0.8174819350242615,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1021,
+      "time": 40.84,
+      "class": "e_waste",
+      "confidence": 0.5041651725769043,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1022,
+      "time": 40.88,
+      "class": "e_waste",
+      "confidence": 0.3501351773738861,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1023,
+      "time": 40.92,
+      "class": "e_waste",
+      "confidence": 0.5364549160003662,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1024,
+      "time": 40.96,
+      "class": "e_waste",
+      "confidence": 0.6683061718940735,
+      "segment": 12,
+      "confirmed": false
+    }
+  ],
+  "elapsed_seconds": 5.184499137001694
+}

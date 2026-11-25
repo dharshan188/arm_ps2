@@ -1,0 +1,61 @@
+{
+  "cls": "e_waste",
+  "slug": "laptops",
+  "item": "laptop",
+  "title": {
+    "en": "Laptop retirement plan",
+    "hi": "लैपटॉप का रिटायरमेंट प्लान",
+    "ta": "லேப்டாப் ரிட்டையர்மென்ட் பிளான்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This laptop crashed onto me instead of its software! Before you dump yours, let's save more than files.",
+      "hi": "अरे तुम! लैपटॉप का सॉफ़्टवेयर नहीं, पूरा लैपटॉप मेरे ऊपर क्रैश हुआ! अपना फेंकने से पहले फ़ाइलों से ज़्यादा बचाते हैं।",
+      "ta": "ஹே நீங்க! சாஃப்ட்வேர் கிராஷ் ஆகல, லேப்டாப்பே என் மேல கிராஷ் ஆயிடுச்சு! உங்களோடத தூக்கி போட முன்னாடி ஃபைலையும் தாண்டி கொஞ்சம் யோசிக்கலாம்."
+    },
+    "harm": {
+      "en": "In twenty twenty two, only about twenty two percent of global electronic waste was formally collected and recycled. Valuable materials get wasted!",
+      "hi": "दो हज़ार बाईस में दुनिया का सिर्फ़ करीब बाईस परसेंट इलेक्ट्रॉनिक वेस्ट फ़ॉर्मली कलेक्ट और रीसायकल हुआ। कीमती मटेरियल बेकार जाता है!",
+      "ta": "ரெண்டாயிரத்து இருபத்தி ரெண்டுல உலக எலக்ட்ரானிக் வேஸ்ட்ல சுமார் இருபத்தி ரெண்டு பர்சன்ட் தான் முறையா கலெக்ட் பண்ணி ரீசைக்கிள் ஆச்சு. மதிப்புள்ள மெட்டீரியல் வீணாகுதுங்க!",
+      "stats": [
+        {
+          "value": 22.3,
+          "unit": "formally recycled",
+          "decimals": 1,
+          "suffix": "%"
+        }
+      ]
+    },
+    "who": {
+      "en": "Workers handling broken electronics face toxic dust; nearby children can breathe it too. Your old gadget should never become somebody's health problem.",
+      "hi": "टूटे इलेक्ट्रॉनिक्स संभालने वाले वर्कर्स को ज़हरीली धूल लगती है, पास के बच्चे भी साँस में लेते हैं। अपना गैजेट सेफ़ली दो।",
+      "ta": "உடைஞ்ச எலக்ட்ரானிக்ஸ் எடுக்குற வொர்க்கர்ஸுக்கு நச்சு தூசி படும், பக்கத்துல குழந்தைங்களும் சுவாசிப்பாங்க. நம்ம பழைய கேஜெட்டால அவங்களுக்கு கஷ்டம் வரக்கூடாதுல்ல?",
+      "victims": [
+        "worker",
+        "child",
+        "river"
+      ]
+    },
+    "dispose": {
+      "en": "Back up files, securely erase storage, and use authorised electronic waste collection. Leave built in batteries for trained staff to remove.",
+      "hi": "फ़ाइल बैकअप करो, स्टोरेज सेफ़ली मिटाओ, फिर ऑथराइज़्ड ई वेस्ट कलेक्शन को दो। अंदर लगी बैटरी निकालना ट्रेन्ड स्टाफ़ का काम है।",
+      "ta": "ஃபைல பேக்கப் எடுத்து ஸ்டோரேஜ செக்யூரா அழிச்சிடுங்க. அங்கீகாரம் வாங்குன ஈ வேஸ்ட் கலெக்ஷன்ல குடுங்க. உள்ள பொருத்துன பேட்டரிய பயிற்சி எடுத்தவங்க பிரிக்கட்டும்.",
+      "bin": "ewaste",
+      "steps": [
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "A repair or memory upgrade might keep your laptop useful. Donate a working, wiped machine; give that keyboard another adventure!",
+      "hi": "रिपेयर या मेमरी अपग्रेड से लैपटॉप और चलेगा। चलता हुआ लैपटॉप डेटा मिटाकर डोनेट करो। कीबोर्ड को अगला एडवेंचर दो!",
+      "ta": "ரிப்பேர் இல்ல மெமரி அப்கிரேட் பண்ணா லேப்டாப் இன்னும் உழைக்கும். வேலை செய்யுறத டேட்டா அழிச்சிட்டு டொனேட் பண்ணுங்க. கீபோர்டுக்கு இன்னொரு அட்வென்ச்சர் குடுப்போம்!",
+      "swap_from": "laptop",
+      "swap_to": "wrench"
+    }
+  },
+  "sources": [
+    "UNITAR/ITU, Global E-waste Monitor 2024: globally 62 million tonnes generated in 2022; 22.3% documented formally collected and recycled. https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+    "WHO, Electronic waste, 1 October 2024: informal burning releases hazardous substances; children and workers vulnerable. https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)",
+    "US EPA, Used Household Batteries: separate collection, insulate terminals; lithium batteries never in household garbage or recycling. https://www.epa.gov/recycle/used-household-batteries"
+  ]
+}

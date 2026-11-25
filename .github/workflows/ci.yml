@@ -1,0 +1,60 @@
+name: CI
+
+# Lightweight checks only: no model downloads, no torch / ExecuTorch install.
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python syntax check (all .py files)
+        run: |
+          python - <<'PY'
+          import ast, pathlib, sys
+          bad = 0
+          files = [p for p in pathlib.Path(".").rglob("*.py") if ".git" not in p.parts]
+          for p in files:
+              try:
+                  ast.parse(p.read_text(encoding="utf-8"), filename=str(p))
+              except SyntaxError as e:
+                  print(f"::error file={p},line={e.lineno}::{e.msg}"); bad += 1
+          print(f"checked {len(files)} files, {bad} with syntax errors")
+          sys.exit(1 if bad else 0)
+          PY
+
+      - name: Ruff (errors only, lenient)
+        run: |
+          pip install --quiet ruff==0.6.9
+          ruff check --no-cache --select E9,F63,F7,F82 .
+
+      - name: Shell syntax check
+        run: |
+          for f in $(git ls-files '*.sh'); do bash -n "$f" || exit 1; done
+
+      - name: JSON validity (labels, specs, metrics)
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          bad = 0
+          for p in pathlib.Path(".").rglob("*.json"):
+              if ".git" in p.parts:
+                  continue
+              try:
+                  json.loads(p.read_text(encoding="utf-8"))
+              except Exception as e:
+                  print(f"::error file={p}::{e}"); bad += 1
+          sys.exit(1 if bad else 0)
+          PY

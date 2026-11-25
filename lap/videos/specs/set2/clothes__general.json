@@ -1,0 +1,60 @@
+{
+  "cls": "clothes",
+  "slug": "general",
+  "item": "shirt",
+  "title": {
+    "en": "Clothes deserve another outing",
+    "hi": "कपड़ों की अगली आउटिंग",
+    "ta": "துணிக்கு இன்னொரு அவுட்டிங்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! A shirt landed on my head; surprise, I'm a changing room! Sarees and jeans deserve another outing too.",
+      "hi": "अरे सुनो! शर्ट मेरे सिर पर गिरी, सरप्राइज़, मैं चेंजिंग रूम बन गया! साड़ियों और जीन्स को भी अगली आउटिंग दो।",
+      "ta": "ஹே நீங்க! சட்டை என் தலையில விழுந்துச்சு, சர்ப்ரைஸ், நான்தான் சேஞ்சிங் ரூமாம்! புடவைக்கும் ஜீன்ஸுக்கும் இன்னொரு அவுட்டிங் குடுக்கலாமே!"
+    },
+    "harm": {
+      "en": "Textile waste throws away hidden resources. Making one pair of jeans can take about seven thousand five hundred litres of water.",
+      "hi": "टेक्सटाइल वेस्ट के साथ छुपे रिसोर्स भी बर्बाद होते हैं। एक जीन्स बनाने में करीब साढ़े सात हज़ार लीटर पानी लग सकता है।",
+      "ta": "டெக்ஸ்டைல் வேஸ்டோட கண்ணுக்கு தெரியாத வளமும் வீணாகுது. ஒரு ஜீன்ஸ் செய்ய கிட்டத்தட்ட ஏழாயிரத்து ஐநூறு லிட்டர் தண்ணி தேவைப்படலாங்க.",
+      "stats": [
+        {
+          "value": 7500,
+          "unit": "litres / pair of jeans"
+        }
+      ]
+    },
+    "who": {
+      "en": "Cotton farming needs water, and dyeing can pollute rivers. Farmers, nearby communities, and textile workers carry the costs of constant replacement.",
+      "hi": "कॉटन की खेती में पानी लगता है, डाइंग से नदियाँ गंदी हो सकती हैं। बार बार कपड़े बदलने का असर किसानों, लोगों और वर्कर्स पर पड़ता है।",
+      "ta": "பருத்தி வளர்க்க தண்ணி வேணும், டையிங் ஆத்த அழுக்காக்கலாம். அடிக்கடி துணி மாத்துறதோட செலவ விவசாயிங்க, பக்கத்து மக்கள், டெக்ஸ்டைல் வொர்க்கர்ஸ் சுமக்குறாங்க.",
+      "victims": [
+        "farmer",
+        "river",
+        "worker"
+      ]
+    },
+    "dispose": {
+      "en": "Donate clean, wearable shirts, sarees, and jeans first. Then keep unusable textiles dry for the blue bin's designated textile collection.",
+      "hi": "साफ़, पहनने लायक शर्ट, साड़ी और जीन्स पहले डोनेट करो। बाकी बेकार कपड़े सूखे रखकर ब्लू बिन के टेक्सटाइल कलेक्शन में दो।",
+      "ta": "சுத்தமான போடக்கூடிய சட்டை, புடவை, ஜீன்ஸ முதல்ல டொனேட் பண்ணுங்க. பயன்படுத்த முடியாத துணிய காய வெச்சு ப்ளூ பினோட டெக்ஸ்டைல் கலெக்ஷன்ல குடுங்க.",
+      "bin": "blue",
+      "steps": [
+        "dry"
+      ]
+    },
+    "prevent": {
+      "en": "Repair jeans, swap sarees, and reuse worn cotton as cleaning cloths. Buy fewer lasting pieces; your wardrobe doesn't need daily auditions!",
+      "hi": "जीन्स रिपेयर करो, साड़ी स्वैप करो, पुराने कॉटन से सफ़ाई करो। कम, टिकाऊ कपड़े खरीदो, वॉर्डरोब में रोज़ ऑडिशन ज़रूरी नहीं!",
+      "ta": "ஜீன்ஸ ரிப்பேர் பண்ணுங்க, புடவைய ஸ்வாப் பண்ணுங்க, பழைய காட்டன துடைக்க யூஸ் பண்ணுங்க. நீடிக்குற துணிய கம்மியா வாங்குங்க, வார்ட்ரோப்ல தினம் ஆடிஷன் வேணாமே!",
+      "swap_from": "jeans",
+      "swap_to": "wrench",
+      "swap_to2": "saree"
+    }
+  },
+  "sources": [
+    "United Nations ActNow, Facts and Figures: about 7,500 litres to make a pair of jeans, cotton production through final store delivery. Illustrative water footprint, varies by cultivation, geography and method; not a fixed figure for all garments. https://www.un.org/en/actnow/facts-and-figures",
+    "UNEP, International Day of Zero Waste 2025 key messages: textile production consumes water and contributes to pollution and waste; extend use, repair and reuse. https://wedocs.unep.org/bitstream/handle/20.500.11822/47015/ZWD2025_Key_messages_final.pdf?sequence=3",
+    "US EPA, Textiles: Material-Specific Data: reuse and recovery of textiles; separate dry textile collection follows kiosk blue-bin routing. https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/textiles-material-specific-data"
+  ]
+}

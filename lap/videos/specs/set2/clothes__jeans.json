@@ -1,0 +1,58 @@
+{
+  "cls": "clothes",
+  "slug": "jeans",
+  "item": "jeans",
+  "title": {
+    "en": "Jeans carry a water story",
+    "hi": "जीन्स की पानी वाली कहानी",
+    "ta": "ஜீன்ஸோட தண்ணி கதை"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! These jeans just tried wearing me as a hat! Before buying another pair, let's peek at their hidden water bill.",
+      "hi": "अरे तुम! जीन्स मुझे टोपी की तरह पहनाने लगी! अगली जोड़ी खरीदने से पहले उसका छिपा पानी वाला बिल देख लेते हैं।",
+      "ta": "ஹே நீங்க! இந்த ஜீன்ஸ் என்ன தொப்பி மாதிரி போட்டுக்க பாத்துச்சு! இன்னொரு ஜோடி வாங்க முன்னாடி அதுக்குள்ள ஒளிஞ்ச தண்ணி பில்ல பார்க்கலாம் வாங்க."
+    },
+    "harm": {
+      "en": "Producing jeans typically needs around three thousand to four thousand litres of water per pair. Actual footprints vary with cotton and production.",
+      "hi": "एक जीन्स बनाने में आम तौर पर करीब तीन हज़ार से चार हज़ार लीटर पानी लगता है। कॉटन और प्रोडक्शन से असली फ़ुटप्रिंट बदलता है।",
+      "ta": "ஒரு ஜீன்ஸ் செய்ய பொதுவா சுமார் மூவாயிரம் முதல் நாலாயிரம் லிட்டர் தண்ணி தேவை. பருத்தி விளையுற விதமும் உற்பத்தியும் பொறுத்து அளவு மாறுமுங்க.",
+      "stats": [
+        {
+          "value": 3000,
+          "unit": "litres / pair"
+        }
+      ]
+    },
+    "who": {
+      "en": "Making clothes uses water and chemicals, affecting rivers, farmers, and textile workers. Wearing yours longer helps reduce demand for fresh production.",
+      "hi": "कपड़े बनाने में पानी और केमिकल्स लगते हैं, असर नदियों, किसानों और टेक्सटाइल वर्कर्स पर होता है। ज़्यादा पहनने से नई प्रोडक्शन की माँग घटती है।",
+      "ta": "துணி செய்ய தண்ணியும் கெமிக்கலும் தேவை, ஆறுக்கும் விவசாயிக்கும் டெக்ஸ்டைல் வொர்க்கர்ஸுக்கும் பாதிப்பு. நம்ம துணிய நீண்ட நாள் போட்டா புது உற்பத்தி தேவை குறையும்.",
+      "victims": [
+        "river",
+        "farmer",
+        "worker"
+      ]
+    },
+    "dispose": {
+      "en": "Wash and dry jeans before donating wearable pairs. Keep unusable clean denim separate for designated blue textile collection; ask what is accepted.",
+      "hi": "पहनने लायक जीन्स धोकर सुखाओ, फिर डोनेट करो। बेकार साफ़ डेनिम ब्लू टेक्सटाइल कलेक्शन के लिए अलग रखो, पूछो क्या लेते हैं।",
+      "ta": "போட முடிஞ்ச ஜீன்ஸ துவச்சு காய வச்சு டொனேட் பண்ணுங்க. போட முடியாத சுத்தமான டெனிம தனியா ப்ளூ டெக்ஸ்டைல் கலெக்ஷன்ல குடுங்க, வாங்குவாங்களான்னு கேளுங்க.",
+      "bin": "blue",
+      "steps": [
+        "dry",
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Patch that knee and try second hand before buying new. Wash when needed; your favourite jeans deserve an encore, not early retirement!",
+      "hi": "घुटने पर पैच लगाओ, नया लेने से पहले सेकंड हैंड देखो। ज़रूरत पर धोओ। फ़ेवरेट जीन्स को अगला शो दो, जल्दी रिटायरमेंट नहीं!",
+      "ta": "முட்டி கிழிஞ்சா பேட்ச் போடுங்க, புதுசுக்கு முன்னாடி செகண்ட் ஹேண்ட் பாருங்க. தேவைப்பட்டா துவைங்க. ஃபேவரிட் ஜீன்ஸுக்கு இன்னொரு ஷோ குடுப்போம், சீக்கிரம் ரிட்டையர்மென்ட் வேணாமே!",
+      "swap_from": "jeans",
+      "swap_to": "donate_box"
+    }
+  },
+  "sources": [
+    "UNEP, Cleaning up couture: what is in your jeans?: average production around 3000–4000 litres; less than 1% clothing fibre input recycled into new clothing; apparel/footwear emissions 2–8%. https://www.unep.org/en/news-and-stories/story/cleaning-couture-whats-your-jeans"
+  ]
+}

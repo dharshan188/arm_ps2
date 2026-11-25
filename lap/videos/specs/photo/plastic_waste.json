@@ -1,0 +1,58 @@
+{
+ "cls": "plastic_waste",
+ "slug": "general_photo",
+ "title": {"en": "Plastic: where it really goes", "hi": "प्लास्टिक: असल में कहाँ जाता है", "ta": "பிளாஸ்டிக்: உண்மையில எங்க போகுது"},
+ "beats": {
+  "intro": {
+   "en": "We use a plastic bottle for a few minutes. But the plastic stays around for generations.",
+   "hi": "प्लास्टिक की बोतल हम बस कुछ मिनट यूज़ करते हैं। पर वो प्लास्टिक कई पीढ़ियों तक यहीं रहता है।",
+   "ta": "ஒரு பிளாஸ்டிக் பாட்டில நாம சில நிமிஷம் தான் யூஸ் பண்றோம். ஆனா அந்த பிளாஸ்டிக் பல தலைமுறைக்கு இங்கயே இருக்கும்."
+  },
+  "harm": {
+   "en": "It doesn't rot away. It just breaks into smaller and smaller pieces, over hundreds of years. In one year alone, India reported about thirty five lakh tonnes of plastic waste, and a lot of it ends up in our rivers and drains.",
+   "hi": "ये सड़ता नहीं है, बस सैकड़ों सालों में छोटे-छोटे टुकड़ों में टूटता जाता है। सिर्फ़ एक साल में इंडिया में करीब पैंतीस लाख टन प्लास्टिक कचरा दर्ज हुआ, और इसका बहुत सारा हिस्सा हमारी नदियों और नालियों में पहुँचता है।",
+   "ta": "இது மக்கி போகாது. நூறு நூறு வருஷமா சின்ன சின்ன துண்டா உடைஞ்சுட்டே தான் இருக்கும். ஒரே வருஷத்துல இந்தியால கிட்டத்தட்ட முப்பத்தஞ்சு லட்சம் டன் பிளாஸ்டிக் குப்பை கணக்குல வந்திருக்கு. அதுல நிறைய நம்ம ஆறுகளுக்கும் சாக்கடைக்கும் தான் போகுது."
+  },
+  "who": {
+   "en": "Stray cows swallow plastic bags along with food scraps. Fish and seabirds eat the broken pieces. And waste workers sort through it with bare hands.",
+   "hi": "आवारा गायें खाने के साथ पन्नी भी निगल जाती हैं। मछलियाँ और समुद्री पक्षी प्लास्टिक के टुकड़े खा जाते हैं। और कचरा बीनने वाले लोग इसे नंगे हाथों से छाँटते हैं।",
+   "ta": "தெருவுல சுத்துற மாடுங்க சாப்பாட்டோட சேர்த்து பிளாஸ்டிக் கவரையும் முழுங்கிடுது. மீனுங்களும் கடல் பறவைங்களும் பிளாஸ்டிக் துண்டுகள சாப்பிடுது. குப்பை பொறுக்குற தொழிலாளர்கள் இத வெறும் கையால தான் பிரிக்கிறாங்க."
+  },
+  "dispose": {
+   "en": "So empty the bottle, rinse it, let it dry, crush it, and put it in the blue bin. Recycling really matters. One study found that only nine per cent of the world's plastic waste had been recycled, up to twenty fifteen.",
+   "hi": "तो बोतल खाली करो, धोओ, सुखाओ, दबाओ, और ब्लू बिन में डालो। रीसायकल करना सच में ज़रूरी है। एक स्टडी के मुताबिक, दो हज़ार पंद्रह तक दुनिया के प्लास्टिक कचरे का सिर्फ़ नौ परसेंट ही रीसायकल हुआ था।",
+   "ta": "அதனால பாட்டில காலி பண்ணி, கழுவி, காய வெச்சு, நசுக்கி, ப்ளூ பின்ல போடுங்க. ரீசைக்கிள் பண்றது ரொம்ப முக்கியம். ஒரு ஆய்வு படி, ரெண்டாயிரத்து பதினஞ்சு வரைக்கும் உலகத்துல இருந்த பிளாஸ்டிக் குப்பைல வெறும் ஒன்பது பர்சன்ட் தான் ரீசைக்கிள் ஆகியிருந்தது."
+  },
+  "prevent": {
+   "en": "Better still, use less of it. Carry a cloth bag and a steel bottle. One report warns that, if nothing changes, the ocean could hold more plastic than fish by weight by twenty fifty. The change starts with us.",
+   "hi": "और भी बेहतर, प्लास्टिक कम यूज़ करो। कपड़े का थैला और स्टील की बोतल साथ रखो। एक रिपोर्ट चेतावनी देती है कि अगर कुछ नहीं बदला, तो दो हज़ार पचास तक समंदर में वज़न के हिसाब से मछलियों से ज़्यादा प्लास्टिक हो सकता है। शुरुआत हमसे ही होती है।",
+   "ta": "இன்னும் நல்லது, பிளாஸ்டிக்க குறைச்சுக்கோங்க. துணிப்பையும் ஸ்டீல் பாட்டிலும் கூடவே வெச்சுக்கோங்க. எதுவும் மாறலன்னா, ரெண்டாயிரத்து அம்பதுல கடல்ல மீன விட பிளாஸ்டிக் எடை அதிகமா இருக்கலாம்னு ஒரு அறிக்கை சொல்லுது. இந்த மாற்றம் நம்மகிட்ட இருந்து தான் ஆரம்பிக்குது."
+  }
+ },
+ "shots": {
+  "intro":   [{"img": "crushed_02.jpg", "z": [1.0, 1.18], "c": [[0.5, 0.55], [0.45, 0.62]]}],
+  "harm":    [{"img": "river_02.jpg", "z": [1.05, 1.2], "c": [[0.4, 0.45], [0.55, 0.5]]},
+              {"img": "cow2_00.jpg", "z": [1.15, 1.0], "c": [[0.45, 0.5], [0.5, 0.5]]}],
+  "who":     [{"img": "cow_01.jpg", "z": [1.0, 1.15], "c": [[0.5, 0.5], [0.4, 0.55]]},
+              {"img": "fish_00.jpg", "z": [1.0, 1.2], "c": [[0.5, 0.5], [0.6, 0.45]]},
+              {"img": "picker_02.jpg", "z": [1.05, 1.22], "c": [[0.5, 0.45], [0.55, 0.5]]}],
+  "dispose": [{"img": "bale_00.jpg", "z": [1.0, 1.12], "c": [[0.5, 0.5], [0.55, 0.45]], "w": 1.2},
+              {"img": "bale_03.jpg", "z": [1.15, 1.0], "c": [[0.5, 0.5], [0.5, 0.5]]}],
+  "prevent": [{"img": "market_00.jpg", "z": [1.0, 1.12], "c": [[0.45, 0.4], [0.55, 0.45]]},
+              {"img": "steel_01.jpg", "z": [1.0, 1.15], "c": [[0.5, 0.45], [0.5, 0.5]]},
+              {"img": "river_00.jpg", "z": [1.0, 1.12], "c": [[0.5, 0.5], [0.4, 0.55]], "w": 1.3}]
+ },
+ "overlays": {
+  "harm":    [{"type": "stat", "value": 35, "fmt": "{:.0f}", "unit": "lakh tonnes  ·  India, 2019–20", "at": 0.4}],
+  "dispose": [{"type": "steps", "n": 4, "steps_at": [0.06, 0.15, 0.25, 0.37], "bin": "blue", "bin_at": 0.5, "until": 0.52},
+              {"type": "stat", "value": 9, "fmt": "{:.0f}%", "unit": "recycled  ·  world, up to 2015", "at": 0.55}],
+  "prevent": [{"type": "stat", "value": "2050", "count": false, "unit": "plastic > fish?  (if nothing changes)", "at": 0.45}]
+ },
+ "sources": [
+  "NOAA Ocean Service: plastics fragment rather than biodegrade (oceanservice.noaa.gov/facts/degrade.html)",
+  "CPCB via PIB: 3.47 million tonnes plastic waste reported, FY 2019-20",
+  "Geyer, Jambeck & Law 2017, Science Advances: ~9% of plastic waste generated up to 2015 recycled",
+  "Ellen MacArthur Foundation 2016: ocean plastic could outweigh fish by 2050 under business as usual",
+  "MoHUA / PIB: blue bin = dry (recyclable) waste"
+ ]
+}

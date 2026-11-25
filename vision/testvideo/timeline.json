@@ -1,0 +1,159 @@
+{
+  "seed": 20261118,
+  "fps": 25,
+  "resolution": [
+    1280,
+    720
+  ],
+  "crossfade_frames": 10,
+  "segments": [
+    {
+      "frames": 95,
+      "class": "light_bulbs",
+      "background": 0,
+      "start_frame": 0,
+      "photos": [
+        "photos/light_bulbs_1.jpg",
+        "photos/light_bulbs_2.jpg",
+        "photos/light_bulbs_3.jpg"
+      ]
+    },
+    {
+      "frames": 95,
+      "class": "background",
+      "background": 1,
+      "start_frame": 85,
+      "photos": [
+        "photos/background_1.jpg",
+        "photos/background_2.jpg",
+        "photos/background_3.jpg"
+      ]
+    },
+    {
+      "frames": 95,
+      "class": "general_waste",
+      "background": 2,
+      "start_frame": 170,
+      "photos": [
+        "photos/general_waste_1.jpg",
+        "photos/general_waste_2.jpg",
+        "photos/general_waste_3.jpg"
+      ]
+    },
+    {
+      "frames": 95,
+      "class": "clothes",
+      "background": 0,
+      "start_frame": 255,
+      "photos": [
+        "photos/clothes_1.jpg",
+        "photos/clothes_2.jpg",
+        "photos/clothes_3.jpg"
+      ]
+    },
+    {
+      "frames": 95,
+      "class": "e_waste",
+      "background": 1,
+      "start_frame": 340,
+      "photos": [
+        "photos/e_waste_1.jpg",
+        "photos/e_waste_2.jpg",
+        "photos/e_waste_3.jpg"
+      ]
+    },
+    {
+      "frames": 95,
+      "class": "battery_waste",
+      "background": 2,
+      "start_frame": 425,
+      "photos": [
+        "photos/battery_waste_1.jpg",
+        "photos/battery_waste_2.jpg",
+        "photos/battery_waste_3.jpg"
+      ]
+    },
+    {
+      "frames": 95,
+      "class": "plastic_waste",
+      "background": 0,
+      "start_frame": 510,
+      "photos": [
+        "photos/plastic_waste_1.jpg",
+        "photos/plastic_waste_2.jpg",
+        "photos/plastic_waste_3.jpg"
+      ]
+    },
+    {
+      "frames": 95,
+      "class": "organic_waste",
+      "background": 1,
+      "start_frame": 595,
+      "photos": [
+        "photos/organic_waste_1.jpg",
+        "photos/organic_waste_2.jpg",
+        "photos/organic_waste_3.jpg"
+      ]
+    },
+    {
+      "frames": 95,
+      "class": "metal_waste",
+      "background": 2,
+      "start_frame": 680,
+      "photos": [
+        "photos/metal_waste_1.jpg",
+        "photos/metal_waste_2.jpg",
+        "photos/metal_waste_3.jpg"
+      ]
+    },
+    {
+      "frames": 50,
+      "class": "background",
+      "background": 0,
+      "start_frame": 765,
+      "photos": [
+        "photos/background_1.jpg",
+        "photos/background_2.jpg",
+        "photos/background_3.jpg"
+      ]
+    },
+    {
+      "frames": 95,
+      "class": "glass_waste",
+      "background": 1,
+      "start_frame": 805,
+      "photos": [
+        "photos/glass_waste_1.jpg",
+        "photos/glass_waste_2.jpg",
+        "photos/glass_waste_3.jpg"
+      ]
+    },
+    {
+      "frames": 50,
+      "class": "background",
+      "background": 2,
+      "start_frame": 890,
+      "photos": [
+        "photos/background_1.jpg",
+        "photos/background_2.jpg",
+        "photos/background_3.jpg"
+      ]
+    },
+    {
+      "frames": 95,
+      "class": "paper_waste",
+      "background": 0,
+      "start_frame": 930,
+      "photos": [
+        "photos/paper_waste_1.jpg",
+        "photos/paper_waste_2.jpg",
+        "photos/paper_waste_3.jpg"
+      ]
+    }
+  ],
+  "roi": [
+    469,
+    114,
+    342
+  ]
+}

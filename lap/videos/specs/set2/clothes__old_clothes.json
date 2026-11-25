@@ -1,0 +1,60 @@
+{
+  "cls": "clothes",
+  "slug": "old_clothes",
+  "item": "shirt",
+  "title": {
+    "en": "Your shirt has more stories",
+    "hi": "शर्ट की कहानी अभी बाकी",
+    "ta": "சட்டைக்கு இன்னும் கதை இருக்கு"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This shirt landed on my head and promoted me to laundry manager! Outgrown clothes can still fit somebody else's story.",
+      "hi": "अरे तुम! शर्ट सिर पर गिरी और मैं लॉन्ड्री मैनेजर बन गया! तुम्हारे छोटे पड़े कपड़े किसी और की कहानी में फ़िट हो सकते हैं।",
+      "ta": "ஹே நீங்க! சட்டை என் தலையில விழுந்து என்ன லாண்ட்ரி மேனேஜர் ஆக்கிடுச்சு! உங்களுக்கு சின்னதான துணி இன்னொருத்தரோட கதைக்கு சரியா ஃபிட் ஆகலாம்."
+    },
+    "harm": {
+      "en": "Less than one percent of fibre used for clothing becomes new clothing through recycling. Keeping usable clothes in circulation matters enormously.",
+      "hi": "कपड़ों के फ़ाइबर का एक परसेंट से भी कम रीसायकल होकर नए कपड़े बनता है। पहनने लायक कपड़े चलाते रहना बहुत काम आता है।",
+      "ta": "துணிக்கு யூஸ் பண்ற ஃபைபர்ல ஒரு பர்சன்ட்டுக்கும் குறைவாதான் ரீசைக்கிள் ஆகி புது துணி ஆகுது. நல்ல துணிய தொடர்ந்து யூஸ் பண்ணணுங்க.",
+      "stats": [
+        {
+          "value": 1,
+          "unit": "into new clothing",
+          "prefix": "<",
+          "suffix": "%"
+        }
+      ]
+    },
+    "who": {
+      "en": "Making clothes uses water and chemicals, affecting rivers, farmers, and textile workers. Wearing yours longer helps reduce demand for fresh production.",
+      "hi": "कपड़े बनाने में पानी और केमिकल्स लगते हैं, असर नदियों, किसानों और टेक्सटाइल वर्कर्स पर होता है। ज़्यादा पहनने से नई प्रोडक्शन की माँग घटती है।",
+      "ta": "துணி செய்ய தண்ணியும் கெமிக்கலும் தேவை, ஆறுக்கும் விவசாயிக்கும் டெக்ஸ்டைல் வொர்க்கர்ஸுக்கும் பாதிப்பு. நம்ம துணிய நீண்ட நாள் போட்டா புது உற்பத்தி தேவை குறையும்.",
+      "victims": [
+        "river",
+        "farmer",
+        "worker"
+      ]
+    },
+    "dispose": {
+      "en": "Wash and dry wearable clothes, then donate through a group accepting them. Keep clean, unusable textiles separate for designated blue textile collection.",
+      "hi": "पहनने लायक कपड़े धोकर सुखाओ, लेने वाले ग्रुप को डोनेट करो। साफ़, पहनने लायक नहीं वाले टेक्सटाइल अलग ब्लू टेक्सटाइल कलेक्शन को दो।",
+      "ta": "போட முடிஞ்ச துணிய துவச்சு காய வச்சு வாங்குற குழுவுக்கு டொனேட் பண்ணுங்க. சுத்தமான போட முடியாத துணிய தனியா ப்ளூ டெக்ஸ்டைல் கலெக்ஷன்ல குடுங்க.",
+      "bin": "blue",
+      "steps": [
+        "dry",
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Pass on clothes you would happily receive, and ask what recipients need. Your cupboard gets space, and that shirt gets applause!",
+      "hi": "वैसे कपड़े दो जो तुम ख़ुशी से लेते, पहले पूछो क्या चाहिए। अलमारी में स्पेस मिलेगा, शर्ट को अगला राउंड तालियाँ!",
+      "ta": "நீங்க சந்தோஷமா வாங்குற மாதிரி நல்ல துணிய குடுங்க, என்ன தேவைன்னு முதல்ல கேளுங்க. அலமாரிக்கும் இடம் கிடைக்கும், சட்டைக்கும் கைதட்டல் கிடைக்கும், டீலா!",
+      "swap_from": "shirt",
+      "swap_to": "donate_box"
+    }
+  },
+  "sources": [
+    "UNEP, Cleaning up couture: what is in your jeans?: average production around 3000–4000 litres; less than 1% clothing fibre input recycled into new clothing; apparel/footwear emissions 2–8%. https://www.unep.org/en/news-and-stories/story/cleaning-couture-whats-your-jeans"
+  ]
+}

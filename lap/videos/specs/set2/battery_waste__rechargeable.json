@@ -1,0 +1,60 @@
+{
+  "cls": "battery_waste",
+  "slug": "rechargeable",
+  "item": "rechargeable",
+  "title": {
+    "en": "Recharge your habits",
+    "hi": "आदतों को रिचार्ज करो",
+    "ta": "பழக்கத்த ரீசார்ஜ் பண்ணுங்க"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! A rechargeable battery bonked me and asked for another round! Unlike my headache, some things deserve many repeat performances.",
+      "hi": "अरे तुम! रिचार्जेबल बैटरी ने सिर पर टपली मारकर अगला राउंड माँगा! मेरे सिरदर्द के अलावा, कुछ चीज़ों का रिपीट अच्छा है।",
+      "ta": "ஹே நீங்க! ரீசார்ஜபிள் பேட்டரி தலையில தட்டி இன்னொரு ரவுண்ட் கேட்டுச்சு! என் தலைவலிய தவிர சில விஷயங்கள திரும்ப திரும்ப பண்ணலாம் தாங்க."
+    },
+    "harm": {
+      "en": "Throwaway batteries consume fresh materials repeatedly. Suitable rechargeable models can take hundreds of charges, cutting the number of cells you discard.",
+      "hi": "बार बार सिंगल यूज़ बैटरी लेने में नया मटेरियल लगता है। सही रिचार्जेबल मॉडल सैकड़ों चार्ज लेते हैं, फेंकी बैटरी कम होती है।",
+      "ta": "திரும்ப திரும்ப சிங்கிள் யூஸ் பேட்டரி வாங்குனா புது மெட்டீரியல் தேவை. பொருத்தமான ரீசார்ஜபிள் மாடல் நூத்துக்கணக்கான சார்ஜ் தாங்கும், தூக்கி போடுற செல் குறையும்.",
+      "stats": [
+        {
+          "value": 100,
+          "unit": "recharges possible",
+          "prefix": ">"
+        }
+      ]
+    },
+    "who": {
+      "en": "Loose batteries can leak or short, hurting waste workers and nearby families. Keep them away from children, pets, and curious fingers.",
+      "hi": "खुली बैटरी लीक या शॉर्ट होकर वेस्ट वर्कर्स और पास की फ़ैमिली को नुकसान दे सकती है। बच्चों और पेट्स से दूर रखो।",
+      "ta": "தனியா கிடக்குற பேட்டரி லீக் இல்ல ஷார்ட் ஆகி வொர்க்கர்ஸுக்கும் பக்கத்து குடும்பத்துக்கும் கஷ்டம் தரலாம். குழந்தைங்க, செல்லப்பிராணிங்க கைக்கு எட்டாம வையுங்க.",
+      "victims": [
+        "worker",
+        "child",
+        "soil"
+      ]
+    },
+    "dispose": {
+      "en": "When rechargeables finally fail, tape exposed terminals and give them to red battery collection. Keep every battery out of mixed rubbish.",
+      "hi": "रिचार्जेबल आख़िर ख़राब हो तो खुले टर्मिनल पर टेप लगाओ, रेड बैटरी कलेक्शन को दो। कोई बैटरी मिक्स कचरे में मत डालो।",
+      "ta": "ரீசார்ஜபிள் கடைசியா வேலை செய்யலன்னா வெளிய தெரியும் டெர்மினல்ல டேப் போட்டு ரெட் பேட்டரி கலெக்ஷன்ல குடுங்க. எந்த பேட்டரியும் கலந்த குப்பையில போடாதீங்க.",
+      "bin": "red",
+      "steps": [
+        "tape",
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Match rechargeables to your device and use their proper charger. Never recharge disposable cells; your remote wants power, not a stunt show!",
+      "hi": "डिवाइस के हिसाब से रिचार्जेबल और सही चार्जर चुनो। डिस्पोज़ेबल सेल को चार्ज मत करो। रिमोट को पावर चाहिए, स्टंट शो नहीं!",
+      "ta": "டிவைஸுக்கு பொருத்தமான ரீசார்ஜபிள்லும் சரியான சார்ஜரும் யூஸ் பண்ணுங்க. டிஸ்போசபிள் செல்ல சார்ஜ் பண்ணாதீங்க. ரிமோட்டுக்கு பவர் போதும், ஸ்டன்ட் ஷோ வேணாமே!",
+      "swap_from": "rechargeable",
+      "swap_to": "charger"
+    }
+  },
+  "sources": [
+    "US EPA, Used Household Batteries: separate collection, insulate terminals; lithium batteries never in household garbage or recycling. https://www.epa.gov/recycle/used-household-batteries",
+    "Energizer, Energizer Recharge: rechargeable batteries can be charged hundreds of times; actual life varies by model and use. https://energizer.com/batteries/energizer-rechargeable-batteries/"
+  ]
+}

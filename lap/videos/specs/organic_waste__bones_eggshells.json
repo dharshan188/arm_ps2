@@ -1,0 +1,70 @@
+{
+ "cls": "organic_waste",
+ "slug": "bones_eggshells",
+ "item": "food",
+ "title": {
+  "en": "Bones & Eggshells",
+  "hi": "हड्डियाँ और अंडे के छिलके",
+  "ta": "எலும்பு, முட்டை ஓடு"
+ },
+ "beats": {
+  "intro": {
+   "en": "Crack! An eggshell bounced off my head! Good thing it wasn't the whole egg. Hey you, let's sort bones and shells!",
+   "hi": "चटाक! अंडे का छिलका मेरे सिर से टकराया! शुक्र है पूरा अंडा नहीं था। अरे तुम, चलो हड्डियाँ और छिलके छाँटें!",
+   "ta": "டக்! முட்டை ஓடு என் தலைல பட்டு குதிச்சுது! நல்லவேளை முழு முட்டை இல்ல. ஹே நீங்க, எலும்பும் ஓடும் பிரிக்கலாம் வாங்க!"
+  },
+  "harm": {
+   "en": "India produces about one hundred and thirty-eight billion eggs yearly. Open dumps of meat scraps help feed about one and a half crore street dogs!",
+   "hi": "इंडिया में हर साल करीब एक सौ अड़तीस अरब अंडे बनते हैं। खुले में फेंका मांस का कचरा करीब डेढ़ करोड़ आवारा कुत्तों का खाना बनता है!",
+   "ta": "நம்ம இந்தியால வருஷத்துக்கு கிட்டத்தட்ட நூத்தி முப்பத்தெட்டு பில்லியன் முட்டை வருது. வெளியே போடுற கறி குப்பை கிட்டத்தட்ட ஒன்றரை கோடி தெரு நாய்களுக்கு சாப்பாடா ஆகுது!",
+   "stats": [
+    {
+     "value": 138,
+     "unit": "billion eggs / yr"
+    },
+    {
+     "value": 1.5,
+     "decimals": 1,
+     "unit": "crore street dogs",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Dogs fight over bone piles, crows scatter the mess everywhere, and sanitation workers get bitten while clearing it.",
+   "hi": "हड्डियों के ढेर पर कुत्ते लड़ते हैं, कौवे कचरा चारों तरफ़ फैला देते हैं, और सफ़ाई वाले भैया को साफ़ करते वक़्त कुत्ते काट लेते हैं।",
+   "ta": "எலும்பு குவியல்ல நாய்ங்க சண்ட போடுது, காக்காங்க குப்பைய எல்லா பக்கமும் சிதறடிக்குது, சுத்தம் பண்ற அண்ணன்ங்கள நாய் கடிச்சிடுது.",
+   "victims": [
+    "dog",
+    "bird",
+    "worker"
+   ]
+  },
+  "dispose": {
+   "en": "Wrap bones in old newspaper and put them in the green bin with eggshells. Close the lid tight so dogs can't raid it!",
+   "hi": "हड्डियाँ पुराने अख़बार में लपेटो और अंडे के छिलकों के साथ ग्रीन बिन में डालो। ढक्कन कसकर बंद करो ताकि कुत्ते न घुसें!",
+   "ta": "எலும்ப பழைய பேப்பர்ல சுத்தி, முட்டை ஓடோட சேர்த்து க்ரீன் பின்ல போடுங்க. நாய் எட்டிப் பார்க்காம மூடிய இறுக்கமா மூடுங்க!",
+   "bin": "green",
+   "steps": [
+    "wrap"
+   ]
+  },
+  "prevent": {
+   "en": "Crush eggshells for your plants, they're about ninety-five per cent calcium carbonate. Boil bones into soup first! Shell-ebrate! High five!",
+   "hi": "अंडे के छिलके पीसकर पौधों में डालो, इनमें करीब पंचानवे परसेंट कैल्शियम कार्बोनेट होता है। हड्डियों से पहले सूप बना लो! हाई फ़ाइव!",
+   "ta": "முட்டை ஓட்ட பொடிச்சு செடிக்கு தூவுங்க, அதுல கிட்டத்தட்ட தொண்ணூத்தி அஞ்சு பர்சன்ட் கால்சியம் கார்பனேட். எலும்ப முதல்ல சூப் வெச்சுடுங்க! ஹை ஃபைவ்!",
+   "swap_from": "food",
+   "swap_to": "compost_bin",
+   "stat": {
+    "value": 95,
+    "suffix": "%",
+    "unit": "calcium carbonate"
+   }
+  }
+ },
+ "sources": [
+  "DAHD Basic Animal Husbandry Statistics 2023 (138.38 billion eggs in 2022-23)",
+  "20th Livestock Census 2019 (about 1.53 crore stray dogs)",
+  "King'ori 2011, International Journal of Poultry Science (eggshell ~94-97% calcium carbonate)"
+ ]
+}

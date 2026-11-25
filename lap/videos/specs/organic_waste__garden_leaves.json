@@ -1,0 +1,62 @@
+{
+ "cls": "organic_waste",
+ "slug": "garden_leaves",
+ "item": "leaves",
+ "title": {
+  "en": "Garden Leaves: Don't Burn, Return",
+  "hi": "बगीचे के पत्ते: जलाओ मत",
+  "ta": "தோட்ட இலை: எரிக்காதீங்க"
+ },
+ "beats": {
+  "intro": {
+   "en": "Whoosh! A pile of dry leaves just buried me. Hey you with the broom, wait! Don't light that match yet!",
+   "hi": "फ़ुर्र! सूखे पत्तों के ढेर ने मुझे ढक दिया। अरे झाड़ू वाले, रुको! अभी माचिस मत जलाना!",
+   "ta": "ஸ்வூஷ்! காய்ஞ்ச இலை குவியல் என்ன மூடிடுச்சு. ஹே, துடைப்பம் வெச்சிருக்கீங்களே, நில்லுங்க! தீக்குச்சிய இப்போ கொளுத்தாதீங்க!"
+  },
+  "harm": {
+   "en": "Leaf smoke is nasty! Air pollution causes about seven million early deaths a year, and burning waste can mean a five thousand rupee fine!",
+   "hi": "पत्तों का धुआँ बहुत बुरा है! वायु प्रदूषण से हर साल करीब सत्तर लाख लोगों की जल्दी मौत होती है, और कचरा जलाने पर पाँच हज़ार रुपये का जुर्माना लग सकता है!",
+   "ta": "இலை புகை ரொம்ப மோசம்! காத்து மாசால வருஷத்துக்கு கிட்டத்தட்ட எழுபது லட்சம் பேர் சீக்கிரமே இறந்து போறாங்க, குப்பைய எரிச்சா அஞ்சாயிரம் ரூபாய் ஃபைன் வரலாம்!",
+   "stats": [
+    {
+     "value": 7,
+     "unit": "million early deaths / yr",
+     "bad": true
+    },
+    {
+     "value": 5000,
+     "unit": "rupee fine for burning",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Kids breathe the smoke while playing outside, elders cough all night, and the whole street's air turns grey.",
+   "hi": "बाहर खेलते बच्चे धुआँ साँस में लेते हैं, बुज़ुर्ग रात भर खाँसते हैं, और पूरी गली की हवा धुँधली हो जाती है।",
+   "ta": "வெளியே விளையாடுற குழந்தைங்க புகைய சுவாசிக்கிறாங்க, பெரியவங்க ராத்திரி முழுக்க இருமுறாங்க, தெரு முழுக்க காத்து சாம்பல் கலரா ஆகுது.",
+   "victims": [
+    "child",
+    "person",
+    "air"
+   ]
+  },
+  "dispose": {
+   "en": "Sweep the leaves into the green bin, or fill a jute sack for the garden waste pickup. Never burn them!",
+   "hi": "पत्ते झाड़कर ग्रीन बिन में डालो, या बोरी में भरकर गार्डन वेस्ट वाली गाड़ी को दो। कभी जलाना मत!",
+   "ta": "இலைய பெருக்கி க்ரீன் பின்ல போடுங்க, இல்ல சாக்குல அடைச்சு கார்டன் வேஸ்ட் வண்டிக்கு குடுங்க. எரிக்கவே கூடாது!",
+   "bin": "green",
+   "steps": []
+  },
+  "prevent": {
+   "en": "Even better, pile them in a corner or a compost bin. In a few months, they turn into rich leaf mulch. Free soil? High five!",
+   "hi": "और भी बढ़िया, एक कोने में या कम्पोस्ट बिन में ढेर लगा दो। कुछ महीनों में ये बढ़िया खाद बन जाते हैं। फ़्री मिट्टी? हाई फ़ाइव!",
+   "ta": "இன்னும் சூப்பர்னா, ஒரு மூலைல இல்ல கம்போஸ்ட் பின்ல குவிச்சு வெச்சுடுங்க. சில மாசத்துல அது ஃப்ரீ உரமா மாறிடும். ஃப்ரீ மண்ணா? ஹை ஃபைவ்!",
+   "swap_from": "leaves",
+   "swap_to": "compost_bin"
+  }
+ },
+ "sources": [
+  "WHO: ambient and household air pollution cause about 7 million premature deaths per year",
+  "NGT order, Dec 2016, Almitra H. Patel v. Union of India (Rs 5,000 fine for simple open burning of waste); Solid Waste Management Rules 2016 ban open burning"
+ ]
+}

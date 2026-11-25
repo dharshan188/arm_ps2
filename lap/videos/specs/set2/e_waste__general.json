@@ -1,0 +1,61 @@
+{
+  "cls": "e_waste",
+  "slug": "general",
+  "item": "phone",
+  "title": {
+    "en": "Gadgets need a proper goodbye",
+    "hi": "गैजेट्स की सही विदाई",
+    "ta": "கேஜெட்டுக்கு சரியான பை பை"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! A phone landed on my head; gravity has excellent network coverage! Chargers, cables, laptops, and earphones need proper retirement too.",
+      "hi": "अरे सुनो! फ़ोन मेरे सिर पर गिरा, ग्रैविटी का नेटवर्क ज़बरदस्त है! चार्जर, केबल, लैपटॉप और ईयरफ़ोन को भी सही रिटायरमेंट दो।",
+      "ta": "ஹே நீங்க! ஃபோன் என் தலையில விழுந்துச்சு, கிராவிட்டிக்கு நெட்வொர்க் சூப்பருங்க! சார்ஜர், கேபிள், லேப்டாப், இயர்ஃபோன் எல்லாத்துக்கும் சரியான ரிட்டையர்மென்ட் வேணும்."
+    },
+    "harm": {
+      "en": "CPCB estimated about seventeen lakh tonnes of Indian electronic waste in financial year twenty twenty three to twenty twenty four. Valuable materials wasted!",
+      "hi": "सीपीसीबी ने दो हज़ार तेईस से चौबीस के वित्त वर्ष में इंडिया का ई वेस्ट करीब सत्रह लाख टन आँका। कितने कीमती मटेरियल!",
+      "ta": "சிபிசிபி கணக்குப்படி ரெண்டாயிரத்து இருபத்தி மூணு முதல் இருபத்தி நாலு நிதியாண்டுல இந்தியாவுல கிட்டத்தட்ட பதினேழு லட்சம் டன் ஈ வேஸ்ட். எவ்வளவு மதிப்புள்ள மெட்டீரியல்!",
+      "stats": [
+        {
+          "value": 17,
+          "unit": "lakh t / FY23-24"
+        }
+      ]
+    },
+    "who": {
+      "en": "Informal burning can release lead, mercury, and other toxins. Workers and children breathe polluted air; toxic residues also reach soil and water.",
+      "hi": "इनफ़ॉर्मल बर्निंग से लेड, मरकरी और दूसरे टॉक्सिन निकल सकते हैं। वर्कर्स और बच्चे गंदी हवा लेते हैं, मिट्टी और पानी भी दूषित होते हैं।",
+      "ta": "முறை இல்லாம எரிச்சா லெட், மெர்க்குரி, இன்னும் நச்சுங்க வெளிய வரலாம். வொர்க்கர்ஸும் குழந்தைங்களும் சுவாசிப்பாங்க, மண்ணுக்கும் தண்ணிக்கும் நச்சு போய்ச் சேருங்க.",
+      "victims": [
+        "worker",
+        "child",
+        "soil",
+        "river"
+      ]
+    },
+    "dispose": {
+      "en": "Erase personal data, keep devices intact, and hand electronics to an authorised e waste collector. Never burn cables or dismantle batteries yourself.",
+      "hi": "पर्सनल डेटा मिटाओ, डिवाइस साबुत रखो और ऑथराइज़्ड ई वेस्ट कलेक्टर को दो। केबल जलाना या बैटरी ख़ुद खोलना मत करना।",
+      "ta": "பர்சனல் டேட்டாவ அழிச்சிட்டு டிவைஸ அப்படியே அங்கீகாரம் வாங்குன ஈ வேஸ்ட் கலெக்டர்கிட்ட குடுங்க. கேபிள எரிக்காதீங்க, பேட்டரிய நீங்களே பிரிக்காதீங்க.",
+      "bin": "ewaste",
+      "steps": [
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Repair laptops and earphones before replacing them; donate working gadgets after wiping data. Give your electronics an encore, without the smoke!",
+      "hi": "लैपटॉप और ईयरफ़ोन बदलने से पहले रिपेयर करो, चलते गैजेट डेटा मिटाकर डोनेट करो। इलेक्ट्रॉनिक्स का अगला शो हो, धुआँ नहीं!",
+      "ta": "லேப்டாப்பும் இயர்ஃபோனும் மாத்த முன்னாடி ரிப்பேர் பண்ணுங்க. வேலை செய்யுற கேஜெட்ட டேட்டா அழிச்சு டொனேட் பண்ணுங்க. அடுத்த ஷோ வரட்டும், புகை வேணாம்!",
+      "swap_from": "laptop",
+      "swap_to": "wrench",
+      "swap_to2": "earphones"
+    }
+  },
+  "sources": [
+    "Ministry of Housing and Urban Affairs, Rajya Sabha Unstarred Question 2384, 16 December 2024, CPCB national estimate: FY2023-24 1,751,236 metric tonnes under 106 notified EEE types. Rounded down to about 17 lakh tonnes. Do not compare directly with Global E-waste Monitor estimates, which use a different scope/method. https://sansad.in/getFile/annex/266/AU2384_9gmDUV.pdf?source=pqars",
+    "WHO, Electronic waste (e-waste), 1 October 2024: unsafe dismantling/burning can release lead and mercury; workers, children and environments at risk. https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)",
+    "CPCB, E-Waste Management Rules 2022 resources: channel waste to registered producers, refurbishers or recyclers via authorised collection. https://cpcb.nic.in/e-waste/"
+  ]
+}

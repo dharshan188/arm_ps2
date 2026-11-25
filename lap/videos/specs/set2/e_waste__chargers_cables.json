@@ -1,0 +1,61 @@
+{
+  "cls": "e_waste",
+  "slug": "chargers_cables",
+  "item": "charger",
+  "title": {
+    "en": "Chargers and cable spaghetti",
+    "hi": "चार्जर और केबल की उलझन",
+    "ta": "சார்ஜரும் கேபிள் நூடுல்ஸும்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This charger landed on me, but my energy is still zero! Got a drawer full of cable spaghetti?",
+      "hi": "अरे तुम! चार्जर मेरे ऊपर गिरा, फिर भी एनर्जी ज़ीरो! तुम्हारे ड्रॉअर में भी केबल्स की नूडल्स वाली उलझन है क्या?",
+      "ta": "ஹே நீங்க! சார்ஜர் என் மேல விழுந்தும் எனக்கு எனர்ஜி வரல! உங்க டிராயர்லயும் கேபிள் நூடுல்ஸ் குவிஞ்சு கிடக்குதா? அதுக்கு ஒரு வழி பண்ணலாம்."
+    },
+    "harm": {
+      "en": "In twenty twenty two, only about twenty two percent of global electronic waste was formally collected and recycled. Valuable materials get wasted!",
+      "hi": "दो हज़ार बाईस में दुनिया का सिर्फ़ करीब बाईस परसेंट इलेक्ट्रॉनिक वेस्ट फ़ॉर्मली कलेक्ट और रीसायकल हुआ। कीमती मटेरियल बेकार जाता है!",
+      "ta": "ரெண்டாயிரத்து இருபத்தி ரெண்டுல உலக எலக்ட்ரானிக் வேஸ்ட்ல சுமார் இருபத்தி ரெண்டு பர்சன்ட் தான் முறையா கலெக்ட் பண்ணி ரீசைக்கிள் ஆச்சு. மதிப்புள்ள மெட்டீரியல் வீணாகுதுங்க!",
+      "stats": [
+        {
+          "value": 22.3,
+          "unit": "formally recycled",
+          "decimals": 1,
+          "suffix": "%"
+        }
+      ]
+    },
+    "who": {
+      "en": "Workers handling broken electronics face toxic dust; nearby children can breathe it too. Your old gadget should never become somebody's health problem.",
+      "hi": "टूटे इलेक्ट्रॉनिक्स संभालने वाले वर्कर्स को ज़हरीली धूल लगती है, पास के बच्चे भी साँस में लेते हैं। अपना गैजेट सेफ़ली दो।",
+      "ta": "உடைஞ்ச எலக்ட்ரானிக்ஸ் எடுக்குற வொர்க்கர்ஸுக்கு நச்சு தூசி படும், பக்கத்துல குழந்தைங்களும் சுவாசிப்பாங்க. நம்ம பழைய கேஜெட்டால அவங்களுக்கு கஷ்டம் வரக்கூடாதுல்ல?",
+      "victims": [
+        "worker",
+        "child",
+        "air"
+      ]
+    },
+    "dispose": {
+      "en": "Unplug first, keep cables dry, and bundle them neatly. Give broken chargers and wires to an authorised electronic waste collector.",
+      "hi": "पहले प्लग निकालो, केबल सूखी रखो और आराम से लपेटो। टूटे चार्जर और तार ऑथराइज़्ड ई वेस्ट कलेक्टर को दो।",
+      "ta": "முதல்ல பிளக்க கழட்டுங்க, கேபிள காய வச்சு ஒழுங்கா சுருட்டுங்க. உடைஞ்ச சார்ஜரும் வயரும் அங்கீகாரம் வாங்குன ஈ வேஸ்ட் கலெக்டர்கிட்ட குடுங்க.",
+      "bin": "ewaste",
+      "steps": [
+        "dry",
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Label your working cables and share compatible spares. Replace frayed ones safely; your drawer can retire from the noodle business!",
+      "hi": "चलती केबल्स पर पहचान लगाओ, सही स्पेयर शेयर करो। उधड़ी केबल यूज़ मत करो। ड्रॉअर की नूडल्स दुकान अब बंद!",
+      "ta": "வேலை செய்யுற கேபிளுக்கு அடையாளம் போடுங்க, பொருத்தமான ஸ்பேர் இருந்தா ஷேர் பண்ணுங்க. பிஞ்ச கேபிள யூஸ் பண்ணாதீங்க. டிராயர் நூடுல்ஸ் கடைய மூடலாம்!",
+      "swap_from": "charger",
+      "swap_to": "cable"
+    }
+  },
+  "sources": [
+    "UNITAR/ITU, Global E-waste Monitor 2024: globally 62 million tonnes generated in 2022; 22.3% documented formally collected and recycled. https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+    "WHO, Electronic waste, 1 October 2024: informal burning releases hazardous substances; children and workers vulnerable. https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)"
+  ]
+}

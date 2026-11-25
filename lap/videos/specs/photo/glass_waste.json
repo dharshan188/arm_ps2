@@ -1,0 +1,223 @@
+{
+ "cls": "glass_waste",
+ "slug": "general_photo",
+ "title": {
+  "en": "Glass: handle with care",
+  "hi": "काँच: सँभालकर अलग करो",
+  "ta": "கண்ணாடி: கவனமா பிரிச்சு வைங்க"
+ },
+ "beats": {
+  "intro": {
+   "en": "An empty glass bottle still has a future. It can be reused or recycled.",
+   "hi": "खाली काँच की बोतल फिर काम आ सकती है। उसे दोबारा यूज़ या रीसायकल कर सकते हैं।",
+   "ta": "காலியான கண்ணாடி பாட்டில் இன்னும் பயன்படும். அத திரும்ப யூஸ் பண்ணலாம், இல்ல ரீசைக்கிள் பண்ணலாம்."
+  },
+  "harm": {
+   "en": "Bottles and jars can become new glass. Dumping them wastes materials that could go back into production.",
+   "hi": "बोतल और जार से फिर नया काँच बन सकता है। इन्हें फेंकने से वो मटेरियल बर्बाद होता है जो दोबारा काम आ सकता था।",
+   "ta": "பாட்டிலையும் ஜாரையும் திரும்ப புது கண்ணாடியா மாத்தலாம். தூக்கிப் போட்டா, மறுபடியும் பயன்படக்கூடிய பொருள் வீணாகுது."
+  },
+  "who": {
+   "en": "Loose shards can injure collection workers. Keep broken glass wrapped inside a rigid, closed, labelled box, and hand it separately to the collector.",
+   "hi": "खुले पड़े नुकीले टुकड़े सफ़ाई वर्कर्स को घायल कर सकते हैं। टूटे काँच को लपेटकर मज़बूत डिब्बे में बंद करो, लेबल लगाओ और कलेक्शन वर्कर को बताकर अलग से दो।",
+   "ta": "தனியா கிடக்குற கூரான துண்டுகள் குப்பை எடுக்குறவங்கள காயப்படுத்தலாம். உடைஞ்ச கண்ணாடிய சுத்தி, உறுதியான பெட்டிக்குள்ள வெச்சு மூடி, லேபிள் போடுங்க. எடுக்குறவங்ககிட்ட சொல்லி தனியா குடுங்க."
+  },
+  "dispose": {
+   "en": "For intact bottles and jars: empty them, rinse them, let them dry, then place them gently in the blue bin.",
+   "hi": "साबुत बोतल और जार खाली करो, धोओ, सूखने दो, फिर धीरे से ब्लू बिन में रखो।",
+   "ta": "உடையாத பாட்டிலையும் ஜாரையும் காலி பண்ணி, கழுவி, காய விடுங்க. அப்புறம் மெதுவா ப்ளூ பின்ல வைங்க."
+  },
+  "prevent": {
+   "en": "Reuse clean jars for storage. Return refillable bottles where possible. Keeping glass in use starts at home.",
+   "hi": "साफ़ जार में सामान रखो। जहाँ हो सके, रीफ़िल वाली बोतलें वापस करो। काँच को इस्तेमाल में रखने की शुरुआत घर से होती है।",
+   "ta": "சுத்தமான ஜார்ல பொருட்கள வெச்சுக்கலாம். திரும்ப நிரப்புற பாட்டில, முடிஞ்சா கடைக்கே திருப்பிக் குடுங்க. கண்ணாடிய தொடர்ந்து யூஸ் பண்றது வீட்டுல இருந்தே ஆரம்பிக்குது."
+  }
+ },
+ "shots": {
+  "intro": [
+   {
+    "img": "intro0_01.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "harm": [
+   {
+    "img": "gbottles_01.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "cullet_02.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "who": [
+   {
+    "img": "who1_00.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "broken_00.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "dispose": [
+   {
+    "img": "gbottles_02.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "cullet_00.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "prevent": [
+   {
+    "img": "jars_01.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "jars_00.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ]
+ },
+ "overlays": {
+  "dispose": [
+   {
+    "type": "steps",
+    "n": 4,
+    "steps_at": [
+     0.12,
+     0.3,
+     0.48,
+     0.78
+    ],
+    "bin": "blue",
+    "bin_at": 0.78,
+    "until": 1.0
+   }
+  ]
+ },
+ "sources": [
+  "US EPA, How Do I Recycle Common Recyclables: food and beverage glass can be recycled repeatedly; loose broken glass can harm workers and should not enter the recycling bin. https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+  "BBMP, Waste Management FAQs: rinse glass containers; blue bin is the recyclable dry-waste stream. This script uses Sorti blue-bin routing for intact bottles and jars. https://apps.bbmpgov.in/SWM/Home/Forms/PublicInformation.aspx?page=FAQs",
+  "Cornwall Council, Broken Glass: protective wrapping or a sturdy container. Oregon State University, Broken Glass/Lab-ware guidance: puncture-resistant sealed packaging labelled as glass. These support protective handling; local disposal routes differ, so Sorti asks for separate collector handover. https://www.cornwall.gov.uk/rubbish-recycling-and-waste/recycling/recycling-items/broken-glass/ https://cropandsoil.oregonstate.edu/sites/agscid7/files/crop-soil/assets/shl_safety_information_for_all_employees_2020.pdf"
+ ]
+}

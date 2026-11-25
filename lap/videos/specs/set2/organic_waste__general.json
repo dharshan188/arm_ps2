@@ -1,0 +1,58 @@
+{
+  "cls": "organic_waste",
+  "slug": "general",
+  "item": "food",
+  "title": {
+    "en": "Wet waste, garden gold",
+    "hi": "गीला कचरा, गार्डन का ख़ज़ाना",
+    "ta": "ஈரக் குப்பை, தோட்டத்துக்கு தங்கம்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! Lunch just landed on my head; service is terrible! Food, peels, and flowers belong together, without the plate.",
+      "hi": "अरे सुनो! लंच मेरे सिर पर गिरा, क्या ख़राब सर्विस है! खाना, छिलके और फूल साथ रखो, प्लेट साथ मत डालना।",
+      "ta": "ஹே நீங்க! லஞ்ச் என் தலையில விழுந்துச்சு, என்னங்க இந்த சர்வீஸ்! சாப்பாடு, தோல், பூ எல்லாம் ஒண்ணா சேருங்க, தட்ட மட்டும் போடாதீங்க."
+    },
+    "harm": {
+      "en": "About half of India's municipal waste is organic. Buried without enough oxygen, this wet waste produces methane, a powerful warming gas.",
+      "hi": "इंडिया के म्यूनिसिपल कचरे का करीब आधा हिस्सा ऑर्गैनिक है। डंप में ऑक्सीजन कम मिले तो इससे मीथेन बनती है, जो गर्मी बढ़ाती है।",
+      "ta": "இந்தியாவோட நகரக் குப்பையில கிட்டத்தட்ட பாதி ஆர்கானிக் வேஸ்ட் தாங்க. டம்ப்ல ஆக்சிஜன் இல்லாம அழுகுனா மீத்தேன் வரும், அது பூமிய சூடாக்குற கேஸ்.",
+      "stats": [
+        {
+          "value": 50,
+          "suffix": "%",
+          "unit": "organic share / India"
+        }
+      ]
+    },
+    "who": {
+      "en": "Dump smoke and dirty runoff trouble workers and nearby families. Mixed rubbish also wastes nutrients that could feed our soil instead.",
+      "hi": "डंप का धुआँ और गंदा पानी वर्कर्स और पास की फ़ैमिली को परेशान करते हैं। मिट्टी के काम आने वाले न्यूट्रिएंट्स भी बर्बाद होते हैं।",
+      "ta": "டம்ப் புகையும் அழுக்கு தண்ணியும் வொர்க்கர்ஸுக்கும் பக்கத்து குடும்பங்களுக்கும் கஷ்டம் தருது. மண்ணுக்கு உதவுற சத்தும் கலந்த குப்பையில வீணாப் போகுதுங்க.",
+      "victims": [
+        "worker",
+        "child",
+        "soil"
+      ]
+    },
+    "dispose": {
+      "en": "Keep food scraps, peels, flowers, and leaves separate from packaging. Put this wet waste in the green bin every day.",
+      "hi": "खाना, छिलके, फूल और पत्ते पैकेजिंग से अलग रखो। ये गीला कचरा रोज़ ग्रीन बिन में डालो, प्लास्टिक मिक्स मत करना।",
+      "ta": "சாப்பாடு மிச்சம், தோல், பூ, இலை எல்லாம் பேக்கேஜிங்கிலிருந்து பிரிச்சு வைங்க. இந்த ஈரக் குப்பைய தினமும் கிரீன் பின்ல போடுங்க, பிளாஸ்டிக் கலக்காதீங்க.",
+      "bin": "green",
+      "steps": []
+    },
+    "prevent": {
+      "en": "Start home composting with peels and dry leaves; keep it airy. Serve smaller portions too. Your plants can handle dessert!",
+      "hi": "छिलकों और सूखे पत्तों से घर पर कम्पोस्ट बनाओ, हवा आने दो। खाना थोड़ा परोसो। पौधों को भी डेज़र्ट मिलने दो!",
+      "ta": "தோலையும் காஞ்ச இலையையும் வெச்சு வீட்டுல கம்போஸ்ட் போடுங்க, காத்து வரட்டும். சாப்பாடும் கொஞ்சமா பரிமாறுங்க. செடிங்களுக்கும் டெசர்ட் கிடைக்கட்டுமே!",
+      "swap_from": "peel",
+      "swap_to": "compost_bin",
+      "swap_to2": "leaves"
+    }
+  },
+  "sources": [
+    "NITI Aayog, Scenarios Towards Viksit Bharat and Net Zero: Sectoral Insights, Waste (2026), figure 2.1: approximately 50% organic/compostable in Indian municipal solid waste composition for 2020; approximate composition, not a uniform local measurement. https://www.niti.gov.in/sites/default/files/2026-02/Scenarios-Towards-Viksit-Bharat-and-Net-Zero-Sectoral-Insights-Waste.pdf",
+    "US EPA, Composting at Home: landfill anaerobic decomposition produces methane; home composting uses greens, browns, moisture and oxygen. Food scraps and dry leaves; avoid meat/dairy in basic backyard piles. https://www.epa.gov/recycle/composting-home"
+  ]
+}

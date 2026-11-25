@@ -1,0 +1,56 @@
+{
+ "cls": "paper_waste",
+ "slug": "notebooks",
+ "item": "notebook",
+ "title": {
+  "en": "Old Notebooks",
+  "hi": "पुरानी कॉपियाँ",
+  "ta": "பழைய நோட்டு"
+ },
+ "beats": {
+  "intro": {
+   "en": "Ow! My old maths notebook just fell on my head. I still can't solve that sum! Hey you, got half-empty notebooks at home?",
+   "hi": "आह! मेरी पुरानी मैथ्स की कॉपी सिर पे गिर गई। वो सवाल अब भी नहीं आता! अरे तुम, घर में आधी ख़ाली कॉपियाँ हैं?",
+   "ta": "ஆ! என் பழைய கணக்கு நோட்டு தலைல விழுந்துச்சு. அந்த கணக்கு இன்னும் புரியல! ஹே நீங்க, வீட்டுல பாதி காலி நோட்டு இருக்கா?"
+  },
+  "harm": {
+   "en": "Making paper is thirsty work. One sheet can need about ten litres of water. So every blank page we throw away wastes water too.",
+   "hi": "पेपर बनाने में बहुत पानी लगता है। एक पन्ना बनाने में करीब दस लीटर पानी लग सकता है। तो हर फेंका हुआ ख़ाली पन्ना पानी भी बर्बाद करता है।",
+   "ta": "பேப்பர் பண்ண நிறைய தண்ணி வேணும். ஒரு பேப்பர் ஷீட் பண்ண கிட்டத்தட்ட பத்து லிட்டர் தண்ணி ஆகலாம். அதனால காலி பக்கத்த தூக்கி போட்டா தண்ணியும் வேஸ்ட்.",
+   "stats": [
+    {
+     "value": 10,
+     "unit": "litres / A4 sheet"
+    }
+   ]
+  },
+  "who": {
+   "en": "Rivers lose water to paper mills, farmers need that water for crops, and kids who can't afford notebooks could have used those pages.",
+   "hi": "नदियों का पानी पेपर मिलों में जाता है, किसानों को वो पानी फ़सल के लिए चाहिए, और जिन बच्चों के पास कॉपी नहीं, वो इन पन्नों पे पढ़ सकते थे।",
+   "ta": "ஆத்து தண்ணி பேப்பர் மில்லுக்கு போகுது, விவசாயிங்களுக்கு அந்த தண்ணி பயிருக்கு வேணும், நோட்டு வாங்க முடியாத பசங்க இந்த பக்கத்துல படிச்சிருக்கலாம்.",
+   "victims": [
+    "river",
+    "farmer",
+    "child"
+   ]
+  },
+  "dispose": {
+   "en": "Tear out the blank pages to reuse. Remove the plastic cover and the spiral wire, then put the used pages in the blue bin.",
+   "hi": "ख़ाली पन्ने फाड़ के अलग रखो। प्लास्टिक कवर और स्प्रिंग निकालो, फिर लिखे हुए पन्ने ब्लू बिन में डालो।",
+   "ta": "காலி பக்கங்கள கிழிச்சு தனியா எடுத்து வெச்சுக்கோங்க. பிளாஸ்டிக் அட்டையும் ஸ்பிரிங் கம்பியும் கழட்டிட்டு, எழுதுன பக்கங்கள ப்ளூ பின்ல போடுங்க.",
+   "bin": "blue",
+   "steps": []
+  },
+  "prevent": {
+   "en": "Stitch the blank pages into a rough notebook, and donate good ones to a nearby school. Bonus: maybe someone can finally solve my sum!",
+   "hi": "ख़ाली पन्नों से रफ़ कॉपी बना लो, और अच्छी कॉपियाँ पास के स्कूल को दे दो। बोनस: शायद कोई मेरा सवाल हल कर दे!",
+   "ta": "காலி பக்கங்கள தெச்சு ஒரு ரஃப் நோட்டு பண்ணுங்க, நல்ல நோட்ட பக்கத்து ஸ்கூலுக்கு குடுங்க. போனஸ்: யாராவது என் கணக்க போட்டு குடுப்பாங்க!",
+   "swap_from": "notebook",
+   "swap_to": "donate_box",
+   "swap_to2": "notebook"
+  }
+ },
+ "sources": [
+  "Water Footprint Network (Hoekstra & Chapagain, 2008): about 10 litres of water per A4 sheet of paper"
+ ]
+}

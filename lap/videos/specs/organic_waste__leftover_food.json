@@ -1,0 +1,63 @@
+{
+ "cls": "organic_waste",
+ "slug": "leftover_food",
+ "item": "food",
+ "title": {
+  "en": "Leftover Food: Don't Bin the Biryani",
+  "hi": "बचा हुआ खाना: बिरयानी मत फेंको",
+  "ta": "மிச்ச சாப்பாடு: பிரியாணிய வீணாக்காதீங்க"
+ },
+ "beats": {
+  "intro": {
+   "en": "Bonk! A whole plate of rice just landed on me! Hey you, yes the one who cooked too much. Let's fix this together.",
+   "hi": "धड़ाम! पूरी प्लेट चावल मेरे सिर पर गिर गई! अरे तुम, हाँ तुम, जिसने ज़्यादा खाना बना लिया। चलो मिलकर ठीक करते हैं।",
+   "ta": "டமார்! ஒரு முழு தட்டு சோறு என் தலைல விழுந்துடுச்சு! ஹே, ஜாஸ்தியா சமைச்சவங்களே, நீங்க தான்! வாங்க சேர்ந்து சரி பண்ணலாம்."
+  },
+  "harm": {
+   "en": "Indian homes waste about fifty kilos of food per person every year. Worldwide, about one third of all food produced is lost or wasted.",
+   "hi": "इंडिया के घरों में हर इंसान के हिसाब से हर साल करीब पचास किलो खाना बर्बाद होता है। दुनिया भर में करीब एक तिहाई खाना बर्बाद हो जाता है।",
+   "ta": "நம்ம வீடுகள்ல ஒவ்வொருத்தருக்கும் வருஷத்துக்கு கிட்டத்தட்ட அம்பது கிலோ சாப்பாடு வீணாகுது. உலகம் முழுக்க விளையுற சாப்பாட்டுல மூணுல ஒரு பங்கு வீணா போகுது.",
+   "stats": [
+    {
+     "value": 50,
+     "unit": "kg / person / yr",
+     "bad": true
+    },
+    {
+     "value": 33,
+     "suffix": "%",
+     "unit": "food lost or wasted",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Farmers lose the water and sweat they put in, hungry people miss a meal, and rotting food releases methane into the air.",
+   "hi": "किसानों का पानी और मेहनत बेकार जाती है, भूखे लोगों को खाना नहीं मिलता, और सड़ता खाना हवा में मीथेन गैस छोड़ता है।",
+   "ta": "விவசாயிங்க போட்ட தண்ணியும் உழைப்பும் வீணா போகுது, பசியா இருக்கவங்களுக்கு சாப்பாடு கிடைக்காது, அழுகுற சாப்பாடு காத்துல மீத்தேன் கேஸ விடுது.",
+   "victims": [
+    "farmer",
+    "person",
+    "air"
+   ]
+  },
+  "dispose": {
+   "en": "Spoiled leftovers go in the green bin, without the plastic box. Still fresh? Share it with a neighbour or a food bank first.",
+   "hi": "ख़राब बचा खाना ग्रीन बिन में डालो, प्लास्टिक डिब्बे के बिना। अभी भी ताज़ा है? पहले पड़ोसी या फ़ूड बैंक के साथ बाँटो।",
+   "ta": "கெட்டுப்போன மிச்ச சாப்பாட்ட பிளாஸ்டிக் டப்பா இல்லாம க்ரீன் பின்ல போடுங்க. இன்னும் ஃப்ரெஷ்ஷா இருக்கா? முதல்ல பக்கத்து வீட்டுக்கோ ஃபுட் பேங்க்குக்கோ குடுங்க.",
+   "bin": "green",
+   "steps": []
+  },
+  "prevent": {
+   "en": "Cook a little less, store leftovers in a steel tiffin, and eat them tomorrow. Leftover dosa for breakfast? Chef's kiss! High five!",
+   "hi": "थोड़ा कम पकाओ, बचा खाना स्टील के टिफ़िन में रखो, और कल खा लो। नाश्ते में कल की रोटी? वाह! हाई फ़ाइव!",
+   "ta": "கொஞ்சம் கம்மியா சமைங்க, மிச்சத்த ஸ்டீல் டிஃபன்ல வெச்சு நாளைக்கு சாப்பிடுங்க. காலைல நேத்து தோசை? செம்ம! ஹை ஃபைவ்!",
+   "swap_from": "food",
+   "swap_to": "tiffin"
+  }
+ },
+ "sources": [
+  "UNEP Food Waste Index Report 2021 (India household food waste ~50 kg per capita per year)",
+  "FAO 2011, Global Food Losses and Food Waste (roughly one third of food produced is lost or wasted)"
+ ]
+}

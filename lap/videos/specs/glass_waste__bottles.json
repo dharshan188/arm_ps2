@@ -1,0 +1,71 @@
+{
+ "cls": "glass_waste",
+ "slug": "bottles",
+ "item": "glass_bottle",
+ "title": {
+  "en": "Glass Bottles: Forever Recyclable",
+  "hi": "काँच की बोतल: हमेशा रीसायकल",
+  "ta": "கண்ணாடி பாட்டில்: எப்பவுமே ரீசைக்கிள்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Bonk! Good thing my head is harder than this glass bottle! Hey you, holding that bottle! Let's give it a second life.",
+   "hi": "ठक! शुक्र है मेरा सिर इस काँच की बोतल से ज़्यादा मज़बूत है! अरे तुम, बोतल वाले! चलो इसे दूसरी ज़िंदगी दें।",
+   "ta": "டொக்! நல்லவேளை என் மண்டை இந்த கண்ணாடி பாட்டில விட ஸ்ட்ராங்! ஹே, பாட்டில் வெச்சிருக்கீங்களே! இதுக்கு ரெண்டாவது லைஃப் குடுக்கலாம் வாங்க."
+  },
+  "harm": {
+   "en": "Glass in a dump never rots, it sits there for thousands of years. Yet glass can be recycled again and again, one hundred per cent!",
+   "hi": "डंप में पड़ा काँच कभी नहीं गलता, हज़ारों साल वैसे ही पड़ा रहता है। जबकि काँच बार बार, सौ परसेंट रीसायकल हो सकता है!",
+   "ta": "டம்ப்ல கிடக்குற கண்ணாடி மக்கவே மக்காது, ஆயிரக்கணக்கான வருஷம் அப்படியே கிடக்கும். ஆனா கண்ணாடிய திரும்ப திரும்ப நூறு பர்சன்ட் ரீசைக்கிள் பண்ணலாம்!",
+   "stats": [
+    {
+     "value": 1000,
+     "suffix": "+",
+     "unit": "years in a dump",
+     "bad": true
+    },
+    {
+     "value": 100,
+     "suffix": "%",
+     "unit": "recyclable, again and again"
+    }
+   ]
+  },
+  "who": {
+   "en": "Waste pickers cut their hands on bottles broken in mixed trash, cows step on the shards, and the soil fills with glass.",
+   "hi": "मिले जुले कचरे में टूटी बोतलों से कचरा बीनने वालों के हाथ कट जाते हैं, गायों के पैर में काँच चुभता है, और मिट्टी काँच से भर जाती है।",
+   "ta": "கலந்த குப்பைல உடைஞ்ச பாட்டிலால குப்பை பொறுக்குறவங்க கை வெட்டிக்குது, மாடுங்க காலுல கண்ணாடி குத்துது, மண்ணு முழுக்க கண்ணாடி ஆகுது.",
+   "victims": [
+    "worker",
+    "cow",
+    "soil"
+   ]
+  },
+  "dispose": {
+   "en": "Rinse it, remove the cap, blue bin. Every ten per cent of old glass in the furnace saves about two per cent energy!",
+   "hi": "बोतल धोओ, ढक्कन हटाओ, और ब्लू बिन में डालो। भट्टी में हर दस परसेंट पुराना काँच करीब दो परसेंट एनर्जी बचाता है!",
+   "ta": "பாட்டில கழுவி, மூடிய எடுத்து, ப்ளூ பின்ல போடுங்க. உலைல ஒவ்வொரு பத்து பர்சன்ட் பழைய கண்ணாடியும் கிட்டத்தட்ட ரெண்டு பர்சன்ட் எனர்ஜிய மிச்சம் பண்ணுது!",
+   "bin": "blue",
+   "steps": [
+    "rinse"
+   ],
+   "stat": {
+    "value": 2,
+    "suffix": "%",
+    "unit": "energy saved per 10% cullet"
+   }
+  },
+  "prevent": {
+   "en": "Even better, refill glass bottles at home or return them to the shop. Old bottle, new water, same hero! High five!",
+   "hi": "और भी बढ़िया, घर पर काँच की बोतल दोबारा भरो, या दुकान पर लौटा दो। पुरानी बोतल, नया पानी, वही हीरो! हाई फ़ाइव!",
+   "ta": "இன்னும் சூப்பர்னா, கண்ணாடி பாட்டில வீட்ல திரும்ப நிரப்புங்க, இல்ல கடைல திருப்பி குடுங்க. பழைய பாட்டில், புது தண்ணி, அதே ஹீரோ! ஹை ஃபைவ்!",
+   "swap_from": "bottle",
+   "swap_to": "glass_bottle",
+   "swap_to2": "steel_bottle"
+  }
+ },
+ "sources": [
+  "Glass Packaging Institute: glass is 100% recyclable endlessly; each 10% of cullet lowers furnace energy by about 2-3%",
+  "US EPA / NPS marine debris estimates: glass persists for thousands of years or more in the environment"
+ ]
+}

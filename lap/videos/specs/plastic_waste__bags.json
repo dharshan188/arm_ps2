@@ -1,0 +1,64 @@
+{
+ "cls": "plastic_waste",
+ "slug": "bags",
+ "item": "bag",
+ "title": {
+  "en": "Plastic Bags",
+  "hi": "प्लास्टिक की पन्नी",
+  "ta": "பிளாஸ்டிக் கவர்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Ouch! A plastic bag just flew into my face like a ghost. Hey you, stay with me and I'll show you how to beat it!",
+   "hi": "आउच! एक पन्नी भूत की तरह उड़कर सीधा मेरे मुँह पे आ गई। अरे तुम, रुको, इसको हराना सिखाता हूँ!",
+   "ta": "ஐயோ! ஒரு பிளாஸ்டிக் கவர் பேய் மாதிரி பறந்து வந்து என் மூஞ்சில ஒட்டிக்கிச்சு. ஹே நீங்க, இருங்க, இத எப்படி ஜெயிக்கறதுன்னு சொல்றேன்!"
+  },
+  "harm": {
+   "en": "The world uses up to five trillion plastic bags every year. Most are used for minutes, then they choke drains and cause floods.",
+   "hi": "दुनिया हर साल पाँच लाख करोड़ तक प्लास्टिक की पन्नियाँ इस्तेमाल करती है। ज़्यादातर बस कुछ मिनट चलती हैं, फिर नाली जाम करके बाढ़ लाती हैं।",
+   "ta": "உலகம் முழுக்க ஒவ்வொரு வருஷமும் அஞ்சு லட்சம் கோடி வரைக்கும் பிளாஸ்டிக் கவர் யூஸ் ஆகுது. சில நிமிஷம் தான் யூஸ், அப்புறம் சாக்கடைய அடைச்சு வெள்ளம் வர வைக்குது.",
+   "stats": [
+    {
+     "value": 5,
+     "unit": "trillion bags / yr",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Cows swallow bags full of food scraps, fish get tangled in them, and the whole street floods when the drains get blocked.",
+   "hi": "गायें खाने वाली पन्नी निगल जाती हैं, मछलियाँ उसमें फँस जाती हैं, और नाली जाम हो तो पूरी गली में पानी भर जाता है।",
+   "ta": "சாப்பாடு இருக்கற கவர மாடுங்க முழுங்கிடுது, மீனுங்க அதுல மாட்டிக்குது, சாக்கடை அடைச்சா தெரு முழுக்க தண்ணி நிக்குது.",
+   "victims": [
+    "cow",
+    "fish",
+    "river"
+   ]
+  },
+  "dispose": {
+   "en": "Shake it clean, fold your bags into one bundle, and blue bin it. India bans bags thinner than one hundred and twenty microns.",
+   "hi": "पन्नी झाड़ के साफ़ करो, सबको मोड़ के एक बंडल बनाओ, और ब्लू बिन में डालो। इंडिया में एक सौ बीस माइक्रॉन से पतली पन्नी बैन है।",
+   "ta": "கவர உதறி சுத்தம் பண்ணி, எல்லாத்தையும் மடிச்சு ஒரு கட்டா கட்டி, ப்ளூ பின்ல போடுங்க. இந்தியால நூத்தி இருபது மைக்ரானுக்கு கம்மியான கவர் பேன் பண்ணிருக்காங்க.",
+   "bin": "blue",
+   "steps": [
+    "dry",
+    "wrap"
+   ],
+   "stat": {
+    "value": 120,
+    "unit": "micron minimum"
+   }
+  },
+  "prevent": {
+   "en": "Better plan: keep a cloth bag folded in your pocket or scooty. One bag, hundreds of trips. Ghost bags, gone! High five!",
+   "hi": "बेहतर प्लान: कपड़े का थैला जेब या स्कूटी में रखो। एक थैला, सैकड़ों चक्कर। भूत वाली पन्नी, ग़ायब! हाई फ़ाइव!",
+   "ta": "இன்னும் பெட்டர் ஐடியா: ஒரு துணிப்பைய மடிச்சு பாக்கெட்லயோ ஸ்கூட்டிலயோ வெச்சுக்கோங்க. ஒரே பை, நூறு தடவை. பேய் கவர், காலி! ஹை ஃபைவ்!",
+   "swap_from": "bag",
+   "swap_to": "cloth_bag"
+  }
+ },
+ "sources": [
+  "UNEP, Single-Use Plastics: A Roadmap for Sustainability (2018): up to 5 trillion plastic bags used worldwide each year",
+  "MoEFCC, Plastic Waste Management (Amendment) Rules 2021: carry bags must be at least 120 micron from 31 Dec 2022"
+ ]
+}

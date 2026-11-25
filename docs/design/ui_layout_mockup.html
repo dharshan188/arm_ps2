@@ -1,0 +1,370 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="web_dashboard" name="shell-type">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+    @layer base {
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: #080D18;
+      }
+      body {
+        overscroll-behavior: none;
+      }
+    }
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(16, 26, 43, 0.6);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(0, 166, 255, 0.25);
+      border-radius: 9999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(0, 166, 255, 0.5);
+    }
+  </style>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "surface-bg": "#080D18",
+            "panel-bg": "#101A2B",
+            "surface-inner": "#16243A",
+            "primary": "#00A6FF",
+            "primary-glow": "rgba(0, 166, 255, 0.15)",
+            "secondary": "#00D4B8",
+            "text-primary": "#F0F5FF",
+            "text-secondary": "#8FA3BD",
+            "border-glow": "rgba(0, 166, 255, 0.2)",
+            "border-subtle": "rgba(255, 255, 255, 0.08)",
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['"JetBrains Mono"', 'monospace'],
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-[#080D18] text-[#F0F5FF] font-sans antialiased h-screen h-[100dvh] max-h-screen max-h-[100dvh] overflow-hidden flex flex-col selection:bg-[#00A6FF]/30 selection:text-[#00A6FF]">
+<!-- MINIMAL TOP HEADER -->
+<header class="sticky top-0 z-50 h-14 flex-shrink-0 w-full bg-[#101A2B]/90 backdrop-blur-xl border-b border-[rgba(0,166,255,0.14)]">
+<div class="h-full w-full max-w-[1720px] mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+<!-- Left: Logo & Subtitle -->
+<div class="flex items-center gap-3">
+<div class="relative flex items-center justify-center w-9 h-9 rounded-xl bg-gradient-to-br from-[#00A6FF]/20 to-[#00D4B8]/10 border border-[#00A6FF]/40 shadow-[0_0_12px_rgba(0,166,255,0.2)]">
+<img alt="Sorti Logo" class="h-5 w-auto object-contain filter drop-shadow-[0_0_6px_rgba(0,166,255,0.6)]" src="https://lh3.googleusercontent.com/aida/ALJJyrDgLcaKjJtwrB-pXw4ZDFwHnxDZRwh_2PfJOUcMPj5hwvIkcB_Zg5GEohBen9dlz41npFKLGGdoCtVgT18QwS4amz0TrPmAHzCV85wx__uuJ7etZzRTEJdowbJL2rY30IuZGgu3f7jmTuNk7M0KaMXiWApBejwWmXSKYwsA693HGvUuY6vG0yl8b_P-lNz-XgjIQvtFhp38-tYYZgjJlD4x-9tOhUwT8RUJdrOcCesdPg">
+</div>
+<div class="flex flex-col">
+<span class="font-bold text-[19px] tracking-tight text-[#F0F5FF] leading-none flex items-center gap-1.5 font-sans">
+            Sorti
+            <span class="inline-block w-1.5 h-1.5 rounded-full bg-[#00A6FF]"></span>
+</span>
+<span class="font-mono text-[9px] font-semibold text-[#00A6FF] uppercase tracking-[0.16em] mt-0.5">
+            AI WASTE ASSISTANT
+          </span>
+</div>
+</div>
+<!-- Right: Profile Avatar -->
+<div class="flex items-center">
+<div class="w-9 h-9 rounded-xl bg-gradient-to-br from-[#00A6FF] to-[#0066CC] flex items-center justify-center text-white shadow-[0_0_10px_rgba(0,166,255,0.3)] ring-1 ring-white/20">
+<span class="material-symbols-outlined text-[19px]">person</span>
+</div>
+</div>
+</div>
+</header>
+<!-- MAIN WORKSPACE CONTAINER -->
+<main class="flex-1 min-h-0 w-full max-w-[1720px] mx-auto p-3 md:p-4 lg:p-4 overflow-hidden flex flex-col">
+<div class="flex-1 min-h-0 overflow-hidden grid grid-cols-1 lg:grid-cols-12 gap-4 h-full">
+<!-- LEFT COLUMN: Live Camera Feed & Detection Card (7 cols) -->
+<section class="lg:col-span-7 flex flex-col h-full min-h-0 gap-3 overflow-hidden">
+<div class="flex-1 min-h-0 flex flex-col bg-[#101A2B] rounded-2xl border border-[rgba(0,166,255,0.18)] p-3.5 gap-3 shadow-xl overflow-hidden">
+<!-- Viewport Header -->
+<div class="flex items-center justify-between px-1">
+<div class="flex items-center gap-2.5">
+<span class="w-2 h-2 rounded-full bg-[#00D4B8] shadow-[0_0_6px_#00D4B8]"></span>
+<span class="font-mono text-[13px] font-medium text-[#F0F5FF]">Camera Connected</span>
+<span class="text-[#8FA3BD]/40 text-xs">•</span>
+<span class="font-mono text-[12px] text-[#8FA3BD]">1080p • 60 FPS</span>
+</div>
+<span class="font-mono text-[11px] text-[#8FA3BD]">Live Stream</span>
+</div>
+<!-- Camera Viewport Box (Crisp, clean, stable computer vision display) -->
+<div class="flex-1 min-h-0 relative w-full bg-[#050912] rounded-xl overflow-hidden border border-[rgba(0,166,255,0.2)] flex items-center justify-center">
+<!-- Clear camera feed image -->
+<img class="w-full h-full object-cover select-none" data-alt="Top-down industrial clean white conveyor belt surface with a single empty clear plastic water bottle positioned in center focus, high clarity studio illumination, industrial waste segregation optical sensor view with subtle soft shadows and neutral clean background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8r_1lXqkVy9STiXii6c4IuZ62xmtTVGJCXPrTJUO9mBLvfz1fjWTyoHuvFbXoEgsf1MsvNb1Rbh1udJQdkRLdaZF17GnGZaOmt1L1UDekJ0A_5D3C4woV_0dNiay4FBGDnKpyZbBKaFwH_z_wSqNAusDR3R2ddXPUm7tnfVvaZwLfLLoNKJKlpuz9SAeUAY0bEuXtbAz75b9MdXdCIXJkp0khA415hEOL9gKffb6u">
+<!-- Clean Precision Bounding Box Overlay -->
+<div class="absolute top-[24%] left-[27%] w-[46%] h-[52%] pointer-events-none">
+<!-- Box Outline -->
+<div class="absolute inset-0 border border-[#00A6FF]/40 rounded-sm"></div>
+<!-- 4 Corner Brackets -->
+<div class="absolute -top-0.5 -left-0.5 w-4 h-4 border-t-2 border-l-2 border-[#00D4B8]"></div>
+<div class="absolute -top-0.5 -right-0.5 w-4 h-4 border-t-2 border-r-2 border-[#00D4B8]"></div>
+<div class="absolute -bottom-0.5 -left-0.5 w-4 h-4 border-b-2 border-l-2 border-[#00D4B8]"></div>
+<div class="absolute -bottom-0.5 -right-0.5 w-4 h-4 border-b-2 border-r-2 border-[#00D4B8]"></div>
+<!-- Static Confidence Pill -->
+<div class="absolute -top-3.5 left-3 bg-[#101A2B]/95 backdrop-blur-sm border border-[#00A6FF]/50 rounded-full px-2.5 py-0.5 flex items-center gap-1.5 whitespace-nowrap shadow-md">
+<span class="w-1.5 h-1.5 rounded-full bg-[#00D4B8]"></span>
+<span class="font-mono text-[11px] font-medium text-[#F0F5FF]">
+                  Plastic Water Bottle <span class="text-[#00A6FF]">— 98.4% Confidence</span>
+</span>
+</div>
+</div>
+</div>
+<!-- Clean Detection Result Card -->
+<div class="flex-shrink-0 bg-[#16243A] border border-[rgba(0,166,255,0.14)] rounded-xl p-3 sm:p-3.5 flex flex-col gap-2">
+<div class="flex flex-wrap items-center justify-between gap-3">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-[#00A6FF]/15 border border-[#00A6FF]/30 flex items-center justify-center text-[#00A6FF]">
+<span class="material-symbols-outlined text-[24px]">water_bottle</span>
+</div>
+<div class="flex flex-col"><div class="flex items-center gap-2"><h3 class="font-sans font-semibold text-[17px] text-[#F0F5FF] leading-snug">Plastic Bottle</h3><span class="font-mono text-[11px] font-semibold text-[#00A6FF] bg-[#00A6FF]/15 px-1.5 py-0.5 rounded border border-[#00A6FF]/30">PET</span><span class="material-symbols-outlined text-[17px] text-[#00D4B8]" style="font-variation-settings: 'FILL' 1;">verified</span></div></div>
+</div>
+<!-- Recommended Bin Action Badge -->
+<div class="flex items-center gap-2 bg-[#00A6FF] text-[#001D33] px-4 py-2 rounded-full font-semibold text-[13px] tracking-wide shadow-md">
+<span class="material-symbols-outlined text-[18px]">recycling</span>
+<span>Blue Bin Recommended</span>
+</div>
+</div>
+<!-- Material & Recyclability Details -->
+
+</div>
+</div>
+</section>
+<!-- RIGHT COLUMN: Sorti Assistant (5 cols) -->
+<section class="lg:col-span-5 flex flex-col h-full min-h-0 overflow-hidden">
+<div class="bg-[#101A2B] rounded-2xl border border-[rgba(0,166,255,0.18)] shadow-xl flex flex-col overflow-hidden h-full min-h-0 flex-1">
+<!-- Header -->
+<div class="px-4 py-3 bg-[#16243A]/70 border-b border-[rgba(0,166,255,0.12)] flex items-center justify-between flex-shrink-0">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-xl bg-[#00A6FF]/20 border border-[#00A6FF]/40 text-[#00A6FF] flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">smart_toy</span>
+</div>
+<div class="flex flex-col">
+<span class="font-sans font-semibold text-[15px] text-[#F0F5FF] leading-snug">Sorti Assistant</span>
+<div class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-[#00D4B8]"></span>
+<span class="font-mono text-[11px] text-[#00D4B8]">Active</span>
+</div>
+</div>
+</div>
+<button class="w-8 h-8 rounded-lg hover:bg-[#16243A] text-[#8FA3BD] hover:text-[#00A6FF] flex items-center justify-center transition-colors" id="clear-chat-btn" title="Reset Session">
+<span class="material-symbols-outlined text-[18px]">restart_alt</span>
+</button>
+</div>
+<!-- Chat Messages History (Scrollable) -->
+<div class="flex-1 min-h-0 overflow-y-auto p-3.5 flex flex-col gap-3" id="chat-messages">
+<!-- Assistant Message: Greeting -->
+<div class="flex items-start gap-3 max-w-[90%]">
+<div class="w-7 h-7 rounded-lg bg-[#00A6FF]/20 border border-[#00A6FF]/30 text-[#00A6FF] flex-shrink-0 flex items-center justify-center text-[13px] mt-0.5">
+<span class="material-symbols-outlined text-[16px]">smart_toy</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="bg-[#16243A] border border-[rgba(255,255,255,0.06)] text-[#F0F5FF] px-4 py-2.5 rounded-2xl rounded-tl-sm">
+<p class="text-[13px] leading-relaxed">Hello! I'm Sorti. Show me some waste.</p>
+</div>
+<span class="font-mono text-[10px] text-[#8FA3BD] ml-2">10:42 AM</span>
+</div>
+</div>
+<!-- User Query Bubble -->
+<div class="flex items-start justify-end gap-3 ml-auto max-w-[85%]">
+<div class="flex flex-col items-end gap-1">
+<div class="bg-[#00A6FF] text-[#001428] font-medium px-4 py-2.5 rounded-2xl rounded-tr-sm shadow-sm">
+<p class="text-[13px] leading-relaxed">Which bin for this bottle?</p>
+</div>
+<span class="font-mono text-[10px] text-[#8FA3BD] mr-2">10:43 AM</span>
+</div>
+</div>
+<!-- Assistant Response with Clear Bin Highlight & Compact Card -->
+<div class="flex items-start gap-3 max-w-[92%]">
+<div class="w-7 h-7 rounded-lg bg-[#00A6FF]/20 border border-[#00A6FF]/30 text-[#00A6FF] flex-shrink-0 flex items-center justify-center text-[13px] mt-0.5">
+<span class="material-symbols-outlined text-[16px]">smart_toy</span>
+</div>
+<div class="flex flex-col gap-1.5 w-full">
+<div class="bg-[#16243A] border border-[rgba(0,166,255,0.15)] text-[#F0F5FF] p-3.5 rounded-2xl rounded-tl-sm flex flex-col gap-2.5">
+<p class="text-[13px] leading-relaxed">
+                    Put it in the <span class="font-semibold text-[#00A6FF]">BLUE bin</span>. Plastic can be recycled.
+                  </p>
+<!-- Compact Recommendation Card -->
+<div class="flex items-center gap-3 bg-[#101A2B] border border-[#00A6FF]/30 p-2.5 rounded-xl">
+<div class="w-9 h-9 rounded-lg bg-[#00A6FF] text-[#001428] flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">delete</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-sans text-[12px] font-semibold text-[#F0F5FF] truncate">Blue Recycling Receptacle</span>
+<span class="font-mono text-[10px] text-[#00D4B8] font-medium truncate">Clean Plastics &amp; Packaging</span>
+</div>
+</div>
+</div>
+<span class="font-mono text-[10px] text-[#8FA3BD] ml-2">10:43 AM</span>
+</div>
+</div>
+<!-- Pro Segregation Tip Card -->
+<div class="flex items-start gap-3 max-w-[92%]">
+<div class="w-7 h-7 rounded-lg bg-[#00D4B8]/20 border border-[#00D4B8]/30 text-[#00D4B8] flex-shrink-0 flex items-center justify-center text-[13px] mt-0.5">
+<span class="material-symbols-outlined text-[16px]">eco</span>
+</div>
+<div class="flex flex-col gap-1 w-full">
+<div class="bg-[#16243A] border border-[#00D4B8]/30 text-[#F0F5FF] p-3.5 rounded-2xl rounded-tl-sm">
+<div class="flex items-center gap-1.5 text-[#00D4B8] mb-1">
+<span class="material-symbols-outlined text-[15px]">lightbulb</span>
+<span class="font-mono text-[11px] font-bold uppercase tracking-wider">Pro Segregation Tip</span>
+</div>
+<p class="text-[12.5px] text-[#D1E4FF] leading-relaxed">
+                    Make sure to remove the bottle cap or crush the bottle to save bin space! ♻
+                  </p>
+</div>
+<span class="font-mono text-[10px] text-[#8FA3BD] ml-2">10:43 AM</span>
+</div>
+</div>
+</div>
+<!-- Prompt Suggestions Chips -->
+<div class="px-3.5 py-1.5 bg-[#101A2B] border-t border-[rgba(255,255,255,0.05)] flex items-center gap-2 flex-shrink-0 overflow-x-auto">
+<button class="chat-quick-pill whitespace-nowrap px-3 py-1 rounded-full bg-[#16243A] hover:bg-[#00A6FF]/20 border border-[rgba(0,166,255,0.2)] font-mono text-[11px] text-[#8FA3BD] hover:text-[#00A6FF] transition-all">
+              How do I recycle the cap?
+            </button>
+<button class="chat-quick-pill whitespace-nowrap px-3 py-1 rounded-full bg-[#16243A] hover:bg-[#00A6FF]/20 border border-[rgba(0,166,255,0.2)] font-mono text-[11px] text-[#8FA3BD] hover:text-[#00A6FF] transition-all">
+              Does label need removal?
+            </button>
+</div>
+<!-- Bottom Chat Input Area -->
+<div class="p-3 pt-2 bg-[#16243A]/90 backdrop-blur-sm border-t border-[rgba(0,166,255,0.12)] flex flex-col gap-1.5 flex-shrink-0">
+<form class="flex items-center gap-2 bg-[#101A2B] border border-[rgba(0,166,255,0.25)] rounded-xl px-2 py-1 focus-within:border-[#00A6FF] transition-all" id="chat-form">
+<button class="w-8 h-8 rounded-lg hover:bg-[#16243A] text-[#8FA3BD] hover:text-[#00A6FF] flex items-center justify-center transition-colors" title="Voice Input" type="button">
+<span class="material-symbols-outlined text-[19px]">mic</span>
+</button>
+<input autocomplete="off" class="flex-1 bg-transparent px-2 py-2 text-[#F0F5FF] text-[13px] placeholder:text-[#8FA3BD]/60 focus:outline-none" id="chat-input" placeholder="Ask Sorti about disposal, materials, or rules..." type="text">
+<button class="w-8 h-8 rounded-lg bg-[#00A6FF] hover:bg-[#0092e0] text-[#001428] flex items-center justify-center shadow-sm active:scale-95 transition-all flex-shrink-0" title="Send Message" type="submit">
+<span class="material-symbols-outlined text-[18px] font-bold">arrow_upward</span>
+</button>
+</form>
+<div class="flex items-center justify-between px-1 text-[#8FA3BD]">
+<span class="font-mono text-[10px]">Sorti AI Assistant</span>
+<span class="font-mono text-[10px] text-[#00D4B8] flex items-center gap-1 font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-[#00D4B8]"></span>
+                Ready
+              </span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<script>
+    (function() {
+      const chatForm = document.getElementById('chat-form');
+      const chatInput = document.getElementById('chat-input');
+      const chatMessages = document.getElementById('chat-messages');
+      const quickPills = document.querySelectorAll('.chat-quick-pill');
+      const clearChatBtn = document.getElementById('clear-chat-btn');
+
+      function appendMessage(text, sender = 'user') {
+        const timeString = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+        
+        if (sender === 'user') {
+          const wrapper = document.createElement('div');
+          wrapper.className = 'flex items-start justify-end gap-3 ml-auto max-w-[85%]';
+          wrapper.innerHTML = `
+            <div class="flex flex-col items-end gap-1">
+              <div class="bg-[#00A6FF] text-[#001428] font-medium px-4 py-2.5 rounded-2xl rounded-tr-sm shadow-sm">
+                <p class="text-[13px] leading-relaxed">${escapeHtml(text)}</p>
+              </div>
+              <span class="font-mono text-[10px] text-[#8FA3BD] mr-2">${timeString}</span>
+            </div>
+          `;
+          chatMessages.appendChild(wrapper);
+        } else {
+          const wrapper = document.createElement('div');
+          wrapper.className = 'flex items-start gap-3 max-w-[90%]';
+          wrapper.innerHTML = `
+            <div class="w-7 h-7 rounded-lg bg-[#00A6FF]/20 border border-[#00A6FF]/30 text-[#00A6FF] flex-shrink-0 flex items-center justify-center text-[13px] mt-0.5">
+              <span class="material-symbols-outlined text-[16px]">smart_toy</span>
+            </div>
+            <div class="flex flex-col gap-1">
+              <div class="bg-[#16243A] border border-[rgba(255,255,255,0.06)] text-[#F0F5FF] px-4 py-2.5 rounded-2xl rounded-tl-sm">
+                <p class="text-[13px] leading-relaxed">${text}</p>
+              </div>
+              <span class="font-mono text-[10px] text-[#8FA3BD] ml-2">${timeString}</span>
+            </div>
+          `;
+          chatMessages.appendChild(wrapper);
+        }
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      }
+
+      function escapeHtml(string) {
+        return String(string).replace(/[&<>"'`=\/]/g, function (s) {
+          return {
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;',
+            '/': '&#x2F;',
+            '`': '&#x60;',
+            '=': '&#x3D;'
+          }[s];
+        });
+      }
+
+      if (chatForm && chatInput) {
+        chatForm.addEventListener('submit', function(e) {
+          e.preventDefault();
+          const value = chatInput.value.trim();
+          if (!value) return;
+
+          appendMessage(value, 'user');
+          chatInput.value = '';
+
+          setTimeout(() => {
+            if (value.toLowerCase().includes('cap')) {
+              appendMessage("Polypropylene (PP #5) caps can often be recycled attached to the bottle. Screw it on tightly after flattening so it doesn't get lost during sorting!", 'assistant');
+            } else if (value.toLowerCase().includes('label')) {
+              appendMessage("Standard reclamation lines detach plastic film labels during processing. You can leave it on!", 'assistant');
+            } else {
+              appendMessage("Identified object is suitable for recycling. Please place clean plastics into the <span class='font-semibold text-[#00A6FF]'>Blue Bin</span>.", 'assistant');
+            }
+          }, 450);
+        });
+      }
+
+      quickPills.forEach(pill => {
+        pill.addEventListener('click', function() {
+          chatInput.value = this.innerText;
+          chatForm.dispatchEvent(new Event('submit'));
+        });
+      });
+
+      if (clearChatBtn) {
+        clearChatBtn.addEventListener('click', function() {
+          chatMessages.innerHTML = `
+            <div class="flex items-start gap-3 max-w-[90%]">
+              <div class="w-7 h-7 rounded-lg bg-[#00A6FF]/20 border border-[#00A6FF]/30 text-[#00A6FF] flex-shrink-0 flex items-center justify-center text-[13px] mt-0.5">
+                <span class="material-symbols-outlined text-[16px]">smart_toy</span>
+              </div>
+              <div class="flex flex-col gap-1">
+                <div class="bg-[#16243A] border border-[rgba(255,255,255,0.06)] text-[#F0F5FF] px-4 py-2.5 rounded-2xl rounded-tl-sm">
+                  <p class="text-[13px] leading-relaxed">Hello! I'm Sorti. Show me some waste.</p>
+                </div>
+                <span class="font-mono text-[10px] text-[#8FA3BD] ml-2">Just now</span>
+              </div>
+            </div>
+          `;
+        });
+      }
+    })();
+  </script>
+
+
+</body></html>

@@ -1,0 +1,58 @@
+{
+  "cls": "light_bulbs",
+  "slug": "cfl",
+  "item": "cfl",
+  "title": {
+    "en": "CFL: handle with care",
+    "hi": "सीएफ़एल को संभालकर",
+    "ta": "சிஎஃப்எல் கவனமா கையாளுங்க"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This curly bulb landed like a confused jalebi! Your old fluorescent bulb needs careful handling, even after lights out.",
+      "hi": "अरे तुम! घुमावदार बल्ब कन्फ़्यूज़ जलेबी बनकर मेरे ऊपर गिरा! पुराना सीएफ़एल बंद होने के बाद भी संभालकर रखना ज़रूरी है।",
+      "ta": "ஹே நீங்க! இந்த சுருள் பல்பு குழம்புன ஜிலேபி மாதிரி என் மேல விழுந்துச்சு! பழைய சிஎஃப்எல் அணைஞ்ச பிறகும் கவனமா கையாளணும் தாங்க."
+    },
+    "harm": {
+      "en": "Compact fluorescent bulbs contain about four milligrams of mercury on average. It stays sealed inside intact glass; breaking it can release mercury.",
+      "hi": "सीएफ़एल बल्ब में औसतन करीब चार मिलीग्राम मर्करी होता है। साबुत काँच में बंद रहता है, टूटने पर बाहर निकल सकता है।",
+      "ta": "சிஎஃப்எல் பல்புல சராசரியா சுமார் நாலு மில்லிகிராம் மெர்க்குரி இருக்கும். உடையாத கண்ணாடிக்குள்ள பத்திரமா இருக்கும், உடைஞ்சா வெளிய வரலாம். கவனமா கையாளுங்க.",
+      "stats": [
+        {
+          "value": 4,
+          "unit": "mg mercury / bulb"
+        }
+      ]
+    },
+    "who": {
+      "en": "Broken glass can cut sanitation workers, and released mercury can harm health. Children nearby need protection from both sharp pieces and exposure.",
+      "hi": "टूटा काँच सफ़ाई वर्कर्स को काट सकता है, निकली मर्करी हेल्थ को नुकसान देती है। बच्चों को टुकड़ों और एक्सपोज़र से बचाओ।",
+      "ta": "உடைஞ்ச கண்ணாடி சுத்தம் பண்றவங்கள காயப்படுத்தலாம், வெளிய வர்ற மெர்க்குரி உடம்புக்கு கெடுதல். குழந்தைங்கள கூர்மையான துண்டு, நச்சு ரெண்டுல இருந்தும் காப்பாத்தணுங்க.",
+      "victims": [
+        "worker",
+        "child",
+        "person"
+      ]
+    },
+    "dispose": {
+      "en": "Switch off, let it cool, and box the intact bulb carefully. Hand it to red hazardous collection; never crush it.",
+      "hi": "स्विच बंद करो, ठंडा होने दो, साबुत बल्ब बॉक्स में संभालकर रखो। रेड हैज़र्डस कलेक्शन को दो। इसे कभी मत कुचलो।",
+      "ta": "ஸ்விட்ச் ஆஃப் பண்ணி ஆற விடுங்க, உடையாத பல்ப பாக்ஸ்ல கவனமா வையுங்க. ரெட் ஆபத்தான வேஸ்ட் கலெக்ஷன்ல குடுங்க. நசுக்கவே கூடாதுங்க.",
+      "bin": "red",
+      "steps": [
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "When replacement is needed, choose an efficient LED. It uses no mercury and lasts longer than fluorescent bulbs; bright idea, gentle hands!",
+      "hi": "बदलने की ज़रूरत हो तो एफ़िशिएंट एलईडी चुनो। इसमें मर्करी नहीं, सीएफ़एल से ज़्यादा चलता है। ब्राइट आइडिया, हाथ आराम से!",
+      "ta": "மாத்த வேண்டிய நேரத்துல சிக்கனமான எல்ஈடி வாங்குங்க. மெர்க்குரி கிடையாது, சிஎஃப்எல்ல விட நீண்ட நாள் உழைக்கும். பிரைட் ஐடியா, கை மட்டும் மெதுவா!",
+      "swap_from": "cfl",
+      "swap_to": "led_bulb"
+    }
+  },
+  "sources": [
+    "US EPA, What are the Connections between Mercury and CFLs?: average about four milligrams, mercury sealed while intact. https://www.epa.gov/mercury/what-are-connections-between-mercury-and-cfls",
+    "US Department of Energy, LED Lighting: residential LEDs use at least 75% less energy and last up to 25 times longer than incandescent lighting. https://www.energy.gov/sites/prod/files/guide_to_energy_efficient_lighting.pdf"
+  ]
+}

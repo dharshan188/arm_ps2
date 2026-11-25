@@ -1,0 +1,60 @@
+{
+  "cls": "paper_waste",
+  "slug": "general",
+  "item": "newspaper",
+  "title": {
+    "en": "Paper likes it dry",
+    "hi": "पेपर को सूखा रखो",
+    "ta": "பேப்பர காய வைங்க"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This newspaper landed on my head; apparently I'm breaking news! Cardboard and notebooks deserve better headlines than mixed rubbish.",
+      "hi": "अरे सुनो! अख़बार मेरे सिर पर गिरा, अब मैं ब्रेकिंग न्यूज़ हूँ! कार्डबोर्ड और नोटबुक्स का अगला हेडलाइन मिक्स कचरा मत बनाओ।",
+      "ta": "ஹே நீங்க! நியூஸ்பேப்பர் என் தலையில விழுந்துச்சு, நான்தான் பிரேக்கிங் நியூஸாம்! கார்ட்போர்டும் நோட்புக்கும் கலந்த குப்பையில போகாம நல்ல நியூஸ் ஆகட்டுமே!"
+    },
+    "harm": {
+      "en": "Paper production uses trees and water. An EPA estimate puts water savings from recycling one US ton at about seven thousand gallons.",
+      "hi": "पेपर बनाने में पेड़ और पानी लगते हैं। ईपीए के एक एस्टिमेट में एक यूएस टन पेपर रीसायकल करने से करीब सात हज़ार गैलन पानी बचता है।",
+      "ta": "பேப்பர் செய்ய மரமும் தண்ணியும் தேவைங்க. ஈபிஏவோட ஒரு கணக்குப்படி ஒரு யூஎஸ் டன் பேப்பர ரீசைக்கிள் பண்ணா கிட்டத்தட்ட ஏழாயிரம் கேலன் தண்ணி மிச்சமாகும்.",
+      "stats": [
+        {
+          "value": 7000,
+          "unit": "US gal / US ton paper"
+        }
+      ]
+    },
+    "who": {
+      "en": "Forests shelter birds, and rivers supply communities. Wasting usable paper adds pressure on both; dirty mixed paper also complicates workers' sorting.",
+      "hi": "जंगल पंछियों का घर हैं, नदियों से लोगों को पानी मिलता है। पेपर बर्बाद करने से प्रेशर बढ़ता है, गंदा पेपर छाँटना भी मुश्किल है।",
+      "ta": "காடுதான் பறவைகளுக்கு வீடு, ஆத்து தண்ணிதான் மக்களுக்கு உதவி. பேப்பர வீணாக்குனா ரெண்டுக்கும் பிரஷர். அழுக்கு பேப்பர பிரிக்குற வொர்க்கர்ஸுக்கும் கஷ்டம்தாங்க.",
+      "victims": [
+        "bird",
+        "river",
+        "worker"
+      ]
+    },
+    "dispose": {
+      "en": "Keep newspaper, cardboard, and notebooks dry; flatten boxes into the blue bin. Keep oily or food stained paper out of recycling.",
+      "hi": "अख़बार, कार्डबोर्ड और नोटबुक्स सूखे रखो, बॉक्स फ्लैट करके ब्लू बिन में डालो। तेल या खाने से गंदा पेपर रीसायक्लिंग में मत डालो।",
+      "ta": "நியூஸ்பேப்பர், கார்ட்போர்டு, நோட்புக் காய வையுங்க. பாக்ஸ தட்டையாக்கி ப்ளூ பின்ல போடுங்க. எண்ணெய் இல்ல சாப்பாடு பட்ட பேப்பர ரீசைக்கிளுக்கு சேர்க்காதீங்க.",
+      "bin": "blue",
+      "steps": [
+        "dry",
+        "squash"
+      ]
+    },
+    "prevent": {
+      "en": "Use both sides of notebook pages, reuse boxes, and choose recycled paper. Give your shopping list a sequel, superstar!",
+      "hi": "नोटबुक के दोनों तरफ़ लिखो, बॉक्स दोबारा यूज़ करो, रीसायकल्ड पेपर चुनो। अपनी शॉपिंग लिस्ट का सीक्वल बनाओ, सुपरस्टार!",
+      "ta": "நோட்புக் பக்கத்தோட ரெண்டு பக்கமும் எழுதுங்க, பாக்ஸ திரும்ப யூஸ் பண்ணுங்க, ரீசைக்கிள் பேப்பர் வாங்குங்க. ஷாப்பிங் லிஸ்டுக்கு சீக்வல் குடுங்க, சூப்பர்ஸ்டார்!",
+      "swap_from": "notebook",
+      "swap_to": "notebook",
+      "swap_to2": "box"
+    }
+  },
+  "sources": [
+    "US EPA (archived), Basic Information Details: Paper Recycling, benefits: recycling one US short ton saves 7,000 US gallons of water; educational estimate, varies by process and paper grade. Units deliberately retained rather than conflating US tons and metric tonnes. https://archive.epa.gov/wastes/conserve/materials/paper/web/html/index-2.html",
+    "US EPA, How Do I Recycle Common Recyclables: paper/cardboard clean and dry, flatten cardboard; food contamination affects paper recycling. Blue bin follows kiosk routing. https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables"
+  ]
+}

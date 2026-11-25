@@ -1,0 +1,8 @@
+{
+  "lang": "ta",
+  "model": "~/arm2026/voice/_dl/whisper-tamil-small-ct2",
+  "backend": "faster-whisper",
+  "threads": 4,
+  "refs_sha256": "fd99a5d9c5d5892220496f28e9500dfde522ea1b3aac16783f9e31ce4d727429",
+  "model_manifest_sha256": "def1bffc39948fcdd83ca72c11c25c41ecc6db6cfda7d37e66de9d5911d23a43"
+}

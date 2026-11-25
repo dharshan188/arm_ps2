@@ -1,0 +1,32 @@
+glass_waste|gbottles|glass bottles recycling|4
+glass_waste|cullet|glass cullet recycling|4
+glass_waste|broken|broken glass bottle street|3
+glass_waste|jars|glass jars kitchen|3
+metal_waste|cans|aluminium cans recycling|4
+metal_waste|scrap|scrap metal dealer India|4
+metal_waste|bauxite|bauxite mine|3
+metal_waste|tiffin|steel tiffin box|3
+paper_waste|newsp|old newspapers bundle|4
+paper_waste|kabadi|kabadiwala India|4
+paper_waste|deforest|deforestation logging|3
+paper_waste|papermill|paper recycling mill|3
+clothes|textile|textile waste dump|4
+clothes|dye|textile dye river pollution|3
+clothes|secondhand|second hand clothes market India|4
+clothes|tailor|tailor sewing machine India|3
+organic_waste|veg|vegetable waste market India|4
+organic_waste|compost|compost pile|4
+organic_waste|landfillfire|landfill fire smoke|3
+organic_waste|kitchen|kitchen vegetable peels|3
+battery_waste|batt|used batteries AA|4
+battery_waste|leak|leaking battery corrosion|3
+battery_waste|collect|battery collection box recycling|3
+battery_waste|recharge|rechargeable batteries charger|3
+light_bulbs|cfl|compact fluorescent lamp|4
+light_bulbs|tube|fluorescent tube lights|3
+light_bulbs|led|LED bulb|3
+light_bulbs|broken|broken light bulb|3
+e_waste|ewaste|electronic waste India|4
+e_waste|seelampur|e-waste dismantling Delhi|4
+e_waste|burn|burning electronic waste cables|3
+e_waste|phones|old mobile phones pile|3

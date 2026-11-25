@@ -1,0 +1,60 @@
+{
+  "cls": "battery_waste",
+  "slug": "aa_cells",
+  "item": "battery",
+  "title": {
+    "en": "Small cells, smarter habits",
+    "hi": "छोटी बैटरी, समझदार आदत",
+    "ta": "சின்ன பேட்டரி, நல்ல பழக்கம்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This little battery gave my head a drum solo! Those tired torch cells deserve better than kitchen rubbish.",
+      "hi": "अरे तुम! छोटी बैटरी ने मेरे सिर पर ड्रम सोलो बजा दिया! टॉर्च की थकी बैटरी को किचन कचरे से बेहतर जगह दो।",
+      "ta": "ஹே நீங்க! சின்ன பேட்டரி என் தலையில டிரம் சோலோ வாசிச்சிடுச்சு! டார்ச்ல இருந்த களைச்ச பேட்டரிக்கு கிச்சன் குப்பைய விட நல்ல இடம் குடுக்கலாம்."
+    },
+    "harm": {
+      "en": "Single use cells waste materials each time you replace them. Suitable rechargeable batteries can be charged hundreds of times instead.",
+      "hi": "हर बार सिंगल यूज़ सेल बदलने से मटेरियल खर्च होता है। सही रिचार्जेबल बैटरी सैकड़ों बार चार्ज हो सकती है। समझदार स्विच है!",
+      "ta": "ஒவ்வொரு தடவையும் சிங்கிள் யூஸ் செல் மாத்துனா மெட்டீரியல் வீணாகுது. பொருத்தமான ரீசார்ஜபிள் பேட்டரிய நூத்துக்கணக்கான தடவை சார்ஜ் பண்ணலாம். நல்ல ஸ்விட்ச் தானே!",
+      "stats": [
+        {
+          "value": 100,
+          "unit": "recharges possible",
+          "prefix": ">"
+        }
+      ]
+    },
+    "who": {
+      "en": "Loose batteries can leak or short, hurting waste workers and nearby families. Keep them away from children, pets, and curious fingers.",
+      "hi": "खुली बैटरी लीक या शॉर्ट होकर वेस्ट वर्कर्स और पास की फ़ैमिली को नुकसान दे सकती है। बच्चों और पेट्स से दूर रखो।",
+      "ta": "தனியா கிடக்குற பேட்டரி லீக் இல்ல ஷார்ட் ஆகி வொர்க்கர்ஸுக்கும் பக்கத்து குடும்பத்துக்கும் கஷ்டம் தரலாம். குழந்தைங்க, செல்லப்பிராணிங்க கைக்கு எட்டாம வையுங்க.",
+      "victims": [
+        "worker",
+        "child",
+        "dog"
+      ]
+    },
+    "dispose": {
+      "en": "Tape the terminals, keep cells dry, and hand them to the red battery collection point. Never burn or open them.",
+      "hi": "टर्मिनल पर टेप लगाओ, सेल सूखे रखो, और रेड बैटरी कलेक्शन पॉइंट को दो। जलाना या खोलना बिल्कुल मत करना।",
+      "ta": "டெர்மினல்ல டேப் போட்டு செல்கள காய வையுங்க. ரெட் பேட்டரி கலெக்ஷன் பாயிண்ட்ல குடுங்க. எரிக்கவோ திறக்கவோ பண்ணாதீங்க, சின்னதுன்னு அலட்சியம் வேணாங்க.",
+      "bin": "red",
+      "steps": [
+        "tape",
+        "dry"
+      ]
+    },
+    "prevent": {
+      "en": "Choose compatible rechargeable cells and the correct charger. Remove batteries from devices stored for months; give your torch a sensible snack!",
+      "hi": "सही रिचार्जेबल सेल और उसका सही चार्जर चुनो। महीनों रखे डिवाइस से बैटरी निकालो। अपनी टॉर्च को समझदार स्नैक दो!",
+      "ta": "பொருத்தமான ரீசார்ஜபிள் செல்லும் சரியான சார்ஜரும் வாங்குங்க. மாசக்கணக்கா வைக்குற டிவைஸ்ல பேட்டரி எடுங்க. உங்க டார்ச்சுக்கு நல்ல ஸ்நாக் குடுங்க, டீலா!",
+      "swap_from": "battery",
+      "swap_to": "rechargeable"
+    }
+  },
+  "sources": [
+    "US EPA, Used Household Batteries: separate collection, insulate terminals; lithium batteries never in household garbage or recycling. https://www.epa.gov/recycle/used-household-batteries",
+    "Energizer, Energizer Recharge: rechargeable batteries can be charged hundreds of times; actual life varies by model and use. https://energizer.com/batteries/energizer-rechargeable-batteries/"
+  ]
+}

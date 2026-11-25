@@ -1,0 +1,61 @@
+{
+  "cls": "metal_waste",
+  "slug": "general",
+  "item": "can",
+  "title": {
+    "en": "Metal has more lives",
+    "hi": "मेटल का अगला चांस",
+    "ta": "மெட்டலுக்கு இன்னொரு சான்ஸ்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This can fell on my head; percussion auditions are closed! Tins, foil, and old utensils still have value.",
+      "hi": "अरे सुनो! कैन मेरे सिर पर गिरा, म्यूज़िक ऑडिशन बंद है! टिन, फ़ॉइल और पुराने बर्तनों में अभी भी वैल्यू है।",
+      "ta": "ஹே நீங்க! கேன் என் தலையில விழுந்துச்சு, மியூசிக் ஆடிஷன் முடிஞ்சாச்சுங்க! டின், ஃபாயில், பழைய பாத்திரம் எல்லாத்துக்கும் இன்னும் மதிப்பு இருக்குதுங்க."
+    },
+    "harm": {
+      "en": "Making fresh metal needs mining and energy. Recycling aluminium saves about ninety five percent of the energy compared with making primary aluminium.",
+      "hi": "नया मेटल बनाने में माइनिंग और एनर्जी लगती है। नया ऐल्युमिनियम बनाने के मुकाबले उसे रीसायकल करने से करीब पचानवे परसेंट एनर्जी बचती है।",
+      "ta": "புது மெட்டல் செய்ய மைனிங்கும் எனர்ஜியும் தேவை. புதுசா அலுமினியம் செய்யுறதோட ஒப்பிட்டா ரீசைக்கிள் பண்ண கிட்டத்தட்ட தொண்ணூத்தி அஞ்சு பர்சன்ட் எனர்ஜி மிச்சங்க.",
+      "stats": [
+        {
+          "value": 95,
+          "suffix": "%",
+          "unit": "aluminium energy saved"
+        }
+      ]
+    },
+    "who": {
+      "en": "Mining disturbs land and water, while sharp metal edges can injure waste workers. Keeping scrap separate protects people and recovers resources.",
+      "hi": "माइनिंग से ज़मीन और पानी पर असर पड़ता है, नुकीले मेटल से वर्कर्स कट सकते हैं। स्क्रैप अलग रखने से लोग और रिसोर्स बचते हैं।",
+      "ta": "மைனிங் மண்ணையும் தண்ணியையும் பாதிக்கும், கூரான மெட்டல் வொர்க்கர்ஸ காயப்படுத்தலாம். ஸ்கிராப்ப தனியா வெச்சா மக்களுக்கும் நல்லது, மெட்டீரியலும் திரும்ப கிடைக்குங்க.",
+      "victims": [
+        "worker",
+        "river",
+        "soil"
+      ]
+    },
+    "dispose": {
+      "en": "Empty, rinse, and dry cans, tins, and foil; protect sharp edges. Use the blue bin or give scrap to the kabadiwala.",
+      "hi": "कैन, टिन और फ़ॉइल खाली करके धोओ, सुखाओ, नुकीले किनारे सुरक्षित करो। ब्लू बिन में दो या स्क्रैप कबाड़ीवाले को दे दो।",
+      "ta": "கேன், டின், ஃபாயில் காலி பண்ணி கழுவி காய வையுங்க, கூரான ஓரத்த பாதுகாப்பா மூடுங்க. ப்ளூ பின்ல இல்ல கபாடிவாலாகிட்ட குடுங்க.",
+      "bin": "blue",
+      "steps": [
+        "rinse",
+        "dry"
+      ]
+    },
+    "prevent": {
+      "en": "Replace throwaway foil with a reusable tiffin; repair old utensils and reuse containers. Let your lunch have a permanent address!",
+      "hi": "थ्रोअवे फ़ॉइल की जगह दोबारा चलने वाला टिफ़िन लो, बर्तन रिपेयर करो, कंटेनर फिर यूज़ करो। लंच को परमानेंट पता दो!",
+      "ta": "தூக்கிப்போடுற ஃபாயிலுக்கு பதிலா டிஃபின் யூஸ் பண்ணுங்க, பாத்திரத்த ரிப்பேர் பண்ணுங்க, கன்டெய்னர திரும்ப பயன்படுத்துங்க. லஞ்சுக்கு பர்மனன்ட் அட்ரஸ் குடுங்க!",
+      "swap_from": "foil",
+      "swap_to": "tiffin",
+      "swap_to2": "container"
+    }
+  },
+  "sources": [
+    "International Aluminium Institute, Aluminium recycling saves 95% of the energy needed for primary aluminium production; applies to aluminium, not every metal. https://international-aluminium.org/landing/aluminium-recycling-saves-95-of-the-energy-needed-for-primary-aluminium-production/",
+    "US EPA, How Do I Recycle Common Recyclables: clean metal cans and aluminium foil; local acceptance varies. Blue bin or kabadiwala follows kiosk routing. https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables"
+  ]
+}

@@ -1,0 +1,223 @@
+{
+ "cls": "paper_waste",
+ "slug": "general_photo",
+ "title": {
+  "en": "Paper: keep it clean and dry",
+  "hi": "पेपर: साफ़ और सूखा रखो",
+  "ta": "பேப்பர்: சுத்தமா காய வையுங்க"
+ },
+ "beats": {
+  "intro": {
+   "en": "A newspaper, a notebook, a delivery box. Paper passes through our homes every day, and much of it can be used again.",
+   "hi": "अख़बार, नोटबुक, डिलीवरी बॉक्स। हर दिन हमारे घर में पेपर आता है, और उसका काफ़ी हिस्सा फिर काम आ सकता है।",
+   "ta": "நியூஸ்பேப்பர், நோட்புக், டெலிவரி பாக்ஸ். தினமும் நம்ம வீட்டுக்குள்ள பேப்பர் வருது. அதுல நிறைய திரும்பவும் பயன்படும்."
+  },
+  "harm": {
+   "en": "Food and oil can spoil paper for recycling. Mixing it with kitchen waste can turn a useful resource into rubbish.",
+   "hi": "खाने और तेल से पेपर रीसायक्लिंग के लायक नहीं रह सकता। किचन के कचरे में मिलाने से काम की चीज़ भी कचरा बन सकती है।",
+   "ta": "சாப்பாடும் எண்ணெயும் பட்டா, பேப்பர ரீசைக்கிள் பண்ண முடியாம போகலாம். சமையல் குப்பையோட கலந்தா, பயன்படுற பொருளும் குப்பையாகிடலாம்."
+  },
+  "who": {
+   "en": "Collection workers and paper sorters depend on what we separate at home. Clean paper is easier to recover.",
+   "hi": "कलेक्शन वर्कर्स और पेपर छाँटने वालों का काम इस पर भी निर्भर है कि हम घर में क्या अलग रखते हैं। साफ़ पेपर वापस काम में लाना आसान है।",
+   "ta": "நாம வீட்டுல எப்படி பிரிச்சு வைக்கிறோம்ன்றது, குப்பை எடுக்குறவங்களுக்கும் பேப்பர் பிரிக்கிறவங்களுக்கும் முக்கியம். சுத்தமான பேப்பர மீட்டெடுக்குறது சுலபம்."
+  },
+  "dispose": {
+   "en": "Keep paper clean and dry, flatten cardboard boxes, then put them in the blue bin. Leave oily paper out.",
+   "hi": "पेपर साफ़ और सूखा रखो, कार्डबोर्ड बॉक्स चपटा करो, फिर ब्लू बिन में डालो। तेल लगा पेपर अलग रखो।",
+   "ta": "பேப்பர சுத்தமா, காய வெச்சுக்கோங்க. கார்ட்போர்டு பாக்ஸ தட்டையாக்கி, ப்ளூ பின்ல போடுங்க. எண்ணெய் பட்ட பேப்பர சேர்க்காதீங்க."
+  },
+  "prevent": {
+   "en": "Use both sides of each page. Reuse boxes before recycling them, and buy only the paper you need.",
+   "hi": "हर पन्ने के दोनों तरफ़ लिखो। बॉक्स रीसायकल करने से पहले दोबारा यूज़ करो और जितना पेपर चाहिए, उतना ही खरीदो।",
+   "ta": "ஒவ்வொரு பக்கத்துலயும் ரெண்டு பக்கமும் எழுதுங்க. பாக்ஸ ரீசைக்கிள் பண்றதுக்கு முன்னாடி திரும்ப யூஸ் பண்ணுங்க. தேவையான அளவு மட்டும் பேப்பர் வாங்குங்க."
+  }
+ },
+ "shots": {
+  "intro": [
+   {
+    "img": "cardb_00.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "harm": [
+   {
+    "img": "forest_00.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "mill_00.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "who": [
+   {
+    "img": "dispose1_01.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "dispose1_00.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "dispose": [
+   {
+    "img": "dispose0_01.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "mill_01.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "prevent": [
+   {
+    "img": "prevent0_00.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "cardb_01.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ]
+ },
+ "overlays": {
+  "dispose": [
+   {
+    "type": "steps",
+    "n": 3,
+    "steps_at": [
+     0.02,
+     0.27,
+     0.52
+    ],
+    "bin": "blue",
+    "bin_at": 0.52,
+    "until": 1.0
+   }
+  ]
+ },
+ "sources": [
+  "US EPA, Frequent Questions on Recycling: paper must be empty, clean, and dry before recycling. https://www.epa.gov/recycle/frequent-questions-recycling",
+  "US EPA, How Do I Recycle Common Recyclables: flatten cardboard; paper with food residue may not be recyclable. Acceptance differs by local programme. https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+  "US EPA, WasteWise Tip Sheet: Waste Prevention: use both sides of each page and reuse shipping materials such as cartons. https://archive.epa.gov/epawaste/conserve/smm/wastewise/web/pdf/prvtpdf.pdf",
+  "BBMP, Waste Management FAQs: paper is dry waste; blue bin is the recyclable dry-waste stream. Blue routing here follows Sorti. https://apps.bbmpgov.in/SWM/Home/Forms/PublicInformation.aspx?page=FAQs"
+ ]
+}

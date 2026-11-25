@@ -1,0 +1,64 @@
+{
+ "cls": "organic_waste",
+ "slug": "tea_coffee",
+ "item": "tea",
+ "title": {
+  "en": "Tea & Coffee Waste",
+  "hi": "चाय और कॉफ़ी का कचरा",
+  "ta": "டீ, காபி குப்பை"
+ },
+ "beats": {
+  "intro": {
+   "en": "Hot hot hot! Somebody dumped used chai leaves on my head! Hey you, tea lover! Let's sort your chai waste properly.",
+   "hi": "गरम गरम! किसी ने मेरे सिर पर इस्तेमाल की हुई चाय पत्ती डाल दी! अरे चाय के शौक़ीन! चलो तुम्हारा चाय का कचरा सही से छाँटें।",
+   "ta": "சூடு சூடு! யாரோ யூஸ் பண்ண டீ தூள என் தலைல கொட்டிட்டாங்க! ஹே டீ பிரியரே! உங்க டீ குப்பைய ஒழுங்கா பிரிக்கலாம் வாங்க."
+  },
+  "harm": {
+   "en": "India drinks over one million tonnes of tea a year. And one plastic-mesh tea bag can shed about eleven billion microplastic bits in hot water!",
+   "hi": "इंडिया हर साल दस लाख टन से ज़्यादा चाय पी जाता है। और एक प्लास्टिक वाला टी बैग गरम पानी में करीब ग्यारह अरब माइक्रोप्लास्टिक कण छोड़ सकता है!",
+   "ta": "நம்ம இந்தியா வருஷத்துக்கு பத்து லட்சம் டன்னுக்கு மேல டீ குடிக்குது. ஒரு பிளாஸ்டிக் டீ பேக் சுடு தண்ணில கிட்டத்தட்ட பதினோரு பில்லியன் மைக்ரோபிளாஸ்டிக் துகள விடலாம்!",
+   "stats": [
+    {
+     "value": 1,
+     "unit": "million t tea / yr"
+    },
+    {
+     "value": 11,
+     "unit": "billion microplastics",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Those tiny plastic bits end up inside people, wash into rivers, and get swallowed by fish. Not the masala we wanted!",
+   "hi": "वो छोटे प्लास्टिक कण इंसानों के अंदर पहुँचते हैं, नदियों में बहते हैं, और मछलियाँ उन्हें निगल जाती हैं। ये वाला मसाला नहीं चाहिए था!",
+   "ta": "அந்த குட்டி பிளாஸ்டிக் துகள் மனுஷங்க உடம்புக்குள்ள போகுது, ஆத்துல கலக்குது, மீனுங்க முழுங்குது. இந்த மசாலா நமக்கு வேணாம்!",
+   "victims": [
+    "person",
+    "river",
+    "fish"
+   ]
+  },
+  "dispose": {
+   "en": "Used tea leaves and coffee grounds go in the green bin. Let them drain and dry a bit first, so the bin doesn't get soggy.",
+   "hi": "इस्तेमाल की चाय पत्ती और कॉफ़ी पाउडर ग्रीन बिन में डालो। पहले पानी निकालकर थोड़ा सुखा लो, ताकि बिन गीला न हो।",
+   "ta": "யூஸ் பண்ண டீ தூளும் காபி தூளும் க்ரீன் பின்ல போடுங்க. முதல்ல தண்ணி வடிச்சு கொஞ்சம் காய வெச்சுக்கோங்க, பின் சொதசொதன்னு ஆகாது.",
+   "bin": "green",
+   "steps": [
+    "dry"
+   ]
+  },
+  "prevent": {
+   "en": "Brew loose leaf instead of plastic tea bags, and sip from a steel cup, not a paper cup. Cutting chai, zero waste? High five!",
+   "hi": "प्लास्टिक टी बैग की जगह खुली चाय पत्ती उबालो, और पेपर कप नहीं, स्टील के कप में पियो। कटिंग चाय, ज़ीरो वेस्ट? हाई फ़ाइव!",
+   "ta": "பிளாஸ்டிக் டீ பேக் வேணாம், சாதா டீ தூள்ல போடுங்க. பேப்பர் கப் வேணாம், ஸ்டீல் டம்ளர்ல குடிங்க. ஜீரோ வேஸ்ட் டீ? ஹை ஃபைவ்!",
+   "swap_from": "paper_cup",
+   "swap_to": "steel_cup",
+   "swap_to2": "tea"
+  }
+ },
+ "sources": [
+  "Tea Board of India (domestic tea consumption over 1 billion kg per year)",
+  "Hernandez et al. 2019, Environmental Science & Technology (one plastic tea bag releases ~11.6 billion microplastics at brewing temperature)"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+  "cls": "metal_waste",
+  "slug": "scrap",
+  "item": "tin",
+  "title": {
+    "en": "Old utensils, useful metal",
+    "hi": "पुराने बर्तन, काम का मेटल",
+    "ta": "பழைய பாத்திரம், பயனுள்ள மெட்டல்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! That old utensil rang my head like a dinner bell! Broken pots still have metal worth saving, hungry audience.",
+      "hi": "अरे तुम! पुराने बर्तन ने मेरे सिर पर डिनर बेल बजा दी! टूटे बर्तन में भी काम का मेटल है, मेरे भूखे दोस्तों।",
+      "ta": "ஹே நீங்க! பழைய பாத்திரம் என் தலையில டின்னர் பெல் அடிச்சிடுச்சு! உடைஞ்ச பாத்திரத்துலயும் காப்பாத்த வேண்டிய மெட்டல் இருக்கு, பசிக்குற நண்பர்களே வாங்க."
+    },
+    "harm": {
+      "en": "Using one tonne of steel scrap avoids consuming about one point four tonnes of iron ore. Dumping useful metal wastes resources.",
+      "hi": "एक टन स्टील स्क्रैप यूज़ करने से करीब एक दशमलव चार टन आयरन ओर बचता है। काम का मेटल फेंकना रिसोर्स की बर्बादी है।",
+      "ta": "ஒரு டன் ஸ்டீல் ஸ்க்ராப் யூஸ் பண்ணா சுமார் ஒண்ணு புள்ளி நாலு டன் இரும்புத்தாது தேவையில்லாம போகும். நல்ல மெட்டல தூக்கி போட்டா வளங்கள் வீணுங்க.",
+      "stats": [
+        {
+          "value": 1.4,
+          "unit": "t ore / t steel scrap",
+          "decimals": 1
+        }
+      ]
+    },
+    "who": {
+      "en": "Sharp edges can cut waste workers, while mining new metal affects land and nearby communities. Your old utensils deserve a safer route.",
+      "hi": "नुकीले किनारे वेस्ट वर्कर्स को काटते हैं, नया मेटल निकालने से ज़मीन और पास की कम्यूनिटी पर असर पड़ता है। सही रास्ता चुनो।",
+      "ta": "கூர்மையான ஓரம் குப்பை வொர்க்கர்ஸ காயப்படுத்தும். புது மெட்டல் சுரங்கம் மண்ணுக்கும் பக்கத்து மக்களுக்கும் பாதிப்பு. உங்க பழைய பாத்திரத்துக்கு நல்ல வழி குடுங்க.",
+      "victims": [
+        "worker",
+        "soil",
+        "person"
+      ]
+    },
+    "dispose": {
+      "en": "Clean and dry old utensils, protect sharp edges, and give them to your kabadiwala or designated blue metal recycling collection.",
+      "hi": "पुराने बर्तन साफ़ करके सुखाओ, नुकीले किनारे कवर करो। कबाड़ीवाले को दो या तय ब्लू मेटल रीसायकल कलेक्शन में जमा करो।",
+      "ta": "பழைய பாத்திரத்த சுத்தம் பண்ணி காய வையுங்க, கூர்மையான ஓரத்த மூடுங்க. கபாடிவாலாகிட்ட இல்ல ப்ளூ மெட்டல் ரீசைக்கிள் கலெக்ஷன்ல குடுங்க.",
+      "bin": "blue",
+      "steps": [
+        "dry",
+        "wrap"
+      ]
+    },
+    "prevent": {
+      "en": "Repair sturdy utensils or pass on usable extras before recycling. Buy durable pieces you need; let the dinner bell ring for dinner!",
+      "hi": "मज़बूत बर्तन रिपेयर कराओ, अच्छे एक्स्ट्रा किसी को दो। ज़रूरत के टिकाऊ बर्तन लो। डिनर बेल खाने के लिए बजने दो!",
+      "ta": "உறுதியான பாத்திரத்த ரிப்பேர் பண்ணுங்க, நல்ல எக்ஸ்ட்ராவ இன்னொருத்தருக்கு குடுங்க. தேவையான நீடிக்குற பாத்திரம் வாங்குங்க. டின்னர் பெல் சாப்பாட்டுக்கு மட்டும் அடிக்கட்டும்!",
+      "swap_from": "tin",
+      "swap_to": "wrench"
+    }
+  },
+  "sources": [
+    "World Steel Association, Climate change and the production of iron and steel (2025): each tonne of steel scrap used avoids 1.4 tonnes iron ore consumption. https://worldsteel.org/climate-action/climate-change-and-the-production-of-iron-and-steel/"
+  ]
+}

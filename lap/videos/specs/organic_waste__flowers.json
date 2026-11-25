@@ -1,0 +1,57 @@
+{
+ "cls": "organic_waste",
+ "slug": "flowers",
+ "item": "flowers",
+ "title": {
+  "en": "Pooja Flowers: Where Do They Go?",
+  "hi": "पूजा के फूल: कहाँ डालें?",
+  "ta": "பூஜை பூ: எங்க போடணும்?"
+ },
+ "beats": {
+  "intro": {
+   "en": "Wow, a garland just landed on my head! Am I the chief guest? No? Okay then, let's talk about old flowers.",
+   "hi": "अरे वाह, मेरे सिर पर माला आ गिरी! मैं चीफ़ गेस्ट हूँ क्या? नहीं? ठीक है, तो पुराने फूलों की बात करते हैं।",
+   "ta": "வாவ், என் தலைல மாலை வந்து விழுந்துடுச்சு! நான் தான் சீஃப் கெஸ்ட்டா? இல்லையா? சரி விடுங்க, பழைய பூ பத்தி பேசலாம்."
+  },
+  "harm": {
+   "en": "Old flowers rotting in rivers or plastic bags release methane. Over twenty years, methane traps about eighty times more heat than carbon dioxide.",
+   "hi": "नदी में या पन्नी में सड़ते पुराने फूल मीथेन छोड़ते हैं। बीस साल में मीथेन कार्बन डाइऑक्साइड से करीब अस्सी गुना ज़्यादा गर्मी रोकती है।",
+   "ta": "ஆத்துல இல்ல கவர்ல அழுகுற பழைய பூ மீத்தேன் விடுது. இருபது வருஷத்துல மீத்தேன் கார்பன் டை ஆக்சைட விட எண்பது மடங்கு சூட்ட பிடிச்சு வெச்சுக்கும்.",
+   "stats": [
+    {
+     "value": 80,
+     "suffix": "x",
+     "unit": "heat trapped vs CO2",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Rivers choke on floating garlands, fish lose oxygen as the flowers rot, and the air carries the extra methane.",
+   "hi": "नदियाँ तैरती मालाओं से भर जाती हैं, फूल सड़ने से मछलियों को ऑक्सीजन कम मिलती है, और हवा में मीथेन बढ़ जाती है।",
+   "ta": "மிதக்குற மாலையால ஆறு அடைச்சுக்குது, பூ அழுகும்போது மீனுங்களுக்கு ஆக்சிஜன் கம்மியாகுது, காத்துல மீத்தேன் ஏறுது.",
+   "victims": [
+    "river",
+    "fish",
+    "air"
+   ]
+  },
+  "dispose": {
+   "en": "Pull out the thread and any plastic or foil, then drop the petals in the green bin. Temple flowers are welcome too!",
+   "hi": "धागा और कोई भी प्लास्टिक या पन्नी निकालो, फिर फूल ग्रीन बिन में डालो। मंदिर के फूल भी चलेंगे!",
+   "ta": "நூலையும் பிளாஸ்டிக், ஃபாயில் எதுவா இருந்தாலும் எடுத்துடுங்க, அப்புறம் பூவ க்ரீன் பின்ல போடுங்க. கோயில் பூவும் ஓகே தான்!",
+   "bin": "green",
+   "steps": []
+  },
+  "prevent": {
+   "en": "Better still, compost old flowers into plant food, or dry the petals to make colours. Flower power, the eco way! High five!",
+   "hi": "और भी बढ़िया, पुराने फूलों से खाद बनाओ, या पंखुड़ियाँ सुखाकर रंग बनाओ। फ़्लावर पावर, इको स्टाइल! हाई फ़ाइव!",
+   "ta": "இன்னும் சூப்பர்னா, பழைய பூவ உரமா ஆக்குங்க, இல்ல இதழ காய வெச்சு கலர் பண்ணுங்க. ஃப்ளவர் பவர், இக்கோ ஸ்டைல்! ஹை ஃபைவ்!",
+   "swap_from": "flowers",
+   "swap_to": "compost_bin"
+  }
+ },
+ "sources": [
+  "UNEP/CCAC Global Methane Assessment 2021 and IPCC AR6 (methane ~80x the warming of CO2 over 20 years)"
+ ]
+}

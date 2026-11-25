@@ -1,0 +1,58 @@
+{
+ "cls": "glass_waste",
+ "slug": "jars",
+ "item": "jar",
+ "title": {
+  "en": "Glass Jars: Pickle Jar Power",
+  "hi": "काँच के जार: अचार जार की पावर",
+  "ta": "கண்ணாடி ஜாடி: ஊறுகா ஜாடி பவர்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Ouch! Grandma's empty pickle jar just dropped on my head! Hey you, don't toss that jar yet, it has superpowers!",
+   "hi": "आउच! दादी का खाली अचार का जार मेरे सिर पर गिर गया! अरे तुम, अभी जार मत फेंको, इसमें सुपरपावर है!",
+   "ta": "ஐயோ! பாட்டியோட காலி ஊறுகா ஜாடி என் தலைல விழுந்துடுச்சு! ஹே நீங்க, அந்த ஜாடிய இப்போவே தூக்கி போடாதீங்க, அதுக்கு சூப்பர் பவர் இருக்கு!"
+  },
+  "harm": {
+   "en": "Making new glass means digging up sand, soda ash and limestone. Every tonne of glass recycled saves about a tonne of raw materials!",
+   "hi": "नया काँच बनाने के लिए रेत, सोडा ऐश और चूना पत्थर खोदना पड़ता है। हर एक टन रीसायकल काँच करीब एक टन कच्चा माल बचाता है!",
+   "ta": "புது கண்ணாடி பண்ண மணல், சோடா ஆஷ், சுண்ணாம்பு கல்லு எல்லாம் தோண்டணும். ஒரு டன் கண்ணாடிய ரீசைக்கிள் பண்ணா கிட்டத்தட்ட ஒரு டன் மூலப்பொருள் மிச்சம்!",
+   "stats": [
+    {
+     "value": 1,
+     "unit": "t raw material saved / t"
+    }
+   ]
+  },
+  "who": {
+   "en": "Sand mining scars rivers, broken jars in mixed trash cut waste pickers, and glass shards stay in the soil for ages.",
+   "hi": "रेत खनन से नदियाँ खोखली होती हैं, मिले कचरे में टूटे जार कचरा बीनने वालों को काटते हैं, और काँच के टुकड़े सालों मिट्टी में रहते हैं।",
+   "ta": "மணல் அள்ளுறதால ஆறு பாழாகுது, கலந்த குப்பைல உடைஞ்ச ஜாடி குப்பை பொறுக்குறவங்கள வெட்டுது, கண்ணாடி துண்டு வருஷக்கணக்கா மண்ணுல இருக்கும்.",
+   "victims": [
+    "river",
+    "worker",
+    "soil"
+   ]
+  },
+  "dispose": {
+   "en": "Scrape out the pickle, rinse the jar, and keep the metal lid separate. Then into the blue bin it goes!",
+   "hi": "अचार निकालो, जार धो लो, और धातु का ढक्कन अलग रखो। फिर सीधा ब्लू बिन में!",
+   "ta": "ஊறுகாய வழிச்சு எடுத்து, ஜாடிய கழுவி, மெட்டல் மூடிய தனியா வெச்சுடுங்க. அப்புறம் நேரா ப்ளூ பின்ல!",
+   "bin": "blue",
+   "steps": [
+    "rinse"
+   ]
+  },
+  "prevent": {
+   "en": "Better yet, reuse jars to store dal, spices and snacks instead of plastic bags. Your kitchen looks fancy for free! High five!",
+   "hi": "और भी अच्छा, पन्नियों की जगह जार में दाल, मसाले और नमकीन रखो। किचन मुफ़्त में फ़ैंसी दिखेगा! हाई फ़ाइव!",
+   "ta": "இன்னும் பெஸ்ட், கவருக்கு பதிலா ஜாடில பருப்பு, மசாலா, ஸ்நாக்ஸ் வெச்சுக்கோங்க. கிச்சன் ஃப்ரீயா ஃபேன்சியா தெரியும்! ஹை ஃபைவ்!",
+   "swap_from": "bag",
+   "swap_to": "jar"
+  }
+ },
+ "sources": [
+  "Glass Packaging Institute: each ton of glass recycled saves roughly a ton of raw materials (sand, soda ash, limestone)",
+  "UNEP 2019, Sand and Sustainability (river sand extraction impacts)"
+ ]
+}

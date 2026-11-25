@@ -1,0 +1,216 @@
+{
+ "cls": "light_bulbs",
+ "slug": "general_photo",
+ "title": {
+  "en": "Old lights: handle with care",
+  "hi": "पुरानी लाइट: सँभालकर रखो",
+  "ta": "பழைய லைட்: கவனமா கையாளுங்க"
+ },
+ "beats": {
+  "intro": {
+   "en": "A light goes out, and we reach for a replacement. The old bulb still needs a careful journey.",
+   "hi": "लाइट बंद होती है, तो हम नया बल्ब ढूँढते हैं। पुराने बल्ब को भी सँभालकर आगे देना ज़रूरी है।",
+   "ta": "லைட் போயிடுச்சுன்னா புது பல்ப் எடுக்குறோம். பழைய பல்பையும் கவனமா எடுத்துக் கொடுக்கணும்."
+  },
+  "harm": {
+   "en": "CFLs and fluorescent tubes contain mercury. It stays inside intact lamps, but can escape if they break. LEDs don't contain mercury.",
+   "hi": "सीएफ़एल और फ़्लोरोसेंट ट्यूब में मरकरी होती है। साबुत लाइट में ये अंदर रहती है, लेकिन टूटने पर निकल सकती है। एलईडी में मरकरी नहीं होती।",
+   "ta": "சிஎஃப்எல், ஃப்ளூரசென்ட் டியூப்ல மெர்க்குரி இருக்கு. உடையாத லைட்டுல அது உள்ளயே இருக்கும். உடைஞ்சா வெளிய வரலாம். எல்ஈடியில மெர்க்குரி கிடையாது."
+  },
+  "who": {
+   "en": "Broken glass can cut waste workers. Mercury exposure can harm developing nervous systems, making children especially vulnerable.",
+   "hi": "टूटे काँच से कचरा सँभालने वाले वर्कर्स को चोट लग सकती है। मरकरी बढ़ते नर्वस सिस्टम को नुकसान पहुँचा सकती है, इसलिए बच्चों को ख़ास ख़तरा है।",
+   "ta": "உடைஞ்ச கண்ணாடி குப்பை கையாளுற தொழிலாளர்களைக் காயப்படுத்தலாம். மெர்க்குரி வளர்ற நரம்பு மண்டலத்த பாதிக்கலாம். அதனால குழந்தைகளுக்கு ஆபத்து அதிகம்."
+  },
+  "dispose": {
+   "en": "Switch off and let the bulb cool. Wrap and box it without breaking. Place it gently in the red bin, never normal trash.",
+   "hi": "स्विच बंद करो और बल्ब ठंडा होने दो। बिना तोड़े लपेटकर बॉक्स में रखो। रेड बिन में धीरे से रखो, आम कचरे में कभी नहीं।",
+   "ta": "ஸ்விட்ச் ஆஃப் பண்ணி பல்ப் ஆறட்டும். உடைக்காம சுத்தி பாக்ஸ்ல வைங்க. ரெட் பின்ல மெதுவா வைங்க. சாதாரண குப்பையில போடவே கூடாது."
+  },
+  "prevent": {
+   "en": "Choose LEDs: they use at least seventy five per cent less energy than incandescent bulbs. Switch off lights in empty rooms.",
+   "hi": "एलईडी चुनो। पुराने फ़िलामेंट बल्ब के मुकाबले ये कम से कम पचहत्तर परसेंट कम बिजली लेते हैं। खाली कमरों की लाइट बंद करो।",
+   "ta": "எல்ஈடி தேர்ந்தெடுங்க. பழைய ஃபிலமென்ட் பல்பைவிட குறைஞ்சது எழுபத்தஞ்சு பர்சன்ட் கம்மியா கரண்ட் எடுக்கும். யாரும் இல்லாத ரூம்ல லைட்ட ஆஃப் பண்ணுங்க."
+  }
+ },
+ "shots": {
+  "intro": [
+   {
+    "img": "harm1_00.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "harm": [
+   {
+    "img": "harm0_02.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "harm0_00.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "who": [
+   {
+    "img": "harm1_01.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "dispose": [
+   {
+    "img": "intro0_02.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   },
+   {
+    "img": "dispose1_00.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   }
+  ],
+  "prevent": [
+   {
+    "img": "harm1_02.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "prevent0_01.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   }
+  ]
+ },
+ "overlays": {
+  "dispose": [
+   {
+    "type": "steps",
+    "n": 3,
+    "steps_at": [
+     0.0,
+     0.3,
+     0.57
+    ],
+    "bin": "red",
+    "bin_at": 0.72,
+    "until": 1.0
+   }
+  ],
+  "prevent": [
+   {
+    "type": "stat",
+    "value": 75,
+    "fmt": "{:.0f}%",
+    "unit": "less energy · LED vs old bulb",
+    "at": 0.17,
+    "count": true
+   }
+  ]
+ },
+ "sources": [
+  "US EPA, What are the Connections between Mercury and CFLs?: intact fluorescent lamps retain mercury; breakage can release it; LEDs contain no mercury. https://www.epa.gov/mercury/what-are-connections-between-mercury-and-cfls",
+  "US EPA, Health Effects of Exposures to Mercury: developing nervous systems are especially vulnerable. https://www.epa.gov/mercury/health-effects-exposures-mercury",
+  "US Department of Energy, Guide to Energy Efficient Lighting (2010): LEDs use at least 75 percent less energy than incandescent bulbs. Comparison is with incandescent lighting, not CFLs or fluorescent tubes. https://www.energy.gov/sites/prod/files/guide_to_energy_efficient_lighting.pdf",
+  "all bulbs use Sorti's dedicated red hazardous collection route; this does not imply every bulb contains mercury or that red is a universal municipal lamp-bin colour. Keep bulbs intact."
+ ]
+}

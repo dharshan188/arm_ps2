@@ -1,0 +1,629 @@
+[
+  {
+    "class": "battery_waste",
+    "file": "photos/battery_waste_1.jpg",
+    "title": "File:AA VARTA battery-side PNr°0782.jpg",
+    "author": "D-Kuru",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AA_VARTA_battery-side_PNr%C2%B00782.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/AA_VARTA_battery-side_PNr%C2%B00782.jpg/960px-AA_VARTA_battery-side_PNr%C2%B00782.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "2d7ce35932609af8250ee718938b7abee7e53ff3",
+    "download_sha256": "0c4e683f9047afc559b3cd712383d08cec7bb7ec6c9316c1a5c7862c37546322",
+    "description": "A AA battery by VARTA",
+    "crop": [
+      0.12,
+      0.02,
+      0.89,
+      0.98
+    ]
+  },
+  {
+    "class": "battery_waste",
+    "file": "photos/battery_waste_2.jpg",
+    "title": "File:02 - Single Energizer Battery.jpg",
+    "author": "Asim18",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:02_-_Single_Energizer_Battery.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/02_-_Single_Energizer_Battery.jpg/960px-02_-_Single_Energizer_Battery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "36925ee22232a8b95a78b2c96cce9ed64e24eff9",
+    "download_sha256": "cf1d221ad45acda482907879b5734bda0afc3495ff6bc0057f95c2102531d8b9",
+    "description": "Image of a single Energizer AA Battery",
+    "crop": [
+      0.03,
+      0.04,
+      0.98,
+      0.96
+    ]
+  },
+  {
+    "class": "battery_waste",
+    "file": "photos/battery_waste_3.jpg",
+    "title": "File:AA Batteries (51825378856).jpg",
+    "author": "ajay_suresh",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:AA_Batteries_(51825378856).jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/AA_Batteries_%2851825378856%29.jpg/960px-AA_Batteries_%2851825378856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "890cfc6eee6231ab8031b580ca9865c762951d46",
+    "download_sha256": "d7a04b3be7f251abad6c69547bd08fcf2304feeea4a76abdf7a19a49f1a0cc32",
+    "description": "AA, AA Batteries, AA Battery, Battery",
+    "crop": [
+      0.03,
+      0.03,
+      0.98,
+      0.98
+    ]
+  },
+  {
+    "class": "clothes",
+    "file": "photos/clothes_1.jpg",
+    "title": "File:FOSDEM t-shirt 2013.jpg",
+    "author": "Dabid Martinez Perez",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:FOSDEM_t-shirt_2013.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/FOSDEM_t-shirt_2013.jpg/960px-FOSDEM_t-shirt_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "ca195bcdf694de24f0640180b53a20cda3490508",
+    "download_sha256": "2b6860311ca37c7eeab6cc6790eb9d90b0dec7b9026ff12f456ef3a52ebd7aee",
+    "description": "FOSDEM (Free and Open source Software Developers' European Meeting) is a non-commercial, volunteer organized European event centered around free and open source software development.",
+    "crop": [
+      0.02,
+      0.01,
+      0.98,
+      0.9
+    ]
+  },
+  {
+    "class": "clothes",
+    "file": "photos/clothes_2.jpg",
+    "title": "File:Nike t-shirt.jpg",
+    "crop": [
+      0.08,
+      0.22,
+      0.98,
+      0.95
+    ],
+    "author": "Ssu",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Nike_t-shirt.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Nike_t-shirt.jpg/960px-Nike_t-shirt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "899f51659d05978c647c693384bf459d2055e119",
+    "download_sha256": "b17b127723018f503291b93e4dfa8c010662a3150c0cb64992f3048ec587bdb7",
+    "description": "Nike t-shirt"
+  },
+  {
+    "class": "clothes",
+    "file": "photos/clothes_3.jpg",
+    "title": "File:Wit katoenen kinder-T-shirt met vierkante full-color opdruk met middenin foto van hond en op vier hoeken kindergezichtjes, van de tv-serie “De Boefjes”, cijferverdeling als klok, objectnr 75795.JPG",
+    "crop": [
+      0.06,
+      0.04,
+      0.95,
+      0.97
+    ],
+    "author": "Merel Verkerk",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Wit_katoenen_kinder-T-shirt_met_vierkante_full-color_opdruk_met_middenin_foto_van_hond_en_op_vier_hoeken_kindergezichtjes,_van_de_tv-serie_%E2%80%9CDe_Boefjes%E2%80%9D,_cijferverdeling_als_klok,_objectnr_75795.JPG",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Wit_katoenen_kinder-T-shirt_met_vierkante_full-color_opdruk_met_middenin_foto_van_hond_en_op_vier_hoeken_kindergezichtjes%2C_van_de_tv-serie_%E2%80%9CDe_Boefjes%E2%80%9D%2C_cijferverdeling_als_klok%2C_objectnr_75795.JPG/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "a8499f2e69bd6e373e534889b24e4847a0099bdb",
+    "download_sha256": "de15d8109ce4d1a814d79742d75b658e5a31f187dfebc9a6d9355b025620ae06",
+    "description": "Objectgegevens Titel:  \tWit katoenen kinder-T-shirt met vierkante full-color opdruk met middenin foto van hond en op vier hoeken kindergezichtjes, van de tv-serie “De Boefjes”, cijferverdeling als klok Beschrijving:  \tWit t-shirt met ronde hals met opdruk middenvoor en linker mouw (full color print). Vierkant geel veld met blauwe blokjes aan de randen met in de hoeken diagonaal geplaatst vier kinderhoofdjes en in het midden een cirkel met cijfers kloksgewijs van 1 t/m 12, hierin een hondenkop; op mouw: twee naar elkaar gekeerde vissen met boven \"Merk\" en hieronder \"Verkerk\". De afbeeldingen komen uit de kinderserie \"De Boefjes\" of \"The Little Rascals\". Trefwoorden:  \tt-shirt, overhemd, bovenkleding, kinderkleding, kleding, kostuum\t Opschrift / merk:  \tOp linkermouw: \"merk\" en hieronder \"Verkerk\". Vervaardiger:  \tMerel Verkerk Plaats vervaardiging:  \tNederland, Utrecht Datering:  \t1995 Technieken:  \ttextiel\t Materiaal:  \tkatoen, kunststof\t Afmetingen:  (cm) \thg 62,0 / br 43,0 Associatie:  \tmodeontwerpster, kleden, kind\t Vorm & decoratie:  \tshirt, hond, dier\t Inventarisnr: \tMuseum Rotterdam 75795"
+  },
+  {
+    "class": "e_waste",
+    "file": "photos/e_waste_1.jpg",
+    "title": "File:Phone charger 2026.jpg",
+    "author": "Сергей Михель",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Phone_charger_2026.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Phone_charger_2026.jpg/960px-Phone_charger_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "bfc1243c96e62991efb2cb8ce0ed3fb006c8a3f0",
+    "download_sha256": "db835974efaa26733da3e95a26e67ae8f01f70386416f3d5dce011c2e3974798",
+    "description": "Phone charger",
+    "crop": [
+      0.02,
+      0.03,
+      0.98,
+      0.98
+    ]
+  },
+  {
+    "class": "e_waste",
+    "file": "photos/e_waste_2.jpg",
+    "title": "File:1.5V Lithium Battery Charger and Cable Top Picture.png",
+    "author": "TealComet",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:1.5V_Lithium_Battery_Charger_and_Cable_Top_Picture.png",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/1.5V_Lithium_Battery_Charger_and_Cable_Top_Picture.png/960px-1.5V_Lithium_Battery_Charger_and_Cable_Top_Picture.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "9ff37ecada697c9a18a45b01a9416b91ea4eda69",
+    "download_sha256": "c1800a623c82c6dec7a8eefd4a150169be48f705d2d60fb991c5be2222b36f3b",
+    "description": "Picture of a 1.5 volts rechargeable lithium battery charger, and its cable. The charger is black and rectangular. It is seen from above. Around the center of the top face of the charger, a small USB-C port can be seen.\nOn the right of the picture is a black USB-C power cable, attached by a black cord. Its two ends are pointing toward the charger in the picture.",
+    "crop": [
+      0.01,
+      0.05,
+      0.98,
+      0.95
+    ]
+  },
+  {
+    "class": "e_waste",
+    "file": "photos/e_waste_3.jpg",
+    "title": "File:Battery charger set C76A Pro in Tashkent Region.jpg",
+    "author": "Sevayuu",
+    "licence": "CC BY 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Battery_charger_set_C76A_Pro_in_Tashkent_Region.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Battery_charger_set_C76A_Pro_in_Tashkent_Region.jpg/960px-Battery_charger_set_C76A_Pro_in_Tashkent_Region.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "5656c7be613deb257b5b9cc2e55354f5e88a37b9",
+    "download_sha256": "b1f9cc0c31ddb40ffd17728f8caf455409cb623e598688fa6343da6792ea1ed6",
+    "description": "The picture of battery charger set C76A Pro in Tashkent Region",
+    "crop": [
+      0.45,
+      0.19,
+      0.73,
+      0.71
+    ]
+  },
+  {
+    "class": "glass_waste",
+    "file": "photos/glass_waste_1.jpg",
+    "title": "File:Whisbih Liq 600cc empty glass bottle face 20161026.jpg",
+    "author": "Solomon203",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg/960px-Whisbih_Liq_600cc_empty_glass_bottle_face_20161026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "f0d03e6fdd8f0bd31af4ecad638abc042c74f940",
+    "download_sha256": "87ae276333f2a4d5bb4183be932d2299dd4c46c42988133e1734f9dd6617775e",
+    "description": "​三洋藥品維士比液600cc玻璃空瓶正面。",
+    "crop": [
+      0.26,
+      0.03,
+      0.73,
+      0.97
+    ]
+  },
+  {
+    "class": "glass_waste",
+    "file": "photos/glass_waste_2.jpg",
+    "title": "File:Clear empty glass bottle.jpg",
+    "crop": [
+      0.3,
+      0.07,
+      0.57,
+      0.94
+    ],
+    "author": "Santeri Viinamäki",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Clear_empty_glass_bottle.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Clear_empty_glass_bottle.jpg/960px-Clear_empty_glass_bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "f4e96b364448192e26f01cc5fb7ece4f686492e1",
+    "download_sha256": "9121c44677d384f1dd7bf1fa9d778c524e44c2b669529f5f8189d4128dcd947e",
+    "description": "Clear empty glass bottle."
+  },
+  {
+    "class": "glass_waste",
+    "file": "photos/glass_waste_3.jpg",
+    "title": "File:London Bridge dumped empty beer bottle City of London England.jpg",
+    "author": "Acabashi",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg/960px-London_Bridge_dumped_empty_beer_bottle_City_of_London_England.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "56df870c674d5458dde5722150f8e3adf0cd8a54",
+    "download_sha256": "9538ec5b78c91d2a67220faee7412cfe5bcde746a0741ed4f58d808545d51885",
+    "description": "Dumped empty Corona beer bottle on London Bridge in the City of London, England.Wikimedia (2025) makes it difficult to immediately view photo groups related to this image. To see the most relevant allied images, go to 'categories' at the bottom of the page, or click on this uploader's photos. This image is one of a series of date and/or subject allied consecutive photographs kept in progression or location by file name number and/or time marking.Camera: Canon PowerShot SX60 HS. Software: DxO PhotoLab 7 Elite.",
+    "crop": [
+      0.4,
+      0.12,
+      0.73,
+      0.95
+    ]
+  },
+  {
+    "class": "light_bulbs",
+    "file": "photos/light_bulbs_1.jpg",
+    "title": "File:Compact fluorescent lamp E27 23W.jpg",
+    "crop": [
+      0.18,
+      0.14,
+      0.84,
+      0.91
+    ],
+    "author": "Mk2010",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Compact_fluorescent_lamp_E27_23W.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Compact_fluorescent_lamp_E27_23W.jpg/960px-Compact_fluorescent_lamp_E27_23W.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "a4a3c4deef8168125cc5162aaf2fadc32d959fac",
+    "download_sha256": "e62f7181e00441398ab13cda62ad6ed7e9e78d9bd36dc56af497ad571c555ea8",
+    "description": "A compact fluorescent lamp E27 (23W)"
+  },
+  {
+    "class": "light_bulbs",
+    "file": "photos/light_bulbs_2.jpg",
+    "title": "File:Compact fluorescent lamp wall mounted.JPG",
+    "author": "Prabhupuducherry",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Compact_fluorescent_lamp_wall_mounted.JPG",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Compact_fluorescent_lamp_wall_mounted.JPG/960px-Compact_fluorescent_lamp_wall_mounted.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "870f4edc5ba9249975001e40c0f5ec0d13e4aeb8",
+    "download_sha256": "d0fddef7750c0927f47b7a92dd7cfc15597b730caac316fbff4eb12b73a07bbf",
+    "description": "compact fluorescent lamp with holder wall mounted",
+    "crop": [
+      0.27,
+      0.34,
+      0.84,
+      0.98
+    ]
+  },
+  {
+    "class": "light_bulbs",
+    "file": "photos/light_bulbs_3.jpg",
+    "title": "File:Lamp harp with fluorescent bulb.jpg",
+    "author": "Verne Equinox",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamp_harp_with_fluorescent_bulb.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Lamp_harp_with_fluorescent_bulb.jpg/960px-Lamp_harp_with_fluorescent_bulb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "9d703b027b9c1cf3a07f15d0dc8a1f783cd0c209",
+    "download_sha256": "050fa0bea9c6f6dee611e102494675f3edb742a412e5e78ebe51720cb683b06b",
+    "description": "Lamp harp with fluorescent bulb",
+    "crop": [
+      0.3,
+      0.12,
+      0.62,
+      0.85
+    ]
+  },
+  {
+    "class": "metal_waste",
+    "file": "photos/metal_waste_1.jpg",
+    "title": "File:Empty tin can2009-01-19.jpg",
+    "crop": [
+      0.14,
+      0.1,
+      0.79,
+      0.98
+    ],
+    "author": "Sun Ladder",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Empty_tin_can2009-01-19.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Empty_tin_can2009-01-19.jpg/960px-Empty_tin_can2009-01-19.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "6f7215cb3a8f7ec79a257a1735160d63a07a2c25",
+    "download_sha256": "98896ba9a9b19b0698255937b3107c1f56cc40575561c135bc9a6238e8d0cdfa",
+    "description": "An empty tin can."
+  },
+  {
+    "class": "metal_waste",
+    "file": "photos/metal_waste_2.jpg",
+    "title": "File:Konservendose-1.jpg",
+    "author": "No machine-readable author provided. Rainer Zenz assumed (based on copyright claims).",
+    "licence": "CC BY-SA 3.0",
+    "licence_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "page": "https://commons.wikimedia.org/wiki/File:Konservendose-1.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Konservendose-1.jpg/960px-Konservendose-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "64619f18cd6e96a43605be314d89a97acaeeda32",
+    "download_sha256": "96837c7425e0282f5cb76060c1f39167f59f658609dc77cea7fa15231de47f13",
+    "description": "Konservendose. Eigene Aufnahme",
+    "crop": [
+      0.15,
+      0.08,
+      0.85,
+      0.98
+    ]
+  },
+  {
+    "class": "metal_waste",
+    "file": "photos/metal_waste_3.jpg",
+    "title": "File:Tin can with käferbohnen.jpg",
+    "crop": [
+      0.04,
+      0.1,
+      0.57,
+      0.96
+    ],
+    "author": "Wilrooij",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Tin_can_with_k%C3%A4ferbohnen.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Tin_can_with_k%C3%A4ferbohnen.jpg/960px-Tin_can_with_k%C3%A4ferbohnen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "695da5e6b7590d14f203e11eb318e41aaa491bce",
+    "download_sha256": "823d0e83555e21480a66e6955a10144ae65a4815534fc395e1579832182038ed",
+    "description": "Tin can with käferbohnen"
+  },
+  {
+    "class": "organic_waste",
+    "file": "photos/organic_waste_1.jpg",
+    "title": "File:Banane-A-05 cropped.jpg",
+    "author": "Priwo",
+    "licence": "Public domain",
+    "licence_url": "",
+    "page": "https://commons.wikimedia.org/wiki/File:Banane-A-05_cropped.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Banane-A-05_cropped.jpg/960px-Banane-A-05_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "ac01eb3b1de769ab78c709afeb1c25c38572510e",
+    "download_sha256": "d7b1c8557bcec2b6565b0b85b8c5cb8eb8c3bfd44a4b150ba084304b161211b4",
+    "description": "Banana peel.",
+    "crop": [
+      0.01,
+      0.02,
+      0.99,
+      0.97
+    ]
+  },
+  {
+    "class": "organic_waste",
+    "file": "photos/organic_waste_2.jpg",
+    "title": "File:Parking lot banana peel.jpg",
+    "author": "Ser Amantio di Nicolao",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Parking_lot_banana_peel.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Parking_lot_banana_peel.jpg/960px-Parking_lot_banana_peel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "7f8037694b8b6913652affb90b86df6101a8adcc",
+    "download_sha256": "bb64de2d57a388e6ebd193cbdece9eed7f7ab8e5ff43c6feaa2e3a98f09a1aa8",
+    "description": "Looks like a joke waiting to happen",
+    "crop": [
+      0.37,
+      0.22,
+      0.73,
+      0.9
+    ]
+  },
+  {
+    "class": "organic_waste",
+    "file": "photos/organic_waste_3.jpg",
+    "title": "File:Banana peel on the ground.jpg",
+    "author": "Vladiator360",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Banana_peel_on_the_ground.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Banana_peel_on_the_ground.jpg/960px-Banana_peel_on_the_ground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "9993c9441190183710eb4dbfaffc8bb7a3891b21",
+    "download_sha256": "d0ea9569dae00e35fe2f0910037da69c3d6e5c94e2ae85d4571e066dd8e50dc6",
+    "description": "This is a banana peel on the floor.",
+    "crop": [
+      0.3,
+      0.37,
+      0.8,
+      0.78
+    ]
+  },
+  {
+    "class": "paper_waste",
+    "file": "photos/paper_waste_1.jpg",
+    "title": "File:A stack of newspapers (cropped).jpg",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "author": "Daniel R. Blume from Orange County,  California, USA",
+    "licence": "CC BY-SA 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:A_stack_of_newspapers_(cropped).jpg",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/A_stack_of_newspapers_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "commons_sha1": "4289c64517d21ef49824d3a17ffddd1fa3b63aac",
+    "download_sha256": "5758984d85c06f8e870ce0a7a542a1157df65e0596d477f2732a347f6900fd5d",
+    "description": "LA Times"
+  },
+  {
+    "class": "paper_waste",
+    "file": "photos/paper_waste_2.jpg",
+    "title": "File:2011 newspapers Tehran 6030393078.jpg",
+    "author": "Kai Hendry from Singapore, Malaysia",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:2011_newspapers_Tehran_6030393078.jpg",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2011_newspapers_Tehran_6030393078.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "commons_sha1": "2d1dd3ff735c058088a09b91200182ff7ee2ddc4",
+    "download_sha256": "9afb796f6036112413cccefce089403981d164e360ed06e6de1db9ef47265a51",
+    "description": "Iranian press in Tehran",
+    "crop": [
+      0.08,
+      0.07,
+      0.89,
+      0.91
+    ]
+  },
+  {
+    "class": "paper_waste",
+    "file": "photos/paper_waste_3.jpg",
+    "title": "File:Newspaper Stack (8582618448).jpg",
+    "crop": [
+      0.21,
+      0.02,
+      0.79,
+      0.96
+    ],
+    "author": "Babak Farrokhi from Tehran, IRAN",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Newspaper_Stack_(8582618448).jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Newspaper_Stack_%288582618448%29.jpg/960px-Newspaper_Stack_%288582618448%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "6bdd19af7d5166c3f540380ce437e980014c3a98",
+    "download_sha256": "2b082eb9d737768ed80478de05c96be6667403e523f1be288d96a483b8335f1d",
+    "description": "Newspaper Stack"
+  },
+  {
+    "class": "plastic_waste",
+    "file": "photos/plastic_waste_1.jpg",
+    "title": "File:Water bottle (13779).jpg",
+    "author": "Mukesh721",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Water_bottle_(13779).jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Water_bottle_%2813779%29.jpg/960px-Water_bottle_%2813779%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "bf8ed71290da9b65c92b3749ec9f67da0aaa417f",
+    "download_sha256": "8237c4077dcc2a686e2819edf064ea34a06f8422053607cbf56c784f710fbf45",
+    "description": "drinking water bottle, used for water storage and traveling",
+    "crop": [
+      0.25,
+      0.02,
+      0.59,
+      0.82
+    ]
+  },
+  {
+    "class": "plastic_waste",
+    "file": "photos/plastic_waste_2.jpg",
+    "title": "File:Plastic Water Bottle.jpg",
+    "crop": [
+      0.32,
+      0.1,
+      0.72,
+      0.94
+    ],
+    "author": "Kykywinks",
+    "licence": "CC BY-SA 4.0",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Plastic_Water_Bottle.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Plastic_Water_Bottle.jpg/960px-Plastic_Water_Bottle.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "7e81e4ebd199748c5b4dc0696efdd36a685689bc",
+    "download_sha256": "e239b60de527989d55ae47e2241b610e41b582746b77cbb0c18867960ecdbd91",
+    "description": "Plastic bottle containing water"
+  },
+  {
+    "class": "plastic_waste",
+    "file": "photos/plastic_waste_3.jpg",
+    "title": "File:Bottle of Water.jpg",
+    "author": "Jiafei Slay Queen",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Bottle_of_Water.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Bottle_of_Water.jpg/960px-Bottle_of_Water.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "689fb776e8b3a575a2e1e54e4afaca5164b7f9b2",
+    "download_sha256": "ded0a9897fcd81ee5db0f47b34aa6d868b71e1ed831e3642c3503244e8f44fa1",
+    "description": "This is a plastic water bottle, with almost half of the water contained in it.",
+    "crop": [
+      0.29,
+      0.01,
+      0.76,
+      0.96
+    ]
+  },
+  {
+    "class": "general_waste",
+    "file": "photos/general_waste_1.jpg",
+    "title": "File:Feather duster broom.jpg",
+    "crop": [
+      0.14,
+      0.04,
+      0.94,
+      0.98
+    ],
+    "author": "Bonolo Nikita Rankaga",
+    "licence": "CC0",
+    "licence_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "page": "https://commons.wikimedia.org/wiki/File:Feather_duster_broom.jpg",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Feather_duster_broom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "commons_sha1": "0c704d21144443f30bfa6d7a072acf37e7911015",
+    "download_sha256": "e283cf9871ff7264cf9ad3f8b8e2613c97133ca228e1a0b2e77234a0d0823b56",
+    "description": "Wood log is taken and attached with Chicken feathers and tied .The broom is normally used for dusting surfaces.Just a simple way of making a broom with resources available."
+  },
+  {
+    "class": "general_waste",
+    "file": "photos/general_waste_2.jpg",
+    "title": "File:Car sponge.jpg",
+    "author": "ABW",
+    "licence": "CC BY-SA 2.5",
+    "licence_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "page": "https://commons.wikimedia.org/wiki/File:Car_sponge.jpg",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Car_sponge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "commons_sha1": "dd4526f8056cf5f1ea63b1c8749bf046343808a9",
+    "download_sha256": "483101d3e6cc53775c042444940bea8da447a8e338045ec725205d1754f3e238",
+    "description": "Picture of a car sponge.",
+    "crop": [
+      0.02,
+      0.05,
+      0.98,
+      0.96
+    ]
+  },
+  {
+    "class": "general_waste",
+    "file": "photos/general_waste_3.jpg",
+    "title": "File:Ostrich Feather Duster cropped.jpg",
+    "crop": [
+      0.01,
+      0.01,
+      0.98,
+      0.99
+    ],
+    "author": "freebie.photography",
+    "licence": "CC BY 3.0",
+    "licence_url": "https://creativecommons.org/licenses/by/3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Ostrich_Feather_Duster_cropped.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Ostrich_Feather_Duster_cropped.jpg/960px-Ostrich_Feather_Duster_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "7358ad3906f312b94ae364325c71f0ef23be01f6",
+    "download_sha256": "44cc8a5c87a53fc9fb4eb8cf186ad2971348b6cd2f2f0125d786abfab02384d4",
+    "description": "Making a clean sweep - close up Feather Duster on a Wooden Stick Isolated on White Background with Copy Space on Top."
+  },
+  {
+    "class": "background",
+    "file": "photos/background_1.jpg",
+    "title": "File:Empty LEGO Room Build Table.jpg",
+    "author": "Mike from Lowell, MA",
+    "licence": "CC BY 2.0",
+    "licence_url": "https://creativecommons.org/licenses/by/2.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Empty_LEGO_Room_Build_Table.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Empty_LEGO_Room_Build_Table.jpg/960px-Empty_LEGO_Room_Build_Table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "b9056fe2b1b651f22193610835969bb50f16759b",
+    "download_sha256": "bcc6ce50ca97c9372bcee2da06c02e93efb7e9d48dd031875d502280ff8d5595",
+    "description": "I recently packed up all my Lego.",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "class": "background",
+    "file": "photos/background_2.jpg",
+    "title": "File:EFTA00001465 - Empty room with beige walls light-colored floor and a small round table in the corner.jpg",
+    "author": "Federal Bureau of Investigation",
+    "licence": "Public domain",
+    "licence_url": "",
+    "page": "https://commons.wikimedia.org/wiki/File:EFTA00001465_-_Empty_room_with_beige_walls_light-colored_floor_and_a_small_round_table_in_the_corner.jpg",
+    "thumbnail_url": "https://upload.wikimedia.org/wikipedia/commons/3/33/EFTA00001465_-_Empty_room_with_beige_walls_light-colored_floor_and_a_small_round_table_in_the_corner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "commons_sha1": "2632ac5e098d4b18960842570b9b989c13f3d2b3",
+    "download_sha256": "8eaddd1f1e075297ec9d13fe9c3d6d104d7cb7998101ee71dc8e0c27b9aa46b6",
+    "description": "Part of Epstein Files released by the DOJ on December 19 2025",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "class": "background",
+    "file": "photos/background_3.jpg",
+    "title": "File:EFTA00000716 - Empty room with two green side tables electrical outlets and a simple ceiling light.jpg",
+    "author": "Federal Bureau of Investigation",
+    "licence": "Public domain",
+    "licence_url": "",
+    "page": "https://commons.wikimedia.org/wiki/File:EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg",
+    "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg/960px-EFTA00000716_-_Empty_room_with_two_green_side_tables_electrical_outlets_and_a_simple_ceiling_light.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_sha1": "0b7715832fda3a15025959424e5b2ce0c5c7e425",
+    "download_sha256": "f714c8043f510fbfaae22477041a5b00c48b16f508f5d840ae8767e9ac8011cb",
+    "description": "Part of Epstein Files released by the DOJ on December 19 2025",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+{
+ "cls": "metal_waste",
+ "slug": "tins",
+ "item": "tin",
+ "title": {
+  "en": "Tin Cans: Steel Is Real",
+  "hi": "टिन के डिब्बे: असली स्टील",
+  "ta": "டின் டப்பா: இது ஸ்டீல் தான்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Ow! An empty ghee tin just landed on my head! Hey you, before that tin rusts in a corner, let's sort it right!",
+   "hi": "आह! खाली घी का टिन मेरे सिर पर आ गिरा! अरे तुम, कोने में जंग लगने से पहले, चलो इसे सही जगह डालें!",
+   "ta": "ஆ! காலி நெய் டின் என் தலைல வந்து விழுந்துச்சு! ஹே நீங்க, அந்த டின் மூலைல துரு பிடிக்கறதுக்கு முன்னாடி சரியா பிரிக்கலாம் வாங்க!"
+  },
+  "harm": {
+   "en": "Tins are steel. Every tonne of steel recycled saves about one point four tonnes of iron ore and one point five tonnes of carbon dioxide!",
+   "hi": "टिन असल में स्टील होता है। हर एक टन रीसायकल स्टील से करीब एक पॉइंट चार टन लोहे का पत्थर और एक पॉइंट पाँच टन कार्बन डाइऑक्साइड बचता है!",
+   "ta": "டின் எல்லாம் ஸ்டீல் தான். ஒரு டன் ஸ்டீல ரீசைக்கிள் பண்ணா கிட்டத்தட்ட ஒண்ணு பாயிண்ட் நாலு டன் இரும்புத் தாதுவும், ஒண்ணு பாயிண்ட் அஞ்சு டன் கார்பன் டை ஆக்சைடும் மிச்சம்!",
+   "stats": [
+    {
+     "value": 1.4,
+     "decimals": 1,
+     "unit": "t iron ore saved / t"
+    },
+    {
+     "value": 1.5,
+     "decimals": 1,
+     "unit": "t CO2 saved / t"
+    }
+   ]
+  },
+  "who": {
+   "en": "Sharp tin lids slash workers' fingers, curious kids get cut playing with them, and rusty tins pile up in the soil.",
+   "hi": "टिन के धारदार ढक्कन मज़दूरों की उँगलियाँ काट देते हैं, खेलते बच्चों को चोट लगती है, और जंग लगे टिन मिट्टी में जमा होते रहते हैं।",
+   "ta": "டின்னோட கூர்மையான மூடி தொழிலாளிங்க விரல வெட்டுது, விளையாடுற குழந்தைங்களுக்கு காயம் படுது, துரு பிடிச்ச டின் மண்ணுல குவியுது.",
+   "victims": [
+    "worker",
+    "child",
+    "soil"
+   ]
+  },
+  "dispose": {
+   "en": "Rinse out the oil, push the sharp lid inside the tin, and drop it in the blue bin. Big tins sell well to kabadiwalas!",
+   "hi": "तेल धो लो, धारदार ढक्कन टिन के अंदर दबा दो, और ब्लू बिन में डालो। बड़े टिन कबाड़ीवाले अच्छे दाम में लेते हैं!",
+   "ta": "எண்ணெய கழுவி, கூர்மையான மூடிய டின்னுக்குள்ள அமுக்கி, ப்ளூ பின்ல போடுங்க. பெரிய டின்ன பழைய பேப்பர்காரர் நல்ல காசுக்கு வாங்குவாரு!",
+   "bin": "blue",
+   "steps": [
+    "rinse"
+   ]
+  },
+  "prevent": {
+   "en": "Even better, give tins a second job as planters, pen stands or storage boxes. Buy oil in bigger refill packs too. Tin-credible! High five!",
+   "hi": "और भी बढ़िया, टिन को गमला, पेन स्टैंड या डिब्बा बनाकर दूसरी नौकरी दो। तेल बड़े रीफ़िल पैक में लो। टिन क्रेडिबल! हाई फ़ाइव!",
+   "ta": "இன்னும் சூப்பர்னா, டின்ன பூந்தொட்டியா, பேனா ஸ்டாண்டா, டப்பாவா மாத்தி ரெண்டாவது வேலை குடுங்க. எண்ணெய பெரிய ரீஃபில் பேக்கா வாங்குங்க. ஹை ஃபைவ்!",
+   "swap_from": "tin",
+   "swap_to": "container",
+   "swap_to2": "flowers"
+  }
+ },
+ "sources": [
+  "worldsteel Steel Recycling fact sheet: each tonne of scrap used saves about 1.4 t of iron ore and 1.5 t of CO2"
+ ]
+}

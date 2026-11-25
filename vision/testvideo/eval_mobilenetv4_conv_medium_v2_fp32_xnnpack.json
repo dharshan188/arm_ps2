@@ -1,0 +1,8562 @@
+{
+  "model": "~/sorti_kaggle/final_mnv4/mobilenetv4_conv_medium_v2_fp32_xnnpack.pte",
+  "labels": "~/sorti_kaggle/final_mnv4/labels.json",
+  "video": "~/arm2026/vision/testvideo/sorti_test_40s.mp4",
+  "fps": 25.0,
+  "classes": [
+    "battery_waste",
+    "clothes",
+    "e_waste",
+    "glass_waste",
+    "light_bulbs",
+    "metal_waste",
+    "organic_waste",
+    "paper_waste",
+    "plastic_waste",
+    "general_waste",
+    "background"
+  ],
+  "confirmation_rule": {
+    "frames": 8,
+    "confidence": 0.7,
+    "reset_at_segment": true,
+    "segment_success": "first confirmation correct"
+  },
+  "summary": {
+    "overall_frame_accuracy": 0.7049723756906078,
+    "segment_accuracy": 0.6923076923076923,
+    "supported_frame_accuracy": 0.7049723756906078,
+    "supported_segment_accuracy": 0.6923076923076923,
+    "scored_frames": 905,
+    "crossfade_frames": 120,
+    "wrong_confirmations": 1
+  },
+  "segments": [
+    {
+      "t0": 0.0,
+      "t1": 3.4,
+      "class": "light_bulbs",
+      "supported": true,
+      "frames": 85,
+      "correct_frames": 85,
+      "confirmations": [
+        {
+          "frame": 7,
+          "time": 0.28,
+          "seconds_from_start": 0.28,
+          "class": "light_bulbs",
+          "confidence": 0.9470988512039185,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 1.0,
+      "confirmed_class": "light_bulbs",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 0.28,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 0.28,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 3.8,
+      "t1": 6.8,
+      "class": "background",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 0,
+      "confirmations": [],
+      "frame_accuracy": 0.0,
+      "confirmed_class": null,
+      "confirmed_correct": false,
+      "seconds_to_first_confirmation": null,
+      "any_correct_confirmation": false,
+      "seconds_to_first_correct_confirmation": null,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 7.2,
+      "t1": 10.2,
+      "class": "general_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 38,
+      "confirmations": [
+        {
+          "frame": 240,
+          "time": 9.6,
+          "seconds_from_start": 2.4,
+          "class": "background",
+          "confidence": 0.9999991655349731,
+          "correct": false
+        }
+      ],
+      "frame_accuracy": 0.5066666666666667,
+      "confirmed_class": "background",
+      "confirmed_correct": false,
+      "seconds_to_first_confirmation": 2.4,
+      "any_correct_confirmation": false,
+      "seconds_to_first_correct_confirmation": null,
+      "wrong_confirmations": [
+        {
+          "frame": 240,
+          "time": 9.6,
+          "seconds_from_start": 2.4,
+          "class": "background",
+          "confidence": 0.9999991655349731,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "t0": 10.6,
+      "t1": 13.6,
+      "class": "clothes",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 66,
+      "confirmations": [
+        {
+          "frame": 302,
+          "time": 12.08,
+          "seconds_from_start": 1.48,
+          "class": "clothes",
+          "confidence": 0.8520907759666443,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.88,
+      "confirmed_class": "clothes",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 1.48,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 1.48,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 14.0,
+      "t1": 17.0,
+      "class": "e_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 22,
+      "confirmations": [],
+      "frame_accuracy": 0.29333333333333333,
+      "confirmed_class": null,
+      "confirmed_correct": false,
+      "seconds_to_first_confirmation": null,
+      "any_correct_confirmation": false,
+      "seconds_to_first_correct_confirmation": null,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 17.4,
+      "t1": 20.4,
+      "class": "battery_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 65,
+      "confirmations": [
+        {
+          "frame": 457,
+          "time": 18.28,
+          "seconds_from_start": 0.88,
+          "class": "battery_waste",
+          "confidence": 0.9501190781593323,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.8666666666666667,
+      "confirmed_class": "battery_waste",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 0.88,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 0.88,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 20.8,
+      "t1": 23.8,
+      "class": "plastic_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 67,
+      "confirmations": [
+        {
+          "frame": 541,
+          "time": 21.64,
+          "seconds_from_start": 0.84,
+          "class": "plastic_waste",
+          "confidence": 0.8073956370353699,
+          "correct": true
+        },
+        {
+          "frame": 553,
+          "time": 22.12,
+          "seconds_from_start": 1.32,
+          "class": "plastic_waste",
+          "confidence": 0.8408148288726807,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.8933333333333333,
+      "confirmed_class": "plastic_waste",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 0.84,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 0.84,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 24.2,
+      "t1": 27.2,
+      "class": "organic_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 22,
+      "confirmations": [],
+      "frame_accuracy": 0.29333333333333333,
+      "confirmed_class": null,
+      "confirmed_correct": false,
+      "seconds_to_first_confirmation": null,
+      "any_correct_confirmation": false,
+      "seconds_to_first_correct_confirmation": null,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 27.6,
+      "t1": 30.6,
+      "class": "metal_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 66,
+      "confirmations": [
+        {
+          "frame": 721,
+          "time": 28.84,
+          "seconds_from_start": 1.24,
+          "class": "metal_waste",
+          "confidence": 0.8243608474731445,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.88,
+      "confirmed_class": "metal_waste",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 1.24,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 1.24,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 31.0,
+      "t1": 32.2,
+      "class": "background",
+      "supported": true,
+      "frames": 30,
+      "correct_frames": 30,
+      "confirmations": [
+        {
+          "frame": 782,
+          "time": 31.28,
+          "seconds_from_start": 0.28,
+          "class": "background",
+          "confidence": 0.7662860155105591,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 1.0,
+      "confirmed_class": "background",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 0.28,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 0.28,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 32.6,
+      "t1": 35.6,
+      "class": "glass_waste",
+      "supported": true,
+      "frames": 75,
+      "correct_frames": 68,
+      "confirmations": [
+        {
+          "frame": 841,
+          "time": 33.64,
+          "seconds_from_start": 1.04,
+          "class": "glass_waste",
+          "confidence": 0.9503322243690491,
+          "correct": true
+        },
+        {
+          "frame": 888,
+          "time": 35.52,
+          "seconds_from_start": 2.92,
+          "class": "glass_waste",
+          "confidence": 0.9232887029647827,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.9066666666666666,
+      "confirmed_class": "glass_waste",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 1.04,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 1.04,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 36.0,
+      "t1": 37.2,
+      "class": "background",
+      "supported": true,
+      "frames": 30,
+      "correct_frames": 30,
+      "confirmations": [
+        {
+          "frame": 907,
+          "time": 36.28,
+          "seconds_from_start": 0.28,
+          "class": "background",
+          "confidence": 0.9985798597335815,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 1.0,
+      "confirmed_class": "background",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 0.28,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 0.28,
+      "wrong_confirmations": []
+    },
+    {
+      "t0": 37.6,
+      "t1": 41.0,
+      "class": "paper_waste",
+      "supported": true,
+      "frames": 85,
+      "correct_frames": 79,
+      "confirmations": [
+        {
+          "frame": 969,
+          "time": 38.76,
+          "seconds_from_start": 1.16,
+          "class": "paper_waste",
+          "confidence": 0.8191414475440979,
+          "correct": true
+        }
+      ],
+      "frame_accuracy": 0.9294117647058824,
+      "confirmed_class": "paper_waste",
+      "confirmed_correct": true,
+      "seconds_to_first_confirmation": 1.16,
+      "any_correct_confirmation": true,
+      "seconds_to_first_correct_confirmation": 1.16,
+      "wrong_confirmations": []
+    }
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "time": 0.0,
+      "class": "light_bulbs",
+      "confidence": 0.9450667500495911,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 1,
+      "time": 0.04,
+      "class": "light_bulbs",
+      "confidence": 0.9429036974906921,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 2,
+      "time": 0.08,
+      "class": "light_bulbs",
+      "confidence": 0.943620502948761,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 3,
+      "time": 0.12,
+      "class": "light_bulbs",
+      "confidence": 0.939264714717865,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 4,
+      "time": 0.16,
+      "class": "light_bulbs",
+      "confidence": 0.9563630223274231,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 5,
+      "time": 0.2,
+      "class": "light_bulbs",
+      "confidence": 0.9507613182067871,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 6,
+      "time": 0.24,
+      "class": "light_bulbs",
+      "confidence": 0.9466501474380493,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 7,
+      "time": 0.28,
+      "class": "light_bulbs",
+      "confidence": 0.9470988512039185,
+      "segment": 0,
+      "confirmed": true
+    },
+    {
+      "frame": 8,
+      "time": 0.32,
+      "class": "light_bulbs",
+      "confidence": 0.9413312077522278,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 9,
+      "time": 0.36,
+      "class": "light_bulbs",
+      "confidence": 0.9318560361862183,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 10,
+      "time": 0.4,
+      "class": "light_bulbs",
+      "confidence": 0.9321876764297485,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 11,
+      "time": 0.44,
+      "class": "light_bulbs",
+      "confidence": 0.9289697408676147,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 12,
+      "time": 0.48,
+      "class": "light_bulbs",
+      "confidence": 0.9191272854804993,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 13,
+      "time": 0.52,
+      "class": "light_bulbs",
+      "confidence": 0.9202467799186707,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 14,
+      "time": 0.56,
+      "class": "light_bulbs",
+      "confidence": 0.9057673811912537,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 15,
+      "time": 0.6,
+      "class": "light_bulbs",
+      "confidence": 0.9042512774467468,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 16,
+      "time": 0.64,
+      "class": "light_bulbs",
+      "confidence": 0.9080787301063538,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 17,
+      "time": 0.68,
+      "class": "light_bulbs",
+      "confidence": 0.903427004814148,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 18,
+      "time": 0.72,
+      "class": "light_bulbs",
+      "confidence": 0.9031893014907837,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 19,
+      "time": 0.76,
+      "class": "light_bulbs",
+      "confidence": 0.8902521133422852,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 20,
+      "time": 0.8,
+      "class": "light_bulbs",
+      "confidence": 0.9131287336349487,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 21,
+      "time": 0.84,
+      "class": "light_bulbs",
+      "confidence": 0.9011609554290771,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 22,
+      "time": 0.88,
+      "class": "light_bulbs",
+      "confidence": 0.892144501209259,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 23,
+      "time": 0.92,
+      "class": "light_bulbs",
+      "confidence": 0.9092625379562378,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 24,
+      "time": 0.96,
+      "class": "light_bulbs",
+      "confidence": 0.9039620757102966,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 25,
+      "time": 1.0,
+      "class": "light_bulbs",
+      "confidence": 0.9171989560127258,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 26,
+      "time": 1.04,
+      "class": "light_bulbs",
+      "confidence": 0.9112715125083923,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 27,
+      "time": 1.08,
+      "class": "light_bulbs",
+      "confidence": 0.889941394329071,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 28,
+      "time": 1.12,
+      "class": "light_bulbs",
+      "confidence": 0.8894399404525757,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 29,
+      "time": 1.16,
+      "class": "light_bulbs",
+      "confidence": 0.8754960894584656,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 30,
+      "time": 1.2,
+      "class": "light_bulbs",
+      "confidence": 0.8731130957603455,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 31,
+      "time": 1.24,
+      "class": "light_bulbs",
+      "confidence": 0.8437342643737793,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 32,
+      "time": 1.28,
+      "class": "light_bulbs",
+      "confidence": 0.958035945892334,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 33,
+      "time": 1.32,
+      "class": "light_bulbs",
+      "confidence": 0.9459648132324219,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 34,
+      "time": 1.36,
+      "class": "light_bulbs",
+      "confidence": 0.9235222935676575,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 35,
+      "time": 1.4,
+      "class": "light_bulbs",
+      "confidence": 0.930786669254303,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 36,
+      "time": 1.44,
+      "class": "light_bulbs",
+      "confidence": 0.9362382888793945,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 37,
+      "time": 1.48,
+      "class": "light_bulbs",
+      "confidence": 0.9215108156204224,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 38,
+      "time": 1.52,
+      "class": "light_bulbs",
+      "confidence": 0.9279894828796387,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 39,
+      "time": 1.56,
+      "class": "light_bulbs",
+      "confidence": 0.9377971887588501,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 40,
+      "time": 1.6,
+      "class": "light_bulbs",
+      "confidence": 0.9373400807380676,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 41,
+      "time": 1.64,
+      "class": "light_bulbs",
+      "confidence": 0.9410913586616516,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 42,
+      "time": 1.68,
+      "class": "light_bulbs",
+      "confidence": 0.9451080560684204,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 43,
+      "time": 1.72,
+      "class": "light_bulbs",
+      "confidence": 0.9461166262626648,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 44,
+      "time": 1.76,
+      "class": "light_bulbs",
+      "confidence": 0.9363702535629272,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 45,
+      "time": 1.8,
+      "class": "light_bulbs",
+      "confidence": 0.9266524910926819,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 46,
+      "time": 1.84,
+      "class": "light_bulbs",
+      "confidence": 0.9198639392852783,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 47,
+      "time": 1.88,
+      "class": "light_bulbs",
+      "confidence": 0.916033923625946,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 48,
+      "time": 1.92,
+      "class": "light_bulbs",
+      "confidence": 0.9314244389533997,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 49,
+      "time": 1.96,
+      "class": "light_bulbs",
+      "confidence": 0.92073655128479,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 50,
+      "time": 2.0,
+      "class": "light_bulbs",
+      "confidence": 0.9472010731697083,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 51,
+      "time": 2.04,
+      "class": "light_bulbs",
+      "confidence": 0.91755610704422,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 52,
+      "time": 2.08,
+      "class": "light_bulbs",
+      "confidence": 0.9312952756881714,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 53,
+      "time": 2.12,
+      "class": "light_bulbs",
+      "confidence": 0.931752622127533,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 54,
+      "time": 2.16,
+      "class": "light_bulbs",
+      "confidence": 0.9330561757087708,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 55,
+      "time": 2.2,
+      "class": "light_bulbs",
+      "confidence": 0.9262915849685669,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 56,
+      "time": 2.24,
+      "class": "light_bulbs",
+      "confidence": 0.917222797870636,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 57,
+      "time": 2.28,
+      "class": "light_bulbs",
+      "confidence": 0.9334330558776855,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 58,
+      "time": 2.32,
+      "class": "light_bulbs",
+      "confidence": 0.9149848818778992,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 59,
+      "time": 2.36,
+      "class": "light_bulbs",
+      "confidence": 0.92070472240448,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 60,
+      "time": 2.4,
+      "class": "light_bulbs",
+      "confidence": 0.9366993308067322,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 61,
+      "time": 2.44,
+      "class": "light_bulbs",
+      "confidence": 0.9291782975196838,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 62,
+      "time": 2.48,
+      "class": "light_bulbs",
+      "confidence": 0.9364410638809204,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 63,
+      "time": 2.52,
+      "class": "light_bulbs",
+      "confidence": 0.576395571231842,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 64,
+      "time": 2.56,
+      "class": "light_bulbs",
+      "confidence": 0.6366448402404785,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 65,
+      "time": 2.6,
+      "class": "light_bulbs",
+      "confidence": 0.6499832272529602,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 66,
+      "time": 2.64,
+      "class": "light_bulbs",
+      "confidence": 0.5764897465705872,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 67,
+      "time": 2.68,
+      "class": "light_bulbs",
+      "confidence": 0.615303635597229,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 68,
+      "time": 2.72,
+      "class": "light_bulbs",
+      "confidence": 0.7052858471870422,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 69,
+      "time": 2.76,
+      "class": "light_bulbs",
+      "confidence": 0.7103766202926636,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 70,
+      "time": 2.8,
+      "class": "light_bulbs",
+      "confidence": 0.5739577412605286,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 71,
+      "time": 2.84,
+      "class": "light_bulbs",
+      "confidence": 0.5259680151939392,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 72,
+      "time": 2.88,
+      "class": "light_bulbs",
+      "confidence": 0.5328850746154785,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 73,
+      "time": 2.92,
+      "class": "light_bulbs",
+      "confidence": 0.6066553592681885,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 74,
+      "time": 2.96,
+      "class": "light_bulbs",
+      "confidence": 0.6498494744300842,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 75,
+      "time": 3.0,
+      "class": "light_bulbs",
+      "confidence": 0.6064233183860779,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 76,
+      "time": 3.04,
+      "class": "light_bulbs",
+      "confidence": 0.5075116157531738,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 77,
+      "time": 3.08,
+      "class": "light_bulbs",
+      "confidence": 0.7030894756317139,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 78,
+      "time": 3.12,
+      "class": "light_bulbs",
+      "confidence": 0.7651460766792297,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 79,
+      "time": 3.16,
+      "class": "light_bulbs",
+      "confidence": 0.5234332084655762,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 80,
+      "time": 3.2,
+      "class": "light_bulbs",
+      "confidence": 0.6871360540390015,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 81,
+      "time": 3.24,
+      "class": "light_bulbs",
+      "confidence": 0.7985519170761108,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 82,
+      "time": 3.28,
+      "class": "light_bulbs",
+      "confidence": 0.8172064423561096,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 83,
+      "time": 3.32,
+      "class": "light_bulbs",
+      "confidence": 0.8945671319961548,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 84,
+      "time": 3.36,
+      "class": "light_bulbs",
+      "confidence": 0.8446255326271057,
+      "segment": 0,
+      "confirmed": false
+    },
+    {
+      "frame": 85,
+      "time": 3.4,
+      "class": "light_bulbs",
+      "confidence": 0.8976219892501831,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 86,
+      "time": 3.44,
+      "class": "light_bulbs",
+      "confidence": 0.894453763961792,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 87,
+      "time": 3.48,
+      "class": "light_bulbs",
+      "confidence": 0.9110642671585083,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 88,
+      "time": 3.52,
+      "class": "light_bulbs",
+      "confidence": 0.9072934985160828,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 89,
+      "time": 3.56,
+      "class": "light_bulbs",
+      "confidence": 0.8890787363052368,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 90,
+      "time": 3.6,
+      "class": "light_bulbs",
+      "confidence": 0.8703621625900269,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 91,
+      "time": 3.64,
+      "class": "light_bulbs",
+      "confidence": 0.6982444524765015,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 92,
+      "time": 3.68,
+      "class": "paper_waste",
+      "confidence": 0.3113281726837158,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 93,
+      "time": 3.72,
+      "class": "paper_waste",
+      "confidence": 0.22113527357578278,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 94,
+      "time": 3.76,
+      "class": "metal_waste",
+      "confidence": 0.40056243538856506,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 95,
+      "time": 3.8,
+      "class": "battery_waste",
+      "confidence": 0.7096953392028809,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 96,
+      "time": 3.84,
+      "class": "battery_waste",
+      "confidence": 0.7069020867347717,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 97,
+      "time": 3.88,
+      "class": "battery_waste",
+      "confidence": 0.7085757255554199,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 98,
+      "time": 3.92,
+      "class": "battery_waste",
+      "confidence": 0.6876829862594604,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 99,
+      "time": 3.96,
+      "class": "battery_waste",
+      "confidence": 0.6949610710144043,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 100,
+      "time": 4.0,
+      "class": "battery_waste",
+      "confidence": 0.6916027069091797,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 101,
+      "time": 4.04,
+      "class": "battery_waste",
+      "confidence": 0.698990523815155,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 102,
+      "time": 4.08,
+      "class": "battery_waste",
+      "confidence": 0.6872797608375549,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 103,
+      "time": 4.12,
+      "class": "battery_waste",
+      "confidence": 0.6911242604255676,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 104,
+      "time": 4.16,
+      "class": "battery_waste",
+      "confidence": 0.703004777431488,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 105,
+      "time": 4.2,
+      "class": "battery_waste",
+      "confidence": 0.7071300745010376,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 106,
+      "time": 4.24,
+      "class": "battery_waste",
+      "confidence": 0.7134804129600525,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 107,
+      "time": 4.28,
+      "class": "battery_waste",
+      "confidence": 0.7145305275917053,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 108,
+      "time": 4.32,
+      "class": "battery_waste",
+      "confidence": 0.7156877517700195,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 109,
+      "time": 4.36,
+      "class": "battery_waste",
+      "confidence": 0.7159014940261841,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 110,
+      "time": 4.4,
+      "class": "battery_waste",
+      "confidence": 0.7124641537666321,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 111,
+      "time": 4.44,
+      "class": "battery_waste",
+      "confidence": 0.6982120871543884,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 112,
+      "time": 4.48,
+      "class": "battery_waste",
+      "confidence": 0.7042006254196167,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 113,
+      "time": 4.52,
+      "class": "battery_waste",
+      "confidence": 0.7047925591468811,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 114,
+      "time": 4.56,
+      "class": "battery_waste",
+      "confidence": 0.7036256194114685,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 115,
+      "time": 4.6,
+      "class": "battery_waste",
+      "confidence": 0.6875964403152466,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 116,
+      "time": 4.64,
+      "class": "battery_waste",
+      "confidence": 0.694929301738739,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 117,
+      "time": 4.68,
+      "class": "battery_waste",
+      "confidence": 0.7045907378196716,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 118,
+      "time": 4.72,
+      "class": "battery_waste",
+      "confidence": 0.7018643617630005,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 119,
+      "time": 4.76,
+      "class": "battery_waste",
+      "confidence": 0.686913788318634,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 120,
+      "time": 4.8,
+      "class": "battery_waste",
+      "confidence": 0.683018147945404,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 121,
+      "time": 4.84,
+      "class": "battery_waste",
+      "confidence": 0.6794134378433228,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 122,
+      "time": 4.88,
+      "class": "battery_waste",
+      "confidence": 0.6776230931282043,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 123,
+      "time": 4.92,
+      "class": "battery_waste",
+      "confidence": 0.6890559196472168,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 124,
+      "time": 4.96,
+      "class": "battery_waste",
+      "confidence": 0.6815422773361206,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 125,
+      "time": 5.0,
+      "class": "battery_waste",
+      "confidence": 0.6689476370811462,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 126,
+      "time": 5.04,
+      "class": "battery_waste",
+      "confidence": 0.6843074560165405,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 127,
+      "time": 5.08,
+      "class": "battery_waste",
+      "confidence": 0.6521516442298889,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 128,
+      "time": 5.12,
+      "class": "battery_waste",
+      "confidence": 0.6419962644577026,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 129,
+      "time": 5.16,
+      "class": "battery_waste",
+      "confidence": 0.6471397876739502,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 130,
+      "time": 5.2,
+      "class": "battery_waste",
+      "confidence": 0.6523398160934448,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 131,
+      "time": 5.24,
+      "class": "battery_waste",
+      "confidence": 0.6719563603401184,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 132,
+      "time": 5.28,
+      "class": "battery_waste",
+      "confidence": 0.6631270051002502,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 133,
+      "time": 5.32,
+      "class": "battery_waste",
+      "confidence": 0.6689348220825195,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 134,
+      "time": 5.36,
+      "class": "battery_waste",
+      "confidence": 0.688213586807251,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 135,
+      "time": 5.4,
+      "class": "battery_waste",
+      "confidence": 0.6549144387245178,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 136,
+      "time": 5.44,
+      "class": "battery_waste",
+      "confidence": 0.6660862565040588,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 137,
+      "time": 5.48,
+      "class": "battery_waste",
+      "confidence": 0.6928070187568665,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 138,
+      "time": 5.52,
+      "class": "battery_waste",
+      "confidence": 0.6702302694320679,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 139,
+      "time": 5.56,
+      "class": "battery_waste",
+      "confidence": 0.5954666137695312,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 140,
+      "time": 5.6,
+      "class": "battery_waste",
+      "confidence": 0.6134068369865417,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 141,
+      "time": 5.64,
+      "class": "battery_waste",
+      "confidence": 0.6103256940841675,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 142,
+      "time": 5.68,
+      "class": "battery_waste",
+      "confidence": 0.6128363609313965,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 143,
+      "time": 5.72,
+      "class": "battery_waste",
+      "confidence": 0.605482280254364,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 144,
+      "time": 5.76,
+      "class": "battery_waste",
+      "confidence": 0.6166518330574036,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 145,
+      "time": 5.8,
+      "class": "battery_waste",
+      "confidence": 0.6063538789749146,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 146,
+      "time": 5.84,
+      "class": "battery_waste",
+      "confidence": 0.6117985844612122,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 147,
+      "time": 5.88,
+      "class": "battery_waste",
+      "confidence": 0.6422324776649475,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 148,
+      "time": 5.92,
+      "class": "battery_waste",
+      "confidence": 0.6658421158790588,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 149,
+      "time": 5.96,
+      "class": "battery_waste",
+      "confidence": 0.6651666760444641,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 150,
+      "time": 6.0,
+      "class": "battery_waste",
+      "confidence": 0.6559638977050781,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 151,
+      "time": 6.04,
+      "class": "battery_waste",
+      "confidence": 0.6416011452674866,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 152,
+      "time": 6.08,
+      "class": "battery_waste",
+      "confidence": 0.6475467085838318,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 153,
+      "time": 6.12,
+      "class": "battery_waste",
+      "confidence": 0.6357808113098145,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 154,
+      "time": 6.16,
+      "class": "battery_waste",
+      "confidence": 0.6658667325973511,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 155,
+      "time": 6.2,
+      "class": "battery_waste",
+      "confidence": 0.6584523916244507,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 156,
+      "time": 6.24,
+      "class": "battery_waste",
+      "confidence": 0.6679383516311646,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 157,
+      "time": 6.28,
+      "class": "battery_waste",
+      "confidence": 0.6783761382102966,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 158,
+      "time": 6.32,
+      "class": "battery_waste",
+      "confidence": 0.6639488339424133,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 159,
+      "time": 6.36,
+      "class": "battery_waste",
+      "confidence": 0.6577526926994324,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 160,
+      "time": 6.4,
+      "class": "battery_waste",
+      "confidence": 0.65244060754776,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 161,
+      "time": 6.44,
+      "class": "battery_waste",
+      "confidence": 0.6413847208023071,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 162,
+      "time": 6.48,
+      "class": "battery_waste",
+      "confidence": 0.6387146711349487,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 163,
+      "time": 6.52,
+      "class": "battery_waste",
+      "confidence": 0.6282349824905396,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 164,
+      "time": 6.56,
+      "class": "battery_waste",
+      "confidence": 0.629231870174408,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 165,
+      "time": 6.6,
+      "class": "battery_waste",
+      "confidence": 0.6384482979774475,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 166,
+      "time": 6.64,
+      "class": "battery_waste",
+      "confidence": 0.6407464742660522,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 167,
+      "time": 6.68,
+      "class": "battery_waste",
+      "confidence": 0.6295977234840393,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 168,
+      "time": 6.72,
+      "class": "battery_waste",
+      "confidence": 0.6311209201812744,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 169,
+      "time": 6.76,
+      "class": "battery_waste",
+      "confidence": 0.6331545114517212,
+      "segment": 1,
+      "confirmed": false
+    },
+    {
+      "frame": 170,
+      "time": 6.8,
+      "class": "battery_waste",
+      "confidence": 0.5895705819129944,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 171,
+      "time": 6.84,
+      "class": "battery_waste",
+      "confidence": 0.40668582916259766,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 172,
+      "time": 6.88,
+      "class": "battery_waste",
+      "confidence": 0.5938910841941833,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 173,
+      "time": 6.92,
+      "class": "general_waste",
+      "confidence": 0.25837716460227966,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 174,
+      "time": 6.96,
+      "class": "general_waste",
+      "confidence": 0.24190934002399445,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 175,
+      "time": 7.0,
+      "class": "paper_waste",
+      "confidence": 0.5074161887168884,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 176,
+      "time": 7.04,
+      "class": "paper_waste",
+      "confidence": 0.6061056852340698,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 177,
+      "time": 7.08,
+      "class": "paper_waste",
+      "confidence": 0.4929725229740143,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 178,
+      "time": 7.12,
+      "class": "paper_waste",
+      "confidence": 0.45602989196777344,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 179,
+      "time": 7.16,
+      "class": "paper_waste",
+      "confidence": 0.2737005949020386,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 180,
+      "time": 7.2,
+      "class": "clothes",
+      "confidence": 0.33195391297340393,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 181,
+      "time": 7.24,
+      "class": "clothes",
+      "confidence": 0.575291097164154,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 182,
+      "time": 7.28,
+      "class": "paper_waste",
+      "confidence": 0.3411920964717865,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 183,
+      "time": 7.32,
+      "class": "background",
+      "confidence": 0.605360209941864,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 184,
+      "time": 7.36,
+      "class": "clothes",
+      "confidence": 0.5866746306419373,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 185,
+      "time": 7.4,
+      "class": "clothes",
+      "confidence": 0.4099924862384796,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 186,
+      "time": 7.44,
+      "class": "paper_waste",
+      "confidence": 0.450576514005661,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 187,
+      "time": 7.48,
+      "class": "clothes",
+      "confidence": 0.3313903212547302,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 188,
+      "time": 7.52,
+      "class": "clothes",
+      "confidence": 0.4359264671802521,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 189,
+      "time": 7.56,
+      "class": "clothes",
+      "confidence": 0.539544403553009,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 190,
+      "time": 7.6,
+      "class": "paper_waste",
+      "confidence": 0.24619759619235992,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 191,
+      "time": 7.64,
+      "class": "general_waste",
+      "confidence": 0.5753437876701355,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 192,
+      "time": 7.68,
+      "class": "general_waste",
+      "confidence": 0.32128265500068665,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 193,
+      "time": 7.72,
+      "class": "general_waste",
+      "confidence": 0.2639688551425934,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 194,
+      "time": 7.76,
+      "class": "general_waste",
+      "confidence": 0.27273353934288025,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 195,
+      "time": 7.8,
+      "class": "general_waste",
+      "confidence": 0.4214153587818146,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 196,
+      "time": 7.84,
+      "class": "general_waste",
+      "confidence": 0.28205886483192444,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 197,
+      "time": 7.88,
+      "class": "general_waste",
+      "confidence": 0.42721623182296753,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 198,
+      "time": 7.92,
+      "class": "general_waste",
+      "confidence": 0.4967474043369293,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 199,
+      "time": 7.96,
+      "class": "general_waste",
+      "confidence": 0.5033184289932251,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 200,
+      "time": 8.0,
+      "class": "general_waste",
+      "confidence": 0.5295159816741943,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 201,
+      "time": 8.04,
+      "class": "general_waste",
+      "confidence": 0.4307030141353607,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 202,
+      "time": 8.08,
+      "class": "general_waste",
+      "confidence": 0.46265530586242676,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 203,
+      "time": 8.12,
+      "class": "general_waste",
+      "confidence": 0.43467462062835693,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 204,
+      "time": 8.16,
+      "class": "general_waste",
+      "confidence": 0.47646719217300415,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 205,
+      "time": 8.2,
+      "class": "general_waste",
+      "confidence": 0.49660786986351013,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 206,
+      "time": 8.24,
+      "class": "general_waste",
+      "confidence": 0.524422824382782,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 207,
+      "time": 8.28,
+      "class": "general_waste",
+      "confidence": 0.6002259850502014,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 208,
+      "time": 8.32,
+      "class": "general_waste",
+      "confidence": 0.5668731331825256,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 209,
+      "time": 8.36,
+      "class": "general_waste",
+      "confidence": 0.709379255771637,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 210,
+      "time": 8.4,
+      "class": "general_waste",
+      "confidence": 0.6478755474090576,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 211,
+      "time": 8.44,
+      "class": "general_waste",
+      "confidence": 0.46605169773101807,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 212,
+      "time": 8.48,
+      "class": "general_waste",
+      "confidence": 0.5943860411643982,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 213,
+      "time": 8.52,
+      "class": "general_waste",
+      "confidence": 0.3947643041610718,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 214,
+      "time": 8.56,
+      "class": "general_waste",
+      "confidence": 0.46408000588417053,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 215,
+      "time": 8.6,
+      "class": "general_waste",
+      "confidence": 0.49187958240509033,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 216,
+      "time": 8.64,
+      "class": "general_waste",
+      "confidence": 0.5111904144287109,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 217,
+      "time": 8.68,
+      "class": "general_waste",
+      "confidence": 0.5495725870132446,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 218,
+      "time": 8.72,
+      "class": "general_waste",
+      "confidence": 0.4149303436279297,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 219,
+      "time": 8.76,
+      "class": "organic_waste",
+      "confidence": 0.30016931891441345,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 220,
+      "time": 8.8,
+      "class": "organic_waste",
+      "confidence": 0.32310378551483154,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 221,
+      "time": 8.84,
+      "class": "general_waste",
+      "confidence": 0.3223608136177063,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 222,
+      "time": 8.88,
+      "class": "general_waste",
+      "confidence": 0.3342219293117523,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 223,
+      "time": 8.92,
+      "class": "organic_waste",
+      "confidence": 0.4319542348384857,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 224,
+      "time": 8.96,
+      "class": "general_waste",
+      "confidence": 0.38294655084609985,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 225,
+      "time": 9.0,
+      "class": "general_waste",
+      "confidence": 0.36855432391166687,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 226,
+      "time": 9.04,
+      "class": "general_waste",
+      "confidence": 0.3253933787345886,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 227,
+      "time": 9.08,
+      "class": "general_waste",
+      "confidence": 0.3383680284023285,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 228,
+      "time": 9.12,
+      "class": "general_waste",
+      "confidence": 0.4477229118347168,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 229,
+      "time": 9.16,
+      "class": "general_waste",
+      "confidence": 0.4301705062389374,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 230,
+      "time": 9.2,
+      "class": "general_waste",
+      "confidence": 0.48267117142677307,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 231,
+      "time": 9.24,
+      "class": "general_waste",
+      "confidence": 0.4425382912158966,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 232,
+      "time": 9.28,
+      "class": "organic_waste",
+      "confidence": 0.4464211165904999,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 233,
+      "time": 9.32,
+      "class": "background",
+      "confidence": 0.9958227872848511,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 234,
+      "time": 9.36,
+      "class": "background",
+      "confidence": 0.9999997615814209,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 235,
+      "time": 9.4,
+      "class": "background",
+      "confidence": 0.9999998807907104,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 236,
+      "time": 9.44,
+      "class": "background",
+      "confidence": 0.9999991655349731,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 237,
+      "time": 9.48,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 238,
+      "time": 9.52,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 239,
+      "time": 9.56,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 240,
+      "time": 9.6,
+      "class": "background",
+      "confidence": 0.9999991655349731,
+      "segment": 2,
+      "confirmed": true
+    },
+    {
+      "frame": 241,
+      "time": 9.64,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 242,
+      "time": 9.68,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 243,
+      "time": 9.72,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 244,
+      "time": 9.76,
+      "class": "background",
+      "confidence": 0.9999884366989136,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 245,
+      "time": 9.8,
+      "class": "background",
+      "confidence": 0.9999997615814209,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 246,
+      "time": 9.84,
+      "class": "background",
+      "confidence": 0.999925971031189,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 247,
+      "time": 9.88,
+      "class": "organic_waste",
+      "confidence": 0.5235206484794617,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 248,
+      "time": 9.92,
+      "class": "organic_waste",
+      "confidence": 0.42262157797813416,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 249,
+      "time": 9.96,
+      "class": "organic_waste",
+      "confidence": 0.4504300653934479,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 250,
+      "time": 10.0,
+      "class": "light_bulbs",
+      "confidence": 0.3441530466079712,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 251,
+      "time": 10.04,
+      "class": "organic_waste",
+      "confidence": 0.3743593096733093,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 252,
+      "time": 10.08,
+      "class": "organic_waste",
+      "confidence": 0.571384608745575,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 253,
+      "time": 10.12,
+      "class": "organic_waste",
+      "confidence": 0.32312169671058655,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 254,
+      "time": 10.16,
+      "class": "organic_waste",
+      "confidence": 0.47810983657836914,
+      "segment": 2,
+      "confirmed": false
+    },
+    {
+      "frame": 255,
+      "time": 10.2,
+      "class": "general_waste",
+      "confidence": 0.4344741404056549,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 256,
+      "time": 10.24,
+      "class": "general_waste",
+      "confidence": 0.23227065801620483,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 257,
+      "time": 10.28,
+      "class": "light_bulbs",
+      "confidence": 0.3021293580532074,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 258,
+      "time": 10.32,
+      "class": "background",
+      "confidence": 0.18262656033039093,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 259,
+      "time": 10.36,
+      "class": "background",
+      "confidence": 0.24699440598487854,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 260,
+      "time": 10.4,
+      "class": "clothes",
+      "confidence": 0.21244306862354279,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 261,
+      "time": 10.44,
+      "class": "clothes",
+      "confidence": 0.36563318967819214,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 262,
+      "time": 10.48,
+      "class": "clothes",
+      "confidence": 0.5203725695610046,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 263,
+      "time": 10.52,
+      "class": "clothes",
+      "confidence": 0.5436055064201355,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 264,
+      "time": 10.56,
+      "class": "clothes",
+      "confidence": 0.3889063894748688,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 265,
+      "time": 10.6,
+      "class": "clothes",
+      "confidence": 0.3599737286567688,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 266,
+      "time": 10.64,
+      "class": "background",
+      "confidence": 0.4428243637084961,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 267,
+      "time": 10.68,
+      "class": "background",
+      "confidence": 0.44194698333740234,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 268,
+      "time": 10.72,
+      "class": "clothes",
+      "confidence": 0.46395865082740784,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 269,
+      "time": 10.76,
+      "class": "clothes",
+      "confidence": 0.39490237832069397,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 270,
+      "time": 10.8,
+      "class": "clothes",
+      "confidence": 0.3350962996482849,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 271,
+      "time": 10.84,
+      "class": "background",
+      "confidence": 0.2733781039714813,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 272,
+      "time": 10.88,
+      "class": "background",
+      "confidence": 0.32613587379455566,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 273,
+      "time": 10.92,
+      "class": "background",
+      "confidence": 0.3097604215145111,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 274,
+      "time": 10.96,
+      "class": "background",
+      "confidence": 0.2923906743526459,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 275,
+      "time": 11.0,
+      "class": "background",
+      "confidence": 0.3465641140937805,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 276,
+      "time": 11.04,
+      "class": "background",
+      "confidence": 0.29302048683166504,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 277,
+      "time": 11.08,
+      "class": "clothes",
+      "confidence": 0.4096699357032776,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 278,
+      "time": 11.12,
+      "class": "clothes",
+      "confidence": 0.46412667632102966,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 279,
+      "time": 11.16,
+      "class": "clothes",
+      "confidence": 0.3447814881801605,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 280,
+      "time": 11.2,
+      "class": "clothes",
+      "confidence": 0.3333398401737213,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 281,
+      "time": 11.24,
+      "class": "clothes",
+      "confidence": 0.4549170732498169,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 282,
+      "time": 11.28,
+      "class": "clothes",
+      "confidence": 0.48134952783584595,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 283,
+      "time": 11.32,
+      "class": "clothes",
+      "confidence": 0.42187270522117615,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 284,
+      "time": 11.36,
+      "class": "clothes",
+      "confidence": 0.35632285475730896,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 285,
+      "time": 11.4,
+      "class": "clothes",
+      "confidence": 0.7333802580833435,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 286,
+      "time": 11.44,
+      "class": "clothes",
+      "confidence": 0.7299292683601379,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 287,
+      "time": 11.48,
+      "class": "clothes",
+      "confidence": 0.7298939228057861,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 288,
+      "time": 11.52,
+      "class": "clothes",
+      "confidence": 0.7353687286376953,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 289,
+      "time": 11.56,
+      "class": "clothes",
+      "confidence": 0.7682693004608154,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 290,
+      "time": 11.6,
+      "class": "clothes",
+      "confidence": 0.7481550574302673,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 291,
+      "time": 11.64,
+      "class": "clothes",
+      "confidence": 0.7602161169052124,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 292,
+      "time": 11.68,
+      "class": "clothes",
+      "confidence": 0.6943000555038452,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 293,
+      "time": 11.72,
+      "class": "clothes",
+      "confidence": 0.7188480496406555,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 294,
+      "time": 11.76,
+      "class": "clothes",
+      "confidence": 0.666296660900116,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 295,
+      "time": 11.8,
+      "class": "clothes",
+      "confidence": 0.8061479330062866,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 296,
+      "time": 11.84,
+      "class": "clothes",
+      "confidence": 0.7925257682800293,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 297,
+      "time": 11.88,
+      "class": "clothes",
+      "confidence": 0.7241278886795044,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 298,
+      "time": 11.92,
+      "class": "clothes",
+      "confidence": 0.8311744332313538,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 299,
+      "time": 11.96,
+      "class": "clothes",
+      "confidence": 0.8470179438591003,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 300,
+      "time": 12.0,
+      "class": "clothes",
+      "confidence": 0.8729798197746277,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 301,
+      "time": 12.04,
+      "class": "clothes",
+      "confidence": 0.8444918990135193,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 302,
+      "time": 12.08,
+      "class": "clothes",
+      "confidence": 0.8520907759666443,
+      "segment": 3,
+      "confirmed": true
+    },
+    {
+      "frame": 303,
+      "time": 12.12,
+      "class": "clothes",
+      "confidence": 0.8767673969268799,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 304,
+      "time": 12.16,
+      "class": "clothes",
+      "confidence": 0.9098815321922302,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 305,
+      "time": 12.2,
+      "class": "clothes",
+      "confidence": 0.8622952103614807,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 306,
+      "time": 12.24,
+      "class": "clothes",
+      "confidence": 0.7759928703308105,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 307,
+      "time": 12.28,
+      "class": "clothes",
+      "confidence": 0.5917239785194397,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 308,
+      "time": 12.32,
+      "class": "clothes",
+      "confidence": 0.7022437453269958,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 309,
+      "time": 12.36,
+      "class": "clothes",
+      "confidence": 0.6679754853248596,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 310,
+      "time": 12.4,
+      "class": "clothes",
+      "confidence": 0.6479457020759583,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 311,
+      "time": 12.44,
+      "class": "clothes",
+      "confidence": 0.7079172134399414,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 312,
+      "time": 12.48,
+      "class": "clothes",
+      "confidence": 0.684182345867157,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 313,
+      "time": 12.52,
+      "class": "clothes",
+      "confidence": 0.7147723436355591,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 314,
+      "time": 12.56,
+      "class": "clothes",
+      "confidence": 0.6687964797019958,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 315,
+      "time": 12.6,
+      "class": "clothes",
+      "confidence": 0.6499479413032532,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 316,
+      "time": 12.64,
+      "class": "clothes",
+      "confidence": 0.5524460673332214,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 317,
+      "time": 12.68,
+      "class": "clothes",
+      "confidence": 0.5189148783683777,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 318,
+      "time": 12.72,
+      "class": "clothes",
+      "confidence": 0.2251877784729004,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 319,
+      "time": 12.76,
+      "class": "clothes",
+      "confidence": 0.19978827238082886,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 320,
+      "time": 12.8,
+      "class": "clothes",
+      "confidence": 0.2840547263622284,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 321,
+      "time": 12.84,
+      "class": "paper_waste",
+      "confidence": 0.25729379057884216,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 322,
+      "time": 12.88,
+      "class": "clothes",
+      "confidence": 0.5566900372505188,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 323,
+      "time": 12.92,
+      "class": "clothes",
+      "confidence": 0.5454452037811279,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 324,
+      "time": 12.96,
+      "class": "clothes",
+      "confidence": 0.7553472518920898,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 325,
+      "time": 13.0,
+      "class": "clothes",
+      "confidence": 0.7612395882606506,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 326,
+      "time": 13.04,
+      "class": "clothes",
+      "confidence": 0.754734218120575,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 327,
+      "time": 13.08,
+      "class": "clothes",
+      "confidence": 0.6506243944168091,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 328,
+      "time": 13.12,
+      "class": "clothes",
+      "confidence": 0.7390995025634766,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 329,
+      "time": 13.16,
+      "class": "clothes",
+      "confidence": 0.7204467058181763,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 330,
+      "time": 13.2,
+      "class": "clothes",
+      "confidence": 0.680404782295227,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 331,
+      "time": 13.24,
+      "class": "clothes",
+      "confidence": 0.6387462615966797,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 332,
+      "time": 13.28,
+      "class": "clothes",
+      "confidence": 0.6186975240707397,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 333,
+      "time": 13.32,
+      "class": "clothes",
+      "confidence": 0.24527961015701294,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 334,
+      "time": 13.36,
+      "class": "clothes",
+      "confidence": 0.5557321310043335,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 335,
+      "time": 13.4,
+      "class": "clothes",
+      "confidence": 0.6552495360374451,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 336,
+      "time": 13.44,
+      "class": "clothes",
+      "confidence": 0.6686286330223083,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 337,
+      "time": 13.48,
+      "class": "clothes",
+      "confidence": 0.49817976355552673,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 338,
+      "time": 13.52,
+      "class": "clothes",
+      "confidence": 0.6754252910614014,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 339,
+      "time": 13.56,
+      "class": "clothes",
+      "confidence": 0.562656581401825,
+      "segment": 3,
+      "confirmed": false
+    },
+    {
+      "frame": 340,
+      "time": 13.6,
+      "class": "clothes",
+      "confidence": 0.5373088121414185,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 341,
+      "time": 13.64,
+      "class": "clothes",
+      "confidence": 0.547951877117157,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 342,
+      "time": 13.68,
+      "class": "clothes",
+      "confidence": 0.532054603099823,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 343,
+      "time": 13.72,
+      "class": "clothes",
+      "confidence": 0.4816693961620331,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 344,
+      "time": 13.76,
+      "class": "clothes",
+      "confidence": 0.6183779835700989,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 345,
+      "time": 13.8,
+      "class": "clothes",
+      "confidence": 0.5607531666755676,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 346,
+      "time": 13.84,
+      "class": "clothes",
+      "confidence": 0.5799791812896729,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 347,
+      "time": 13.88,
+      "class": "clothes",
+      "confidence": 0.4137517511844635,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 348,
+      "time": 13.92,
+      "class": "e_waste",
+      "confidence": 0.5042118430137634,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 349,
+      "time": 13.96,
+      "class": "e_waste",
+      "confidence": 0.8815560340881348,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 350,
+      "time": 14.0,
+      "class": "e_waste",
+      "confidence": 0.5962333083152771,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 351,
+      "time": 14.04,
+      "class": "e_waste",
+      "confidence": 0.6268184781074524,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 352,
+      "time": 14.08,
+      "class": "glass_waste",
+      "confidence": 0.44366201758384705,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 353,
+      "time": 14.12,
+      "class": "glass_waste",
+      "confidence": 0.5416959524154663,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 354,
+      "time": 14.16,
+      "class": "glass_waste",
+      "confidence": 0.5737181305885315,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 355,
+      "time": 14.2,
+      "class": "glass_waste",
+      "confidence": 0.4101855158805847,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 356,
+      "time": 14.24,
+      "class": "e_waste",
+      "confidence": 0.34524428844451904,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 357,
+      "time": 14.28,
+      "class": "e_waste",
+      "confidence": 0.3769649863243103,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 358,
+      "time": 14.32,
+      "class": "battery_waste",
+      "confidence": 0.3062067925930023,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 359,
+      "time": 14.36,
+      "class": "glass_waste",
+      "confidence": 0.28338512778282166,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 360,
+      "time": 14.4,
+      "class": "glass_waste",
+      "confidence": 0.3135692775249481,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 361,
+      "time": 14.44,
+      "class": "e_waste",
+      "confidence": 0.6726998686790466,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 362,
+      "time": 14.48,
+      "class": "e_waste",
+      "confidence": 0.5543270707130432,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 363,
+      "time": 14.52,
+      "class": "e_waste",
+      "confidence": 0.46418216824531555,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 364,
+      "time": 14.56,
+      "class": "e_waste",
+      "confidence": 0.7458189725875854,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 365,
+      "time": 14.6,
+      "class": "e_waste",
+      "confidence": 0.7007757425308228,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 366,
+      "time": 14.64,
+      "class": "e_waste",
+      "confidence": 0.8733713626861572,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 367,
+      "time": 14.68,
+      "class": "e_waste",
+      "confidence": 0.8645346164703369,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 368,
+      "time": 14.72,
+      "class": "e_waste",
+      "confidence": 0.7791794538497925,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 369,
+      "time": 14.76,
+      "class": "e_waste",
+      "confidence": 0.47680598497390747,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 370,
+      "time": 14.8,
+      "class": "e_waste",
+      "confidence": 0.7371982932090759,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 371,
+      "time": 14.84,
+      "class": "e_waste",
+      "confidence": 0.5346781015396118,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 372,
+      "time": 14.88,
+      "class": "battery_waste",
+      "confidence": 0.5477286577224731,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 373,
+      "time": 14.92,
+      "class": "e_waste",
+      "confidence": 0.47977617383003235,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 374,
+      "time": 14.96,
+      "class": "battery_waste",
+      "confidence": 0.3642575442790985,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 375,
+      "time": 15.0,
+      "class": "battery_waste",
+      "confidence": 0.4972206652164459,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 376,
+      "time": 15.04,
+      "class": "battery_waste",
+      "confidence": 0.4956440031528473,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 377,
+      "time": 15.08,
+      "class": "battery_waste",
+      "confidence": 0.5456576347351074,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 378,
+      "time": 15.12,
+      "class": "battery_waste",
+      "confidence": 0.6232373118400574,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 379,
+      "time": 15.16,
+      "class": "battery_waste",
+      "confidence": 0.6374556422233582,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 380,
+      "time": 15.2,
+      "class": "battery_waste",
+      "confidence": 0.5802774429321289,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 381,
+      "time": 15.24,
+      "class": "battery_waste",
+      "confidence": 0.4410993158817291,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 382,
+      "time": 15.28,
+      "class": "battery_waste",
+      "confidence": 0.5248368382453918,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 383,
+      "time": 15.32,
+      "class": "battery_waste",
+      "confidence": 0.5937566161155701,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 384,
+      "time": 15.36,
+      "class": "battery_waste",
+      "confidence": 0.615171492099762,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 385,
+      "time": 15.4,
+      "class": "battery_waste",
+      "confidence": 0.6404200792312622,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 386,
+      "time": 15.44,
+      "class": "battery_waste",
+      "confidence": 0.6586647033691406,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 387,
+      "time": 15.48,
+      "class": "battery_waste",
+      "confidence": 0.42157602310180664,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 388,
+      "time": 15.52,
+      "class": "battery_waste",
+      "confidence": 0.32141271233558655,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 389,
+      "time": 15.56,
+      "class": "battery_waste",
+      "confidence": 0.3501088321208954,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 390,
+      "time": 15.6,
+      "class": "battery_waste",
+      "confidence": 0.32918068766593933,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 391,
+      "time": 15.64,
+      "class": "glass_waste",
+      "confidence": 0.2543007731437683,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 392,
+      "time": 15.68,
+      "class": "metal_waste",
+      "confidence": 0.2799375057220459,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 393,
+      "time": 15.72,
+      "class": "e_waste",
+      "confidence": 0.3251167833805084,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 394,
+      "time": 15.76,
+      "class": "metal_waste",
+      "confidence": 0.31095507740974426,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 395,
+      "time": 15.8,
+      "class": "metal_waste",
+      "confidence": 0.5533129572868347,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 396,
+      "time": 15.84,
+      "class": "metal_waste",
+      "confidence": 0.613096296787262,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 397,
+      "time": 15.88,
+      "class": "metal_waste",
+      "confidence": 0.6313289403915405,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 398,
+      "time": 15.92,
+      "class": "metal_waste",
+      "confidence": 0.6056021451950073,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 399,
+      "time": 15.96,
+      "class": "metal_waste",
+      "confidence": 0.6727408170700073,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 400,
+      "time": 16.0,
+      "class": "metal_waste",
+      "confidence": 0.6357966661453247,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 401,
+      "time": 16.04,
+      "class": "metal_waste",
+      "confidence": 0.43637120723724365,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 402,
+      "time": 16.08,
+      "class": "e_waste",
+      "confidence": 0.3622438609600067,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 403,
+      "time": 16.12,
+      "class": "battery_waste",
+      "confidence": 0.3587172031402588,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 404,
+      "time": 16.16,
+      "class": "battery_waste",
+      "confidence": 0.3758794665336609,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 405,
+      "time": 16.2,
+      "class": "battery_waste",
+      "confidence": 0.37022048234939575,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 406,
+      "time": 16.24,
+      "class": "glass_waste",
+      "confidence": 0.2859252691268921,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 407,
+      "time": 16.28,
+      "class": "battery_waste",
+      "confidence": 0.3737623691558838,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 408,
+      "time": 16.32,
+      "class": "battery_waste",
+      "confidence": 0.36118459701538086,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 409,
+      "time": 16.36,
+      "class": "battery_waste",
+      "confidence": 0.42041248083114624,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 410,
+      "time": 16.4,
+      "class": "battery_waste",
+      "confidence": 0.4100101590156555,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 411,
+      "time": 16.44,
+      "class": "e_waste",
+      "confidence": 0.31800419092178345,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 412,
+      "time": 16.48,
+      "class": "glass_waste",
+      "confidence": 0.3039519786834717,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 413,
+      "time": 16.52,
+      "class": "glass_waste",
+      "confidence": 0.4090538024902344,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 414,
+      "time": 16.56,
+      "class": "glass_waste",
+      "confidence": 0.4012005627155304,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 415,
+      "time": 16.6,
+      "class": "e_waste",
+      "confidence": 0.23592227697372437,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 416,
+      "time": 16.64,
+      "class": "e_waste",
+      "confidence": 0.2564038932323456,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 417,
+      "time": 16.68,
+      "class": "e_waste",
+      "confidence": 0.2672443389892578,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 418,
+      "time": 16.72,
+      "class": "battery_waste",
+      "confidence": 0.2882794141769409,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 419,
+      "time": 16.76,
+      "class": "battery_waste",
+      "confidence": 0.3726176917552948,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 420,
+      "time": 16.8,
+      "class": "battery_waste",
+      "confidence": 0.540570080280304,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 421,
+      "time": 16.84,
+      "class": "battery_waste",
+      "confidence": 0.6410263180732727,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 422,
+      "time": 16.88,
+      "class": "battery_waste",
+      "confidence": 0.493478000164032,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 423,
+      "time": 16.92,
+      "class": "battery_waste",
+      "confidence": 0.6314103007316589,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 424,
+      "time": 16.96,
+      "class": "battery_waste",
+      "confidence": 0.638067364692688,
+      "segment": 4,
+      "confirmed": false
+    },
+    {
+      "frame": 425,
+      "time": 17.0,
+      "class": "battery_waste",
+      "confidence": 0.25892332196235657,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 426,
+      "time": 17.04,
+      "class": "paper_waste",
+      "confidence": 0.4391274154186249,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 427,
+      "time": 17.08,
+      "class": "paper_waste",
+      "confidence": 0.8155518174171448,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 428,
+      "time": 17.12,
+      "class": "paper_waste",
+      "confidence": 0.8516491651535034,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 429,
+      "time": 17.16,
+      "class": "paper_waste",
+      "confidence": 0.7034088373184204,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 430,
+      "time": 17.2,
+      "class": "paper_waste",
+      "confidence": 0.5632660984992981,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 431,
+      "time": 17.24,
+      "class": "paper_waste",
+      "confidence": 0.45607903599739075,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 432,
+      "time": 17.28,
+      "class": "battery_waste",
+      "confidence": 0.5136871933937073,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 433,
+      "time": 17.32,
+      "class": "battery_waste",
+      "confidence": 0.6212586760520935,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 434,
+      "time": 17.36,
+      "class": "battery_waste",
+      "confidence": 0.7712055444717407,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 435,
+      "time": 17.4,
+      "class": "battery_waste",
+      "confidence": 0.8221889734268188,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 436,
+      "time": 17.44,
+      "class": "battery_waste",
+      "confidence": 0.8560979962348938,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 437,
+      "time": 17.48,
+      "class": "battery_waste",
+      "confidence": 0.8398867845535278,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 438,
+      "time": 17.52,
+      "class": "battery_waste",
+      "confidence": 0.8413379788398743,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 439,
+      "time": 17.56,
+      "class": "battery_waste",
+      "confidence": 0.852802038192749,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 440,
+      "time": 17.6,
+      "class": "battery_waste",
+      "confidence": 0.911182165145874,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 441,
+      "time": 17.64,
+      "class": "battery_waste",
+      "confidence": 0.33417555689811707,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 442,
+      "time": 17.68,
+      "class": "battery_waste",
+      "confidence": 0.9205161929130554,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 443,
+      "time": 17.72,
+      "class": "battery_waste",
+      "confidence": 0.864555835723877,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 444,
+      "time": 17.76,
+      "class": "battery_waste",
+      "confidence": 0.8819313049316406,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 445,
+      "time": 17.8,
+      "class": "battery_waste",
+      "confidence": 0.8638268709182739,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 446,
+      "time": 17.84,
+      "class": "battery_waste",
+      "confidence": 0.7848462462425232,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 447,
+      "time": 17.88,
+      "class": "battery_waste",
+      "confidence": 0.752543032169342,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 448,
+      "time": 17.92,
+      "class": "battery_waste",
+      "confidence": 0.6402690410614014,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 449,
+      "time": 17.96,
+      "class": "battery_waste",
+      "confidence": 0.6822951436042786,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 450,
+      "time": 18.0,
+      "class": "battery_waste",
+      "confidence": 0.8367965221405029,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 451,
+      "time": 18.04,
+      "class": "battery_waste",
+      "confidence": 0.7660136222839355,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 452,
+      "time": 18.08,
+      "class": "battery_waste",
+      "confidence": 0.80225670337677,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 453,
+      "time": 18.12,
+      "class": "battery_waste",
+      "confidence": 0.8638412952423096,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 454,
+      "time": 18.16,
+      "class": "battery_waste",
+      "confidence": 0.814926266670227,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 455,
+      "time": 18.2,
+      "class": "battery_waste",
+      "confidence": 0.8485041260719299,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 456,
+      "time": 18.24,
+      "class": "battery_waste",
+      "confidence": 0.8394886255264282,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 457,
+      "time": 18.28,
+      "class": "battery_waste",
+      "confidence": 0.9501190781593323,
+      "segment": 5,
+      "confirmed": true
+    },
+    {
+      "frame": 458,
+      "time": 18.32,
+      "class": "battery_waste",
+      "confidence": 0.9515583515167236,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 459,
+      "time": 18.36,
+      "class": "battery_waste",
+      "confidence": 0.9487341642379761,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 460,
+      "time": 18.4,
+      "class": "battery_waste",
+      "confidence": 0.9444764852523804,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 461,
+      "time": 18.44,
+      "class": "battery_waste",
+      "confidence": 0.926077663898468,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 462,
+      "time": 18.48,
+      "class": "battery_waste",
+      "confidence": 0.9028505086898804,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 463,
+      "time": 18.52,
+      "class": "battery_waste",
+      "confidence": 0.933376133441925,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 464,
+      "time": 18.56,
+      "class": "battery_waste",
+      "confidence": 0.939567506313324,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 465,
+      "time": 18.6,
+      "class": "battery_waste",
+      "confidence": 0.9619593620300293,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 466,
+      "time": 18.64,
+      "class": "battery_waste",
+      "confidence": 0.9587727785110474,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 467,
+      "time": 18.68,
+      "class": "battery_waste",
+      "confidence": 0.956917405128479,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 468,
+      "time": 18.72,
+      "class": "battery_waste",
+      "confidence": 0.9562644362449646,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 469,
+      "time": 18.76,
+      "class": "battery_waste",
+      "confidence": 0.9999927282333374,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 470,
+      "time": 18.8,
+      "class": "battery_waste",
+      "confidence": 0.9999926090240479,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 471,
+      "time": 18.84,
+      "class": "battery_waste",
+      "confidence": 0.9102271795272827,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 472,
+      "time": 18.88,
+      "class": "battery_waste",
+      "confidence": 0.9989091157913208,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 473,
+      "time": 18.92,
+      "class": "battery_waste",
+      "confidence": 0.9999963045120239,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 474,
+      "time": 18.96,
+      "class": "battery_waste",
+      "confidence": 0.9839619398117065,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 475,
+      "time": 19.0,
+      "class": "battery_waste",
+      "confidence": 0.570966899394989,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 476,
+      "time": 19.04,
+      "class": "battery_waste",
+      "confidence": 0.8509647250175476,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 477,
+      "time": 19.08,
+      "class": "background",
+      "confidence": 0.7703534364700317,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 478,
+      "time": 19.12,
+      "class": "background",
+      "confidence": 0.5691006779670715,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 479,
+      "time": 19.16,
+      "class": "battery_waste",
+      "confidence": 0.9785741567611694,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 480,
+      "time": 19.2,
+      "class": "battery_waste",
+      "confidence": 0.9998263716697693,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 481,
+      "time": 19.24,
+      "class": "background",
+      "confidence": 0.8084822297096252,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 482,
+      "time": 19.28,
+      "class": "battery_waste",
+      "confidence": 0.6809465885162354,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 483,
+      "time": 19.32,
+      "class": "battery_waste",
+      "confidence": 0.7528297305107117,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 484,
+      "time": 19.36,
+      "class": "battery_waste",
+      "confidence": 0.9999433755874634,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 485,
+      "time": 19.4,
+      "class": "background",
+      "confidence": 0.9922980666160583,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 486,
+      "time": 19.44,
+      "class": "background",
+      "confidence": 0.9393190145492554,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 487,
+      "time": 19.48,
+      "class": "background",
+      "confidence": 0.889946460723877,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 488,
+      "time": 19.52,
+      "class": "background",
+      "confidence": 0.999998927116394,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 489,
+      "time": 19.56,
+      "class": "background",
+      "confidence": 0.99998939037323,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 490,
+      "time": 19.6,
+      "class": "background",
+      "confidence": 0.9999992847442627,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 491,
+      "time": 19.64,
+      "class": "background",
+      "confidence": 0.972905695438385,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 492,
+      "time": 19.68,
+      "class": "battery_waste",
+      "confidence": 0.22159723937511444,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 493,
+      "time": 19.72,
+      "class": "battery_waste",
+      "confidence": 0.3944523334503174,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 494,
+      "time": 19.76,
+      "class": "battery_waste",
+      "confidence": 0.2732727825641632,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 495,
+      "time": 19.8,
+      "class": "battery_waste",
+      "confidence": 0.38251248002052307,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 496,
+      "time": 19.84,
+      "class": "battery_waste",
+      "confidence": 0.5335384607315063,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 497,
+      "time": 19.88,
+      "class": "battery_waste",
+      "confidence": 0.5498859286308289,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 498,
+      "time": 19.92,
+      "class": "battery_waste",
+      "confidence": 0.5444411635398865,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 499,
+      "time": 19.96,
+      "class": "battery_waste",
+      "confidence": 0.6151930093765259,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 500,
+      "time": 20.0,
+      "class": "battery_waste",
+      "confidence": 0.4417664706707001,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 501,
+      "time": 20.04,
+      "class": "battery_waste",
+      "confidence": 0.4673330783843994,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 502,
+      "time": 20.08,
+      "class": "battery_waste",
+      "confidence": 0.6198219060897827,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 503,
+      "time": 20.12,
+      "class": "battery_waste",
+      "confidence": 0.5861421823501587,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 504,
+      "time": 20.16,
+      "class": "battery_waste",
+      "confidence": 0.5659988522529602,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 505,
+      "time": 20.2,
+      "class": "battery_waste",
+      "confidence": 0.6894026398658752,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 506,
+      "time": 20.24,
+      "class": "battery_waste",
+      "confidence": 0.7714813351631165,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 507,
+      "time": 20.28,
+      "class": "battery_waste",
+      "confidence": 0.7695128917694092,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 508,
+      "time": 20.32,
+      "class": "battery_waste",
+      "confidence": 0.8108361959457397,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 509,
+      "time": 20.36,
+      "class": "battery_waste",
+      "confidence": 0.847503125667572,
+      "segment": 5,
+      "confirmed": false
+    },
+    {
+      "frame": 510,
+      "time": 20.4,
+      "class": "battery_waste",
+      "confidence": 0.8953198194503784,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 511,
+      "time": 20.44,
+      "class": "battery_waste",
+      "confidence": 0.8375796675682068,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 512,
+      "time": 20.48,
+      "class": "battery_waste",
+      "confidence": 0.61011803150177,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 513,
+      "time": 20.52,
+      "class": "battery_waste",
+      "confidence": 0.6855241060256958,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 514,
+      "time": 20.56,
+      "class": "battery_waste",
+      "confidence": 0.47159063816070557,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 515,
+      "time": 20.6,
+      "class": "metal_waste",
+      "confidence": 0.25151246786117554,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 516,
+      "time": 20.64,
+      "class": "plastic_waste",
+      "confidence": 0.3123602569103241,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 517,
+      "time": 20.68,
+      "class": "plastic_waste",
+      "confidence": 0.8500300049781799,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 518,
+      "time": 20.72,
+      "class": "plastic_waste",
+      "confidence": 0.8974502086639404,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 519,
+      "time": 20.76,
+      "class": "plastic_waste",
+      "confidence": 0.9209203124046326,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 520,
+      "time": 20.8,
+      "class": "plastic_waste",
+      "confidence": 0.8876709938049316,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 521,
+      "time": 20.84,
+      "class": "plastic_waste",
+      "confidence": 0.8218970894813538,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 522,
+      "time": 20.88,
+      "class": "plastic_waste",
+      "confidence": 0.8824169635772705,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 523,
+      "time": 20.92,
+      "class": "plastic_waste",
+      "confidence": 0.8444983959197998,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 524,
+      "time": 20.96,
+      "class": "plastic_waste",
+      "confidence": 0.7516806721687317,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 525,
+      "time": 21.0,
+      "class": "plastic_waste",
+      "confidence": 0.8329179286956787,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 526,
+      "time": 21.04,
+      "class": "plastic_waste",
+      "confidence": 0.692751407623291,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 527,
+      "time": 21.08,
+      "class": "plastic_waste",
+      "confidence": 0.9131039977073669,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 528,
+      "time": 21.12,
+      "class": "plastic_waste",
+      "confidence": 0.898274302482605,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 529,
+      "time": 21.16,
+      "class": "plastic_waste",
+      "confidence": 0.8122149705886841,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 530,
+      "time": 21.2,
+      "class": "plastic_waste",
+      "confidence": 0.7450565695762634,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 531,
+      "time": 21.24,
+      "class": "plastic_waste",
+      "confidence": 0.808923602104187,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 532,
+      "time": 21.28,
+      "class": "plastic_waste",
+      "confidence": 0.5478731393814087,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 533,
+      "time": 21.32,
+      "class": "plastic_waste",
+      "confidence": 0.2123984694480896,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 534,
+      "time": 21.36,
+      "class": "plastic_waste",
+      "confidence": 0.8339516520500183,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 535,
+      "time": 21.4,
+      "class": "plastic_waste",
+      "confidence": 0.9338032007217407,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 536,
+      "time": 21.44,
+      "class": "plastic_waste",
+      "confidence": 0.9349454045295715,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 537,
+      "time": 21.48,
+      "class": "plastic_waste",
+      "confidence": 0.9150172472000122,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 538,
+      "time": 21.52,
+      "class": "plastic_waste",
+      "confidence": 0.9399291276931763,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 539,
+      "time": 21.56,
+      "class": "plastic_waste",
+      "confidence": 0.8789730668067932,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 540,
+      "time": 21.6,
+      "class": "plastic_waste",
+      "confidence": 0.8943352699279785,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 541,
+      "time": 21.64,
+      "class": "plastic_waste",
+      "confidence": 0.8073956370353699,
+      "segment": 6,
+      "confirmed": true
+    },
+    {
+      "frame": 542,
+      "time": 21.68,
+      "class": "plastic_waste",
+      "confidence": 0.7361804246902466,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 543,
+      "time": 21.72,
+      "class": "plastic_waste",
+      "confidence": 0.7260326147079468,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 544,
+      "time": 21.76,
+      "class": "plastic_waste",
+      "confidence": 0.7240619659423828,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 545,
+      "time": 21.8,
+      "class": "plastic_waste",
+      "confidence": 0.654769778251648,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 546,
+      "time": 21.84,
+      "class": "plastic_waste",
+      "confidence": 0.7196650505065918,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 547,
+      "time": 21.88,
+      "class": "plastic_waste",
+      "confidence": 0.7767574787139893,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 548,
+      "time": 21.92,
+      "class": "plastic_waste",
+      "confidence": 0.8298979997634888,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 549,
+      "time": 21.96,
+      "class": "plastic_waste",
+      "confidence": 0.8100282549858093,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 550,
+      "time": 22.0,
+      "class": "plastic_waste",
+      "confidence": 0.7766448855400085,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 551,
+      "time": 22.04,
+      "class": "plastic_waste",
+      "confidence": 0.8042120337486267,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 552,
+      "time": 22.08,
+      "class": "plastic_waste",
+      "confidence": 0.8402989506721497,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 553,
+      "time": 22.12,
+      "class": "plastic_waste",
+      "confidence": 0.8408148288726807,
+      "segment": 6,
+      "confirmed": true
+    },
+    {
+      "frame": 554,
+      "time": 22.16,
+      "class": "plastic_waste",
+      "confidence": 0.7795740365982056,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 555,
+      "time": 22.2,
+      "class": "plastic_waste",
+      "confidence": 0.7928388118743896,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 556,
+      "time": 22.24,
+      "class": "plastic_waste",
+      "confidence": 0.8519614934921265,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 557,
+      "time": 22.28,
+      "class": "plastic_waste",
+      "confidence": 0.8345826268196106,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 558,
+      "time": 22.32,
+      "class": "plastic_waste",
+      "confidence": 0.8453199863433838,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 559,
+      "time": 22.36,
+      "class": "plastic_waste",
+      "confidence": 0.8341440558433533,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 560,
+      "time": 22.4,
+      "class": "plastic_waste",
+      "confidence": 0.8423783779144287,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 561,
+      "time": 22.44,
+      "class": "plastic_waste",
+      "confidence": 0.8249559998512268,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 562,
+      "time": 22.48,
+      "class": "plastic_waste",
+      "confidence": 0.8328904509544373,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 563,
+      "time": 22.52,
+      "class": "plastic_waste",
+      "confidence": 0.8358422517776489,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 564,
+      "time": 22.56,
+      "class": "plastic_waste",
+      "confidence": 0.8160487413406372,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 565,
+      "time": 22.6,
+      "class": "plastic_waste",
+      "confidence": 0.7588677406311035,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 566,
+      "time": 22.64,
+      "class": "plastic_waste",
+      "confidence": 0.7840139269828796,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 567,
+      "time": 22.68,
+      "class": "plastic_waste",
+      "confidence": 0.7865850925445557,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 568,
+      "time": 22.72,
+      "class": "plastic_waste",
+      "confidence": 0.7144511938095093,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 569,
+      "time": 22.76,
+      "class": "plastic_waste",
+      "confidence": 0.7045301795005798,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 570,
+      "time": 22.8,
+      "class": "plastic_waste",
+      "confidence": 0.7500477433204651,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 571,
+      "time": 22.84,
+      "class": "plastic_waste",
+      "confidence": 0.7444522380828857,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 572,
+      "time": 22.88,
+      "class": "plastic_waste",
+      "confidence": 0.6790609955787659,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 573,
+      "time": 22.92,
+      "class": "plastic_waste",
+      "confidence": 0.8085849285125732,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 574,
+      "time": 22.96,
+      "class": "plastic_waste",
+      "confidence": 0.6977234482765198,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 575,
+      "time": 23.0,
+      "class": "plastic_waste",
+      "confidence": 0.5059456825256348,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 576,
+      "time": 23.04,
+      "class": "background",
+      "confidence": 0.4547199010848999,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 577,
+      "time": 23.08,
+      "class": "plastic_waste",
+      "confidence": 0.43020740151405334,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 578,
+      "time": 23.12,
+      "class": "plastic_waste",
+      "confidence": 0.5841221809387207,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 579,
+      "time": 23.16,
+      "class": "plastic_waste",
+      "confidence": 0.7324329614639282,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 580,
+      "time": 23.2,
+      "class": "plastic_waste",
+      "confidence": 0.7013973593711853,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 581,
+      "time": 23.24,
+      "class": "background",
+      "confidence": 0.5854316353797913,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 582,
+      "time": 23.28,
+      "class": "background",
+      "confidence": 0.42172688245773315,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 583,
+      "time": 23.32,
+      "class": "background",
+      "confidence": 0.4490237236022949,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 584,
+      "time": 23.36,
+      "class": "background",
+      "confidence": 0.2994406819343567,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 585,
+      "time": 23.4,
+      "class": "background",
+      "confidence": 0.41476961970329285,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 586,
+      "time": 23.44,
+      "class": "background",
+      "confidence": 0.3618386685848236,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 587,
+      "time": 23.48,
+      "class": "background",
+      "confidence": 0.3282320201396942,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 588,
+      "time": 23.52,
+      "class": "plastic_waste",
+      "confidence": 0.273163378238678,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 589,
+      "time": 23.56,
+      "class": "plastic_waste",
+      "confidence": 0.46497198939323425,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 590,
+      "time": 23.6,
+      "class": "plastic_waste",
+      "confidence": 0.6408529877662659,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 591,
+      "time": 23.64,
+      "class": "plastic_waste",
+      "confidence": 0.6896157264709473,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 592,
+      "time": 23.68,
+      "class": "plastic_waste",
+      "confidence": 0.7792584300041199,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 593,
+      "time": 23.72,
+      "class": "plastic_waste",
+      "confidence": 0.7957363724708557,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 594,
+      "time": 23.76,
+      "class": "plastic_waste",
+      "confidence": 0.800483226776123,
+      "segment": 6,
+      "confirmed": false
+    },
+    {
+      "frame": 595,
+      "time": 23.8,
+      "class": "plastic_waste",
+      "confidence": 0.7719295024871826,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 596,
+      "time": 23.84,
+      "class": "plastic_waste",
+      "confidence": 0.7890244126319885,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 597,
+      "time": 23.88,
+      "class": "plastic_waste",
+      "confidence": 0.7285272479057312,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 598,
+      "time": 23.92,
+      "class": "plastic_waste",
+      "confidence": 0.586243212223053,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 599,
+      "time": 23.96,
+      "class": "background",
+      "confidence": 0.5611414313316345,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 600,
+      "time": 24.0,
+      "class": "background",
+      "confidence": 0.6189686059951782,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 601,
+      "time": 24.04,
+      "class": "background",
+      "confidence": 0.5262442231178284,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 602,
+      "time": 24.08,
+      "class": "organic_waste",
+      "confidence": 0.36850836873054504,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 603,
+      "time": 24.12,
+      "class": "organic_waste",
+      "confidence": 0.8715165853500366,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 604,
+      "time": 24.16,
+      "class": "organic_waste",
+      "confidence": 0.8798911571502686,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 605,
+      "time": 24.2,
+      "class": "organic_waste",
+      "confidence": 0.6649907827377319,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 606,
+      "time": 24.24,
+      "class": "organic_waste",
+      "confidence": 0.7504050731658936,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 607,
+      "time": 24.28,
+      "class": "organic_waste",
+      "confidence": 0.790485680103302,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 608,
+      "time": 24.32,
+      "class": "organic_waste",
+      "confidence": 0.8512327075004578,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 609,
+      "time": 24.36,
+      "class": "organic_waste",
+      "confidence": 0.7367193698883057,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 610,
+      "time": 24.4,
+      "class": "organic_waste",
+      "confidence": 0.8223825693130493,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 611,
+      "time": 24.44,
+      "class": "organic_waste",
+      "confidence": 0.6749077439308167,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 612,
+      "time": 24.48,
+      "class": "organic_waste",
+      "confidence": 0.7885244488716125,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 613,
+      "time": 24.52,
+      "class": "organic_waste",
+      "confidence": 0.5162961483001709,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 614,
+      "time": 24.56,
+      "class": "organic_waste",
+      "confidence": 0.48000580072402954,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 615,
+      "time": 24.6,
+      "class": "organic_waste",
+      "confidence": 0.28148114681243896,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 616,
+      "time": 24.64,
+      "class": "organic_waste",
+      "confidence": 0.2220343053340912,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 617,
+      "time": 24.68,
+      "class": "organic_waste",
+      "confidence": 0.2701452076435089,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 618,
+      "time": 24.72,
+      "class": "organic_waste",
+      "confidence": 0.4495854079723358,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 619,
+      "time": 24.76,
+      "class": "organic_waste",
+      "confidence": 0.36173194646835327,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 620,
+      "time": 24.8,
+      "class": "organic_waste",
+      "confidence": 0.498533695936203,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 621,
+      "time": 24.84,
+      "class": "organic_waste",
+      "confidence": 0.2730005979537964,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 622,
+      "time": 24.88,
+      "class": "organic_waste",
+      "confidence": 0.42087024450302124,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 623,
+      "time": 24.92,
+      "class": "organic_waste",
+      "confidence": 0.26245447993278503,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 624,
+      "time": 24.96,
+      "class": "organic_waste",
+      "confidence": 0.5412189364433289,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 625,
+      "time": 25.0,
+      "class": "organic_waste",
+      "confidence": 0.2967955470085144,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 626,
+      "time": 25.04,
+      "class": "organic_waste",
+      "confidence": 0.37792256474494934,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 627,
+      "time": 25.08,
+      "class": "glass_waste",
+      "confidence": 0.285205215215683,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 628,
+      "time": 25.12,
+      "class": "glass_waste",
+      "confidence": 0.45120012760162354,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 629,
+      "time": 25.16,
+      "class": "glass_waste",
+      "confidence": 0.6097052693367004,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 630,
+      "time": 25.2,
+      "class": "glass_waste",
+      "confidence": 0.6080945730209351,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 631,
+      "time": 25.24,
+      "class": "glass_waste",
+      "confidence": 0.7097150087356567,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 632,
+      "time": 25.28,
+      "class": "glass_waste",
+      "confidence": 0.5944697856903076,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 633,
+      "time": 25.32,
+      "class": "glass_waste",
+      "confidence": 0.6395549178123474,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 634,
+      "time": 25.36,
+      "class": "glass_waste",
+      "confidence": 0.6699769496917725,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 635,
+      "time": 25.4,
+      "class": "glass_waste",
+      "confidence": 0.7258984446525574,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 636,
+      "time": 25.44,
+      "class": "glass_waste",
+      "confidence": 0.7178221344947815,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 637,
+      "time": 25.48,
+      "class": "glass_waste",
+      "confidence": 0.5715648531913757,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 638,
+      "time": 25.52,
+      "class": "glass_waste",
+      "confidence": 0.6149308681488037,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 639,
+      "time": 25.56,
+      "class": "glass_waste",
+      "confidence": 0.566985547542572,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 640,
+      "time": 25.6,
+      "class": "glass_waste",
+      "confidence": 0.5796532034873962,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 641,
+      "time": 25.64,
+      "class": "glass_waste",
+      "confidence": 0.29154226183891296,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 642,
+      "time": 25.68,
+      "class": "glass_waste",
+      "confidence": 0.263826459646225,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 643,
+      "time": 25.72,
+      "class": "clothes",
+      "confidence": 0.44414541125297546,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 644,
+      "time": 25.76,
+      "class": "clothes",
+      "confidence": 0.47752875089645386,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 645,
+      "time": 25.8,
+      "class": "clothes",
+      "confidence": 0.5775980353355408,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 646,
+      "time": 25.84,
+      "class": "clothes",
+      "confidence": 0.5410839319229126,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 647,
+      "time": 25.88,
+      "class": "clothes",
+      "confidence": 0.49091631174087524,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 648,
+      "time": 25.92,
+      "class": "glass_waste",
+      "confidence": 0.2678103446960449,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 649,
+      "time": 25.96,
+      "class": "glass_waste",
+      "confidence": 0.3018582761287689,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 650,
+      "time": 26.0,
+      "class": "battery_waste",
+      "confidence": 0.3086983859539032,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 651,
+      "time": 26.04,
+      "class": "glass_waste",
+      "confidence": 0.3206370174884796,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 652,
+      "time": 26.08,
+      "class": "glass_waste",
+      "confidence": 0.30217671394348145,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 653,
+      "time": 26.12,
+      "class": "battery_waste",
+      "confidence": 0.4759114384651184,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 654,
+      "time": 26.16,
+      "class": "battery_waste",
+      "confidence": 0.5711009502410889,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 655,
+      "time": 26.2,
+      "class": "battery_waste",
+      "confidence": 0.5224384665489197,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 656,
+      "time": 26.24,
+      "class": "battery_waste",
+      "confidence": 0.4659382998943329,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 657,
+      "time": 26.28,
+      "class": "battery_waste",
+      "confidence": 0.35323336720466614,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 658,
+      "time": 26.32,
+      "class": "clothes",
+      "confidence": 0.6091454029083252,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 659,
+      "time": 26.36,
+      "class": "clothes",
+      "confidence": 0.4466293156147003,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 660,
+      "time": 26.4,
+      "class": "battery_waste",
+      "confidence": 0.3416356146335602,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 661,
+      "time": 26.44,
+      "class": "battery_waste",
+      "confidence": 0.529994785785675,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 662,
+      "time": 26.48,
+      "class": "battery_waste",
+      "confidence": 0.49700233340263367,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 663,
+      "time": 26.52,
+      "class": "battery_waste",
+      "confidence": 0.5603674054145813,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 664,
+      "time": 26.56,
+      "class": "battery_waste",
+      "confidence": 0.31761452555656433,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 665,
+      "time": 26.6,
+      "class": "battery_waste",
+      "confidence": 0.3619217276573181,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 666,
+      "time": 26.64,
+      "class": "battery_waste",
+      "confidence": 0.25167301297187805,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 667,
+      "time": 26.68,
+      "class": "clothes",
+      "confidence": 0.49536728858947754,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 668,
+      "time": 26.72,
+      "class": "clothes",
+      "confidence": 0.6423946619033813,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 669,
+      "time": 26.76,
+      "class": "clothes",
+      "confidence": 0.6243696808815002,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 670,
+      "time": 26.8,
+      "class": "clothes",
+      "confidence": 0.4660753011703491,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 671,
+      "time": 26.84,
+      "class": "e_waste",
+      "confidence": 0.62004554271698,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 672,
+      "time": 26.88,
+      "class": "clothes",
+      "confidence": 0.8230009078979492,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 673,
+      "time": 26.92,
+      "class": "clothes",
+      "confidence": 0.5002995729446411,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 674,
+      "time": 26.96,
+      "class": "clothes",
+      "confidence": 0.5177156925201416,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 675,
+      "time": 27.0,
+      "class": "clothes",
+      "confidence": 0.6003670692443848,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 676,
+      "time": 27.04,
+      "class": "clothes",
+      "confidence": 0.6638123393058777,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 677,
+      "time": 27.08,
+      "class": "clothes",
+      "confidence": 0.7569368481636047,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 678,
+      "time": 27.12,
+      "class": "clothes",
+      "confidence": 0.679344117641449,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 679,
+      "time": 27.16,
+      "class": "e_waste",
+      "confidence": 0.3215280771255493,
+      "segment": 7,
+      "confirmed": false
+    },
+    {
+      "frame": 680,
+      "time": 27.2,
+      "class": "clothes",
+      "confidence": 0.7558380365371704,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 681,
+      "time": 27.24,
+      "class": "e_waste",
+      "confidence": 0.5539736151695251,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 682,
+      "time": 27.28,
+      "class": "e_waste",
+      "confidence": 0.41922062635421753,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 683,
+      "time": 27.32,
+      "class": "metal_waste",
+      "confidence": 0.3451750576496124,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 684,
+      "time": 27.36,
+      "class": "glass_waste",
+      "confidence": 0.4995427131652832,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 685,
+      "time": 27.4,
+      "class": "glass_waste",
+      "confidence": 0.46861061453819275,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 686,
+      "time": 27.44,
+      "class": "metal_waste",
+      "confidence": 0.7420321106910706,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 687,
+      "time": 27.48,
+      "class": "metal_waste",
+      "confidence": 0.8308081030845642,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 688,
+      "time": 27.52,
+      "class": "metal_waste",
+      "confidence": 0.8974041938781738,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 689,
+      "time": 27.56,
+      "class": "metal_waste",
+      "confidence": 0.8646824955940247,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 690,
+      "time": 27.6,
+      "class": "metal_waste",
+      "confidence": 0.7623924612998962,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 691,
+      "time": 27.64,
+      "class": "metal_waste",
+      "confidence": 0.493083119392395,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 692,
+      "time": 27.68,
+      "class": "metal_waste",
+      "confidence": 0.45919448137283325,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 693,
+      "time": 27.72,
+      "class": "metal_waste",
+      "confidence": 0.5662766098976135,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 694,
+      "time": 27.76,
+      "class": "metal_waste",
+      "confidence": 0.6832189559936523,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 695,
+      "time": 27.8,
+      "class": "metal_waste",
+      "confidence": 0.7281343340873718,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 696,
+      "time": 27.84,
+      "class": "metal_waste",
+      "confidence": 0.6840667128562927,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 697,
+      "time": 27.88,
+      "class": "metal_waste",
+      "confidence": 0.6652093529701233,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 698,
+      "time": 27.92,
+      "class": "metal_waste",
+      "confidence": 0.7226069569587708,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 699,
+      "time": 27.96,
+      "class": "metal_waste",
+      "confidence": 0.6777807474136353,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 700,
+      "time": 28.0,
+      "class": "metal_waste",
+      "confidence": 0.8073695302009583,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 701,
+      "time": 28.04,
+      "class": "metal_waste",
+      "confidence": 0.7803489565849304,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 702,
+      "time": 28.08,
+      "class": "metal_waste",
+      "confidence": 0.7747207880020142,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 703,
+      "time": 28.12,
+      "class": "metal_waste",
+      "confidence": 0.7619353532791138,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 704,
+      "time": 28.16,
+      "class": "metal_waste",
+      "confidence": 0.7330899238586426,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 705,
+      "time": 28.2,
+      "class": "metal_waste",
+      "confidence": 0.6650630235671997,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 706,
+      "time": 28.24,
+      "class": "metal_waste",
+      "confidence": 0.6623530983924866,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 707,
+      "time": 28.28,
+      "class": "metal_waste",
+      "confidence": 0.6882191300392151,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 708,
+      "time": 28.32,
+      "class": "metal_waste",
+      "confidence": 0.7036160826683044,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 709,
+      "time": 28.36,
+      "class": "metal_waste",
+      "confidence": 0.6219550967216492,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 710,
+      "time": 28.4,
+      "class": "metal_waste",
+      "confidence": 0.7163240909576416,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 711,
+      "time": 28.44,
+      "class": "metal_waste",
+      "confidence": 0.6151683926582336,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 712,
+      "time": 28.48,
+      "class": "metal_waste",
+      "confidence": 0.44463902711868286,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 713,
+      "time": 28.52,
+      "class": "metal_waste",
+      "confidence": 0.5648723244667053,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 714,
+      "time": 28.56,
+      "class": "metal_waste",
+      "confidence": 0.7390346527099609,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 715,
+      "time": 28.6,
+      "class": "metal_waste",
+      "confidence": 0.7544224858283997,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 716,
+      "time": 28.64,
+      "class": "metal_waste",
+      "confidence": 0.7145750522613525,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 717,
+      "time": 28.68,
+      "class": "metal_waste",
+      "confidence": 0.7310892939567566,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 718,
+      "time": 28.72,
+      "class": "metal_waste",
+      "confidence": 0.7882713675498962,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 719,
+      "time": 28.76,
+      "class": "metal_waste",
+      "confidence": 0.8089627623558044,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 720,
+      "time": 28.8,
+      "class": "metal_waste",
+      "confidence": 0.8678147196769714,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 721,
+      "time": 28.84,
+      "class": "metal_waste",
+      "confidence": 0.8243608474731445,
+      "segment": 8,
+      "confirmed": true
+    },
+    {
+      "frame": 722,
+      "time": 28.88,
+      "class": "metal_waste",
+      "confidence": 0.8196406364440918,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 723,
+      "time": 28.92,
+      "class": "metal_waste",
+      "confidence": 0.8596889972686768,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 724,
+      "time": 28.96,
+      "class": "metal_waste",
+      "confidence": 0.803961992263794,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 725,
+      "time": 29.0,
+      "class": "metal_waste",
+      "confidence": 0.8468735218048096,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 726,
+      "time": 29.04,
+      "class": "metal_waste",
+      "confidence": 0.8791193962097168,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 727,
+      "time": 29.08,
+      "class": "metal_waste",
+      "confidence": 0.8992329835891724,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 728,
+      "time": 29.12,
+      "class": "metal_waste",
+      "confidence": 0.8940238356590271,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 729,
+      "time": 29.16,
+      "class": "metal_waste",
+      "confidence": 0.8907899260520935,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 730,
+      "time": 29.2,
+      "class": "metal_waste",
+      "confidence": 0.9017273187637329,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 731,
+      "time": 29.24,
+      "class": "metal_waste",
+      "confidence": 0.9176905155181885,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 732,
+      "time": 29.28,
+      "class": "metal_waste",
+      "confidence": 0.9037778973579407,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 733,
+      "time": 29.32,
+      "class": "metal_waste",
+      "confidence": 0.8976917266845703,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 734,
+      "time": 29.36,
+      "class": "metal_waste",
+      "confidence": 0.896199643611908,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 735,
+      "time": 29.4,
+      "class": "metal_waste",
+      "confidence": 0.9058317542076111,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 736,
+      "time": 29.44,
+      "class": "metal_waste",
+      "confidence": 0.9042882323265076,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 737,
+      "time": 29.48,
+      "class": "metal_waste",
+      "confidence": 0.8719218373298645,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 738,
+      "time": 29.52,
+      "class": "metal_waste",
+      "confidence": 0.8952235579490662,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 739,
+      "time": 29.56,
+      "class": "metal_waste",
+      "confidence": 0.8727461099624634,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 740,
+      "time": 29.6,
+      "class": "metal_waste",
+      "confidence": 0.8895810842514038,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 741,
+      "time": 29.64,
+      "class": "metal_waste",
+      "confidence": 0.8234888911247253,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 742,
+      "time": 29.68,
+      "class": "metal_waste",
+      "confidence": 0.7806870937347412,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 743,
+      "time": 29.72,
+      "class": "metal_waste",
+      "confidence": 0.9120702147483826,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 744,
+      "time": 29.76,
+      "class": "metal_waste",
+      "confidence": 0.9101377129554749,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 745,
+      "time": 29.8,
+      "class": "metal_waste",
+      "confidence": 0.9198517203330994,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 746,
+      "time": 29.84,
+      "class": "metal_waste",
+      "confidence": 0.8547631502151489,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 747,
+      "time": 29.88,
+      "class": "metal_waste",
+      "confidence": 0.9073873162269592,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 748,
+      "time": 29.92,
+      "class": "metal_waste",
+      "confidence": 0.9392425417900085,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 749,
+      "time": 29.96,
+      "class": "metal_waste",
+      "confidence": 0.9374581575393677,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 750,
+      "time": 30.0,
+      "class": "metal_waste",
+      "confidence": 0.8931947946548462,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 751,
+      "time": 30.04,
+      "class": "metal_waste",
+      "confidence": 0.5588786005973816,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 752,
+      "time": 30.08,
+      "class": "metal_waste",
+      "confidence": 0.5632525682449341,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 753,
+      "time": 30.12,
+      "class": "background",
+      "confidence": 0.9999973773956299,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 754,
+      "time": 30.16,
+      "class": "background",
+      "confidence": 0.9981932044029236,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 755,
+      "time": 30.2,
+      "class": "background",
+      "confidence": 0.9999991655349731,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 756,
+      "time": 30.24,
+      "class": "background",
+      "confidence": 0.9999996423721313,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 757,
+      "time": 30.28,
+      "class": "background",
+      "confidence": 0.9999997615814209,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 758,
+      "time": 30.32,
+      "class": "background",
+      "confidence": 0.9999991655349731,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 759,
+      "time": 30.36,
+      "class": "background",
+      "confidence": 0.9990092515945435,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 760,
+      "time": 30.4,
+      "class": "metal_waste",
+      "confidence": 0.9965894222259521,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 761,
+      "time": 30.44,
+      "class": "background",
+      "confidence": 0.9981452226638794,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 762,
+      "time": 30.48,
+      "class": "background",
+      "confidence": 0.9999998807907104,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 763,
+      "time": 30.52,
+      "class": "metal_waste",
+      "confidence": 1.0,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 764,
+      "time": 30.56,
+      "class": "metal_waste",
+      "confidence": 0.9999477863311768,
+      "segment": 8,
+      "confirmed": false
+    },
+    {
+      "frame": 765,
+      "time": 30.6,
+      "class": "metal_waste",
+      "confidence": 0.5917437076568604,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 766,
+      "time": 30.64,
+      "class": "metal_waste",
+      "confidence": 0.7778430581092834,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 767,
+      "time": 30.68,
+      "class": "metal_waste",
+      "confidence": 0.7583456635475159,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 768,
+      "time": 30.72,
+      "class": "metal_waste",
+      "confidence": 0.4659797251224518,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 769,
+      "time": 30.76,
+      "class": "metal_waste",
+      "confidence": 0.7856656312942505,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 770,
+      "time": 30.8,
+      "class": "glass_waste",
+      "confidence": 0.42911458015441895,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 771,
+      "time": 30.84,
+      "class": "background",
+      "confidence": 0.6875038146972656,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 772,
+      "time": 30.88,
+      "class": "background",
+      "confidence": 0.8218645453453064,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 773,
+      "time": 30.92,
+      "class": "background",
+      "confidence": 0.8198716044425964,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 774,
+      "time": 30.96,
+      "class": "background",
+      "confidence": 0.8278645873069763,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 775,
+      "time": 31.0,
+      "class": "background",
+      "confidence": 0.7764374017715454,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 776,
+      "time": 31.04,
+      "class": "background",
+      "confidence": 0.7822495698928833,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 777,
+      "time": 31.08,
+      "class": "background",
+      "confidence": 0.7756612300872803,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 778,
+      "time": 31.12,
+      "class": "background",
+      "confidence": 0.7805129289627075,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 779,
+      "time": 31.16,
+      "class": "background",
+      "confidence": 0.7905520796775818,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 780,
+      "time": 31.2,
+      "class": "background",
+      "confidence": 0.7848678827285767,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 781,
+      "time": 31.24,
+      "class": "background",
+      "confidence": 0.7775614857673645,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 782,
+      "time": 31.28,
+      "class": "background",
+      "confidence": 0.7662860155105591,
+      "segment": 9,
+      "confirmed": true
+    },
+    {
+      "frame": 783,
+      "time": 31.32,
+      "class": "background",
+      "confidence": 0.7734705209732056,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 784,
+      "time": 31.36,
+      "class": "background",
+      "confidence": 0.7839918732643127,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 785,
+      "time": 31.4,
+      "class": "background",
+      "confidence": 0.7819507122039795,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 786,
+      "time": 31.44,
+      "class": "background",
+      "confidence": 0.8008066415786743,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 787,
+      "time": 31.48,
+      "class": "background",
+      "confidence": 0.7897216081619263,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 788,
+      "time": 31.52,
+      "class": "background",
+      "confidence": 0.8005046248435974,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 789,
+      "time": 31.56,
+      "class": "background",
+      "confidence": 0.7955856919288635,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 790,
+      "time": 31.6,
+      "class": "background",
+      "confidence": 0.7852484583854675,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 791,
+      "time": 31.64,
+      "class": "background",
+      "confidence": 0.7506596446037292,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 792,
+      "time": 31.68,
+      "class": "background",
+      "confidence": 0.7573868632316589,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 793,
+      "time": 31.72,
+      "class": "background",
+      "confidence": 0.7551005482673645,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 794,
+      "time": 31.76,
+      "class": "background",
+      "confidence": 0.7544841170310974,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 795,
+      "time": 31.8,
+      "class": "background",
+      "confidence": 0.7472704648971558,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 796,
+      "time": 31.84,
+      "class": "background",
+      "confidence": 0.7478707432746887,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 797,
+      "time": 31.88,
+      "class": "background",
+      "confidence": 0.7456655502319336,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 798,
+      "time": 31.92,
+      "class": "background",
+      "confidence": 0.756898820400238,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 799,
+      "time": 31.96,
+      "class": "background",
+      "confidence": 0.7522273659706116,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 800,
+      "time": 32.0,
+      "class": "background",
+      "confidence": 0.7577239871025085,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 801,
+      "time": 32.04,
+      "class": "background",
+      "confidence": 0.754052460193634,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 802,
+      "time": 32.08,
+      "class": "background",
+      "confidence": 0.7478874921798706,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 803,
+      "time": 32.12,
+      "class": "background",
+      "confidence": 0.7422575950622559,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 804,
+      "time": 32.16,
+      "class": "background",
+      "confidence": 0.7366641163825989,
+      "segment": 9,
+      "confirmed": false
+    },
+    {
+      "frame": 805,
+      "time": 32.2,
+      "class": "background",
+      "confidence": 0.7875156998634338,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 806,
+      "time": 32.24,
+      "class": "background",
+      "confidence": 0.8646435141563416,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 807,
+      "time": 32.28,
+      "class": "background",
+      "confidence": 0.8583009839057922,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 808,
+      "time": 32.32,
+      "class": "glass_waste",
+      "confidence": 0.3159601390361786,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 809,
+      "time": 32.36,
+      "class": "glass_waste",
+      "confidence": 0.39180728793144226,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 810,
+      "time": 32.4,
+      "class": "glass_waste",
+      "confidence": 0.31285345554351807,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 811,
+      "time": 32.44,
+      "class": "glass_waste",
+      "confidence": 0.34325578808784485,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 812,
+      "time": 32.48,
+      "class": "glass_waste",
+      "confidence": 0.6680541634559631,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 813,
+      "time": 32.52,
+      "class": "glass_waste",
+      "confidence": 0.7661778926849365,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 814,
+      "time": 32.56,
+      "class": "glass_waste",
+      "confidence": 0.8090456128120422,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 815,
+      "time": 32.6,
+      "class": "glass_waste",
+      "confidence": 0.8167235255241394,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 816,
+      "time": 32.64,
+      "class": "glass_waste",
+      "confidence": 0.7456262111663818,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 817,
+      "time": 32.68,
+      "class": "glass_waste",
+      "confidence": 0.6962317228317261,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 818,
+      "time": 32.72,
+      "class": "glass_waste",
+      "confidence": 0.5694788694381714,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 819,
+      "time": 32.76,
+      "class": "glass_waste",
+      "confidence": 0.6866862177848816,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 820,
+      "time": 32.8,
+      "class": "glass_waste",
+      "confidence": 0.500122606754303,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 821,
+      "time": 32.84,
+      "class": "glass_waste",
+      "confidence": 0.33983132243156433,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 822,
+      "time": 32.88,
+      "class": "glass_waste",
+      "confidence": 0.4007531404495239,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 823,
+      "time": 32.92,
+      "class": "glass_waste",
+      "confidence": 0.27997350692749023,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 824,
+      "time": 32.96,
+      "class": "glass_waste",
+      "confidence": 0.6528485417366028,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 825,
+      "time": 33.0,
+      "class": "glass_waste",
+      "confidence": 0.7198045253753662,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 826,
+      "time": 33.04,
+      "class": "glass_waste",
+      "confidence": 0.7318375110626221,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 827,
+      "time": 33.08,
+      "class": "glass_waste",
+      "confidence": 0.552756667137146,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 828,
+      "time": 33.12,
+      "class": "glass_waste",
+      "confidence": 0.7223445177078247,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 829,
+      "time": 33.16,
+      "class": "glass_waste",
+      "confidence": 0.6295031309127808,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 830,
+      "time": 33.2,
+      "class": "glass_waste",
+      "confidence": 0.7389038801193237,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 831,
+      "time": 33.24,
+      "class": "glass_waste",
+      "confidence": 0.6805682182312012,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 832,
+      "time": 33.28,
+      "class": "glass_waste",
+      "confidence": 0.4017789959907532,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 833,
+      "time": 33.32,
+      "class": "glass_waste",
+      "confidence": 0.5574332475662231,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 834,
+      "time": 33.36,
+      "class": "glass_waste",
+      "confidence": 0.7982599139213562,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 835,
+      "time": 33.4,
+      "class": "glass_waste",
+      "confidence": 0.8199268579483032,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 836,
+      "time": 33.44,
+      "class": "glass_waste",
+      "confidence": 0.7158727049827576,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 837,
+      "time": 33.48,
+      "class": "glass_waste",
+      "confidence": 0.9522003531455994,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 838,
+      "time": 33.52,
+      "class": "glass_waste",
+      "confidence": 0.9311334490776062,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 839,
+      "time": 33.56,
+      "class": "glass_waste",
+      "confidence": 0.9502444863319397,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 840,
+      "time": 33.6,
+      "class": "glass_waste",
+      "confidence": 0.9387571215629578,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 841,
+      "time": 33.64,
+      "class": "glass_waste",
+      "confidence": 0.9503322243690491,
+      "segment": 10,
+      "confirmed": true
+    },
+    {
+      "frame": 842,
+      "time": 33.68,
+      "class": "glass_waste",
+      "confidence": 0.9454624652862549,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 843,
+      "time": 33.72,
+      "class": "glass_waste",
+      "confidence": 0.9539715647697449,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 844,
+      "time": 33.76,
+      "class": "glass_waste",
+      "confidence": 0.9567001461982727,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 845,
+      "time": 33.8,
+      "class": "glass_waste",
+      "confidence": 0.9515695571899414,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 846,
+      "time": 33.84,
+      "class": "glass_waste",
+      "confidence": 0.9522322416305542,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 847,
+      "time": 33.88,
+      "class": "glass_waste",
+      "confidence": 0.951739490032196,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 848,
+      "time": 33.92,
+      "class": "glass_waste",
+      "confidence": 0.9452945590019226,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 849,
+      "time": 33.96,
+      "class": "glass_waste",
+      "confidence": 0.9491390585899353,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 850,
+      "time": 34.0,
+      "class": "glass_waste",
+      "confidence": 0.9433101415634155,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 851,
+      "time": 34.04,
+      "class": "glass_waste",
+      "confidence": 0.9119302034378052,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 852,
+      "time": 34.08,
+      "class": "glass_waste",
+      "confidence": 0.9451794028282166,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 853,
+      "time": 34.12,
+      "class": "glass_waste",
+      "confidence": 0.9333926439285278,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 854,
+      "time": 34.16,
+      "class": "glass_waste",
+      "confidence": 0.9554216861724854,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 855,
+      "time": 34.2,
+      "class": "glass_waste",
+      "confidence": 0.9531630873680115,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 856,
+      "time": 34.24,
+      "class": "glass_waste",
+      "confidence": 0.9493333697319031,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 857,
+      "time": 34.28,
+      "class": "glass_waste",
+      "confidence": 0.935184121131897,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 858,
+      "time": 34.32,
+      "class": "glass_waste",
+      "confidence": 0.938532292842865,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 859,
+      "time": 34.36,
+      "class": "glass_waste",
+      "confidence": 0.93313068151474,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 860,
+      "time": 34.4,
+      "class": "glass_waste",
+      "confidence": 0.9270252585411072,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 861,
+      "time": 34.44,
+      "class": "glass_waste",
+      "confidence": 0.916730523109436,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 862,
+      "time": 34.48,
+      "class": "glass_waste",
+      "confidence": 0.914613664150238,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 863,
+      "time": 34.52,
+      "class": "glass_waste",
+      "confidence": 0.8905543684959412,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 864,
+      "time": 34.56,
+      "class": "glass_waste",
+      "confidence": 0.8665353655815125,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 865,
+      "time": 34.6,
+      "class": "glass_waste",
+      "confidence": 0.8986149430274963,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 866,
+      "time": 34.64,
+      "class": "glass_waste",
+      "confidence": 0.9074046015739441,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 867,
+      "time": 34.68,
+      "class": "glass_waste",
+      "confidence": 0.9133914113044739,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 868,
+      "time": 34.72,
+      "class": "glass_waste",
+      "confidence": 0.4681588411331177,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 869,
+      "time": 34.76,
+      "class": "glass_waste",
+      "confidence": 0.684382438659668,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 870,
+      "time": 34.8,
+      "class": "glass_waste",
+      "confidence": 0.7057859301567078,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 871,
+      "time": 34.84,
+      "class": "glass_waste",
+      "confidence": 0.6261918544769287,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 872,
+      "time": 34.88,
+      "class": "battery_waste",
+      "confidence": 0.5661963224411011,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 873,
+      "time": 34.92,
+      "class": "battery_waste",
+      "confidence": 0.4771604835987091,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 874,
+      "time": 34.96,
+      "class": "battery_waste",
+      "confidence": 0.7358603477478027,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 875,
+      "time": 35.0,
+      "class": "battery_waste",
+      "confidence": 0.6934999823570251,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 876,
+      "time": 35.04,
+      "class": "battery_waste",
+      "confidence": 0.4559701085090637,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 877,
+      "time": 35.08,
+      "class": "battery_waste",
+      "confidence": 0.3337637782096863,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 878,
+      "time": 35.12,
+      "class": "battery_waste",
+      "confidence": 0.3590540587902069,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 879,
+      "time": 35.16,
+      "class": "glass_waste",
+      "confidence": 0.7033455967903137,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 880,
+      "time": 35.2,
+      "class": "glass_waste",
+      "confidence": 0.6870522499084473,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 881,
+      "time": 35.24,
+      "class": "glass_waste",
+      "confidence": 0.9186622500419617,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 882,
+      "time": 35.28,
+      "class": "glass_waste",
+      "confidence": 0.9015178084373474,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 883,
+      "time": 35.32,
+      "class": "glass_waste",
+      "confidence": 0.9039368629455566,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 884,
+      "time": 35.36,
+      "class": "glass_waste",
+      "confidence": 0.9091483354568481,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 885,
+      "time": 35.4,
+      "class": "glass_waste",
+      "confidence": 0.891954779624939,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 886,
+      "time": 35.44,
+      "class": "glass_waste",
+      "confidence": 0.8523226380348206,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 887,
+      "time": 35.48,
+      "class": "glass_waste",
+      "confidence": 0.9042977690696716,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 888,
+      "time": 35.52,
+      "class": "glass_waste",
+      "confidence": 0.9232887029647827,
+      "segment": 10,
+      "confirmed": true
+    },
+    {
+      "frame": 889,
+      "time": 35.56,
+      "class": "glass_waste",
+      "confidence": 0.9340067505836487,
+      "segment": 10,
+      "confirmed": false
+    },
+    {
+      "frame": 890,
+      "time": 35.6,
+      "class": "glass_waste",
+      "confidence": 0.9498499035835266,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 891,
+      "time": 35.64,
+      "class": "glass_waste",
+      "confidence": 0.9705591797828674,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 892,
+      "time": 35.68,
+      "class": "glass_waste",
+      "confidence": 0.9757155179977417,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 893,
+      "time": 35.72,
+      "class": "glass_waste",
+      "confidence": 0.9864535927772522,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 894,
+      "time": 35.76,
+      "class": "glass_waste",
+      "confidence": 0.9668039679527283,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 895,
+      "time": 35.8,
+      "class": "glass_waste",
+      "confidence": 0.9765472412109375,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 896,
+      "time": 35.84,
+      "class": "glass_waste",
+      "confidence": 0.9141567945480347,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 897,
+      "time": 35.88,
+      "class": "glass_waste",
+      "confidence": 0.7023301720619202,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 898,
+      "time": 35.92,
+      "class": "glass_waste",
+      "confidence": 0.7251671552658081,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 899,
+      "time": 35.96,
+      "class": "plastic_waste",
+      "confidence": 0.44827932119369507,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 900,
+      "time": 36.0,
+      "class": "background",
+      "confidence": 0.9999676942825317,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 901,
+      "time": 36.04,
+      "class": "background",
+      "confidence": 0.9999969005584717,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 902,
+      "time": 36.08,
+      "class": "background",
+      "confidence": 0.999967098236084,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 903,
+      "time": 36.12,
+      "class": "background",
+      "confidence": 0.9993880987167358,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 904,
+      "time": 36.16,
+      "class": "background",
+      "confidence": 0.9999761581420898,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 905,
+      "time": 36.2,
+      "class": "background",
+      "confidence": 0.9999591112136841,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 906,
+      "time": 36.24,
+      "class": "background",
+      "confidence": 0.9918835163116455,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 907,
+      "time": 36.28,
+      "class": "background",
+      "confidence": 0.9985798597335815,
+      "segment": 11,
+      "confirmed": true
+    },
+    {
+      "frame": 908,
+      "time": 36.32,
+      "class": "background",
+      "confidence": 0.9999346733093262,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 909,
+      "time": 36.36,
+      "class": "background",
+      "confidence": 0.9999998807907104,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 910,
+      "time": 36.4,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 911,
+      "time": 36.44,
+      "class": "background",
+      "confidence": 0.9991359114646912,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 912,
+      "time": 36.48,
+      "class": "background",
+      "confidence": 0.9999998807907104,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 913,
+      "time": 36.52,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 914,
+      "time": 36.56,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 915,
+      "time": 36.6,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 916,
+      "time": 36.64,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 917,
+      "time": 36.68,
+      "class": "background",
+      "confidence": 0.9999994039535522,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 918,
+      "time": 36.72,
+      "class": "background",
+      "confidence": 0.9999998807907104,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 919,
+      "time": 36.76,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 920,
+      "time": 36.8,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 921,
+      "time": 36.84,
+      "class": "background",
+      "confidence": 0.9999574422836304,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 922,
+      "time": 36.88,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 923,
+      "time": 36.92,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 924,
+      "time": 36.96,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 925,
+      "time": 37.0,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 926,
+      "time": 37.04,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 927,
+      "time": 37.08,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 928,
+      "time": 37.12,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 929,
+      "time": 37.16,
+      "class": "background",
+      "confidence": 1.0,
+      "segment": 11,
+      "confirmed": false
+    },
+    {
+      "frame": 930,
+      "time": 37.2,
+      "class": "paper_waste",
+      "confidence": 0.8644110560417175,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 931,
+      "time": 37.24,
+      "class": "background",
+      "confidence": 0.4933578670024872,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 932,
+      "time": 37.28,
+      "class": "background",
+      "confidence": 0.7693324089050293,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 933,
+      "time": 37.32,
+      "class": "paper_waste",
+      "confidence": 0.5265817046165466,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 934,
+      "time": 37.36,
+      "class": "paper_waste",
+      "confidence": 0.5969815850257874,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 935,
+      "time": 37.4,
+      "class": "paper_waste",
+      "confidence": 0.5462120771408081,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 936,
+      "time": 37.44,
+      "class": "light_bulbs",
+      "confidence": 0.45614099502563477,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 937,
+      "time": 37.48,
+      "class": "light_bulbs",
+      "confidence": 0.4088262617588043,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 938,
+      "time": 37.52,
+      "class": "light_bulbs",
+      "confidence": 0.31866052746772766,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 939,
+      "time": 37.56,
+      "class": "light_bulbs",
+      "confidence": 0.535699188709259,
+      "segment": null,
+      "confirmed": false
+    },
+    {
+      "frame": 940,
+      "time": 37.6,
+      "class": "light_bulbs",
+      "confidence": 0.43029797077178955,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 941,
+      "time": 37.64,
+      "class": "light_bulbs",
+      "confidence": 0.2706283926963806,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 942,
+      "time": 37.68,
+      "class": "paper_waste",
+      "confidence": 0.4407057762145996,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 943,
+      "time": 37.72,
+      "class": "paper_waste",
+      "confidence": 0.3303268849849701,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 944,
+      "time": 37.76,
+      "class": "paper_waste",
+      "confidence": 0.3751939535140991,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 945,
+      "time": 37.8,
+      "class": "paper_waste",
+      "confidence": 0.28138116002082825,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 946,
+      "time": 37.84,
+      "class": "paper_waste",
+      "confidence": 0.3221496343612671,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 947,
+      "time": 37.88,
+      "class": "paper_waste",
+      "confidence": 0.3191620707511902,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 948,
+      "time": 37.92,
+      "class": "paper_waste",
+      "confidence": 0.6446869969367981,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 949,
+      "time": 37.96,
+      "class": "paper_waste",
+      "confidence": 0.4681914746761322,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 950,
+      "time": 38.0,
+      "class": "paper_waste",
+      "confidence": 0.543941855430603,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 951,
+      "time": 38.04,
+      "class": "paper_waste",
+      "confidence": 0.36406347155570984,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 952,
+      "time": 38.08,
+      "class": "battery_waste",
+      "confidence": 0.34126466512680054,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 953,
+      "time": 38.12,
+      "class": "paper_waste",
+      "confidence": 0.3051165044307709,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 954,
+      "time": 38.16,
+      "class": "battery_waste",
+      "confidence": 0.3744382858276367,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 955,
+      "time": 38.2,
+      "class": "paper_waste",
+      "confidence": 0.26847463846206665,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 956,
+      "time": 38.24,
+      "class": "battery_waste",
+      "confidence": 0.29283982515335083,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 957,
+      "time": 38.28,
+      "class": "paper_waste",
+      "confidence": 0.3083832859992981,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 958,
+      "time": 38.32,
+      "class": "paper_waste",
+      "confidence": 0.35658374428749084,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 959,
+      "time": 38.36,
+      "class": "paper_waste",
+      "confidence": 0.28106412291526794,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 960,
+      "time": 38.4,
+      "class": "paper_waste",
+      "confidence": 0.2591177821159363,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 961,
+      "time": 38.44,
+      "class": "battery_waste",
+      "confidence": 0.4280485212802887,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 962,
+      "time": 38.48,
+      "class": "paper_waste",
+      "confidence": 0.7921245098114014,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 963,
+      "time": 38.52,
+      "class": "paper_waste",
+      "confidence": 0.7829658389091492,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 964,
+      "time": 38.56,
+      "class": "paper_waste",
+      "confidence": 0.7927243709564209,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 965,
+      "time": 38.6,
+      "class": "paper_waste",
+      "confidence": 0.7261133193969727,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 966,
+      "time": 38.64,
+      "class": "paper_waste",
+      "confidence": 0.7075904607772827,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 967,
+      "time": 38.68,
+      "class": "paper_waste",
+      "confidence": 0.7605223655700684,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 968,
+      "time": 38.72,
+      "class": "paper_waste",
+      "confidence": 0.7756829261779785,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 969,
+      "time": 38.76,
+      "class": "paper_waste",
+      "confidence": 0.8191414475440979,
+      "segment": 12,
+      "confirmed": true
+    },
+    {
+      "frame": 970,
+      "time": 38.8,
+      "class": "paper_waste",
+      "confidence": 0.7701984643936157,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 971,
+      "time": 38.84,
+      "class": "paper_waste",
+      "confidence": 0.8967289328575134,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 972,
+      "time": 38.88,
+      "class": "paper_waste",
+      "confidence": 0.8444704413414001,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 973,
+      "time": 38.92,
+      "class": "paper_waste",
+      "confidence": 0.8190951943397522,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 974,
+      "time": 38.96,
+      "class": "paper_waste",
+      "confidence": 0.8036897778511047,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 975,
+      "time": 39.0,
+      "class": "paper_waste",
+      "confidence": 0.8953297138214111,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 976,
+      "time": 39.04,
+      "class": "paper_waste",
+      "confidence": 0.7935082912445068,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 977,
+      "time": 39.08,
+      "class": "paper_waste",
+      "confidence": 0.7665319442749023,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 978,
+      "time": 39.12,
+      "class": "paper_waste",
+      "confidence": 0.8489774465560913,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 979,
+      "time": 39.16,
+      "class": "paper_waste",
+      "confidence": 0.9197725653648376,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 980,
+      "time": 39.2,
+      "class": "paper_waste",
+      "confidence": 0.9152437448501587,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 981,
+      "time": 39.24,
+      "class": "paper_waste",
+      "confidence": 0.9172145128250122,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 982,
+      "time": 39.28,
+      "class": "paper_waste",
+      "confidence": 0.9083251357078552,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 983,
+      "time": 39.32,
+      "class": "paper_waste",
+      "confidence": 0.8850268125534058,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 984,
+      "time": 39.36,
+      "class": "paper_waste",
+      "confidence": 0.884375274181366,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 985,
+      "time": 39.4,
+      "class": "paper_waste",
+      "confidence": 0.8894326090812683,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 986,
+      "time": 39.44,
+      "class": "paper_waste",
+      "confidence": 0.8565850853919983,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 987,
+      "time": 39.48,
+      "class": "paper_waste",
+      "confidence": 0.7581313252449036,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 988,
+      "time": 39.52,
+      "class": "paper_waste",
+      "confidence": 0.9023284912109375,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 989,
+      "time": 39.56,
+      "class": "paper_waste",
+      "confidence": 0.910526692867279,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 990,
+      "time": 39.6,
+      "class": "paper_waste",
+      "confidence": 0.9024152159690857,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 991,
+      "time": 39.64,
+      "class": "paper_waste",
+      "confidence": 0.8293070197105408,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 992,
+      "time": 39.68,
+      "class": "paper_waste",
+      "confidence": 0.8478807806968689,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 993,
+      "time": 39.72,
+      "class": "paper_waste",
+      "confidence": 0.4348340630531311,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 994,
+      "time": 39.76,
+      "class": "paper_waste",
+      "confidence": 0.6990048885345459,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 995,
+      "time": 39.8,
+      "class": "paper_waste",
+      "confidence": 0.7852010130882263,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 996,
+      "time": 39.84,
+      "class": "paper_waste",
+      "confidence": 0.8384348154067993,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 997,
+      "time": 39.88,
+      "class": "paper_waste",
+      "confidence": 0.6869616508483887,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 998,
+      "time": 39.92,
+      "class": "paper_waste",
+      "confidence": 0.7452725172042847,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 999,
+      "time": 39.96,
+      "class": "paper_waste",
+      "confidence": 0.7185696959495544,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1000,
+      "time": 40.0,
+      "class": "paper_waste",
+      "confidence": 0.718093752861023,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1001,
+      "time": 40.04,
+      "class": "paper_waste",
+      "confidence": 0.6357018947601318,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1002,
+      "time": 40.08,
+      "class": "paper_waste",
+      "confidence": 0.6843391060829163,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1003,
+      "time": 40.12,
+      "class": "paper_waste",
+      "confidence": 0.6284419894218445,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1004,
+      "time": 40.16,
+      "class": "paper_waste",
+      "confidence": 0.67989182472229,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1005,
+      "time": 40.2,
+      "class": "paper_waste",
+      "confidence": 0.5666118264198303,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1006,
+      "time": 40.24,
+      "class": "paper_waste",
+      "confidence": 0.674119234085083,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1007,
+      "time": 40.28,
+      "class": "paper_waste",
+      "confidence": 0.624830424785614,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1008,
+      "time": 40.32,
+      "class": "paper_waste",
+      "confidence": 0.674569308757782,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1009,
+      "time": 40.36,
+      "class": "paper_waste",
+      "confidence": 0.6011115312576294,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1010,
+      "time": 40.4,
+      "class": "paper_waste",
+      "confidence": 0.7234398722648621,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1011,
+      "time": 40.44,
+      "class": "paper_waste",
+      "confidence": 0.7105705738067627,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1012,
+      "time": 40.48,
+      "class": "paper_waste",
+      "confidence": 0.7307426333427429,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1013,
+      "time": 40.52,
+      "class": "paper_waste",
+      "confidence": 0.5404660701751709,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1014,
+      "time": 40.56,
+      "class": "paper_waste",
+      "confidence": 0.6057211756706238,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1015,
+      "time": 40.6,
+      "class": "paper_waste",
+      "confidence": 0.5383848547935486,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1016,
+      "time": 40.64,
+      "class": "paper_waste",
+      "confidence": 0.634296715259552,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1017,
+      "time": 40.68,
+      "class": "paper_waste",
+      "confidence": 0.6178929209709167,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1018,
+      "time": 40.72,
+      "class": "paper_waste",
+      "confidence": 0.6923502683639526,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1019,
+      "time": 40.76,
+      "class": "paper_waste",
+      "confidence": 0.8420549631118774,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1020,
+      "time": 40.8,
+      "class": "paper_waste",
+      "confidence": 0.7715548276901245,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1021,
+      "time": 40.84,
+      "class": "paper_waste",
+      "confidence": 0.6774943470954895,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1022,
+      "time": 40.88,
+      "class": "paper_waste",
+      "confidence": 0.5772922039031982,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1023,
+      "time": 40.92,
+      "class": "paper_waste",
+      "confidence": 0.5897732377052307,
+      "segment": 12,
+      "confirmed": false
+    },
+    {
+      "frame": 1024,
+      "time": 40.96,
+      "class": "paper_waste",
+      "confidence": 0.7491448521614075,
+      "segment": 12,
+      "confirmed": false
+    }
+  ],
+  "elapsed_seconds": 13.004229537000356
+}

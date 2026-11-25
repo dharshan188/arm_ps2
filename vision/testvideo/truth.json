@@ -1,0 +1,67 @@
+[
+  {
+    "t0": 0.0,
+    "t1": 3.4,
+    "class": "light_bulbs"
+  },
+  {
+    "t0": 3.8,
+    "t1": 6.8,
+    "class": "background"
+  },
+  {
+    "t0": 7.2,
+    "t1": 10.2,
+    "class": "general_waste"
+  },
+  {
+    "t0": 10.6,
+    "t1": 13.6,
+    "class": "clothes"
+  },
+  {
+    "t0": 14.0,
+    "t1": 17.0,
+    "class": "e_waste"
+  },
+  {
+    "t0": 17.4,
+    "t1": 20.4,
+    "class": "battery_waste"
+  },
+  {
+    "t0": 20.8,
+    "t1": 23.8,
+    "class": "plastic_waste"
+  },
+  {
+    "t0": 24.2,
+    "t1": 27.2,
+    "class": "organic_waste"
+  },
+  {
+    "t0": 27.6,
+    "t1": 30.6,
+    "class": "metal_waste"
+  },
+  {
+    "t0": 31.0,
+    "t1": 32.2,
+    "class": "background"
+  },
+  {
+    "t0": 32.6,
+    "t1": 35.6,
+    "class": "glass_waste"
+  },
+  {
+    "t0": 36.0,
+    "t1": 37.2,
+    "class": "background"
+  },
+  {
+    "t0": 37.6,
+    "t1": 41.0,
+    "class": "paper_waste"
+  }
+]

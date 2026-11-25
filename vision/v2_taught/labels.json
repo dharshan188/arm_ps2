@@ -1,0 +1,69 @@
+{
+  "arch": "ensemble: mobilenet_v3_large + mobilenetv4_conv_medium (FP32, DINOv2-distilled)",
+  "version": "v2-taught (owner items, dynamic INT8)",
+  "v1_pte": "mobilenet_v3_large_v2t_dynint8_xnnpack.pte",
+  "classes": [
+    "battery_waste",
+    "clothes",
+    "e_waste",
+    "glass_waste",
+    "light_bulbs",
+    "metal_waste",
+    "organic_waste",
+    "paper_waste",
+    "plastic_waste",
+    "general_waste",
+    "background"
+  ],
+  "display_names": {
+    "battery_waste": "battery waste",
+    "clothes": "clothes",
+    "e_waste": "E-waste",
+    "glass_waste": "glass waste",
+    "light_bulbs": "light bulbs",
+    "metal_waste": "metal waste",
+    "organic_waste": "organic waste",
+    "paper_waste": "paper waste",
+    "plastic_waste": "plastic waste",
+    "general_waste": "general waste",
+    "background": "nothing in view"
+  },
+  "stream_map": {
+    "battery_waste": "hazardous",
+    "clothes": "recyclable",
+    "e_waste": "e_waste",
+    "glass_waste": "recyclable",
+    "light_bulbs": "hazardous",
+    "metal_waste": "recyclable",
+    "organic_waste": "biodegradable",
+    "paper_waste": "biodegradable",
+    "plastic_waste": "recyclable",
+    "general_waste": "general",
+    "background": "none"
+  },
+  "input": {
+    "shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "resize_short": 256,
+    "center_crop": 224,
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ],
+    "layout": "NCHW RGB float32"
+  },
+  "ensemble": [
+    "mobilenet_v3_large_v2t_dynint8_xnnpack.pte",
+    "mobilenetv4_conv_medium_v2t_dynint8_xnnpack.pte"
+  ]
+}

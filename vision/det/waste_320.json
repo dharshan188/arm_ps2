@@ -1,0 +1,10 @@
+{
+  "imgsz": 320,
+  "layout": "1,4+nc,N; xywh pixels + class probabilities",
+  "names": {
+    "0": "object"
+  },
+  "exclude_classes": [],
+  "torch": "2.12.1+cpu",
+  "max_abs_error": 0.0004119873046875
+}

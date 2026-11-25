@@ -1,0 +1,64 @@
+{
+ "cls": "metal_waste",
+ "slug": "cans",
+ "item": "can",
+ "title": {
+  "en": "Drink Cans: Crush It!",
+  "hi": "ड्रिंक के कैन: पिचका दो!",
+  "ta": "டிரிங்க் கேன்: நசுக்குங்க!"
+ },
+ "beats": {
+  "intro": {
+   "en": "Clonk! A soda can just bounced off my head! Lucky it was empty. Hey you, fizzy-drink fan! Let's crush this properly.",
+   "hi": "टन्न! सोडा का कैन मेरे सिर से टकराया! शुक्र है खाली था। अरे तुम, कोल्ड ड्रिंक के फ़ैन! चलो इसे सही से पिचकाते हैं।",
+   "ta": "டொங்! ஒரு சோடா கேன் என் தலைல பட்டு குதிச்சுது! நல்லவேளை காலி. ஹே கூல்ட்ரிங்ஸ் ஃபேன்! இத ஒழுங்கா நசுக்கலாம் வாங்க."
+  },
+  "harm": {
+   "en": "New aluminium eats huge energy. Recycling saves about ninety-five per cent of it, and a can can return to the shelf in sixty days!",
+   "hi": "नया एल्युमिनियम बनाने में बहुत एनर्जी लगती है। रीसायकल करने से करीब पंचानवे परसेंट बचती है, और कैन साठ दिन में वापस दुकान पर आ सकता है!",
+   "ta": "புது அலுமினியம் பண்ண ரொம்ப எனர்ஜி வேணும். ரீசைக்கிள் பண்ணா கிட்டத்தட்ட தொண்ணூத்தி அஞ்சு பர்சன்ட் மிச்சம், கேன் அறுபது நாள்ல திரும்ப கடைக்கு வரலாம்!",
+   "stats": [
+    {
+     "value": 95,
+     "suffix": "%",
+     "unit": "energy saved"
+    },
+    {
+     "value": 60,
+     "unit": "days back to the shelf"
+    }
+   ]
+  },
+  "who": {
+   "en": "Cans dumped in fields cut cows' mouths, cans tossed in rivers clog the water, and littered metal slowly rusts into the soil.",
+   "hi": "खेतों में फेंके कैन गायों का मुँह काट देते हैं, नदी में फेंके कैन पानी रोकते हैं, और बिखरा धातु धीरे धीरे जंग बनकर मिट्टी में घुलता है।",
+   "ta": "வயல்ல போடுற கேன் மாட்டு வாய வெட்டிடுது, ஆத்துல போடுற கேன் தண்ணிய அடைக்குது, கீழ போட்ட மெட்டல் மெதுவா துரு புடிச்சு மண்ணுல கலக்குது.",
+   "victims": [
+    "cow",
+    "river",
+    "soil"
+   ]
+  },
+  "dispose": {
+   "en": "Rinse the can, squash it flat, and toss it in the blue bin. Or sell it to the kabadiwala, cans have real value!",
+   "hi": "कैन धोओ, पिचका दो, और ब्लू बिन में डालो। या कबाड़ीवाले को बेच दो, कैन की असली क़ीमत है!",
+   "ta": "கேன கழுவி, சப்பையா நசுக்கி, ப்ளூ பின்ல போடுங்க. இல்ல பழைய பேப்பர்காரர் கிட்ட வித்துடுங்க, கேனுக்கு நல்ல காசு இருக்கு!",
+   "bin": "blue",
+   "steps": [
+    "rinse",
+    "squash"
+   ]
+  },
+  "prevent": {
+   "en": "Even better, carry a steel bottle filled with nimbu paani instead of buying cans. Cheaper, cooler, zero waste! High five!",
+   "hi": "और भी बढ़िया, कैन ख़रीदने की जगह स्टील की बोतल में नींबू पानी लेकर चलो। सस्ता, कूल, ज़ीरो वेस्ट! हाई फ़ाइव!",
+   "ta": "இன்னும் சூப்பர்னா, கேன் வாங்காம ஸ்டீல் பாட்டில்ல எலுமிச்சை ஜூஸ் எடுத்துட்டு போங்க. சீப், கூல், ஜீரோ வேஸ்ட்! ஹை ஃபைவ்!",
+   "swap_from": "can",
+   "swap_to": "steel_bottle"
+  }
+ },
+ "sources": [
+  "International Aluminium Institute: recycling aluminium uses about 5% of the energy of primary production",
+  "The Aluminum Association: a recycled can can be back on the shelf in as little as 60 days"
+ ]
+}

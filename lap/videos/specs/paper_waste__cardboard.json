@@ -1,0 +1,65 @@
+{
+ "cls": "paper_waste",
+ "slug": "cardboard",
+ "item": "box",
+ "title": {
+  "en": "Cardboard Boxes",
+  "hi": "गत्ते के डिब्बे",
+  "ta": "அட்டை பெட்டி"
+ },
+ "beats": {
+  "intro": {
+   "en": "Ding dong, delivery! And the box landed right on my head. Hey you, online shopper, yes you, this one's for you!",
+   "hi": "डिंग डोंग, डिलीवरी! और डिब्बा सीधा मेरे सिर पे गिरा। अरे तुम, ऑनलाइन शॉपिंग वाले, हाँ तुम, ये तुम्हारे लिए है!",
+   "ta": "டிங் டாங், டெலிவரி! அந்த பெட்டி நேரா என் தலைல விழுந்துச்சு. ஹே நீங்க, ஆன்லைன் ஷாப்பிங் பண்றவங்களே, ஆமா நீங்க தான், இது உங்களுக்கு!"
+  },
+  "harm": {
+   "en": "Paper and cardboard make up about seventeen per cent of the world's rubbish. That's a mountain of boxes, and once they get wet, they're useless.",
+   "hi": "दुनिया के कचरे का करीब सत्रह परसेंट पेपर और गत्ता है। डिब्बों का पूरा पहाड़, और गीले हो जाएँ तो किसी काम के नहीं।",
+   "ta": "உலகத்து குப்பைல கிட்டத்தட்ட பதினேழு பர்சன்ட் பேப்பரும் அட்டையும் தான். பெட்டி மலையே இருக்கு, நனைஞ்சுட்டா ஒண்ணுக்கும் உதவாது.",
+   "stats": [
+    {
+     "value": 17,
+     "suffix": "%",
+     "unit": "of world waste"
+    }
+   ]
+  },
+  "who": {
+   "en": "Soggy boxes rot in dumps and pollute the air and soil, and waste workers spend hours trying to dry them out.",
+   "hi": "गीले डिब्बे कूड़े में सड़ के हवा और मिट्टी गंदी करते हैं, और कचरा उठाने वाले घंटों उन्हें सुखाते रहते हैं।",
+   "ta": "நனைஞ்ச பெட்டி குப்பை மேட்டுல அழுகி காத்தையும் மண்ணையும் கெடுக்குது, குப்பை எடுக்கறவங்க மணிக்கணக்கா அத காய வெக்கறாங்க.",
+   "victims": [
+    "air",
+    "soil",
+    "worker"
+   ]
+  },
+  "dispose": {
+   "en": "Peel off the plastic tape, flatten the box, keep it dry, and put it in the blue bin. Cardboard fibres can be recycled about five times!",
+   "hi": "प्लास्टिक टेप उखाड़ो, डिब्बा चपटा करो, सूखा रखो, और ब्लू बिन में डालो। गत्ते के रेशे करीब पाँच बार रीसायकल हो सकते हैं!",
+   "ta": "பிளாஸ்டிக் டேப்ப உரிச்சு, பெட்டிய தட்டையா மடிச்சு, காய்ஞ்ச நிலைல ப்ளூ பின்ல போடுங்க. அட்டை நாரு கிட்டத்தட்ட அஞ்சு தடவை ரீசைக்கிள் ஆகும்!",
+   "bin": "blue",
+   "steps": [
+    "squash",
+    "dry"
+   ],
+   "stat": {
+    "value": 5,
+    "unit": "times recyclable"
+   }
+  },
+  "prevent": {
+   "en": "Keep a few strong boxes for storing toys or moving house, and shop with a cloth bag for small things. Box fort, anyone?",
+   "hi": "कुछ मज़बूत डिब्बे खिलौने रखने या घर शिफ़्ट करने के लिए रख लो, और छोटी चीज़ें कपड़े के थैले में लाओ। डिब्बों का किला बनाएँ?",
+   "ta": "நல்ல கெட்டியான பெட்டிய பொம்மை வைக்கவோ வீடு மாத்தவோ வெச்சுக்கோங்க, சின்ன பொருள துணிப்பைல வாங்குங்க. பெட்டி கோட்டை கட்டலாமா?",
+   "swap_from": "box",
+   "swap_to": "donate_box",
+   "swap_to2": "cloth_bag"
+  }
+ },
+ "sources": [
+  "World Bank, What a Waste 2.0 (2018): paper and cardboard are about 17% of global municipal solid waste",
+  "CEPI (Confederation of European Paper Industries): paper fibres can be recycled about 5 to 7 times"
+ ]
+}

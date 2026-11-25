@@ -1,0 +1,61 @@
+{
+  "cls": "glass_waste",
+  "slug": "general",
+  "item": "glass_bottle",
+  "title": {
+    "en": "Glass gets another round",
+    "hi": "ग्लास का अगला राउंड",
+    "ta": "கிளாஸுக்கு இன்னொரு ரவுண்டு"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! A glass bottle just inspected my skull; no vacancies! Bottles, jars, and broken glass need a careful exit.",
+      "hi": "अरे सुनो! ग्लास बोतल ने मेरे सिर का इंस्पेक्शन किया, जगह खाली नहीं है! बोतल, जार और टूटा ग्लास सँभालकर निकालो।",
+      "ta": "ஹே நீங்க! கிளாஸ் பாட்டில் என் தலைய இன்ஸ்பெக்ட் பண்ணுச்சு, இடம் காலி இல்லையாம்! பாட்டில், ஜார், உடைஞ்ச கிளாஸ் எல்லாத்தையும் கவனமா பிரிக்கணுங்க."
+    },
+    "harm": {
+      "en": "Glass bottles and jars are one hundred percent recyclable, endlessly without losing quality. Dumping them wastes materials and energy for fresh production.",
+      "hi": "ग्लास बोतल और जार सौ परसेंट रीसायक्लेबल हैं, क्वालिटी घटे बिना बार बार। फेंकने से नए ग्लास के मटेरियल और एनर्जी बर्बाद होते हैं।",
+      "ta": "கிளாஸ் பாட்டிலும் ஜாரும் நூறு பர்சன்ட் ரீசைக்கிள் பண்ணலாம், குவாலிட்டி குறையாம திரும்பத் திரும்ப. தூக்கிப்போட்டா புதுசு செய்ய மெட்டீரியலும் எனர்ஜியும் வீணாகுதுங்க.",
+      "stats": [
+        {
+          "value": 100,
+          "suffix": "%",
+          "unit": "bottles / jars recyclable"
+        }
+      ]
+    },
+    "who": {
+      "en": "Sharp pieces can cut sanitation workers, children, and street animals. Your empty container should never hide a painful surprise in mixed rubbish.",
+      "hi": "नुकीले टुकड़े सफ़ाई वर्कर्स, बच्चों और सड़क के जानवरों को काट सकते हैं। खाली कंटेनर को मिक्स कचरे में दर्द वाला सरप्राइज़ मत बनाओ।",
+      "ta": "கூரான துண்டு சுத்தம் பண்றவங்க, குழந்தைங்க, தெரு நாய்ங்க எல்லாரையும் காயப்படுத்தலாம். காலி கன்டெய்னர கலந்த குப்பையில வலி குடுக்குற சர்ப்ரைஸா மாத்தாதீங்க.",
+      "victims": [
+        "worker",
+        "child",
+        "dog"
+      ]
+    },
+    "dispose": {
+      "en": "Rinse bottles and jars for the blue bin. Wrap broken glass, box and label it, then alert the collection worker.",
+      "hi": "बोतल और जार धोकर ब्लू बिन में दो। टूटे ग्लास को लपेटो, बॉक्स पर लेबल लगाओ और कलेक्शन वर्कर को ज़रूर बताओ।",
+      "ta": "பாட்டிலும் ஜாரும் கழுவி ப்ளூ பின்ல குடுங்க. உடைஞ்ச கிளாஸ சுத்தி பாக்ஸ்ல வெச்சு லேபிள் போடுங்க, எடுக்குற வொர்க்கர்கிட்ட சொல்லிடுங்க.",
+      "bin": "blue",
+      "steps": [
+        "wrap",
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Refill intact bottles and reuse jars for storage; recycle when finished. Your pickle jar deserves another season of kitchen fame!",
+      "hi": "सही बोतल रीफ़िल करो, जार स्टोरेज में यूज़ करो, बाद में रीसायकल करो। अचार के जार को किचन फ़ेम का अगला सीज़न दो!",
+      "ta": "நல்ல பாட்டில ரீஃபில் பண்ணுங்க, ஜார ஸ்டோரேஜுக்கு யூஸ் பண்ணுங்க, அப்புறம் ரீசைக்கிள். ஊறுகாய் ஜாருக்கு கிச்சன் ஃபேம்ல இன்னொரு சீசன் குடுங்க!",
+      "swap_from": "jar",
+      "swap_to": "jar",
+      "swap_to2": "glass_bottle"
+    }
+  },
+  "sources": [
+    "Glass Packaging Institute, Facts About Glass: container glass 100% recyclable, endlessly recycled without quality or purity loss; recyclability is not the actual collection rate. https://www.gpi.org/facts-about-glass",
+    "US EPA, How Do I Recycle Common Recyclables: bottles and jars recyclable; other glass types have different requirements. Broken-glass wrapping, boxing and warning collection staff protect handlers; blue bin follows kiosk routing. https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+ "cls": "organic_waste",
+ "slug": "general_photo",
+ "title": {
+  "en": "Food scraps: back to the soil",
+  "hi": "खाने का कचरा: मिट्टी के काम आए",
+  "ta": "சாப்பாட்டு மிச்சம்: மண்ணுக்கு திரும்பட்டும்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Vegetable peels, leftover rice, and yesterday's flowers can become something useful. Their journey starts in our kitchens.",
+   "hi": "सब्ज़ी के छिलके, बचा हुआ चावल और कल के फूल काम आ सकते हैं। इनका सफ़र हमारी किचन से शुरू होता है।",
+   "ta": "காய்கறித் தோல், மீந்த சாதம், நேத்துப் பூ எல்லாம் பயனுள்ளதா மாறலாம். அதுக்கு ஆரம்பம் நம்ம கிச்சன்ல தான்."
+  },
+  "harm": {
+   "en": "Buried in a landfill without oxygen, food waste releases methane, a gas that warms the planet.",
+   "hi": "डंप में दबे खाने के कचरे को ऑक्सीजन नहीं मिलती, तो मीथेन निकलती है। ये गैस धरती की गर्मी बढ़ाती है।",
+   "ta": "குப்பை மேட்டுல புதைஞ்சு ஆக்சிஜன் கிடைக்காம அழுகுற சாப்பாட்டு மிச்சத்துல இருந்து மீத்தேன் வரும். இந்த கேஸ் பூமி சூடாகுறத அதிகப்படுத்தும்."
+  },
+  "who": {
+   "en": "When plastic gets mixed in, workers must separate it before composting. Nutrients that could help our soil become harder to recover.",
+   "hi": "प्लास्टिक मिल जाए तो कम्पोस्ट बनाने से पहले वर्कर्स को उसे अलग करना पड़ता है। मिट्टी के काम आने वाले पोषक तत्व वापस पाना मुश्किल हो जाता है।",
+   "ta": "பிளாஸ்டிக் கலந்துட்டா, கம்போஸ்ட் பண்றதுக்கு முன்னாடி தொழிலாளர்கள் அதைப் பிரிக்கணும். நம்ம மண்ணுக்கு உதவுற சத்துகளை திரும்பப் பெறுறது கஷ்டமாகும்."
+  },
+  "dispose": {
+   "en": "Separate food scraps, peels, flowers, and leaves from packaging. Put this wet waste in the green bin for composting.",
+   "hi": "खाने का कचरा, छिलके, फूल और पत्ते पैकेजिंग से अलग करो। ये गीला कचरा कम्पोस्ट बनने के लिए ग्रीन बिन में डालो।",
+   "ta": "சாப்பாட்டு மிச்சம், தோல், பூ, இலை எல்லாத்தையும் பேக்கேஜிங்கிலிருந்து பிரிங்க. இந்த ஈரக் குப்பைய கம்போஸ்ட் பண்றதுக்கு க்ரீன் பின்ல போடுங்க."
+  },
+  "prevent": {
+   "en": "Serve smaller portions. At home, compost vegetable peels with dry leaves and let air circulate. What remains can nourish the garden.",
+   "hi": "खाना थोड़ा परोसो। घर पर सब्ज़ी के छिलकों और सूखे पत्तों से कम्पोस्ट बनाओ, हवा आने दो। जो बचे, वो बगीचे के काम आ सकता है।",
+   "ta": "சாப்பாட்ட கொஞ்சமா பரிமாறுங்க. வீட்டுல காய்கறித் தோலோட காஞ்ச இலைகளைச் சேர்த்து, காத்து போற மாதிரி கம்போஸ்ட் பண்ணுங்க. மிச்சமாவது தோட்டத்துக்கு சத்தா மாறலாம்."
+  }
+ },
+ "shots": {
+  "intro": [
+   {
+    "img": "intro0_01.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "harm": [
+   {
+    "img": "harm0_00.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   }
+  ],
+  "who": [
+   {
+    "img": "harm0_01.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "harm0_02.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "dispose": [
+   {
+    "img": "dispose1_00.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   },
+   {
+    "img": "prevent1_01.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   }
+  ],
+  "prevent": [
+   {
+    "img": "prevent0_01.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "prevent1_02.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   }
+  ]
+ },
+ "overlays": {
+  "dispose": [
+   {
+    "type": "steps",
+    "n": 2,
+    "steps_at": [
+     0.0,
+     0.55
+    ],
+    "bin": "green",
+    "bin_at": 0.78,
+    "until": 1.0
+   }
+  ]
+ },
+ "sources": [
+  "US EPA, Composting: organic materials decomposing without oxygen in landfills generate methane, a powerful greenhouse gas; composting recovers nutrients. https://www.epa.gov/sustainable-management-food/composting",
+  "US EPA, Composting At Home: keep contamination out; vegetable scraps and dry leaves are suitable ingredients, with air and moisture needed. Home-compost advice here is limited to vegetable peels and leaves, not all cooked leftovers. https://www.epa.gov/recycle/composting-home",
+  "MoHUA, PIB, 30 October 2022: green bin for wet waste, blue bin for dry waste. https://www.pib.gov.in/PressReleasePage.aspx?PRID=1871983&lang=2&reg=48"
+ ]
+}

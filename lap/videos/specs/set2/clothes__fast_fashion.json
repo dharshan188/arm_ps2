@@ -1,0 +1,60 @@
+{
+  "cls": "clothes",
+  "slug": "fast_fashion",
+  "item": "shirt",
+  "title": {
+    "en": "Slow down the shopping cart",
+    "hi": "शॉपिंग कार्ट को ब्रेक दो",
+    "ta": "ஷாப்பிங் கார்ட்டுக்கு பிரேக்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This falling shirt says the sale ends tonight! My wardrobe is already full; does yours also need traffic control?",
+      "hi": "अरे तुम! गिरती शर्ट बोलती है सेल आज रात ख़त्म! मेरी अलमारी तो फ़ुल है, तुम्हारी को भी ट्रैफ़िक कंट्रोल चाहिए क्या?",
+      "ta": "ஹே நீங்க! கீழ விழுற சட்டை இன்னைக்கு நைட் சேல் முடியுதுன்னு சொல்லுது! என் அலமாரி ஏற்கனவே ஃபுல், உங்கதுக்கும் டிராஃபிக் கன்ட்ரோல் வேணுமா?"
+    },
+    "harm": {
+      "en": "Globally, clothing and footwear production contributes an estimated two to eight percent of greenhouse emissions. Constant replacement adds pressure on resources.",
+      "hi": "दुनिया में कपड़े और जूते बनाने से अनुमानित दो से आठ परसेंट ग्रीनहाउस एमिशन होता है। बार बार बदलना रिसोर्स पर दबाव बढ़ाता है।",
+      "ta": "உலகத்துல துணி, ஷூ உற்பத்தியால சுமார் ரெண்டு முதல் எட்டு பர்சன்ட் கிரீன்ஹவுஸ் புகை வருது. அடிக்கடி புதுசு வாங்குறது வளங்களுக்கு கூடுதல் சுமைங்க.",
+      "stats": [
+        {
+          "value": 2,
+          "unit": "global emissions",
+          "suffix": "%"
+        }
+      ]
+    },
+    "who": {
+      "en": "Making clothes uses water and chemicals, affecting rivers, farmers, and textile workers. Wearing yours longer helps reduce demand for fresh production.",
+      "hi": "कपड़े बनाने में पानी और केमिकल्स लगते हैं, असर नदियों, किसानों और टेक्सटाइल वर्कर्स पर होता है। ज़्यादा पहनने से नई प्रोडक्शन की माँग घटती है।",
+      "ta": "துணி செய்ய தண்ணியும் கெமிக்கலும் தேவை, ஆறுக்கும் விவசாயிக்கும் டெக்ஸ்டைல் வொர்க்கர்ஸுக்கும் பாதிப்பு. நம்ம துணிய நீண்ட நாள் போட்டா புது உற்பத்தி தேவை குறையும்.",
+      "victims": [
+        "river",
+        "farmer",
+        "worker",
+        "air"
+      ]
+    },
+    "dispose": {
+      "en": "Donate clean, wearable pieces where accepted. Send worn out clean textiles to designated blue collection, keeping them separate from food waste.",
+      "hi": "साफ़, पहनने लायक कपड़े जहाँ लेते हों वहाँ डोनेट करो। घिसे साफ़ टेक्सटाइल अलग ब्लू कलेक्शन को दो, खाने के कचरे से दूर।",
+      "ta": "சுத்தமான நல்ல துணிய வாங்குற இடத்துல டொனேட் பண்ணுங்க. தேஞ்ச சுத்தமான துணிய தனியா ப்ளூ கலெக்ஷன்ல குடுங்க, சாப்பாட்டு குப்பையோட கலக்காதீங்க.",
+      "bin": "blue",
+      "steps": [
+        "dry",
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Pause before checkout: will you wear it often? Buy fewer durable clothes, swap with friends, and let your wardrobe breathe. Sale survived!",
+      "hi": "चेकआउट से पहले सोचो, बार बार पहनोगे? कम और टिकाऊ कपड़े लो, दोस्तों से स्वैप करो। अलमारी को साँस मिली, सेल से बच गए!",
+      "ta": "வாங்க முன்னாடி அடிக்கடி போடுவோமான்னு யோசிங்க. குறைவா, நீண்ட நாள் உழைக்குற துணி வாங்குங்க, ஃப்ரெண்ட்ஸோட மாத்திக்கோங்க. அலமாரி மூச்சு விடட்டும். சேல்ல இருந்து தப்பிச்சாச்சு!",
+      "swap_from": "shirt",
+      "swap_to": "donate_box"
+    }
+  },
+  "sources": [
+    "UNEP, Cleaning up couture: what is in your jeans?: average production around 3000–4000 litres; less than 1% clothing fibre input recycled into new clothing; apparel/footwear emissions 2–8%. https://www.unep.org/en/news-and-stories/story/cleaning-couture-whats-your-jeans"
+  ]
+}

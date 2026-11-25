@@ -1,0 +1,64 @@
+{
+ "cls": "paper_waste",
+ "slug": "oily_paper",
+ "item": "newspaper",
+ "title": {
+  "en": "Oily Paper",
+  "hi": "तेल वाला पेपर",
+  "ta": "எண்ணெய் பேப்பர்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Eww! A greasy bajji paper just slapped onto my face. Now I smell like a tea stall! Hey you, here's a sorting secret.",
+   "hi": "छी! पकौड़े वाला चिकना पेपर सीधा मेरे मुँह पे चिपक गया। अब मुझसे चाय की दुकान जैसी ख़ुशबू आ रही है! अरे तुम, एक सीक्रेट सुनो।",
+   "ta": "ச்சீ! பஜ்ஜி எண்ணெய் பேப்பர் என் மூஞ்சில வந்து ஒட்டிக்கிச்சு. இப்போ நான் டீ கடை வாசனை அடிக்கறேன்! ஹே நீங்க, ஒரு சீக்ரெட் சொல்றேன்."
+  },
+  "harm": {
+   "en": "Grease never washes out of paper fibres, so it ruins recycling. And India already makes about one and a half lakh tonnes of city waste daily.",
+   "hi": "चिकनाई पेपर के रेशों से कभी नहीं निकलती, तो रीसायकलिंग ख़राब हो जाती है। और इंडिया हर दिन करीब डेढ़ लाख टन शहरी कचरा बनाता है।",
+   "ta": "எண்ணெய் பிசுபிசுப்பு பேப்பர் நாருல இருந்து போகவே போகாது, அதனால ரீசைக்ளிங் கெட்டு போகும். நம்ம இந்தியா தினமும் கிட்டத்தட்ட ஒன்றரை லட்சம் டன் நகர குப்பை பண்ணுது.",
+   "stats": [
+    {
+     "value": 1.5,
+     "decimals": 1,
+     "unit": "lakh t / day city waste",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Oily paper in the dry bin attracts dogs and rats, sorting workers get greasy hands, and the spoiled paper ends up rotting in the soil.",
+   "hi": "सूखे कचरे में तेल वाला पेपर कुत्तों और चूहों को बुलाता है, छाँटने वालों के हाथ चिकने होते हैं, और ख़राब पेपर मिट्टी में सड़ता है।",
+   "ta": "ட்ரை குப்பைல எண்ணெய் பேப்பர் இருந்தா நாயும் எலியும் வருது, பிரிக்கறவங்க கை எல்லாம் பிசுபிசுப்பாகுது, கெட்டுப்போன பேப்பர் மண்ணுல அழுகுது.",
+   "victims": [
+    "dog",
+    "worker",
+    "soil"
+   ]
+  },
+  "dispose": {
+   "en": "Secret: oily paper goes in the green bin with food waste, not blue. It turns into compost. About half our city waste is wet anyway!",
+   "hi": "सीक्रेट ये है: तेल वाला पेपर ब्लू नहीं, ग्रीन बिन में खाने के कचरे के साथ जाता है। ये खाद बन जाता है। वैसे भी शहर का करीब आधा कचरा गीला होता है!",
+   "ta": "சீக்ரெட் இது தான்: எண்ணெய் பேப்பர் ப்ளூ இல்ல, க்ரீன் பின்ல சாப்பாட்டு குப்பை கூட போகணும். அது உரமா மாறிடும். நம்ம ஊர் குப்பைல கிட்டத்தட்ட பாதி ஈர குப்பை தான்!",
+   "bin": "green",
+   "steps": [],
+   "stat": {
+    "value": 50,
+    "suffix": "%",
+    "unit": "city waste is wet"
+   }
+  },
+  "prevent": {
+   "en": "Next time, eat your bajji from a steel plate or a banana leaf. Less oily paper, and honestly, it tastes better. Yum! High five!",
+   "hi": "अगली बार पकौड़े स्टील की प्लेट या पत्तल में खाओ। तेल वाला पेपर कम, और सच में, स्वाद भी बढ़िया। यम! हाई फ़ाइव!",
+   "ta": "அடுத்த தடவை பஜ்ஜிய ஸ்டீல் தட்டுலயோ வாழை இலைலயோ சாப்பிடுங்க. எண்ணெய் பேப்பர் கம்மி, சத்தியமா டேஸ்ட்டும் சூப்பர். யம்மி! ஹை ஃபைவ்!",
+   "swap_from": "newspaper",
+   "swap_to": "leaves",
+   "swap_to2": "tiffin"
+  }
+ },
+ "sources": [
+  "CPCB, Annual Report on Solid Waste Management 2020-21: about 1,60,038 tonnes per day of municipal solid waste generated in India",
+  "MoHUA, Municipal Solid Waste Management Manual (2016): biodegradable / wet fraction is roughly half of Indian municipal waste"
+ ]
+}

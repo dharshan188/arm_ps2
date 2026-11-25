@@ -1,0 +1,57 @@
+{
+  "arch": "mobilenet_v3_large",
+  "classes": [
+    "battery_waste",
+    "clothes",
+    "e_waste",
+    "glass_waste",
+    "light_bulbs",
+    "metal_waste",
+    "organic_waste",
+    "paper_waste",
+    "plastic_waste"
+  ],
+  "display_names": {
+    "e_waste": "E-waste",
+    "battery_waste": "battery waste",
+    "clothes": "clothes",
+    "glass_waste": "glass waste",
+    "light_bulbs": "light bulbs",
+    "metal_waste": "metal waste",
+    "organic_waste": "organic waste",
+    "paper_waste": "paper waste",
+    "plastic_waste": "plastic waste"
+  },
+  "stream_map": {
+    "e_waste": "e_waste",
+    "battery_waste": "hazardous",
+    "clothes": "recyclable",
+    "glass_waste": "recyclable",
+    "light_bulbs": "hazardous",
+    "metal_waste": "recyclable",
+    "organic_waste": "biodegradable",
+    "paper_waste": "recyclable",
+    "plastic_waste": "recyclable"
+  },
+  "input": {
+    "shape": [
+      1,
+      3,
+      224,
+      224
+    ],
+    "resize_short": 256,
+    "center_crop": 224,
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "layout": "NCHW RGB float32"
+  }
+}

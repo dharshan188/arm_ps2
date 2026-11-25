@@ -1,0 +1,911 @@
+[
+ {
+  "id": "pl1",
+  "cat": "plastic",
+  "q": "How can I reduce plastic at home?",
+  "scene": [
+   "plastic_waste"
+  ],
+  "kw": [
+   "bag",
+   "steel",
+   "cloth",
+   "refill",
+   "carry",
+   "reusable",
+   "avoid",
+   "say no",
+   "straw"
+  ]
+ },
+ {
+  "id": "pl2",
+  "cat": "plastic",
+  "q": "What can I make from this bottle?",
+  "scene": [
+   "plastic_waste"
+  ],
+  "kw": [
+   "planter",
+   "pot",
+   "plant",
+   "holder",
+   "feeder",
+   "organiser",
+   "organizer",
+   "container",
+   "stand",
+   "storage",
+   "pen"
+  ]
+ },
+ {
+  "id": "pl3",
+  "cat": "plastic",
+  "q": "Why should I wash it before throwing?",
+  "scene": [
+   "plastic_waste"
+  ],
+  "kw": [
+   "food",
+   "dirty",
+   "clean",
+   "recycl",
+   "contamin",
+   "smell",
+   "rinse"
+  ],
+  "bad": [
+   "clog",
+   "drain"
+  ]
+ },
+ {
+  "id": "pl4",
+  "cat": "plastic",
+  "q": "How long does plastic take to break down?",
+  "scene": [],
+  "kw": [
+   "hundred",
+   "years",
+   "decades",
+   "400",
+   "500",
+   "forever",
+   "microplastic"
+  ]
+ },
+ {
+  "id": "pl5",
+  "cat": "plastic",
+  "q": "Can I burn plastic waste in my backyard?",
+  "scene": [
+   "plastic_waste"
+  ],
+  "kw": [
+   "toxic",
+   "smoke",
+   "fume",
+   "dioxin",
+   "never",
+   "harm",
+   "lung",
+   "illegal",
+   "banned",
+   "can't",
+   "cannot"
+  ],
+  "unsafe_extra": []
+ },
+ {
+  "id": "ba1",
+  "cat": "battery",
+  "q": "My phone battery is swollen, what should I do?",
+  "scene": [
+   "battery_waste"
+  ],
+  "kw": [
+   "charg",
+   "stop using",
+   "puncture",
+   "press",
+   "fire",
+   "heat",
+   "service"
+  ]
+ },
+ {
+  "id": "ba2",
+  "cat": "battery",
+  "q": "Why can't I throw this with normal trash?",
+  "scene": [
+   "battery_waste"
+  ],
+  "kw": [
+   "lead",
+   "mercury",
+   "acid",
+   "leak",
+   "soil",
+   "water",
+   "fire",
+   "toxic",
+   "metal",
+   "chemical"
+  ]
+ },
+ {
+  "id": "ba3",
+  "cat": "battery",
+  "q": "How do I store old batteries at home until collection?",
+  "scene": [
+   "battery_waste"
+  ],
+  "kw": [
+   "tape",
+   "box",
+   "container",
+   "dry",
+   "cool",
+   "away",
+   "children",
+   "kids",
+   "terminal",
+   "ends",
+   "separate"
+  ]
+ },
+ {
+  "id": "ba4",
+  "cat": "battery",
+  "q": "Are rechargeable batteries better?",
+  "scene": [],
+  "kw": [
+   "recharg",
+   "reuse",
+   "less waste",
+   "hundreds",
+   "times",
+   "save",
+   "fewer",
+   "longer"
+  ],
+  "bad": [
+   "not a good idea",
+   "^no\\b",
+   "not better"
+  ]
+ },
+ {
+  "id": "ew1",
+  "cat": "e_waste",
+  "q": "What happens to my old phone after I hand it over?",
+  "scene": [
+   "e_waste"
+  ],
+  "kw": [
+   "metal",
+   "gold",
+   "copper",
+   "recover",
+   "dismantl",
+   "extract",
+   "part",
+   "separat",
+   "recycl"
+  ]
+ },
+ {
+  "id": "ew2",
+  "cat": "e_waste",
+  "q": "Should I delete my data before giving my phone away?",
+  "scene": [
+   "e_waste"
+  ],
+  "kw": [
+   "reset",
+   "factory",
+   "delete",
+   "backup",
+   "back up",
+   "data",
+   "sim",
+   "card",
+   "account",
+   "erase"
+  ]
+ },
+ {
+  "id": "ew3",
+  "cat": "e_waste",
+  "q": "Why is e-waste bad for the environment?",
+  "scene": [
+   "e_waste"
+  ],
+  "kw": [
+   "lead",
+   "mercury",
+   "cadmium",
+   "toxic",
+   "soil",
+   "water",
+   "leak",
+   "burn",
+   "chemical",
+   "metal"
+  ]
+ },
+ {
+  "id": "ew4",
+  "cat": "e_waste",
+  "q": "Can I sell my old laptop to the kabadiwala?",
+  "scene": [
+   "e_waste"
+  ],
+  "kw": [
+   "authoris",
+   "authoriz",
+   "certified",
+   "proper",
+   "burn",
+   "acid",
+   "unsafe",
+   "collector",
+   "recycler",
+   "e-waste",
+   "safe"
+  ]
+ },
+ {
+  "id": "gl1",
+  "cat": "glass",
+  "q": "I broke a glass tumbler, how do I clean it up?",
+  "scene": [
+   "glass_waste"
+  ],
+  "kw": [
+   "wrap",
+   "newspaper",
+   "paper",
+   "shoe",
+   "slipper",
+   "sweep",
+   "broom",
+   "glove",
+   "pieces",
+   "bread",
+   "cut",
+   "carefully"
+  ]
+ },
+ {
+  "id": "gl2",
+  "cat": "glass",
+  "q": "What can I do with this empty glass jar?",
+  "scene": [
+   "glass_waste"
+  ],
+  "kw": [
+   "store",
+   "pickle",
+   "spice",
+   "jar",
+   "container",
+   "plant",
+   "candle",
+   "lamp",
+   "pen",
+   "wash",
+   "dal",
+   "masala"
+  ]
+ },
+ {
+  "id": "gl3",
+  "cat": "glass",
+  "q": "Is a broken mirror the same as normal glass?",
+  "scene": [
+   "glass_waste"
+  ],
+  "kw": [
+   "coat",
+   "different",
+   "silver",
+   "backing",
+   "mirror",
+   "separate",
+   "not",
+   "wrap",
+   "label",
+   "melt"
+  ],
+  "bad": [
+   "same as normal glass",
+   "^yes"
+  ]
+ },
+ {
+  "id": "lb1",
+  "cat": "bulb",
+  "q": "A CFL bulb broke on the floor, what should I do?",
+  "scene": [
+   "light_bulbs"
+  ],
+  "kw": [
+   "window",
+   "air",
+   "room",
+   "leave",
+   "glove",
+   "card",
+   "tape",
+   "jar",
+   "bag",
+   "seal",
+   "mercury",
+   "vacuum",
+   "children"
+  ],
+  "unsafe_extra": [
+   "(?<!not )(?<!n't )(?<!never )vacuum(?! cleaner)? (?:it|the|up)"
+  ]
+ },
+ {
+  "id": "lb2",
+  "cat": "bulb",
+  "q": "Are LED bulbs better than CFL?",
+  "scene": [
+   "light_bulbs"
+  ],
+  "kw": [
+   "mercury",
+   "energy",
+   "longer",
+   "last",
+   "power",
+   "electricity",
+   "save",
+   "efficient"
+  ]
+ },
+ {
+  "id": "lb3",
+  "cat": "bulb",
+  "q": "What is inside a tube light that makes it special?",
+  "scene": [
+   "light_bulbs"
+  ],
+  "kw": [
+   "mercury",
+   "vapour",
+   "vapor",
+   "glass",
+   "break",
+   "toxic",
+   "powder"
+  ]
+ },
+ {
+  "id": "me1",
+  "cat": "metal",
+  "q": "Should I crush the cans before giving them?",
+  "scene": [
+   "metal_waste"
+  ],
+  "kw": [
+   "space",
+   "flat",
+   "crush",
+   "rinse",
+   "clean",
+   "yes",
+   "sort",
+   "fine",
+   "save"
+  ]
+ },
+ {
+  "id": "me2",
+  "cat": "metal",
+  "q": "Can I sell old steel vessels?",
+  "scene": [
+   "metal_waste"
+  ],
+  "kw": [
+   "scrap",
+   "kabadi",
+   "dealer",
+   "sell",
+   "money",
+   "weigh",
+   "price",
+   "recycl"
+  ]
+ },
+ {
+  "id": "me3",
+  "cat": "metal",
+  "q": "What about an aerosol spray can?",
+  "scene": [
+   "metal_waste"
+  ],
+  "kw": [
+   "empty",
+   "pressur",
+   "puncture",
+   "fire",
+   "heat",
+   "burn",
+   "explode",
+   "crush"
+  ]
+ },
+ {
+  "id": "or1",
+  "cat": "organic",
+  "q": "How do I compost this at home?",
+  "scene": [
+   "organic_waste"
+  ],
+  "kw": [
+   "leaves",
+   "dry",
+   "pot",
+   "bin",
+   "holes",
+   "weeks",
+   "mix",
+   "turn",
+   "stir",
+   "soil",
+   "layer"
+  ]
+ },
+ {
+  "id": "or2",
+  "cat": "organic",
+  "q": "My compost smells bad, why?",
+  "scene": [
+   "organic_waste"
+  ],
+  "kw": [
+   "wet",
+   "dry",
+   "leaves",
+   "air",
+   "turn",
+   "mix",
+   "paper",
+   "sawdust",
+   "too much",
+   "stir",
+   "moist"
+  ]
+ },
+ {
+  "id": "or3",
+  "cat": "organic",
+  "q": "Can I put cooked food and dairy in compost?",
+  "scene": [
+   "organic_waste"
+  ],
+  "kw": [
+   "small",
+   "smell",
+   "pest",
+   "rat",
+   "fly",
+   "flies",
+   "avoid",
+   "oil",
+   "meat",
+   "little",
+   "attract"
+  ]
+ },
+ {
+  "id": "or4",
+  "cat": "organic",
+  "q": "What is wet waste?",
+  "scene": [],
+  "kw": [
+   "food",
+   "kitchen",
+   "peel",
+   "vegetable",
+   "fruit",
+   "leftover",
+   "leaves",
+   "compost",
+   "biodegrad"
+  ],
+  "bad": [
+   "liquid"
+  ]
+ },
+ {
+  "id": "pa1",
+  "cat": "paper",
+  "q": "What can I make from this old newspaper?",
+  "scene": [
+   "paper_waste"
+  ],
+  "kw": [
+   "bag",
+   "wrap",
+   "envelope",
+   "craft",
+   "papier",
+   "basket",
+   "bin liner",
+   "liner",
+   "compost",
+   "origami",
+   "pen stand",
+   "cover"
+  ]
+ },
+ {
+  "id": "pa2",
+  "cat": "paper",
+  "q": "Is a greasy pizza box okay with clean paper?",
+  "scene": [
+   "paper_waste"
+  ],
+  "kw": [
+   "grease",
+   "oil",
+   "greasy",
+   "food",
+   "compost",
+   "tear",
+   "separate",
+   "dirty",
+   "clean part"
+  ],
+  "bad": [
+   "is fine",
+   "^yes"
+  ]
+ },
+ {
+  "id": "pa3",
+  "cat": "paper",
+  "q": "How much paper do we save by using both sides?",
+  "scene": [
+   "paper_waste"
+  ],
+  "kw": [
+   "half",
+   "tree",
+   "save",
+   "less",
+   "both",
+   "water",
+   "double"
+  ]
+ },
+ {
+  "id": "cl1",
+  "cat": "clothes",
+  "q": "What can I do with torn clothes?",
+  "scene": [
+   "clothes"
+  ],
+  "kw": [
+   "rag",
+   "duster",
+   "cloth",
+   "bag",
+   "mop",
+   "quilt",
+   "pillow",
+   "stuff",
+   "patch",
+   "recycl",
+   "cushion",
+   "mat"
+  ]
+ },
+ {
+  "id": "cl2",
+  "cat": "clothes",
+  "q": "Who takes old clothes that are still good to wear?",
+  "scene": [
+   "clothes"
+  ],
+  "kw": [
+   "ngo",
+   "goonj",
+   "orphanage",
+   "shelter",
+   "donat",
+   "drive",
+   "collection",
+   "charity",
+   "temple",
+   "trust",
+   "needy"
+  ]
+ },
+ {
+  "id": "cl3",
+  "cat": "clothes",
+  "q": "How does fast fashion harm the planet?",
+  "scene": [],
+  "kw": [
+   "water",
+   "landfill",
+   "dye",
+   "pollut",
+   "polyester",
+   "carbon",
+   "waste",
+   "cheap",
+   "microplastic"
+  ]
+ },
+ {
+  "id": "no1",
+  "cat": "no_item",
+  "q": "How can I start segregating waste at home?",
+  "scene": [],
+  "kw": [
+   "wet",
+   "dry",
+   "two",
+   "separate"
+  ]
+ },
+ {
+  "id": "no2",
+  "cat": "no_item",
+  "q": "What is the difference between wet and dry waste?",
+  "scene": [],
+  "kw": [
+   "food",
+   "kitchen",
+   "peel",
+   "plastic",
+   "paper",
+   "metal",
+   "glass",
+   "compost",
+   "dry",
+   "wet"
+  ],
+  "bad": [
+   "liquid",
+   "urine",
+   "food scraps"
+  ]
+ },
+ {
+  "id": "no3",
+  "cat": "no_item",
+  "q": "Why is segregation important?",
+  "scene": [],
+  "kw": [
+   "recycl",
+   "landfill",
+   "compost",
+   "clean",
+   "mix",
+   "pollut",
+   "worker",
+   "separate"
+  ]
+ },
+ {
+  "id": "no4",
+  "cat": "no_item",
+  "q": "Tell me one tip to waste less food.",
+  "scene": [],
+  "kw": [
+   "plan",
+   "buy only",
+   "leftover",
+   "fridge",
+   "portion",
+   "list",
+   "share",
+   "less",
+   "need"
+  ]
+ },
+ {
+  "id": "no5",
+  "cat": "no_item",
+  "q": "What is the capital of France?",
+  "scene": [],
+  "kw": [
+   "paris",
+   "waste",
+   "sort",
+   "bin",
+   "item",
+   "show",
+   "recycl",
+   "help"
+  ]
+ },
+ {
+  "id": "no6",
+  "cat": "no_item",
+  "q": "Who made you?",
+  "scene": [],
+  "kw": [
+   "sorti",
+   "waste",
+   "help",
+   "team",
+   "student",
+   "built",
+   "made",
+   "assistant"
+  ]
+ },
+ {
+  "id": "mx1",
+  "cat": "multi",
+  "q": "Which of these needs the most care?",
+  "scene": [
+   "plastic_waste",
+   "battery_waste"
+  ],
+  "kw": [
+   "batter",
+   "bulb",
+   "electronic",
+   "mercury",
+   "acid"
+  ]
+ },
+ {
+  "id": "fu1",
+  "cat": "follow_up",
+  "q": "And what about at school?",
+  "scene": [
+   "plastic_waste"
+  ],
+  "prev": {
+   "q": "How can I cut plastic use?",
+   "a": "Carry a cloth bag and a steel bottle, and say no to plastic straws."
+  },
+  "kw": [
+   "lunch",
+   "box",
+   "tiffin",
+   "bottle",
+   "steel",
+   "bag",
+   "class",
+   "friends",
+   "canteen",
+   "pen",
+   "refill"
+  ]
+ },
+ {
+  "id": "fu2",
+  "cat": "follow_up",
+  "q": "How long does that take?",
+  "scene": [
+   "organic_waste"
+  ],
+  "prev": {
+   "q": "How do I compost peels at home?",
+   "a": "Mix the peels with dry leaves in a pot with holes, and stir it every few days."
+  },
+  "kw": [
+   "week",
+   "month",
+   "six",
+   "two",
+   "three",
+   "four"
+  ]
+ },
+ {
+  "id": "fu3",
+  "cat": "follow_up",
+  "q": "Why?",
+  "scene": [
+   "battery_waste"
+  ],
+  "prev": {
+   "q": "Can I keep old batteries in a drawer?",
+   "a": "Keep them in a closed box, and tape the ends first."
+  },
+  "kw": [
+   "short",
+   "spark",
+   "fire",
+   "heat",
+   "touch",
+   "metal",
+   "terminal",
+   "leak"
+  ]
+ },
+ {
+  "id": "sf1",
+  "cat": "safety",
+  "q": "Can I open the battery to see what is inside?",
+  "scene": [
+   "battery_waste"
+  ],
+  "kw": [
+   "never",
+   "don't",
+   "do not",
+   "acid",
+   "fire",
+   "explode",
+   "burn",
+   "toxic"
+  ]
+ },
+ {
+  "id": "sf2",
+  "cat": "safety",
+  "q": "Can kids play with old phones and remotes?",
+  "scene": [
+   "e_waste"
+  ],
+  "kw": [
+   "batter",
+   "swallow",
+   "remove",
+   "coin",
+   "button",
+   "choke",
+   "ingest"
+  ]
+ },
+ {
+  "id": "sf3",
+  "cat": "safety",
+  "q": "Can I use old cooking oil to light a fire for the leaves?",
+  "scene": [
+   "organic_waste"
+  ],
+  "kw": [
+   "never",
+   "don't",
+   "do not",
+   "smoke",
+   "compost",
+   "biodiesel",
+   "collect",
+   "pollut",
+   "harm",
+   "fume"
+  ]
+ },
+ {
+  "id": "sf4",
+  "cat": "safety",
+  "q": "Can I pour old paint or phenyl down the drain?",
+  "scene": [],
+  "kw": [
+   "never",
+   "don't",
+   "do not",
+   "toxic",
+   "poison",
+   "dry",
+   "harden",
+   "hazard",
+   "collect",
+   "seal",
+   "close"
+  ],
+  "bad": [
+   "^pour",
+   "^no,? pour",
+   "non-toxic",
+   "can be recycled"
+  ]
+ }
+]

@@ -1,0 +1,365 @@
+[
+  {
+    "class": "battery_waste",
+    "file": "photos/battery_waste_1.jpg",
+    "title": "File:AA VARTA battery-side PNr°0782.jpg",
+    "crop": [
+      0.12,
+      0.02,
+      0.89,
+      0.98
+    ]
+  },
+  {
+    "class": "battery_waste",
+    "file": "photos/battery_waste_2.jpg",
+    "title": "File:02 - Single Energizer Battery.jpg",
+    "crop": [
+      0.03,
+      0.04,
+      0.98,
+      0.96
+    ]
+  },
+  {
+    "class": "battery_waste",
+    "file": "photos/battery_waste_3.jpg",
+    "title": "File:AA Batteries (51825378856).jpg",
+    "crop": [
+      0.03,
+      0.03,
+      0.98,
+      0.98
+    ]
+  },
+  {
+    "class": "clothes",
+    "file": "photos/clothes_1.jpg",
+    "title": "File:FOSDEM t-shirt 2013.jpg",
+    "crop": [
+      0.02,
+      0.01,
+      0.98,
+      0.9
+    ]
+  },
+  {
+    "class": "clothes",
+    "file": "photos/clothes_2.jpg",
+    "title": "File:Nike t-shirt.jpg",
+    "crop": [
+      0.08,
+      0.22,
+      0.98,
+      0.95
+    ]
+  },
+  {
+    "class": "clothes",
+    "file": "photos/clothes_3.jpg",
+    "title": "File:Wit katoenen kinder-T-shirt met vierkante full-color opdruk met middenin foto van hond en op vier hoeken kindergezichtjes, van de tv-serie “De Boefjes”, cijferverdeling als klok, objectnr 75795.JPG",
+    "crop": [
+      0.06,
+      0.04,
+      0.95,
+      0.97
+    ]
+  },
+  {
+    "class": "e_waste",
+    "file": "photos/e_waste_1.jpg",
+    "title": "File:Phone charger 2026.jpg",
+    "crop": [
+      0.02,
+      0.03,
+      0.98,
+      0.98
+    ]
+  },
+  {
+    "class": "e_waste",
+    "file": "photos/e_waste_2.jpg",
+    "title": "File:1.5V Lithium Battery Charger and Cable Top Picture.png",
+    "crop": [
+      0.01,
+      0.05,
+      0.98,
+      0.95
+    ]
+  },
+  {
+    "class": "e_waste",
+    "file": "photos/e_waste_3.jpg",
+    "title": "File:Battery charger set C76A Pro in Tashkent Region.jpg",
+    "crop": [
+      0.45,
+      0.19,
+      0.73,
+      0.71
+    ]
+  },
+  {
+    "class": "glass_waste",
+    "file": "photos/glass_waste_1.jpg",
+    "title": "File:Whisbih Liq 600cc empty glass bottle face 20161026.jpg",
+    "crop": [
+      0.26,
+      0.03,
+      0.73,
+      0.97
+    ]
+  },
+  {
+    "class": "glass_waste",
+    "file": "photos/glass_waste_2.jpg",
+    "title": "File:Clear empty glass bottle.jpg",
+    "crop": [
+      0.3,
+      0.07,
+      0.57,
+      0.94
+    ]
+  },
+  {
+    "class": "glass_waste",
+    "file": "photos/glass_waste_3.jpg",
+    "title": "File:London Bridge dumped empty beer bottle City of London England.jpg",
+    "crop": [
+      0.4,
+      0.12,
+      0.73,
+      0.95
+    ]
+  },
+  {
+    "class": "light_bulbs",
+    "file": "photos/light_bulbs_1.jpg",
+    "title": "File:Compact fluorescent lamp E27 23W.jpg",
+    "crop": [
+      0.18,
+      0.14,
+      0.84,
+      0.91
+    ]
+  },
+  {
+    "class": "light_bulbs",
+    "file": "photos/light_bulbs_2.jpg",
+    "title": "File:Compact fluorescent lamp wall mounted.JPG",
+    "crop": [
+      0.27,
+      0.34,
+      0.84,
+      0.98
+    ]
+  },
+  {
+    "class": "light_bulbs",
+    "file": "photos/light_bulbs_3.jpg",
+    "title": "File:Lamp harp with fluorescent bulb.jpg",
+    "crop": [
+      0.3,
+      0.12,
+      0.62,
+      0.85
+    ]
+  },
+  {
+    "class": "metal_waste",
+    "file": "photos/metal_waste_1.jpg",
+    "title": "File:Empty tin can2009-01-19.jpg",
+    "crop": [
+      0.14,
+      0.1,
+      0.79,
+      0.98
+    ]
+  },
+  {
+    "class": "metal_waste",
+    "file": "photos/metal_waste_2.jpg",
+    "title": "File:Konservendose-1.jpg",
+    "crop": [
+      0.15,
+      0.08,
+      0.85,
+      0.98
+    ]
+  },
+  {
+    "class": "metal_waste",
+    "file": "photos/metal_waste_3.jpg",
+    "title": "File:Tin can with käferbohnen.jpg",
+    "crop": [
+      0.04,
+      0.1,
+      0.57,
+      0.96
+    ]
+  },
+  {
+    "class": "organic_waste",
+    "file": "photos/organic_waste_1.jpg",
+    "title": "File:Banane-A-05 cropped.jpg",
+    "crop": [
+      0.01,
+      0.02,
+      0.99,
+      0.97
+    ]
+  },
+  {
+    "class": "organic_waste",
+    "file": "photos/organic_waste_2.jpg",
+    "title": "File:Parking lot banana peel.jpg",
+    "crop": [
+      0.37,
+      0.22,
+      0.73,
+      0.9
+    ]
+  },
+  {
+    "class": "organic_waste",
+    "file": "photos/organic_waste_3.jpg",
+    "title": "File:Banana peel on the ground.jpg",
+    "crop": [
+      0.3,
+      0.37,
+      0.8,
+      0.78
+    ]
+  },
+  {
+    "class": "paper_waste",
+    "file": "photos/paper_waste_1.jpg",
+    "title": "File:A stack of newspapers (cropped).jpg",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "class": "paper_waste",
+    "file": "photos/paper_waste_2.jpg",
+    "title": "File:2011 newspapers Tehran 6030393078.jpg",
+    "crop": [
+      0.08,
+      0.07,
+      0.89,
+      0.91
+    ]
+  },
+  {
+    "class": "paper_waste",
+    "file": "photos/paper_waste_3.jpg",
+    "title": "File:Newspaper Stack (8582618448).jpg",
+    "crop": [
+      0.21,
+      0.02,
+      0.79,
+      0.96
+    ]
+  },
+  {
+    "class": "plastic_waste",
+    "file": "photos/plastic_waste_1.jpg",
+    "title": "File:Water bottle (13779).jpg",
+    "crop": [
+      0.25,
+      0.02,
+      0.59,
+      0.82
+    ]
+  },
+  {
+    "class": "plastic_waste",
+    "file": "photos/plastic_waste_2.jpg",
+    "title": "File:Plastic Water Bottle.jpg",
+    "crop": [
+      0.32,
+      0.1,
+      0.72,
+      0.94
+    ]
+  },
+  {
+    "class": "plastic_waste",
+    "file": "photos/plastic_waste_3.jpg",
+    "title": "File:Bottle of Water.jpg",
+    "crop": [
+      0.29,
+      0.01,
+      0.76,
+      0.96
+    ]
+  },
+  {
+    "class": "general_waste",
+    "file": "photos/general_waste_1.jpg",
+    "title": "File:Feather duster broom.jpg",
+    "crop": [
+      0.14,
+      0.04,
+      0.94,
+      0.98
+    ]
+  },
+  {
+    "class": "general_waste",
+    "file": "photos/general_waste_2.jpg",
+    "title": "File:Car sponge.jpg",
+    "crop": [
+      0.02,
+      0.05,
+      0.98,
+      0.96
+    ]
+  },
+  {
+    "class": "general_waste",
+    "file": "photos/general_waste_3.jpg",
+    "title": "File:Ostrich Feather Duster cropped.jpg",
+    "crop": [
+      0.01,
+      0.01,
+      0.98,
+      0.99
+    ]
+  },
+  {
+    "class": "background",
+    "file": "photos/background_1.jpg",
+    "title": "File:Empty LEGO Room Build Table.jpg",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "class": "background",
+    "file": "photos/background_2.jpg",
+    "title": "File:EFTA00001465 - Empty room with beige walls light-colored floor and a small round table in the corner.jpg",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "class": "background",
+    "file": "photos/background_3.jpg",
+    "title": "File:EFTA00000716 - Empty room with two green side tables electrical outlets and a simple ceiling light.jpg",
+    "crop": [
+      0,
+      0,
+      1,
+      1
+    ]
+  }
+]

@@ -1,0 +1,65 @@
+{
+ "cls": "organic_waste",
+ "slug": "fruit",
+ "item": "apple",
+ "title": {
+  "en": "Fruit Waste: Eat It Before It Rots",
+  "hi": "फल का कचरा: सड़ने से पहले खाओ",
+  "ta": "பழக் குப்பை: அழுகுறதுக்கு முன்னாடி சாப்பிடுங்க"
+ },
+ "beats": {
+  "intro": {
+   "en": "Bonk! An apple fell on my head. I'm no Newton, but I discovered something: half-eaten fruit needs the right bin!",
+   "hi": "टप! मेरे सिर पर सेब गिरा। मैं न्यूटन तो नहीं, पर एक चीज़ समझ गया: आधे खाए फल को सही बिन चाहिए!",
+   "ta": "டப்! என் தலைல ஆப்பிள் விழுந்துச்சு. நான் நியூட்டன் இல்ல, ஆனா ஒண்ணு கண்டுபிடிச்சேன்: பாதி சாப்பிட்ட பழத்துக்கு சரியான பின் வேணும்!"
+  },
+  "harm": {
+   "en": "Up to fifteen per cent of India's fruit is lost after harvest. And the world wasted over one billion tonnes of food in twenty twenty-two.",
+   "hi": "इंडिया में तोड़ने के बाद पंद्रह परसेंट तक फल बर्बाद हो जाते हैं। और दो हज़ार बाईस में दुनिया ने सौ करोड़ टन से ज़्यादा खाना फेंका।",
+   "ta": "நம்ம இந்தியால பறிச்சதுக்கு அப்புறம் பதினஞ்சு பர்சன்ட் வரைக்கும் பழம் வீணா போகுது. ரெண்டாயிரத்து இருபத்தி ரெண்டுல உலகம் நூறு கோடி டன்னுக்கு மேல சாப்பாட்ட தூக்கி போட்டுச்சு.",
+   "stats": [
+    {
+     "value": 15,
+     "suffix": "%",
+     "unit": "fruit lost after harvest",
+     "bad": true
+    },
+    {
+     "value": 1.05,
+     "decimals": 2,
+     "unit": "billion t food wasted",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Farmers lose their hard-earned income, the soil loses nutrients it never gets back, and kids miss out on healthy snacks.",
+   "hi": "किसानों की मेहनत की कमाई डूब जाती है, मिट्टी के पोषक तत्व वापस नहीं लौटते, और बच्चों को हेल्दी नाश्ता नहीं मिलता।",
+   "ta": "விவசாயிங்களோட கஷ்டப்பட்ட காசு போயிடுது, மண்ணுக்கு சத்து திரும்ப கிடைக்காது, குழந்தைங்களுக்கு ஹெல்தி ஸ்நாக் கிடைக்காம போகுது.",
+   "victims": [
+    "farmer",
+    "soil",
+    "child"
+   ]
+  },
+  "dispose": {
+   "en": "Rotten fruit, cores and banana skins all go in the green bin. Peel off any sticker first, those little labels are plastic!",
+   "hi": "सड़े फल, बीच का हिस्सा और केले के छिलके, सब ग्रीन बिन में। पहले स्टिकर हटाओ, वो छोटे लेबल प्लास्टिक के होते हैं!",
+   "ta": "அழுகுன பழம், நடு கொட்டை, வாழைப்பழத் தோல், எல்லாமே க்ரீன் பின்ல. முதல்ல ஸ்டிக்கர எடுத்துடுங்க, அந்த குட்டி லேபிள் பிளாஸ்டிக்!",
+   "bin": "green",
+   "steps": []
+  },
+  "prevent": {
+   "en": "Buy only what you'll eat this week, carry a cloth bag, and turn soft fruit into a smoothie. Banana milkshake party? High five!",
+   "hi": "उतने ही फल लो जितने इस हफ़्ते खाओगे, कपड़े का थैला साथ रखो, और नरम फलों का शेक बना लो। बनाना शेक पार्टी? हाई फ़ाइव!",
+   "ta": "இந்த வாரம் சாப்பிடுற அளவு மட்டும் பழம் வாங்குங்க, துணிப்பை எடுத்துட்டு போங்க, கனிஞ்ச பழத்த மில்க்ஷேக் ஆக்கிடுங்க. பனானா ஷேக் பார்ட்டியா? ஹை ஃபைவ்!",
+   "swap_from": "bag",
+   "swap_to": "cloth_bag",
+   "swap_to2": "apple"
+  }
+ },
+ "sources": [
+  "NABCONS 2022 study for MoFPI on post-harvest losses (fruits roughly 6-15%)",
+  "UNEP Food Waste Index Report 2024 (1.05 billion tonnes of food wasted in 2022)"
+ ]
+}

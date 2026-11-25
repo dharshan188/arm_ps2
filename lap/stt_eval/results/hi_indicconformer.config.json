@@ -1,0 +1,8 @@
+{
+  "lang": "hi",
+  "model": "~/arm2026/voice/_dl/indicconformer-hi",
+  "backend": "sherpa",
+  "threads": 4,
+  "refs_sha256": "fd99a5d9c5d5892220496f28e9500dfde522ea1b3aac16783f9e31ce4d727429",
+  "model_manifest_sha256": "bc98cbd4c505ede5343ae63aeb95685e86b0328dc6012e5362b4e621d72849a5"
+}

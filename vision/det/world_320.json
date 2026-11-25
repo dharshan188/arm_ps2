@@ -1,0 +1,31 @@
+{
+ "imgsz": 320,
+ "layout": "1,4+nc,N; xywh pixels + class probabilities",
+ "names": {
+  "0": "plastic bottle",
+  "1": "plastic bag",
+  "2": "can",
+  "3": "glass bottle",
+  "4": "battery",
+  "5": "light bulb",
+  "6": "phone",
+  "7": "charger",
+  "8": "cable",
+  "9": "paper",
+  "10": "cardboard",
+  "11": "newspaper",
+  "12": "banana peel",
+  "13": "food",
+  "14": "fruit",
+  "15": "cloth",
+  "16": "shirt",
+  "17": "sponge",
+  "18": "duster",
+  "19": "tissue",
+  "20": "cup",
+  "21": "box",
+  "22": "jar"
+ },
+ "exclude_classes": [],
+ "model": "yolov8s-worldv2 fixed vocabulary (23 waste prompts)"
+}

@@ -1,0 +1,60 @@
+{
+ "cls": "glass_waste",
+ "slug": "mirrors_not_glass",
+ "item": "broken_glass",
+ "title": {
+  "en": "Mirrors Aren't Bottle Glass",
+  "hi": "शीशा बोतल वाला काँच नहीं",
+  "ta": "முகக்கண்ணாடி பாட்டில் கண்ணாடி இல்ல"
+ },
+ "beats": {
+  "intro": {
+   "en": "Mirror mirror, on my head! Who's the fairest of them all? Me, obviously. But hey you, mirrors are not normal glass!",
+   "hi": "शीशा शीशा, मेरे सिर पर! सबसे सुंदर कौन? मैं, और कौन! पर अरे तुम, शीशा आम काँच नहीं होता!",
+   "ta": "முகக்கண்ணாடி என் தலைல! இங்க யாரு செம்ம அழகு? நான் தான், சந்தேகமே இல்ல! ஆனா ஹே, முகக்கண்ணாடி சாதா கண்ணாடி இல்ல!"
+  },
+  "harm": {
+   "en": "Mirrors have a metal coating that spoils bottle recycling. And India already makes about one lakh sixty thousand tonnes of city waste daily!",
+   "hi": "शीशे पर धातु की परत होती है जो बोतल की रीसायकलिंग ख़राब करती है। और इंडिया पहले से रोज़ करीब एक लाख साठ हज़ार टन शहरी कचरा बनाता है!",
+   "ta": "முகக்கண்ணாடி பின்னாடி மெட்டல் கோட்டிங் இருக்கு, அது பாட்டில் ரீசைக்கிளிங்க கெடுக்கும். ஏற்கனவே இந்தியா தினமும் கிட்டத்தட்ட ஒரு லட்சத்தி அறுபதாயிரம் டன் சிட்டி குப்பை போடுது!",
+   "stats": [
+    {
+     "value": 1.6,
+     "decimals": 1,
+     "unit": "lakh t city waste / day",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Recycling workers lose whole batches and get cut sorting them out, and kids get hurt by sharp mirror edges left lying around.",
+   "hi": "रीसायकलिंग वाले भैया का पूरा माल ख़राब होता है और छाँटते वक़्त हाथ कटते हैं, और पड़े हुए शीशे के किनारों से बच्चों को चोट लगती है।",
+   "ta": "ரீசைக்கிளிங் தொழிலாளிங்களுக்கு முழு லோடும் வீணாகுது, பிரிக்கும்போது கை வெட்டுது, கீழ கிடக்குற முகக்கண்ணாடி ஓரத்தால குழந்தைங்களுக்கு காயம் ஆகுது.",
+   "victims": [
+    "worker",
+    "child"
+   ]
+  },
+  "dispose": {
+   "en": "Tape the cracks, wrap it in newspaper, mark it sharp, and give it with dry waste, never with glass bottles.",
+   "hi": "दरारों पर टेप लगाओ, अख़बार में लपेटो, शार्प लिखो, और सूखे कचरे के साथ दो, काँच की बोतलों के साथ कभी नहीं।",
+   "ta": "விரிசல் மேல டேப் ஒட்டி, பேப்பர்ல சுத்தி, ஷார்ப்னு எழுதி, காய்ஞ்ச குப்பையோட குடுங்க, கண்ணாடி பாட்டிலோட சேர்க்கவே கூடாது.",
+   "bin": "blue",
+   "steps": [
+    "tape",
+    "wrap"
+   ]
+  },
+  "prevent": {
+   "en": "Mirror still whole? Donate it, or reuse it in a bathroom or a kid's room. Seven years of good luck for that! High five!",
+   "hi": "शीशा अभी साबुत है? दान कर दो, या बाथरूम या बच्चों के कमरे में लगा दो। इसके लिए सात साल की गुड लक पक्की! हाई फ़ाइव!",
+   "ta": "முகக்கண்ணாடி இன்னும் உடையலையா? யாருக்காவது குடுங்க, இல்ல பாத்ரூம்லயோ குழந்தைங்க ரூம்லயோ மாட்டுங்க. அதுக்கு ஏழு வருஷம் குட் லக்! ஹை ஃபைவ்!",
+   "swap_from": "broken_glass",
+   "swap_to": "donate_box"
+  }
+ },
+ "sources": [
+  "CPCB Annual Report on Solid Waste Management Rules 2020-21 (about 1,60,038 tonnes per day of municipal solid waste)",
+  "Glass Packaging Institute / municipal recycling guidance: mirrors, window and ovenware glass are not accepted with container glass"
+ ]
+}

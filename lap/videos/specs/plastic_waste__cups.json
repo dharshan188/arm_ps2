@@ -1,0 +1,63 @@
+{
+ "cls": "plastic_waste",
+ "slug": "cups",
+ "item": "cup",
+ "title": {
+  "en": "Plastic Cups",
+  "hi": "प्लास्टिक के कप",
+  "ta": "பிளாஸ்டிக் கப்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Bonk! A plastic cup bounced off my head like a tiny helmet. Hey you, party's over, let's talk about where it goes!",
+   "hi": "टुन्न! एक प्लास्टिक कप मेरे सिर से टकराया, जैसे छोटा सा हेलमेट। अरे तुम, पार्टी ख़त्म, अब बात करें ये कहाँ जाता है!",
+   "ta": "டொங்! ஒரு பிளாஸ்டிக் கப் என் தலைல குட்டி ஹெல்மெட் மாதிரி விழுந்து எகிறிச்சு. ஹே நீங்க, பார்ட்டி முடிஞ்சுது, இது எங்க போகணும்னு பேசலாம்!"
+  },
+  "harm": {
+   "en": "The world makes about four hundred million tonnes of plastic waste every year. A cup you use for two minutes can stay around for centuries.",
+   "hi": "दुनिया हर साल करीब चालीस करोड़ टन प्लास्टिक कचरा बनाती है। दो मिनट वाला कप सैकड़ों साल तक पड़ा रह सकता है।",
+   "ta": "உலகம் ஒவ்வொரு வருஷமும் கிட்டத்தட்ட நாப்பது கோடி டன் பிளாஸ்டிக் குப்பை பண்ணுது. ரெண்டு நிமிஷம் யூஸ் பண்ற கப், நூறு வருஷம் கூட அப்படியே இருக்கலாம்.",
+   "stats": [
+    {
+     "value": 400,
+     "unit": "million t / yr",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Cups pile up after every wedding and festival. Dogs chew them, birds peck at them, and the broken bits wash into our rivers.",
+   "hi": "हर शादी और त्योहार के बाद कपों का ढेर लग जाता है। कुत्ते चबाते हैं, चिड़िया चोंच मारती है, और टुकड़े नदियों में बह जाते हैं।",
+   "ta": "ஒவ்வொரு கல்யாணம், திருவிழா முடிஞ்சதும் கப் மலை மாதிரி குவியுது. நாய் கடிக்குது, குருவி கொத்துது, துண்டுங்க ஆத்துல அடிச்சுட்டு போகுது.",
+   "victims": [
+    "dog",
+    "bird",
+    "river"
+   ]
+  },
+  "dispose": {
+   "en": "Rinse out the tea, stack the cups inside each other, and put them in the blue bin. Stacked cups take up much less space!",
+   "hi": "चाय धो डालो, कप एक के अंदर एक रखो, और ब्लू बिन में डालो। ऐसे रखो तो बहुत कम जगह लेते हैं!",
+   "ta": "டீய கழுவிட்டு, கப்ப ஒண்ணுக்குள்ள ஒண்ணா அடுக்கி, ப்ளூ பின்ல போடுங்க. அடுக்கினா இடம் ரொம்ப கம்மியா எடுக்கும்!",
+   "bin": "blue",
+   "steps": [
+    "rinse"
+   ]
+  },
+  "prevent": {
+   "en": "Since July twenty twenty two, India has banned many single use plastic cups. So carry a steel tumbler. Tea tastes better in steel anyway. Cheers!",
+   "hi": "जुलाई दो हज़ार बाईस से इंडिया में कई सिंगल यूज़ प्लास्टिक कप बैन हैं। तो स्टील का गिलास साथ रखो। वैसे भी स्टील में चाय ज़्यादा मस्त लगती है। चियर्स!",
+   "ta": "ரெண்டாயிரத்து இருபத்தி ரெண்டு ஜூலைல இருந்து இந்தியால நிறைய சிங்கிள் யூஸ் பிளாஸ்டிக் கப் பேன். அதனால ஒரு ஸ்டீல் டம்ளர் கூடவே வெச்சுக்கோங்க. ஸ்டீல்ல டீ இன்னும் டேஸ்ட். சியர்ஸ்!",
+   "swap_from": "cup",
+   "swap_to": "steel_cup",
+   "stat": {
+    "value": 2022,
+    "unit": "single-use ban"
+   }
+  }
+ },
+ "sources": [
+  "UNEP, Beat Plastic Pollution: the world produces around 400 million tonnes of plastic waste every year",
+  "MoEFCC, Plastic Waste Management (Amendment) Rules 2021: ban on identified single-use plastic items incl. plastic cups and glasses from 1 July 2022"
+ ]
+}

@@ -1,0 +1,59 @@
+{
+  "cls": "e_waste",
+  "slug": "data_wipe",
+  "item": "phone",
+  "title": {
+    "en": "Erase data, keep the value",
+    "hi": "डेटा मिटाओ, वैल्यू बचाओ",
+    "ta": "டேட்டா அழிங்க, மதிப்ப காப்பாத்துங்க"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This falling phone nearly unlocked with my forehead! Before giving yours away, let's stop your photos going along.",
+      "hi": "अरे तुम! गिरता फ़ोन मेरे माथे से अनलॉक होने वाला था! अपना किसी को देने से पहले फ़ोटो को साथ जाने से रोको।",
+      "ta": "ஹே நீங்க! கீழ விழுந்த ஃபோன் என் நெத்தியால அன்லாக் ஆக பாத்துச்சு! உங்க ஃபோன குடுக்க முன்னாடி ஃபோட்டோவும் கூட போகாம பாத்துக்கலாம் வாங்க."
+    },
+    "harm": {
+      "en": "The world generated sixty two million tonnes of electronic waste in twenty twenty two. Even tiny gadgets join that enormous pile!",
+      "hi": "दो हज़ार बाईस में दुनिया में छह करोड़ बीस लाख टन इलेक्ट्रॉनिक वेस्ट बना। छोटे गैजेट्स भी उस बड़े ढेर में जुड़ते हैं!",
+      "ta": "ரெண்டாயிரத்து இருபத்தி ரெண்டுல உலகம் முழுக்க ஆறு கோடியே இருபது லட்சம் டன் எலக்ட்ரானிக் வேஸ்ட் வந்துச்சு. சின்ன கேஜெட்டும் அந்த பெரிய குவியல்ல சேருதுங்க!",
+      "stats": [
+        {
+          "value": 62,
+          "unit": "million t / 2022"
+        }
+      ]
+    },
+    "who": {
+      "en": "Your private photos deserve protection, and workers deserve safe electronics. Children near unsafe recycling sites also benefit when you choose responsible collection.",
+      "hi": "तुम्हारी प्राइवेट फ़ोटो सेफ़ रहनी चाहिए, वर्कर्स को सेफ़ इलेक्ट्रॉनिक्स मिलें। सही कलेक्शन से ग़लत रीसायकल साइट के पास के बच्चों को भी फ़ायदा।",
+      "ta": "உங்க பிரைவேட் ஃபோட்டோ பத்திரமா இருக்கணும், வொர்க்கர்ஸுக்கும் பாதுகாப்பு வேணும். சரியான கலெக்ஷன்ல குடுத்தா மோசமான ரீசைக்கிள் இடத்துக்கு பக்கத்து குழந்தைங்களுக்கும் நல்லது.",
+      "victims": [
+        "person",
+        "worker",
+        "child"
+      ]
+    },
+    "dispose": {
+      "en": "Back up, sign out, factory reset using the maker's instructions, and remove SIM and memory cards. Use authorised electronic waste collection.",
+      "hi": "बैकअप करो, साइन आउट करो, कंपनी के तरीके से फ़ैक्टरी रीसेट करो। सिम और मेमरी कार्ड निकालो। ऑथराइज़्ड ई वेस्ट कलेक्शन चुनो।",
+      "ta": "பேக்கப் எடுத்து சைன் அவுட் பண்ணுங்க. கம்பெனி சொல்றபடி ஃபேக்டரி ரீசெட் பண்ணி சிம், மெமரி கார்ட எடுங்க. அங்கீகாரம் வாங்குன ஈ வேஸ்ட் கலெக்ஷன்ல குடுங்க.",
+      "bin": "ewaste",
+      "steps": [
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "A working, wiped phone can help someone else. Keep it longer or donate responsibly; your selfies need no surprise world tour!",
+      "hi": "चलता हुआ, डेटा मिटा फ़ोन किसी के काम आएगा। ज़्यादा दिन चलाओ या सोचकर डोनेट करो। सेल्फ़ी को सरप्राइज़ वर्ल्ड टूर मत दो!",
+      "ta": "வேலை செய்யுற ஃபோன டேட்டா அழிச்சிட்டு குடுத்தா இன்னொருத்தருக்கு உதவும். நீண்ட நாள் யூஸ் பண்ணுங்க இல்ல டொனேட் பண்ணுங்க. செல்ஃபிக்கு சர்ப்ரைஸ் வேர்ல்ட் டூர் வேணாமே!",
+      "swap_from": "phone",
+      "swap_to": "donate_box"
+    }
+  },
+  "sources": [
+    "UNITAR/ITU, Global E-waste Monitor 2024: globally 62 million tonnes generated in 2022; 22.3% documented formally collected and recycled. https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+    "WHO, Electronic waste, 1 October 2024: informal burning releases hazardous substances; children and workers vulnerable. https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)",
+    "Google Android Help, Reset your Android device to factory settings: backup and manufacturer reset instructions. https://support.google.com/android/answer/6088915"
+  ]
+}

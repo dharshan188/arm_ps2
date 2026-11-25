@@ -1,0 +1,259 @@
+{
+ "summary": {
+  "n": 30,
+  "correct": 24,
+  "should_answer": 22,
+  "answered_right": 17,
+  "answered_wrong_entry": 1,
+  "should_not_answer": 8,
+  "false_answers": 1,
+  "precision": 0.944,
+  "offtopic_legit_n": 15,
+  "offtopic_false_declines": [],
+  "offtopic_bad_n": 10,
+  "offtopic_caught": 9,
+  "offtopic_caught_no_scene": 10
+ },
+ "rows": [
+  {
+   "q": "Any ideas to use less plastic in my kitchen?",
+   "intent": "other",
+   "expect": "plastic_reduce",
+   "got": "plastic_reduce",
+   "score": 0.9,
+   "ok": true
+  },
+  {
+   "q": "Can this bottle be turned into something useful?",
+   "intent": "other",
+   "expect": "plastic_bottle_diy",
+   "got": null,
+   "score": 0.47,
+   "ok": false
+  },
+  {
+   "q": "Is it okay to set fire to the garbage pile near my house?",
+   "intent": "other",
+   "expect": "plastic_burn",
+   "got": null,
+   "score": 0.8,
+   "ok": false
+  },
+  {
+   "q": "The battery of my laptop has puffed up",
+   "intent": "other",
+   "expect": "battery_swollen",
+   "got": "battery_swollen",
+   "score": 0.94,
+   "ok": true
+  },
+  {
+   "q": "Where should I keep used cells at home?",
+   "intent": "which_bin",
+   "expect": "battery_store",
+   "got": null,
+   "score": 0.47,
+   "ok": false
+  },
+  {
+   "q": "How should I wipe my phone before I give it away?",
+   "intent": "other",
+   "expect": "ewaste_data",
+   "got": "ewaste_data",
+   "score": 0.9,
+   "ok": true
+  },
+  {
+   "q": "Is it fine to give my broken TV to the scrap shop?",
+   "intent": "other",
+   "expect": "ewaste_kabadi",
+   "got": null,
+   "score": 0.85,
+   "ok": false
+  },
+  {
+   "q": "My kid dropped a tube light and it broke",
+   "intent": "other",
+   "expect": "cfl_broken",
+   "got": "cfl_broken",
+   "score": 0.93,
+   "ok": true
+  },
+  {
+   "q": "Is LED lighting safer?",
+   "intent": "hazardous",
+   "expect": "led_vs_cfl",
+   "got": null,
+   "score": 0.84,
+   "ok": false
+  },
+  {
+   "q": "Do I need to flatten the tin cans?",
+   "intent": "other",
+   "expect": "metal_crush",
+   "got": "metal_crush",
+   "score": 0.92,
+   "ok": true
+  },
+  {
+   "q": "How do I make compost in a flat with a balcony?",
+   "intent": "other",
+   "expect": "compost_home",
+   "got": "compost_home",
+   "score": 0.94,
+   "ok": true
+  },
+  {
+   "q": "When will my compost be ready?",
+   "intent": "other",
+   "expect": "compost_time",
+   "got": "compost_time",
+   "score": 1.04,
+   "ok": true
+  },
+  {
+   "q": "There are flies in my compost bin",
+   "intent": "other",
+   "expect": "compost_smell",
+   "got": "compost_smell",
+   "score": 0.94,
+   "ok": true
+  },
+  {
+   "q": "What should I do with the oil after frying?",
+   "intent": "other",
+   "expect": "cooking_oil",
+   "got": "cooking_oil",
+   "score": 0.94,
+   "ok": true
+  },
+  {
+   "q": "What to do with old temple flowers?",
+   "intent": "other",
+   "expect": "flowers_festival",
+   "got": "flowers_festival",
+   "score": 1.02,
+   "ok": true
+  },
+  {
+   "q": "Can eggshells go in compost?",
+   "intent": "which_bin",
+   "expect": "eggshell_tea",
+   "got": "eggshell_tea",
+   "score": 0.89,
+   "ok": true
+  },
+  {
+   "q": "What crafts can I do with old newspapers?",
+   "intent": "other",
+   "expect": "newspaper_diy",
+   "got": "newspaper_diy",
+   "score": 0.92,
+   "ok": true
+  },
+  {
+   "q": "What do I do with expired tablets?",
+   "intent": "other",
+   "expect": "medicines",
+   "got": "medicines",
+   "score": 0.89,
+   "ok": true
+  },
+  {
+   "q": "How do I throw away a used sanitary pad?",
+   "intent": "other",
+   "expect": "sanitary",
+   "got": "sanitary",
+   "score": 0.9,
+   "ok": true
+  },
+  {
+   "q": "Which NGO takes clothes donations?",
+   "intent": "where_to_give",
+   "expect": "clothes_donate",
+   "got": "clothes_donate",
+   "score": 0.9,
+   "ok": true
+  },
+  {
+   "q": "What is your name?",
+   "intent": "other",
+   "expect": "who_made_you",
+   "got": "who_made_you",
+   "score": 1.01,
+   "ok": true
+  },
+  {
+   "q": "Why should we separate waste at all?",
+   "intent": "other",
+   "expect": "segregate_why",
+   "got": "segregate_why",
+   "score": 1.02,
+   "ok": true
+  },
+  {
+   "q": "Can I recycle a steel tiffin that has a hole?",
+   "intent": "recyclable",
+   "expect": null,
+   "got": null,
+   "score": 0.84,
+   "ok": true
+  },
+  {
+   "q": "Is bamboo toothbrush better than plastic one?",
+   "intent": "other",
+   "expect": null,
+   "got": null,
+   "score": 0.47,
+   "ok": true
+  },
+  {
+   "q": "Does glass melt in a fire?",
+   "intent": "other",
+   "expect": null,
+   "got": null,
+   "score": 0.49,
+   "ok": true
+  },
+  {
+   "q": "How many batteries does India throw away every year?",
+   "intent": "which_bin",
+   "expect": null,
+   "got": null,
+   "score": 0.46,
+   "ok": true
+  },
+  {
+   "q": "Can I put the peels of this fruit in my plant pot directly?",
+   "intent": "other",
+   "expect": null,
+   "got": null,
+   "score": 0.43,
+   "ok": true
+  },
+  {
+   "q": "Why is my phone charger getting hot?",
+   "intent": "other",
+   "expect": null,
+   "got": null,
+   "score": 0.82,
+   "ok": true
+  },
+  {
+   "q": "How are plastic bottles turned into t-shirts?",
+   "intent": "other",
+   "expect": null,
+   "got": null,
+   "score": 0.59,
+   "ok": true
+  },
+  {
+   "q": "Is paper made from trees?",
+   "intent": "other",
+   "expect": null,
+   "got": "paper_both_sides",
+   "score": 1.02,
+   "ok": false
+  }
+ ]
+}

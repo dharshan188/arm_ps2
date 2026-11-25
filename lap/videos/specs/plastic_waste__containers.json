@@ -1,0 +1,67 @@
+{
+ "cls": "plastic_waste",
+ "slug": "containers",
+ "item": "container",
+ "title": {
+  "en": "Takeaway Containers",
+  "hi": "पार्सल वाले डिब्बे",
+  "ta": "பார்சல் டப்பா"
+ },
+ "beats": {
+  "intro": {
+   "en": "Whoa! A biryani container just fell on my head, and there's still rice in it. Hey you, let's talk about these boxes!",
+   "hi": "अरे बाप रे! बिरयानी का डिब्बा सीधा मेरे सिर पे गिरा, और अंदर चावल भी बचे हैं। अरे तुम, इन डिब्बों की बात करें!",
+   "ta": "அய்யோ! ஒரு பிரியாணி டப்பா என் தலைல விழுந்துச்சு, உள்ள இன்னும் சாதம் இருக்கு. ஹே நீங்க, இந்த டப்பா பத்தி கொஞ்சம் பேசலாம்!"
+  },
+  "harm": {
+   "en": "About thirty six per cent of all plastic made is packaging like this. And about twenty two per cent of plastic waste worldwide is mismanaged.",
+   "hi": "दुनिया का करीब छत्तीस परसेंट प्लास्टिक ऐसी पैकेजिंग में जाता है। और करीब बाईस परसेंट प्लास्टिक कचरा कहीं भी फेंक दिया जाता है।",
+   "ta": "உலகத்துல பண்ற பிளாஸ்டிக்ல கிட்டத்தட்ட முப்பத்தி ஆறு பர்சன்ட் இந்த மாதிரி பேக்கேஜிங் தான். உலகம் முழுக்க இருபத்தி ரெண்டு பர்சன்ட் பிளாஸ்டிக் குப்பை கண்ட இடத்துல தான் போய் சேருது.",
+   "stats": [
+    {
+     "value": 36,
+     "suffix": "%",
+     "unit": "plastic is packaging"
+    },
+    {
+     "value": 22,
+     "suffix": "%",
+     "unit": "mismanaged",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Food left inside attracts stray dogs, dumps pollute the soil, and waste pickers skip dirty boxes because nobody buys them.",
+   "hi": "अंदर बचा खाना आवारा कुत्तों को बुलाता है, कूड़े के ढेर से मिट्टी ख़राब होती है, और गंदे डिब्बे कबाड़ी वाले नहीं लेते, कोई ख़रीदता नहीं।",
+   "ta": "உள்ள மிச்சம் இருக்கற சாப்பாடு தெரு நாய கூப்பிடுது, குப்பை மேட்டுல மண்ணு கெட்டு போகுது, அழுக்கு டப்பாவ யாரும் வாங்க மாட்டாங்க, அதனால பழைய பொருள் எடுக்கறவங்க எடுக்க மாட்டாங்க.",
+   "victims": [
+    "dog",
+    "soil",
+    "worker"
+   ]
+  },
+  "dispose": {
+   "en": "Scrape the leftover food into the green bin. Then rinse the box, let it dry, and put it in the blue bin. Clean box, happy recycler!",
+   "hi": "बचा खाना ग्रीन बिन में डालो। फिर डिब्बा धोओ, सुखाओ, और ब्लू बिन में डालो। साफ़ डिब्बा, खुश रीसायकलर!",
+   "ta": "மிச்ச சாப்பாட்ட க்ரீன் பின்ல போடுங்க. அப்புறம் டப்பாவ கழுவி, காய வெச்சு, ப்ளூ பின்ல போடுங்க. சுத்தமான டப்பா, ஹேப்பி ரீசைக்ளர்!",
+   "bin": "blue",
+   "steps": [
+    "rinse",
+    "dry"
+   ]
+  },
+  "prevent": {
+   "en": "Ordering in? Tap no cutlery, or carry your own tiffin to the shop. Reuse the good boxes at home for spices. Smart, right?",
+   "hi": "ऑर्डर कर रहे हो? नो कटलरी दबाओ, या अपना टिफ़िन लेकर दुकान जाओ। अच्छे डिब्बे घर में मसाले रखने के काम आते हैं। स्मार्ट, है ना?",
+   "ta": "ஆர்டர் பண்றீங்களா? நோ கட்லரி அமுக்குங்க, இல்லனா உங்க டிஃபன் பாக்ஸ் எடுத்துட்டு கடைக்கு போங்க. நல்ல டப்பாவ வீட்டுல மசாலா வைக்க யூஸ் பண்ணுங்க. ஸ்மார்ட் தானே?",
+   "swap_from": "container",
+   "swap_to": "tiffin",
+   "swap_to2": "jar"
+  }
+ },
+ "sources": [
+  "UNEP, Beat Plastic Pollution: approximately 36% of all plastics produced are used in packaging",
+  "OECD, Global Plastics Outlook (2022): 22% of plastic waste was mismanaged in 2019"
+ ]
+}

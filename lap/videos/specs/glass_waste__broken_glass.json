@@ -1,0 +1,59 @@
+{
+ "cls": "glass_waste",
+ "slug": "broken_glass",
+ "item": "broken_glass",
+ "title": {
+  "en": "Broken Glass: Wrap It, Mark It",
+  "hi": "टूटा काँच: लपेटो, लिखो",
+  "ta": "உடைஞ்ச கண்ணாடி: சுத்துங்க, எழுதுங்க"
+ },
+ "beats": {
+  "intro": {
+   "en": "Whoa! Careful, careful! Broken glass falling from the sky? Hey you, don't touch it with bare hands, let me show you how!",
+   "hi": "अरे अरे! संभल के! आसमान से टूटा काँच? अरे तुम, नंगे हाथ से मत छूना, मैं दिखाता हूँ कैसे करना है!",
+   "ta": "ஐயோ ஐயோ! பார்த்து பார்த்து! வானத்துல இருந்து உடைஞ்ச கண்ணாடியா? ஹே நீங்க, வெறும் கையால தொடாதீங்க, நான் சொல்லித் தரேன்!"
+  },
+  "harm": {
+   "en": "Loose shards in bin bags slice hands and feet. India has at least fifteen lakh waste pickers, often sorting our trash with bare hands.",
+   "hi": "थैली में खुले काँच के टुकड़े हाथ पैर काट देते हैं। इंडिया में कम से कम पंद्रह लाख कचरा बीनने वाले हैं, जो अक्सर नंगे हाथों से हमारा कचरा छाँटते हैं।",
+   "ta": "கவர்ல இருக்குற கண்ணாடி துண்டு கை கால வெட்டிடும். இந்தியால குறைஞ்சது பதினஞ்சு லட்சம் குப்பை பொறுக்குறவங்க இருக்காங்க, பெரும்பாலும் வெறும் கையால நம்ம குப்பைய பிரிக்கிறாங்க.",
+   "stats": [
+    {
+     "value": 15,
+     "unit": "lakh waste pickers"
+    }
+   ]
+  },
+  "who": {
+   "en": "Waste pickers and sanitation workers get deep cuts, kids playing near bins get hurt, and street dogs cut their paws.",
+   "hi": "कचरा बीनने वालों और सफ़ाई कर्मचारियों को गहरे कट लगते हैं, बिन के पास खेलते बच्चे घायल होते हैं, और कुत्तों के पंजे कट जाते हैं।",
+   "ta": "குப்பை பொறுக்குறவங்களுக்கும் சுத்தம் பண்றவங்களுக்கும் ஆழமா வெட்டு படுது, பின் பக்கத்துல விளையாடுற குழந்தைங்களுக்கு காயம், தெரு நாய் கால் வெட்டிக்குது.",
+   "victims": [
+    "worker",
+    "child",
+    "dog"
+   ]
+  },
+  "dispose": {
+   "en": "Sweep it up, wrap the pieces in thick newspaper, put them in a box, write sharp on it, then the blue bin.",
+   "hi": "झाड़ू से समेटो, टुकड़े मोटे अख़बार में लपेटो, डिब्बे में रखो, ऊपर शार्प लिखो, फिर ब्लू बिन में डालो।",
+   "ta": "பெருக்கி எடுத்து, துண்டுகள தடியான பேப்பர்ல சுத்தி, ஒரு பெட்டில போட்டு, மேல ஷார்ப்னு எழுதி, அப்புறம் ப்ளூ பின்ல போடுங்க.",
+   "bin": "blue",
+   "steps": [
+    "wrap",
+    "box"
+   ]
+  },
+  "prevent": {
+   "en": "Fewer breakages at home? Use steel cups for kids and keep glassware on low shelves. Steel never shatters! Safe hands? High five!",
+   "hi": "घर में कम टूट फूट चाहिए? बच्चों के लिए स्टील के कप लो और काँच के बर्तन नीचे वाली शेल्फ़ पर रखो। स्टील कभी नहीं टूटता! हाई फ़ाइव!",
+   "ta": "வீட்ல குறைவா உடையணுமா? குழந்தைங்களுக்கு ஸ்டீல் டம்ளர் குடுங்க, கண்ணாடி பாத்திரத்த கீழ் ஷெல்ஃப்ல வெச்சுக்கோங்க. ஸ்டீல் உடையவே உடையாது! ஹை ஃபைவ்!",
+   "swap_from": "glass_bottle",
+   "swap_to": "steel_cup"
+  }
+ },
+ "sources": [
+  "Estimates of 1.5-4 million informal waste pickers in India (e.g. WIEGO; MoHUA SBM-U 2.0 guidelines on informal waste workers)",
+  "MoHUA / municipal segregation guidance: wrap broken glass and sharps in paper and mark them before handing over as dry waste"
+ ]
+}

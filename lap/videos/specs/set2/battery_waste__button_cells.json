@@ -1,0 +1,58 @@
+{
+  "cls": "battery_waste",
+  "slug": "button_cells",
+  "item": "button_cell",
+  "title": {
+    "en": "Tiny battery, serious danger",
+    "hi": "छोटी बैटरी, बड़ा ख़तरा",
+    "ta": "சின்ன பேட்டரி, பெரிய ஆபத்து"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! That shiny button cell thinks my head is a parking spot! Keep these tiny troublemakers away from children.",
+      "hi": "अरे तुम! चमकती बटन सेल को मेरा सिर पार्किंग स्पॉट लगा! इन छोटे शरारतियों को बच्चों की पहुँच से दूर रखो।",
+      "ta": "ஹே நீங்க! இந்த மின்னுற பட்டன் செல்லுக்கு என் தலை பார்க்கிங் ஸ்பாட்டா தெரியுது! இந்த சின்ன சேட்டைக்காரன குழந்தைங்க கைக்கு எட்டாம வையுங்க."
+    },
+    "harm": {
+      "en": "A swallowed button battery can cause severe internal burns in as little as two hours. Suspect swallowing? Seek emergency medical care immediately.",
+      "hi": "बटन बैटरी निगलने से सिर्फ़ दो घंटे में अंदर गंभीर जलन हो सकती है। निगलने का शक हो तो तुरंत इमरजेंसी मेडिकल हेल्प लो।",
+      "ta": "பட்டன் பேட்டரி முழுங்குனா ரெண்டே மணி நேரத்துல உள்ள கடுமையான தீக்காயம் ஆகலாம். முழுங்கிட்டாங்களோன்னு சந்தேகமா? உடனே எமர்ஜென்சி மெடிக்கல் உதவி வாங்குங்க.",
+      "stats": [
+        {
+          "value": 2,
+          "unit": "hours to burns"
+        }
+      ]
+    },
+    "who": {
+      "en": "Small children explore with their mouths; even used cells can injure them. Help grandparents keep spare batteries safely locked away too.",
+      "hi": "छोटे बच्चे चीज़ें मुँह में डालते हैं, यूज़्ड सेल भी चोट पहुँचा सकती है। दादा दादी की स्पेयर बैटरी भी लॉक करके रखवाओ।",
+      "ta": "சின்ன குழந்தைங்க வாயில போட்டு பார்ப்பாங்க, யூஸ் பண்ண செல்லும் ஆபத்துதான். தாத்தா பாட்டி வச்சிருக்குற ஸ்பேர் பேட்டரியும் பூட்டி வைக்க உதவுங்க.",
+      "victims": [
+        "child",
+        "person"
+      ]
+    },
+    "dispose": {
+      "en": "Cover both faces with tape, store securely out of children's reach, and hand to red battery collection. Never leave cells loose.",
+      "hi": "दोनों तरफ़ टेप लगाओ, बच्चों से दूर सेफ़ बंद जगह रखो, फिर रेड बैटरी कलेक्शन को दो। सेल खुली मत छोड़ो।",
+      "ta": "ரெண்டு பக்கமும் டேப் போட்டு குழந்தைங்க எட்டாத பூட்டுன இடத்துல வையுங்க. ரெட் பேட்டரி கலெக்ஷன்ல குடுங்க. செல்ல அங்கங்க தனியா விடாதீங்க.",
+      "bin": "red",
+      "steps": [
+        "tape",
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Choose devices with secure battery compartments and check the screws. Tiny battery, big responsibility; your superhero move is keeping it unreachable!",
+      "hi": "सेफ़ बैटरी कम्पार्टमेंट वाले डिवाइस चुनो, स्क्रू चेक करो। छोटी बैटरी, बड़ी ज़िम्मेदारी। इसे पहुँच से दूर रखना तुम्हारा सुपरहीरो मूव है!",
+      "ta": "பேட்டரி மூடி பத்திரமா இருக்குற டிவைஸ் வாங்குங்க, ஸ்க்ரூ செக் பண்ணுங்க. சின்ன பேட்டரி, பெரிய பொறுப்பு. குழந்தைங்க எட்டாம வைக்குறது தான் சூப்பர்ஹீரோ வேலை!",
+      "swap_from": "button_cell",
+      "swap_to": "box"
+    }
+  },
+  "sources": [
+    "US EPA, Used Household Batteries: separate collection, insulate terminals; lithium batteries never in household garbage or recycling. https://www.epa.gov/recycle/used-household-batteries",
+    "US CPSC, Button Battery Safety Quiz: severe chemical burns in as little as two hours; immediate medical attention for suspected ingestion. https://www.cpsc.gov/s3fs-public/387.pdf"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "cls": "e_waste",
+  "slug": "phones",
+  "item": "phone",
+  "title": {
+    "en": "Old phone, new plan",
+    "hi": "पुराना फ़ोन, नया प्लान",
+    "ta": "பழைய ஃபோன், புது பிளான்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This phone just called my forehead! Before yours retires into a drawer, let's give it a smarter exit.",
+      "hi": "अरे सुनो! इस फ़ोन ने मेरे माथे पर कॉल कर दिया! तुम्हारा फ़ोन ड्रॉअर में रिटायर हो, उससे पहले सही प्लान बनाओ।",
+      "ta": "ஹே நீங்க! இந்த ஃபோன் என் நெத்தியில கால் பண்ணிடுச்சு! உங்க ஃபோன் டிராயர்ல ரிட்டையர் ஆகுறதுக்கு முன்னாடி நல்ல பிளான் போடலாம் வாங்க."
+    },
+    "harm": {
+      "en": "The world generated sixty two million tonnes of electronic waste in twenty twenty two. Even tiny gadgets join that enormous pile!",
+      "hi": "दो हज़ार बाईस में दुनिया में छह करोड़ बीस लाख टन इलेक्ट्रॉनिक वेस्ट बना। छोटे गैजेट्स भी उस बड़े ढेर में जुड़ते हैं!",
+      "ta": "ரெண்டாயிரத்து இருபத்தி ரெண்டுல உலகம் முழுக்க ஆறு கோடியே இருபது லட்சம் டன் எலக்ட்ரானிக் வேஸ்ட் வந்துச்சு. சின்ன கேஜெட்டும் அந்த பெரிய குவியல்ல சேருதுங்க!",
+      "stats": [
+        {
+          "value": 62,
+          "unit": "million t / 2022"
+        }
+      ]
+    },
+    "who": {
+      "en": "Workers handling broken electronics face toxic dust; nearby children can breathe it too. Your old gadget should never become somebody's health problem.",
+      "hi": "टूटे इलेक्ट्रॉनिक्स संभालने वाले वर्कर्स को ज़हरीली धूल लगती है, पास के बच्चे भी साँस में लेते हैं। अपना गैजेट सेफ़ली दो।",
+      "ta": "உடைஞ்ச எலக்ட்ரானிக்ஸ் எடுக்குற வொர்க்கர்ஸுக்கு நச்சு தூசி படும், பக்கத்துல குழந்தைங்களும் சுவாசிப்பாங்க. நம்ம பழைய கேஜெட்டால அவங்களுக்கு கஷ்டம் வரக்கூடாதுல்ல?",
+      "victims": [
+        "worker",
+        "child",
+        "soil"
+      ]
+    },
+    "dispose": {
+      "en": "Back up and erase your data, remove the SIM, then hand your phone to an authorised electronic waste collection centre.",
+      "hi": "डेटा बैकअप करके मिटाओ, सिम निकालो, फिर फ़ोन ऑथराइज़्ड ई वेस्ट कलेक्शन सेंटर को दो। घर के कचरे में मत डालो।",
+      "ta": "டேட்டாவ பேக்கப் எடுத்து அழிச்சிட்டு, சிம் எடுத்துடுங்க. அப்புறம் ஃபோன அங்கீகாரம் வாங்குன ஈ வேஸ்ட் கலெக்ஷன் சென்டர்ல குடுங்க. வீட்டு குப்பையில போடாதீங்க.",
+      "bin": "ewaste",
+      "steps": [
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Try a repair before an upgrade; pass on a working phone after wiping it. Your pocket deserves fewer farewell parties!",
+      "hi": "अपग्रेड से पहले रिपेयर ट्राय करो, चलता फ़ोन डेटा मिटाकर किसी को दो। तुम्हारी जेब को इतनी फ़ेयरवेल पार्टी नहीं चाहिए!",
+      "ta": "அப்கிரேட் பண்ண முன்னாடி ரிப்பேர் ட்ரை பண்ணுங்க. வேலை செய்யுற ஃபோன டேட்டா அழிச்சிட்டு குடுங்க. உங்க பாக்கெட்டுக்கு இத்தனை ஃபேர்வெல் பார்ட்டி வேணாமே!",
+      "swap_from": "phone",
+      "swap_to": "wrench"
+    }
+  },
+  "sources": [
+    "UNITAR/ITU, Global E-waste Monitor 2024: globally 62 million tonnes generated in 2022; 22.3% documented formally collected and recycled. https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+    "WHO, Electronic waste, 1 October 2024: informal burning releases hazardous substances; children and workers vulnerable. https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)",
+    "Google Android Help, prepare device for trade-in: backup, remove accounts, factory reset, remove SIM. https://support.google.com/android/answer/6088915"
+  ]
+}

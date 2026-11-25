@@ -1,0 +1,60 @@
+{
+  "cls": "battery_waste",
+  "slug": "general",
+  "item": "battery",
+  "title": {
+    "en": "Dead battery, live responsibility",
+    "hi": "डेड बैटरी, सही ज़िम्मेदारी",
+    "ta": "டெட் பேட்டரி, சரியான பொறுப்பு"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! An AA battery fell on my head; apparently I'm the remote now! Button cells and powerbank batteries need care too.",
+      "hi": "अरे सुनो! डबल ए बैटरी मेरे सिर पर गिरी, अब मैं रिमोट हूँ क्या! बटन सेल और पावरबैंक बैटरी भी सँभालो।",
+      "ta": "ஹே நீங்க! டபுள் ஏ பேட்டரி என் தலையில விழுந்துச்சு, இப்போ நான்தான் ரிமோட்டா! பட்டன் செல்லும் பவர்பேங்க் பேட்டரியும் கவனமா கையாளணுங்க."
+    },
+    "harm": {
+      "en": "Even used batteries can short and start fires, especially damaged lithium packs. Crushing phone or powerbank batteries makes mixed rubbish dangerous.",
+      "hi": "यूज़ हुई बैटरी भी शॉर्ट होकर आग लगा सकती है, ख़ासकर डैमेज लिथियम पैक। फ़ोन या पावरबैंक बैटरी कुचलना ख़तरनाक है।",
+      "ta": "யூஸ் பண்ண பேட்டரியும் ஷார்ட் ஆகி தீ பிடிக்கலாம், டேமேஜான லித்தியம் பேக்குனா இன்னும் ரிஸ்க். ஃபோன், பவர்பேங்க் பேட்டரிய நசுக்குனா ஆபத்துங்க."
+    },
+    "who": {
+      "en": "Button cells can seriously injure children if swallowed; keep all batteries out of reach. Fire and leaking chemicals also threaten workers.",
+      "hi": "बटन सेल निगलने से बच्चों को गंभीर चोट लग सकती है, सारी बैटरी पहुँच से दूर रखो। आग और लीक से वर्कर्स को भी ख़तरा है।",
+      "ta": "பட்டன் செல்ல முழுங்குனா குழந்தைக்கு பெரிய காயம் ஆகலாம். எல்லா பேட்டரியையும் கை எட்டாம வையுங்க. தீயும் லீக்காகுற கெமிக்கலும் வொர்க்கர்ஸுக்கும் ஆபத்துங்க.",
+      "victims": [
+        "child",
+        "worker",
+        "dog"
+      ]
+    },
+    "dispose": {
+      "en": "Tape exposed terminals; keep batteries separate for the red collection bin. Hand swollen packs directly to staff; never force embedded batteries out.",
+      "hi": "खुले टर्मिनल टेप करो, बैटरी अलग रखकर रेड कलेक्शन बिन में दो। फूले पैक सीधे स्टाफ़ को दो, फँसी बैटरी ज़बरदस्ती मत निकालो।",
+      "ta": "வெளிய தெரியுற டெர்மினல்ல டேப் போடுங்க, பேட்டரிய தனியா ரெட் கலெக்ஷன் பின்ல குடுங்க. வீங்குன பேக்க ஸ்டாஃப்கிட்ட குடுங்க, உள்ள பேட்டரிய இழுக்காதீங்க.",
+      "bin": "red",
+      "steps": [
+        "tape",
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Store button cells securely; choose compatible rechargeables for other devices, lasting hundreds of charges. Never recharge disposables; fewer battery farewells!",
+      "hi": "बटन सेल सुरक्षित रखो, दूसरे डिवाइस में सही रिचार्जेबल चुनो, सैकड़ों बार चार्ज होंगे। डिस्पोज़ेबल चार्ज मत करो, कम बैटरी फ़ेयरवेल!",
+      "ta": "பட்டன் செல்ல பத்திரமா வைங்க, மத்த டிவைஸுக்கு பொருத்தமான ரீசார்ஜபிள் வாங்குங்க, நூத்துக்கணக்கான சார்ஜ் கிடைக்கும். டிஸ்போசபிள் சார்ஜ் பண்ணாதீங்க, பேட்டரி ஃபேர்வெல் கம்மி!",
+      "swap_from": "button_cell",
+      "swap_to": "box",
+      "swap_to2": "rechargeable",
+      "stat": {
+        "value": 100,
+        "prefix": ">",
+        "unit": "recharges"
+      }
+    }
+  },
+  "sources": [
+    "US EPA, Used Household Batteries: residual energy, lithium fire risks, terminal insulation and separate collection; embedded batteries may not be user serviceable. Red means kiosk dedicated hazardous battery collection, not mixed household rubbish. https://www.epa.gov/recycle/used-household-batteries",
+    "US CPSC, Reese's Law / button-cell battery safety: ingestion injury and keeping batteries away from children. https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Button-Cell-or-Coin-Battery-Information-Center",
+    "Energizer Recharge: rechargeable models can be charged hundreds of times; illustrative conservative >100 display, model and usage dependent. The button-cell-to-box visual means secure storage; the separate rechargeable is for compatible other devices. Never recharge disposable button cells. https://energizer.com/batteries/energizer-rechargeable-batteries/"
+  ]
+}

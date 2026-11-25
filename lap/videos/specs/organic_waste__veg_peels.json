@@ -1,0 +1,63 @@
+{
+ "cls": "organic_waste",
+ "slug": "veg_peels",
+ "item": "peel",
+ "title": {
+  "en": "Veg Peels: Green Bin Gold",
+  "hi": "सब्ज़ी के छिलके: ग्रीन बिन का सोना",
+  "ta": "காய்கறி தோல்: க்ரீன் பின் தங்கம்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Ouch! Who threw an onion peel at my head? Hey you, chopping veggies! Let's talk about where those peels should really go.",
+   "hi": "आउच! मेरे सिर पर प्याज़ का छिलका किसने फेंका? अरे तुम, सब्ज़ी काटने वाले! चलो बात करते हैं कि ये छिलके असल में कहाँ जाने चाहिए।",
+   "ta": "ஐயோ! என் தலைல வெங்காயத் தோல யாரு போட்டது? ஹே, காய் வெட்டிட்டு இருக்கீங்களே நீங்க தான்! இந்த தோல் எல்லாம் உண்மையா எங்க போகணும்னு பேசலாம் வாங்க."
+  },
+  "harm": {
+   "en": "About half of India's city waste is wet waste. Rotting in dumps, food waste causes about eight per cent of global emissions.",
+   "hi": "इंडिया के शहरों का लगभग आधा कचरा गीला कचरा होता है। डंप में सड़कर, खाने का कचरा दुनिया की करीब आठ परसेंट गैसों के लिए ज़िम्मेदार है।",
+   "ta": "நம்ம ஊர் சிட்டி குப்பைல கிட்டத்தட்ட பாதி ஈரக் குப்பை தான். டம்ப்ல அழுகி, சாப்பாட்டு குப்பை உலகத்தோட எட்டு பர்சன்ட் கேஸ் எமிஷனுக்கு காரணமா இருக்கு.",
+   "stats": [
+    {
+     "value": 50,
+     "suffix": "%",
+     "unit": "city waste is wet"
+    },
+    {
+     "value": 8,
+     "suffix": "%",
+     "unit": "global emissions",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Cows chew peels stuck inside plastic bags, sanitation workers sort the stinky mess by hand, and the air fills with dump smoke.",
+   "hi": "गायें पन्नी में बंधे छिलके पन्नी समेत खा जाती हैं, सफ़ाई वाले भैया बदबूदार कचरा हाथ से छाँटते हैं, और डंप का धुआँ हवा में भर जाता है।",
+   "ta": "மாடுங்க கவர்ல கட்டின தோல கவரோட சேர்த்து சாப்பிடுது, சுத்தம் பண்ற அண்ணன்ங்க நாத்தம் அடிக்கிற குப்பைய கையால பிரிக்கிறாங்க, டம்ப் புகை காத்துல கலக்குது.",
+   "victims": [
+    "cow",
+    "worker",
+    "air"
+   ]
+  },
+  "dispose": {
+   "en": "Easy fix: peels go straight into the green bin. No plastic bag, no wrapper, just peels. The green bin turns them into compost.",
+   "hi": "आसान है: छिलके सीधे ग्रीन बिन में डालो। कोई पन्नी नहीं, कोई रैपर नहीं, बस छिलके। ग्रीन बिन इन्हें खाद बना देता है।",
+   "ta": "சிம்பிள்: தோல நேரா க்ரீன் பின்ல போடுங்க. கவரும் வேணாம், ரேப்பரும் வேணாம், வெறும் தோல் மட்டும். க்ரீன் பின் அத உரமா மாத்திடும்.",
+   "bin": "green",
+   "steps": []
+  },
+  "prevent": {
+   "en": "Even better, start a small compost pot at home. Your plants get free food and your dustbin gets lighter. Deal? Peel-tastic high five!",
+   "hi": "और भी बढ़िया, घर पर छोटा सा कम्पोस्ट पॉट शुरू करो। पौधों को मुफ़्त खाना और डस्टबिन हल्का। डील? हाई फ़ाइव!",
+   "ta": "இன்னும் சூப்பர்னா, வீட்லயே ஒரு சின்ன கம்போஸ்ட் பானை வெச்சுக்கோங்க. செடிக்கு ஃப்ரீ சாப்பாடு, டஸ்ட்பின் லைட்டா ஆகும். டீலா? ஹை ஃபைவ்!",
+   "swap_from": "peel",
+   "swap_to": "compost_bin"
+  }
+ },
+ "sources": [
+  "CPCB / MoHUA Swachh Bharat Mission (Urban): wet/biodegradable waste is roughly half of Indian municipal solid waste",
+  "UNEP Food Waste Index Report 2024 (food loss and waste: 8-10% of global greenhouse gas emissions)"
+ ]
+}

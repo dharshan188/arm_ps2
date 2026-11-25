@@ -1,0 +1,60 @@
+{
+  "cls": "light_bulbs",
+  "slug": "tube_lights",
+  "item": "tube",
+  "title": {
+    "en": "Tube lights need gentle hands",
+    "hi": "ट्यूबलाइट को आराम से",
+    "ta": "டியூப்லைட்ட மெதுவா கையாளுங்க"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This tube light tried becoming my cricket bat! Old fluorescent tubes belong in careful collection, never a smashing contest.",
+      "hi": "अरे तुम! ट्यूबलाइट मेरा क्रिकेट बैट बनने चली! पुरानी फ़्लोरोसेंट ट्यूब संभालकर कलेक्शन में जाती है, स्मैशिंग कॉन्टेस्ट में बिल्कुल नहीं।",
+      "ta": "ஹே நீங்க! இந்த டியூப்லைட் எனக்கு கிரிக்கெட் பேட் ஆக பாத்துச்சு! பழைய ஃப்ளூரசன்ட் டியூப்ப கவனமா கலெக்ஷன்ல குடுக்கணும், உடைக்குற போட்டி வேணாமே."
+    },
+    "harm": {
+      "en": "Fluorescent tubes contain mercury, among ten chemicals of major public health concern identified by WHO. Broken tubes also leave sharp glass.",
+      "hi": "फ़्लोरोसेंट ट्यूब में मर्करी होता है, वर्ल्ड हेल्थ ऑर्गनाइज़ेशन की दस बड़ी हेल्थ चिंता वाले केमिकल्स में शामिल। टूटे काँच से भी ख़तरा है।",
+      "ta": "ஃப்ளூரசன்ட் டியூப்ல மெர்க்குரி இருக்கு. உலக சுகாதார அமைப்பு சொல்லுற முக்கியமான பத்து ஆபத்தான கெமிக்கல்ல அதுவும் ஒண்ணு. உடைஞ்ச கண்ணாடியும் கூர்மையா இருக்குமுங்க.",
+      "stats": [
+        {
+          "value": 10,
+          "unit": "WHO concern list"
+        }
+      ]
+    },
+    "who": {
+      "en": "Workers carrying rubbish can be cut by hidden shards. Families nearby also need protection from mercury released when fluorescent tubes break.",
+      "hi": "कचरा उठाने वाले वर्कर्स को छिपे काँच से कट लग सकते हैं। ट्यूब टूटने पर निकली मर्करी से पास की फ़ैमिली को भी बचाओ।",
+      "ta": "குப்பை எடுக்குற வொர்க்கர்ஸுக்கு மறைஞ்ச கண்ணாடி துண்டு காயம் பண்ணும். ஃப்ளூரசன்ட் டியூப் உடைஞ்சா வர்ற மெர்க்குரில இருந்து பக்கத்து குடும்பத்தையும் காப்பாத்தணுங்க.",
+      "victims": [
+        "worker",
+        "child",
+        "person"
+      ]
+    },
+    "dispose": {
+      "en": "Switch off and let tubes cool. Keep them intact in protective packaging, then hand them to the red hazardous collection staff.",
+      "hi": "स्विच बंद करो, ट्यूब ठंडी होने दो। प्रोटेक्टिव पैकिंग में बिना तोड़े रखो, फिर रेड हैज़र्डस कलेक्शन स्टाफ़ को संभालकर दो।",
+      "ta": "ஸ்விட்ச் ஆஃப் பண்ணி டியூப் ஆற விடுங்க. உடையாம பாதுகாப்பான பேக்கிங்ல வச்சு ரெட் ஆபத்தான வேஸ்ட் கலெக்ஷன் ஸ்டாஃப்கிட்ட மெதுவா குடுங்க.",
+      "bin": "red",
+      "steps": [
+        "wrap",
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Ask an electrician about a compatible LED replacement when needed. Never force a tube to fit; save the cricket shots for outside!",
+      "hi": "ज़रूरत पर इलेक्ट्रिशियन से सही एलईडी रिप्लेसमेंट पूछो। ट्यूब को ज़बरदस्ती मत फ़िट करो। क्रिकेट शॉट बाहर मैदान के लिए बचाओ!",
+      "ta": "தேவைப்படும்போது பொருத்தமான எல்ஈடி மாத்த எலக்ட்ரீஷியன்கிட்ட கேளுங்க. டியூப்ப பலமா திணிக்காதீங்க. கிரிக்கெட் ஷாட்டெல்லாம் வெளிய கிரவுண்ட்ல பாத்துக்கலாம், டீலா!",
+      "swap_from": "tube",
+      "swap_to": "led_bulb"
+    }
+  },
+  "sources": [
+    "US EPA, What are the Connections between Mercury and CFLs?: average about four milligrams, mercury sealed while intact. https://www.epa.gov/mercury/what-are-connections-between-mercury-and-cfls",
+    "US Department of Energy, LED Lighting: residential LEDs use at least 75% less energy and last up to 25 times longer than incandescent lighting. https://www.energy.gov/sites/prod/files/guide_to_energy_efficient_lighting.pdf",
+    "WHO, Ten chemicals of major public health concern: mercury included. https://www.who.int/en/news-room/fact-sheets/detail/mercury-and-health"
+  ]
+}

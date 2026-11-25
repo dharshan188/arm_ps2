@@ -1,0 +1,367 @@
+{
+ "battery_waste": [
+  {
+   "id": "general_photo",
+   "title": {
+    "en": "Batteries: energy still inside",
+    "hi": "बैटरी: अंदर अब भी चार्ज है",
+    "ta": "பேட்டரி: உள்ள இன்னும் சார்ஜ் இருக்கு"
+   },
+   "video": "battery_waste/general_photo.mp4",
+   "vo_files": {
+    "en": "battery_waste/general_photo_en.wav",
+    "hi": "battery_waste/general_photo_hi.wav",
+    "ta": "battery_waste/general_photo_ta.wav"
+   },
+   "poster": "battery_waste/general_photo.jpg",
+   "credit": "Photos via Wikimedia Commons: W.carter (CC BY 4.0); Daniel Capilla (CC BY-SA 4.0); Waldyrious (CC BY-SA 4.0); Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 22:55, 10 June 2022 (UTC) (CC BY-SA 4.0); Leiem (CC BY-SA 4.0); SuSanA Secretariat (CC BY 2.0); Shack (CC0); Raimond Spekking (CC BY-SA 4.0)",
+   "page": "",
+   "vo": {
+    "en": "A battery may stop powering a remote, yet still hold energy. Even a used battery needs careful handling. Lithium batteries can start fires if crushed or shorted. Loose terminals touching metal can turn mixed rubbish into a fire risk. That puts waste workers at risk. Swallowed button cells can seriously injure children, so keep batteries out of reach. Tape the metal ends of each battery with insulating tape. Keep them separate, and put them in the red bin, never in normal trash. A swollen battery should go straight to a battery collection point. Choose compatible rechargeables where possible. Never recharge disposable batteries or force built-in batteries out.",
+    "hi": "बैटरी से रिमोट चलना बंद हो सकता है, फिर भी उसमें चार्ज बचा रहता है। यूज़ हुई बैटरी भी सँभालकर रखनी चाहिए। लिथियम बैटरी दबने या शॉर्ट होने से आग लग सकती है। खुले टर्मिनल धातु से छुएँ तो मिले हुए कचरे में भी आग का ख़तरा बनता है। इससे कचरा सँभालने वाले वर्कर्स ख़तरे में पड़ते हैं। बटन सेल निगलने से बच्चों को गंभीर चोट लग सकती है। बैटरी उनकी पहुँच से दूर रखो। हर बैटरी के मेटल वाले सिरों पर इंसुलेटिंग टेप लगाओ। उन्हें अलग रखो, और रेड बिन में डालो, आम कचरे में कभी नहीं। फूली हुई बैटरी सीधे बैटरी कलेक्शन पॉइंट पर दो। जहाँ हो सके, डिवाइस के लिए सही रिचार्जेबल बैटरी चुनो। डिस्पोज़ेबल बैटरी कभी चार्ज मत करो, अंदर लगी बैटरी ज़बरदस्ती मत निकालो।",
+    "ta": "பேட்டரியால ரிமோட் வேலை செய்யாம போனாலும், அதுக்குள்ள சார்ஜ் மிச்சமிருக்கலாம். யூஸ் பண்ண பேட்டரியையும் கவனமா கையாளணும். லித்தியம் பேட்டரி நசுங்கினாலோ ஷார்ட் ஆனாலோ தீ பிடிக்கலாம். வெளிய தெரியுற டெர்மினல் மெட்டல்ல பட்டா, கலந்த குப்பையிலயும் தீ பிடிக்கிற ஆபத்து வரும். இதனால குப்பை கையாளுற தொழிலாளர்களுக்கு ஆபத்து. பட்டன் செல்ல முழுங்கினா குழந்தைகளுக்கு பெரிய காயம் ஆகலாம். பேட்டரிகளை அவங்க கைக்கு எட்டாம வைங்க. ஒவ்வொரு பேட்டரியோட மெட்டல் முனையிலயும் இன்சுலேட்டிங் டேப் ஒட்டுங்க. தனியா வெச்சு, ரெட் பின்ல போடுங்க, சாதாரண குப்பைல போடவே கூடாது. வீங்குன பேட்டரிய நேரா பேட்டரி கலெக்ஷன் பாயிண்ட்ல குடுங்க. முடிஞ்சா டிவைஸுக்கு பொருத்தமான ரீசார்ஜபிள் பேட்டரிய தேர்ந்தெடுங்க. ஒருமுறை மட்டும் யூஸ் பண்ற பேட்டரிய சார்ஜ் பண்ணாதீங்க. உள்ள பொருத்தியிருக்கிற பேட்டரிய வலுக்கட்டாயமா எடுக்காதீங்க."
+   },
+   "sources": [
+    "US EPA, Used Household Batteries: used cells can retain energy; lithium batteries may ignite if damaged or shorted; insulate terminals, collect separately, and consult the manufacturer for damaged batteries. Built-in cells may require professional removal. https://www.epa.gov/recycle/used-household-batteries",
+    "US CPSC, Button Cell and Coin Batteries: swallowing cells can cause serious injury; keep them away from children. https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Button-Cell-Coin-Battery-Information-Center",
+    "US EPA, Frequent Questions on Lithium-ion Batteries: compatible chargers and battery handling; single-use lithium batteries must not be recharged. https://www.epa.gov/recycle/frequent-questions-lithium-ion-batteries",
+    "red is Sorti's dedicated hazardous battery collection route, not a claim about universal municipal bin colours. Swollen batteries require staff guidance rather than dropping them in the collection bin."
+   ],
+   "photo_pages": [
+    "https://commons.wikimedia.org/wiki/File:Motorcycle_batteries_at_a_recycling_station_in_Tuntorp,_Brastad_2.jpg",
+    "https://commons.wikimedia.org/wiki/File:Battery_Recycling_Container_in_Imperio_Argentina.jpg",
+    "https://commons.wikimedia.org/wiki/File:Used_batteries_inside_recycling_container.jpg",
+    "https://commons.wikimedia.org/wiki/File:Stibat_electric_battery_recycle_container,_Hillegersberg,_Rotterdam_(2022)_02.jpg",
+    "https://commons.wikimedia.org/wiki/File:Alkaline_battery_(leaked)_2.jpg",
+    "https://commons.wikimedia.org/wiki/File:Pandharpur_landfill_(2731725010).jpg",
+    "https://commons.wikimedia.org/wiki/File:Philips_Rechargeable_NiMH_Batteries_and_Charger.jpg",
+    "https://commons.wikimedia.org/wiki/File:Button_Cell_N2H_380_E46-7575.jpg"
+   ]
+  }
+ ],
+ "clothes": [
+  {
+   "id": "general_photo",
+   "title": {
+    "en": "Clothes: keep them in use",
+    "hi": "कपड़े: फिर पहनने का मौक़ा",
+    "ta": "துணிகள்: இன்னும் பயன்படட்டும்"
+   },
+   "video": "clothes/general_photo.mp4",
+   "vo_files": {
+    "en": "clothes/general_photo_en.wav",
+    "hi": "clothes/general_photo_hi.wav",
+    "ta": "clothes/general_photo_ta.wav"
+   },
+   "poster": "clothes/general_photo.jpg",
+   "credit": "Photos via Wikimedia Commons: Friedrich Haag (CC BY-SA 4.0); Sapna Sony (CC BY-SA 4.0); PattayaPatrol (CC BY-SA 4.0); Alan Stanton (CC BY-SA 2.0); PJeganathan (CC BY-SA 4.0); Lisafern (CC0); screaming_monkey (CC BY-SA 2.0); Jorge Royan (CC BY-SA 3.0); Matthew Paul  Argall from Australia (CC BY 2.0)",
+   "page": "",
+   "vo": {
+    "en": "A shirt left in a cupboard may still have years of wear ahead. Clothes deserve a longer life. Making fabric takes water and energy. Throwing usable clothes away means replacing them sooner, and using more resources. Untreated dyeing wastewater can harm rivers and nearby communities. Keeping clothes in use helps reduce demand for new production. Sort clothes, wash and dry them, then donate wearable pieces. Send worn textiles to the designated textile collection or blue bin. Mend a seam, swap a saree, reuse cotton as cleaning cloths. Buy fewer clothes, and choose pieces you will keep wearing.",
+    "hi": "अलमारी में पड़ी शर्ट शायद अभी कई साल पहनी जा सकती है। कपड़े और वक़्त तक काम आ सकते हैं। कपड़ा बनाने में पानी और एनर्जी लगती है। काम के कपड़े फेंकने से नए जल्दी खरीदने पड़ते हैं और ज़्यादा रिसोर्स लगते हैं। बिना ट्रीटमेंट छोड़ा गया डाइंग का गंदा पानी नदियों और आसपास के लोगों को नुकसान पहुँचा सकता है। कपड़े ज़्यादा वक़्त पहनने से नए प्रोडक्शन की माँग कम करने में मदद मिलती है। कपड़े छाँटो, धोकर सुखाओ, फिर पहनने लायक कपड़े डोनेट करो। घिसे कपड़े तय टेक्सटाइल कलेक्शन या ब्लू बिन में दो। सिलाई ठीक करो, साड़ी आपस में बदलो, पुराने कॉटन से सफ़ाई करो। कम कपड़े खरीदो और ऐसे चुनो जिन्हें बार-बार पहनोगे।",
+    "ta": "அலமாரியில இருக்குற சட்டைய இன்னும் பல வருஷம் போட முடியலாம். துணிகள் இன்னும் நிறைய நாள் பயன்படலாம். துணி தயாரிக்க தண்ணியும் எனர்ஜியும் தேவை. நல்ல துணிய தூக்கிப் போட்டா, சீக்கிரமே புதுசு வாங்க வேண்டியிருக்கும். இன்னும் அதிகமா வளங்கள் தேவைப்படும். டையிங் பண்றப்போ வர்ற கழிவுத் தண்ணிய சுத்தம் பண்ணாம விட்டா, ஆறுகளும் பக்கத்துல வாழுற மக்களும் பாதிக்கப்படலாம். துணிகள தொடர்ந்து போட்டா, புதுத் துணி தயாரிக்கிற தேவைய குறைக்க உதவும். துணிகள பிரிச்சு, துவைச்சு காய வைங்க. போடக்கூடிய துணிகள டொனேட் பண்ணுங்க. தேஞ்ச துணிகள அதுக்கான டெக்ஸ்டைல் கலெக்ஷன்ல இல்ல ப்ளூ பின்ல குடுங்க. பிரிஞ்ச தையல சரி பண்ணுங்க. புடவைய ஒருத்தருக்கொருத்தர் மாத்திக்கலாம். பழைய காட்டன் துணிய துடைக்க யூஸ் பண்ணலாம். கம்மியா வாங்குங்க. தொடர்ந்து போடுற மாதிரி துணிகள தேர்ந்தெடுங்க."
+   },
+   "sources": [
+    "UNEP and UN-Habitat, International Day of Zero Waste 2025: textile waste prevention through longer use, reuse, and repair. https://wedocs.unep.org/items/edfc24da-89f5-4785-afbc-0a9172b0af57",
+    "USAID, Sector Environmental Guidelines: Wet Textile Operations, 2013: water and energy use in processing; untreated dye and chemical wastewater can damage water supplies and affect neighbouring communities. The narration specifies untreated discharge, not all textile factories. https://www.usaid.gov/sites/default/files/2022-05/USAID-MSE-Sector-Guideline-Wet-Textiles-2013.pdf",
+    "BBMP, Waste Management FAQs and Dry Waste Streams: fabric is dry waste and blue identifies the recyclable dry-waste stream. Donation first, then designated textile collection or blue bin is Sorti routing, not a claim that all municipal recyclers accept all fabrics. https://apps.bbmpgov.in/SWM/Home/Forms/PublicInformation.aspx?page=FAQs https://apps.bbmpgov.in/SWM/Home/Forms/Publicwastestream.aspx?Page=dry"
+   ],
+   "photo_pages": [
+    "https://commons.wikimedia.org/wiki/File:Recycling_003_2024_10_23.jpg",
+    "https://commons.wikimedia.org/wiki/File:Khadi_Weaving_in_Kinnaur,_Himachal_Pradesh.jpg",
+    "https://commons.wikimedia.org/wiki/File:DFC_1259_Three_men_stand_amid_piles_of_sorted_recyclables_and_discarded_items_inside_a_cluttered_scrapyard_warehouse_on_a_sunny_day.jpg",
+    "https://commons.wikimedia.org/wiki/File:Dumping_for_Charity.jpg",
+    "https://commons.wikimedia.org/wiki/File:Noyyal_River_in_Tiruppur_JEG0369.jpg",
+    "https://commons.wikimedia.org/wiki/File:Coth_strips_clean_-_Public_Domain.jpg",
+    "https://commons.wikimedia.org/wiki/File:Shelves_from_a_Saree_shop_(6543977625).jpg",
+    "https://commons.wikimedia.org/wiki/File:India_-_Varanasi_tailor_sewing_machine_-_1096.jpg",
+    "https://commons.wikimedia.org/wiki/File:Second_hand_clothes_for_sale_at_MS_Shop_(26849122203).jpg"
+   ]
+  }
+ ],
+ "e_waste": [
+  {
+   "id": "general_photo",
+   "title": {
+    "en": "Electronics: beyond the drawer",
+    "hi": "इलेक्ट्रॉनिक्स: दराज़ से आगे",
+    "ta": "எலக்ட்ரானிக்ஸ்: டிராயருக்கு அப்புறம்"
+   },
+   "video": "e_waste/general_photo.mp4",
+   "vo_files": {
+    "en": "e_waste/general_photo_en.wav",
+    "hi": "e_waste/general_photo_hi.wav",
+    "ta": "e_waste/general_photo_ta.wav"
+   },
+   "poster": "e_waste/general_photo.jpg",
+   "credit": "Photos via Wikimedia Commons: Muntaka Chasant (CC BY-SA 4.0); shyamlal.t.pushpan (CC BY-SA 3.0); Victorgrigas (CC BY-SA 3.0); Steve Elliott from UK (CC BY-SA 2.0); Fredericknoronha (CC BY-SA 4.0); User:Synth85 (CC BY-SA 4.0); Muntaka Chasant (CC BY-SA 4.0); Javierme Javier Mediavilla Ezquibela (CC BY 3.0)",
+   "page": "",
+   "vo": {
+    "en": "An old phone sits in a drawer. Chargers and broken earphones join it. These electronics still contain valuable materials. India estimated about seventeen and a half lakh tonnes of electronic waste in the year from April twenty twenty three to March twenty twenty four. Unsafe burning releases toxic pollutants. Workers and nearby children can be exposed through polluted air, soil, and water. Erase personal data. Keep devices intact. Hand them to an authorised e-waste collector or collection point, never the normal bins. Repair before replacing. Donate working devices after wiping data. Never burn cables or pry out built-in batteries yourself.",
+    "hi": "दराज़ में पुराना फ़ोन पड़ा है। साथ में चार्जर और टूटे ईयरफ़ोन भी हैं। इन इलेक्ट्रॉनिक्स में अब भी कीमती मटेरियल हैं। अप्रैल दो हज़ार तेईस से मार्च दो हज़ार चौबीस तक के साल में इंडिया में करीब साढ़े सत्रह लाख टन ई वेस्ट होने का अनुमान था। ग़लत तरीके से जलाने पर ज़हरीले प्रदूषक निकलते हैं। दूषित हवा, मिट्टी और पानी से वर्कर्स और आसपास के बच्चों तक ये पहुँच सकते हैं। पर्सनल डेटा मिटाओ। डिवाइस साबुत रखो। ऑथराइज़्ड ई वेस्ट कलेक्टर या कलेक्शन पॉइंट पर दो, आम बिन में कभी नहीं। बदलने से पहले रिपेयर करवाओ। काम करने वाले डिवाइस का डेटा मिटाकर डोनेट करो। केबल मत जलाओ, अंदर लगी बैटरी ख़ुद उखाड़कर मत निकालो।",
+    "ta": "பழைய ஃபோன் டிராயர்ல கிடக்கு. கூடவே சார்ஜரும் உடைஞ்ச இயர்ஃபோனும் சேருது. இந்த எலக்ட்ரானிக்ஸ்ல இன்னும் மதிப்புள்ள பொருட்கள் இருக்கு. ரெண்டாயிரத்து இருபத்தி மூணு ஏப்ரல்ல இருந்து ரெண்டாயிரத்து இருபத்தி நாலு மார்ச் வரைக்கும், இந்தியால கிட்டத்தட்ட பதினேழரை லட்சம் டன் ஈ வேஸ்ட் உருவானதா கணக்கு போட்டிருக்காங்க. பாதுகாப்பில்லாம எரிச்சா நச்சுப் பொருட்கள் வெளிய வரும். மாசான காத்து, மண், தண்ணி மூலமா தொழிலாளர்களும் பக்கத்துல இருக்கிற குழந்தைகளும் பாதிக்கப்படலாம். பர்சனல் டேட்டாவ அழிங்க. டிவைஸ அப்படியே வைங்க. அனுமதி வாங்கியிருக்கிற ஈ வேஸ்ட் கலெக்டர்கிட்டயோ கலெக்ஷன் பாயிண்ட்லயோ கொடுங்க. சாதாரண பின்ல போடவே கூடாது. மாத்துறதுக்கு முன்னாடி ரிப்பேர் பண்ணிப் பாருங்க. வேலை செய்யுற டிவைஸ்ல டேட்டாவ அழிச்சிட்டு டொனேட் பண்ணுங்க. கேபிளை எரிக்காதீங்க. உள்ள பொருத்தியிருக்கிற பேட்டரிய நீங்களே நெம்பி எடுக்காதீங்க."
+   },
+   "sources": [
+    "MoHUA, Rajya Sabha Unstarred Question 2384, 16 December 2024: CPCB estimated 1,751,236 metric tonnes nationally in April 2023–March 2024, rounded here to about 17.5 lakh tonnes. Estimate covers 106 notified electrical/electronic equipment types and uses producer sales and average equipment life; not a measured collection total or directly comparable with earlier narrower-scope years. https://sansad.in/getFile/annex/266/AU2384_9gmDUV.pdf?source=pqars",
+    "WHO, Electronic waste (e-waste), 1 October 2024: valuable resources in electronics; unsafe burning releases toxic pollutants into air, soil and water, exposing workers and neighbouring communities, especially children. https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)",
+    "MoHUA parliamentary answer above: e-waste must reach registered producers, refurbishers or recyclers. Authorised collection in this script means a collection route to these registered operators, never normal bins.",
+    "US EPA, Electronics Donation and Recycling: remove personal information; consider repair and donation of working equipment before recycling. https://www.epa.gov/recycle/electronics-donation-and-recycling",
+    "US EPA, Used Household Batteries: some built-in batteries are not readily removable; use electronics collection rather than forcing them out. https://www.epa.gov/recycle/used-household-batteries"
+   ],
+   "photo_pages": [
+    "https://commons.wikimedia.org/wiki/File:Electronic_waste_at_Agbogbloshie,_Ghana.jpg",
+    "https://commons.wikimedia.org/wiki/File:Electronic_wastes.jpg",
+    "https://commons.wikimedia.org/wiki/File:India_Victor_Grigas_2011-12.jpg",
+    "https://commons.wikimedia.org/wiki/File:Mobile_Phones_(51331598762)_cropped.jpg",
+    "https://commons.wikimedia.org/wiki/File:Electrician_at_work,_Goa,_India._2.jpg",
+    "https://commons.wikimedia.org/wiki/File:Agbogbloshie,_Ghana.jpg",
+    "https://commons.wikimedia.org/wiki/File:Agbogbloshie,_Ghana_2019.jpg",
+    "https://commons.wikimedia.org/wiki/File:Leioa_contenedor_aparatos_electr.jpg"
+   ]
+  }
+ ],
+ "plastic_waste": [
+  {
+   "id": "general_photo",
+   "title": {
+    "en": "Plastic: where it really goes",
+    "hi": "प्लास्टिक: असल में कहाँ जाता है",
+    "ta": "பிளாஸ்டிக்: உண்மையில எங்க போகுது"
+   },
+   "video": "plastic_waste/general_photo.mp4",
+   "vo_files": {
+    "en": "plastic_waste/general_photo_en.wav",
+    "hi": "plastic_waste/general_photo_hi.wav",
+    "ta": "plastic_waste/general_photo_ta.wav"
+   },
+   "poster": "plastic_waste/general_photo.jpg",
+   "credit": "Photos via Wikimedia Commons: Grendelkhan (CC BY-SA 4.0); Michal Maňas (CC BY 3.0); Bdeb1 (CC BY-SA 4.0); Patrick Barry from san francisco, ca, usa (CC BY-SA 2.0); Staff Sgt. Adam Keith (Public domain); Holly Richards / USFWS (Public domain); McKay Savage from London, UK (CC BY 2.0); SuSanA Secretariat (CC BY 2.0); Hajj0 ms (CC BY-SA 3.0); PJeganathan (CC BY-SA 4.0); Ewloskalw (CC BY-SA 3.0)",
+   "page": "",
+   "vo": {
+    "en": "We use a plastic bottle for a few minutes. But the plastic stays around for generations. It doesn't rot away. It just breaks into smaller and smaller pieces, over hundreds of years. In one year alone, India reported about thirty five lakh tonnes of plastic waste, and a lot of it ends up in our rivers and drains. Stray cows swallow plastic bags along with food scraps. Fish and seabirds eat the broken pieces. And waste workers sort through it with bare hands. So empty the bottle, rinse it, let it dry, crush it, and put it in the blue bin. Recycling really matters. One study found that only nine per cent of the world's plastic waste had been recycled, up to twenty fifteen. Better still, use less of it. Carry a cloth bag and a steel bottle. One report warns that, if nothing changes, the ocean could hold more plastic than fish by weight by twenty fifty. The change starts with us.",
+    "hi": "प्लास्टिक की बोतल हम बस कुछ मिनट यूज़ करते हैं। पर वो प्लास्टिक कई पीढ़ियों तक यहीं रहता है। ये सड़ता नहीं है, बस सैकड़ों सालों में छोटे-छोटे टुकड़ों में टूटता जाता है। सिर्फ़ एक साल में इंडिया में करीब पैंतीस लाख टन प्लास्टिक कचरा दर्ज हुआ, और इसका बहुत सारा हिस्सा हमारी नदियों और नालियों में पहुँचता है। आवारा गायें खाने के साथ पन्नी भी निगल जाती हैं। मछलियाँ और समुद्री पक्षी प्लास्टिक के टुकड़े खा जाते हैं। और कचरा बीनने वाले लोग इसे नंगे हाथों से छाँटते हैं। तो बोतल खाली करो, धोओ, सुखाओ, दबाओ, और ब्लू बिन में डालो। रीसायकल करना सच में ज़रूरी है। एक स्टडी के मुताबिक, दो हज़ार पंद्रह तक दुनिया के प्लास्टिक कचरे का सिर्फ़ नौ परसेंट ही रीसायकल हुआ था। और भी बेहतर, प्लास्टिक कम यूज़ करो। कपड़े का थैला और स्टील की बोतल साथ रखो। एक रिपोर्ट चेतावनी देती है कि अगर कुछ नहीं बदला, तो दो हज़ार पचास तक समंदर में वज़न के हिसाब से मछलियों से ज़्यादा प्लास्टिक हो सकता है। शुरुआत हमसे ही होती है।",
+    "ta": "ஒரு பிளாஸ்டிக் பாட்டில நாம சில நிமிஷம் தான் யூஸ் பண்றோம். ஆனா அந்த பிளாஸ்டிக் பல தலைமுறைக்கு இங்கயே இருக்கும். இது மக்கி போகாது. நூறு நூறு வருஷமா சின்ன சின்ன துண்டா உடைஞ்சுட்டே தான் இருக்கும். ஒரே வருஷத்துல இந்தியால கிட்டத்தட்ட முப்பத்தஞ்சு லட்சம் டன் பிளாஸ்டிக் குப்பை கணக்குல வந்திருக்கு. அதுல நிறைய நம்ம ஆறுகளுக்கும் சாக்கடைக்கும் தான் போகுது. தெருவுல சுத்துற மாடுங்க சாப்பாட்டோட சேர்த்து பிளாஸ்டிக் கவரையும் முழுங்கிடுது. மீனுங்களும் கடல் பறவைங்களும் பிளாஸ்டிக் துண்டுகள சாப்பிடுது. குப்பை பொறுக்குற தொழிலாளர்கள் இத வெறும் கையால தான் பிரிக்கிறாங்க. அதனால பாட்டில காலி பண்ணி, கழுவி, காய வெச்சு, நசுக்கி, ப்ளூ பின்ல போடுங்க. ரீசைக்கிள் பண்றது ரொம்ப முக்கியம். ஒரு ஆய்வு படி, ரெண்டாயிரத்து பதினஞ்சு வரைக்கும் உலகத்துல இருந்த பிளாஸ்டிக் குப்பைல வெறும் ஒன்பது பர்சன்ட் தான் ரீசைக்கிள் ஆகியிருந்தது. இன்னும் நல்லது, பிளாஸ்டிக்க குறைச்சுக்கோங்க. துணிப்பையும் ஸ்டீல் பாட்டிலும் கூடவே வெச்சுக்கோங்க. எதுவும் மாறலன்னா, ரெண்டாயிரத்து அம்பதுல கடல்ல மீன விட பிளாஸ்டிக் எடை அதிகமா இருக்கலாம்னு ஒரு அறிக்கை சொல்லுது. இந்த மாற்றம் நம்மகிட்ட இருந்து தான் ஆரம்பிக்குது."
+   },
+   "sources": [
+    "NOAA Ocean Service: plastics fragment rather than biodegrade (oceanservice.noaa.gov/facts/degrade.html)",
+    "CPCB via PIB: 3.47 million tonnes plastic waste reported, FY 2019-20",
+    "Geyer, Jambeck & Law 2017, Science Advances: ~9% of plastic waste generated up to 2015 recycled",
+    "Ellen MacArthur Foundation 2016: ocean plastic could outweigh fish by 2050 under business as usual",
+    "MoHUA / PIB: blue bin = dry (recyclable) waste"
+   ],
+   "photo_pages": [
+    "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_closeup.jpg",
+    "https://commons.wikimedia.org/wiki/File:Bales_of_PET_bottles_3.jpg",
+    "https://commons.wikimedia.org/wiki/File:Struggle_for_survival_in_the_landfill.jpg",
+    "https://commons.wikimedia.org/wiki/File:Varanasi_-_street_cow_(5318009560).jpg",
+    "https://commons.wikimedia.org/wiki/File:Making_a_difference,_One_plastic_bottle_at_a_time_140417-A-LU698-067.jpg",
+    "https://commons.wikimedia.org/wiki/File:Baby_Marine_Debris_on_Midway_Atoll_tries_to_eat_marine_debris_(33841161126).jpg",
+    "https://commons.wikimedia.org/wiki/File:India_-_Koyambedu_Market_-_Faces_01_(3983959747).jpg",
+    "https://commons.wikimedia.org/wiki/File:Pandharpur_landfill_(2731725010).jpg",
+    "https://commons.wikimedia.org/wiki/File:Waste_cocobeach_india.jpg",
+    "https://commons.wikimedia.org/wiki/File:Noyyal_River_in_Tiruppur_JEG0369.jpg",
+    "https://commons.wikimedia.org/wiki/File:HK_CWB_Saint_Mary%27s_Church_Bday_%E6%9A%96%E6%B0%B4%E5%A3%BA_hot_drinking_water_Stainless_steel_thermos_bottles_Vacuum_flasks_May-2013.JPG"
+   ]
+  }
+ ],
+ "paper_waste": [
+  {
+   "id": "general_photo",
+   "title": {
+    "en": "Paper: keep it clean and dry",
+    "hi": "पेपर: साफ़ और सूखा रखो",
+    "ta": "பேப்பர்: சுத்தமா காய வையுங்க"
+   },
+   "video": "paper_waste/general_photo.mp4",
+   "vo_files": {
+    "en": "paper_waste/general_photo_en.wav",
+    "hi": "paper_waste/general_photo_hi.wav",
+    "ta": "paper_waste/general_photo_ta.wav"
+   },
+   "poster": "paper_waste/general_photo.jpg",
+   "credit": "Photos via Wikimedia Commons: Meanwell Packaging (CC BY 2.0); Meanwell Packaging (CC BY 2.0); Kotivalo (CC BY-SA 4.0); Utilisateur:Djampa (CC BY-SA 4.0); Walmart from Bentonville, USA (CC BY 2.0); Radomianin (CC BY-SA 4.0); H005 (Public domain); Syced (CC0); Superraptor123 (CC BY-SA 4.0)",
+   "page": "",
+   "vo": {
+    "en": "A newspaper, a notebook, a delivery box. Paper passes through our homes every day, and much of it can be used again. Food and oil can spoil paper for recycling. Mixing it with kitchen waste can turn a useful resource into rubbish. Collection workers and paper sorters depend on what we separate at home. Clean paper is easier to recover. Keep paper clean and dry, flatten cardboard boxes, then put them in the blue bin. Leave oily paper out. Use both sides of each page. Reuse boxes before recycling them, and buy only the paper you need.",
+    "hi": "अख़बार, नोटबुक, डिलीवरी बॉक्स। हर दिन हमारे घर में पेपर आता है, और उसका काफ़ी हिस्सा फिर काम आ सकता है। खाने और तेल से पेपर रीसायक्लिंग के लायक नहीं रह सकता। किचन के कचरे में मिलाने से काम की चीज़ भी कचरा बन सकती है। कलेक्शन वर्कर्स और पेपर छाँटने वालों का काम इस पर भी निर्भर है कि हम घर में क्या अलग रखते हैं। साफ़ पेपर वापस काम में लाना आसान है। पेपर साफ़ और सूखा रखो, कार्डबोर्ड बॉक्स चपटा करो, फिर ब्लू बिन में डालो। तेल लगा पेपर अलग रखो। हर पन्ने के दोनों तरफ़ लिखो। बॉक्स रीसायकल करने से पहले दोबारा यूज़ करो और जितना पेपर चाहिए, उतना ही खरीदो।",
+    "ta": "நியூஸ்பேப்பர், நோட்புக், டெலிவரி பாக்ஸ். தினமும் நம்ம வீட்டுக்குள்ள பேப்பர் வருது. அதுல நிறைய திரும்பவும் பயன்படும். சாப்பாடும் எண்ணெயும் பட்டா, பேப்பர ரீசைக்கிள் பண்ண முடியாம போகலாம். சமையல் குப்பையோட கலந்தா, பயன்படுற பொருளும் குப்பையாகிடலாம். நாம வீட்டுல எப்படி பிரிச்சு வைக்கிறோம்ன்றது, குப்பை எடுக்குறவங்களுக்கும் பேப்பர் பிரிக்கிறவங்களுக்கும் முக்கியம். சுத்தமான பேப்பர மீட்டெடுக்குறது சுலபம். பேப்பர சுத்தமா, காய வெச்சுக்கோங்க. கார்ட்போர்டு பாக்ஸ தட்டையாக்கி, ப்ளூ பின்ல போடுங்க. எண்ணெய் பட்ட பேப்பர சேர்க்காதீங்க. ஒவ்வொரு பக்கத்துலயும் ரெண்டு பக்கமும் எழுதுங்க. பாக்ஸ ரீசைக்கிள் பண்றதுக்கு முன்னாடி திரும்ப யூஸ் பண்ணுங்க. தேவையான அளவு மட்டும் பேப்பர் வாங்குங்க."
+   },
+   "sources": [
+    "US EPA, Frequent Questions on Recycling: paper must be empty, clean, and dry before recycling. https://www.epa.gov/recycle/frequent-questions-recycling",
+    "US EPA, How Do I Recycle Common Recyclables: flatten cardboard; paper with food residue may not be recyclable. Acceptance differs by local programme. https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+    "US EPA, WasteWise Tip Sheet: Waste Prevention: use both sides of each page and reuse shipping materials such as cartons. https://archive.epa.gov/epawaste/conserve/smm/wastewise/web/pdf/prvtpdf.pdf",
+    "BBMP, Waste Management FAQs: paper is dry waste; blue bin is the recyclable dry-waste stream. Blue routing here follows Sorti. https://apps.bbmpgov.in/SWM/Home/Forms/PublicInformation.aspx?page=FAQs"
+   ],
+   "photo_pages": [
+    "https://commons.wikimedia.org/wiki/File:Recycling_Symbol_among_Cardboard_and_Paper_Packaging.jpg",
+    "https://commons.wikimedia.org/wiki/File:Letter_Blocks_Spelling_%27Recycle%27_with_Cardboard_Packaging.jpg",
+    "https://commons.wikimedia.org/wiki/File:Paper_recycling_bin_overflows.jpg",
+    "https://commons.wikimedia.org/wiki/File:Jerusalem_Khaim_Valero_square_flattened_cardboard_boxes.jpg",
+    "https://commons.wikimedia.org/wiki/File:Walmart_employees_adding_boxes_to_baler.jpg",
+    "https://commons.wikimedia.org/wiki/File:Pine_log_cross-sections,_Teutendorf,_2016-09-17.jpg",
+    "https://commons.wikimedia.org/wiki/File:Paper_recycling_in_Ponte_a_Serraglio.JPG",
+    "https://commons.wikimedia.org/wiki/File:Paper_recycling_facility_in_Ebisunishi_2.jpg",
+    "https://commons.wikimedia.org/wiki/File:Vernon_Royal_Line_notebook_owned_by_Jim_Morrison.jpg"
+   ]
+  }
+ ],
+ "glass_waste": [
+  {
+   "id": "general_photo",
+   "title": {
+    "en": "Glass: handle with care",
+    "hi": "काँच: सँभालकर अलग करो",
+    "ta": "கண்ணாடி: கவனமா பிரிச்சு வைங்க"
+   },
+   "video": "glass_waste/general_photo.mp4",
+   "vo_files": {
+    "en": "glass_waste/general_photo_en.wav",
+    "hi": "glass_waste/general_photo_hi.wav",
+    "ta": "glass_waste/general_photo_ta.wav"
+   },
+   "poster": "glass_waste/general_photo.jpg",
+   "credit": "Photos via Wikimedia Commons: Ildar Sagdejev (Specious) (CC BY-SA 4.0); Alter Fritz (CC BY-SA 3.0); Alter Fritz (CC BY-SA 3.0); Piotrus (CC BY-SA 4.0); © 2008 by Tomasz Sienicki [user: tsca, mail: tomasz.sienicki at gmail.com] (CC BY 3.0); Sanu N (CC BY-SA 4.0); Vyacheslav Argenberg (CC BY 4.0); Shixart1985 (CC BY 2.0); Friedrich Haag (CC BY-SA 4.0)",
+   "page": "",
+   "vo": {
+    "en": "An empty glass bottle still has a future. It can be reused or recycled. Bottles and jars can become new glass. Dumping them wastes materials that could go back into production. Loose shards can injure collection workers. Keep broken glass wrapped inside a rigid, closed, labelled box, and hand it separately to the collector. For intact bottles and jars: empty them, rinse them, let them dry, then place them gently in the blue bin. Reuse clean jars for storage. Return refillable bottles where possible. Keeping glass in use starts at home.",
+    "hi": "खाली काँच की बोतल फिर काम आ सकती है। उसे दोबारा यूज़ या रीसायकल कर सकते हैं। बोतल और जार से फिर नया काँच बन सकता है। इन्हें फेंकने से वो मटेरियल बर्बाद होता है जो दोबारा काम आ सकता था। खुले पड़े नुकीले टुकड़े सफ़ाई वर्कर्स को घायल कर सकते हैं। टूटे काँच को लपेटकर मज़बूत डिब्बे में बंद करो, लेबल लगाओ और कलेक्शन वर्कर को बताकर अलग से दो। साबुत बोतल और जार खाली करो, धोओ, सूखने दो, फिर धीरे से ब्लू बिन में रखो। साफ़ जार में सामान रखो। जहाँ हो सके, रीफ़िल वाली बोतलें वापस करो। काँच को इस्तेमाल में रखने की शुरुआत घर से होती है।",
+    "ta": "காலியான கண்ணாடி பாட்டில் இன்னும் பயன்படும். அத திரும்ப யூஸ் பண்ணலாம், இல்ல ரீசைக்கிள் பண்ணலாம். பாட்டிலையும் ஜாரையும் திரும்ப புது கண்ணாடியா மாத்தலாம். தூக்கிப் போட்டா, மறுபடியும் பயன்படக்கூடிய பொருள் வீணாகுது. தனியா கிடக்குற கூரான துண்டுகள் குப்பை எடுக்குறவங்கள காயப்படுத்தலாம். உடைஞ்ச கண்ணாடிய சுத்தி, உறுதியான பெட்டிக்குள்ள வெச்சு மூடி, லேபிள் போடுங்க. எடுக்குறவங்ககிட்ட சொல்லி தனியா குடுங்க. உடையாத பாட்டிலையும் ஜாரையும் காலி பண்ணி, கழுவி, காய விடுங்க. அப்புறம் மெதுவா ப்ளூ பின்ல வைங்க. சுத்தமான ஜார்ல பொருட்கள வெச்சுக்கலாம். திரும்ப நிரப்புற பாட்டில, முடிஞ்சா கடைக்கே திருப்பிக் குடுங்க. கண்ணாடிய தொடர்ந்து யூஸ் பண்றது வீட்டுல இருந்தே ஆரம்பிக்குது."
+   },
+   "sources": [
+    "US EPA, How Do I Recycle Common Recyclables: food and beverage glass can be recycled repeatedly; loose broken glass can harm workers and should not enter the recycling bin. https://www.epa.gov/recycle/how-do-i-recycle-common-recyclables",
+    "BBMP, Waste Management FAQs: rinse glass containers; blue bin is the recyclable dry-waste stream. This script uses Sorti blue-bin routing for intact bottles and jars. https://apps.bbmpgov.in/SWM/Home/Forms/PublicInformation.aspx?page=FAQs",
+    "Cornwall Council, Broken Glass: protective wrapping or a sturdy container. Oregon State University, Broken Glass/Lab-ware guidance: puncture-resistant sealed packaging labelled as glass. These support protective handling; local disposal routes differ, so Sorti asks for separate collector handover. https://www.cornwall.gov.uk/rubbish-recycling-and-waste/recycling/recycling-items/broken-glass/ https://cropandsoil.oregonstate.edu/sites/agscid7/files/crop-soil/assets/shl_safety_information_for_all_employees_2020.pdf"
+   ],
+   "photo_pages": [
+    "https://commons.wikimedia.org/wiki/File:2008-03-09_Broken_glass_bottle.jpg",
+    "https://commons.wikimedia.org/wiki/File:Glas_aus_Aufbereitungsanlage_gr%C3%BCn_-_glass_cullet_green_(Alter_Fritz).JPG",
+    "https://commons.wikimedia.org/wiki/File:Glas_aus_Aufbereitungsanlage_wei%C3%9F_-_glass_cullet_white_(Alter_Fritz).JPG",
+    "https://commons.wikimedia.org/wiki/File:Soju_bottles_in_a_glass_recycling_bin,_near_apartment_complex,_in_Korea.jpg",
+    "https://commons.wikimedia.org/wiki/File:Glass_and_plastic_recycling_065_ubt.JPG",
+    "https://commons.wikimedia.org/wiki/File:Glass_bottled_and_shot_necked_Soda_vendor_-_Jammu.jpg",
+    "https://commons.wikimedia.org/wiki/File:Glass_jars,_glass_bottles_in_the_kitchen,_Rostov-on-Don,_Russia.jpg",
+    "https://commons.wikimedia.org/wiki/File:Glass_jars_filled_with_various_grains_and_pasta_on_a_wooden_shelf.jpg",
+    "https://commons.wikimedia.org/wiki/File:Gruenes_und_gruene_Dinge_001_2014_03_14.jpg"
+   ]
+  }
+ ],
+ "metal_waste": [
+  {
+   "id": "general_photo",
+   "title": {
+    "en": "Metal: worth keeping in the loop",
+    "hi": "मेटल: फिर काम आ सकता है",
+    "ta": "மெட்டல்: திரும்பவும் பயன்படும்"
+   },
+   "video": "metal_waste/general_photo.mp4",
+   "vo_files": {
+    "en": "metal_waste/general_photo_en.wav",
+    "hi": "metal_waste/general_photo_hi.wav",
+    "ta": "metal_waste/general_photo_ta.wav"
+   },
+   "poster": "metal_waste/general_photo.jpg",
+   "credit": "Photos via Wikimedia Commons: Benjamin Smith (CC BY-SA 4.0); FLLL (CC BY-SA 4.0); Radulf del Maresme (CC BY-SA 4.0); Meanwell Packaging (CC BY 2.0); Fourteenzerozero (CC0); Junyu-K (CC BY-SA 4.0); MaplesyrupSushi (CC BY-SA 4.0); Tino Munemo (CC BY-SA 4.0)",
+   "page": "",
+   "vo": {
+    "en": "A used drink can may look finished. But its metal can become useful material again. Making metal from ore takes energy. The International Aluminium Institute estimates that recycling aluminium saves about ninety five per cent compared with primary production. Sharp can edges can cut waste workers. Careful separation makes their handling safer. For food and drink cans, empty them, rinse them, let them dry, then put them in the blue bin. Avoid touching sharp edges. Carry a reusable steel tiffin. Repair utensils where possible, and keep using containers that still work.",
+    "hi": "खाली ड्रिंक कैन का काम ख़त्म लग सकता है। पर उसका मेटल फिर काम आ सकता है। अयस्क से मेटल बनाने में एनर्जी लगती है। इंटरनेशनल ऐल्युमिनियम इंस्टिट्यूट के मुताबिक, नए ऐल्युमिनियम के प्रोडक्शन के मुकाबले रीसायक्लिंग से करीब पचानवे परसेंट एनर्जी बचती है। कैन के नुकीले किनारों से सफ़ाई वर्कर्स को चोट लग सकती है। ध्यान से अलग रखने पर उन्हें सँभालना ज़्यादा सुरक्षित होता है। खाने और ड्रिंक वाले कैन खाली करो, धोओ, सूखने दो, फिर ब्लू बिन में डालो। नुकीले किनारे छूने से बचो। बार-बार इस्तेमाल होने वाला स्टील टिफ़िन साथ रखो। जहाँ हो सके, बर्तन रिपेयर करो और काम के कंटेनर यूज़ करते रहो।",
+    "ta": "காலியான டிரிங்க் கேனோட வேலை முடிஞ்ச மாதிரி தெரியும். ஆனா அதுல இருக்குற மெட்டல் திரும்பவும் பயன்படும். தாதுவிலிருந்து மெட்டல் செய்ய எனர்ஜி தேவை. இன்டர்நேஷனல் அலுமினியம் இன்ஸ்டிட்யூட் கணக்குப்படி, தாதுவிலிருந்து புதுசா அலுமினியம் செய்யுறதோட ஒப்பிட்டா, ரீசைக்கிள் பண்றதுல சுமார் தொண்ணூத்தஞ்சு பர்சன்ட் எனர்ஜி மிச்சமாகுது. கேனோட கூரான ஓரம் குப்பை எடுக்குறவங்கள காயப்படுத்தலாம். கவனமா தனியா பிரிச்சு வெச்சா, அவங்க பாதுகாப்பா கையாள உதவும். சாப்பாடும் டிரிங்க்கும் இருந்த கேன்கள காலி பண்ணி, கழுவி, காய விடுங்க. அப்புறம் ப்ளூ பின்ல போடுங்க. கூரான ஓரத்த தொடாதீங்க. திரும்பத் திரும்ப யூஸ் பண்ற ஸ்டீல் டிஃபின் எடுத்துட்டு போங்க. முடிஞ்சா பாத்திரங்கள ரிப்பேர் பண்ணுங்க. நல்லா இருக்குற டப்பாக்கள தொடர்ந்து யூஸ் பண்ணுங்க."
+   },
+   "sources": [
+    "International Aluminium Institute, Aluminium recycling saves 95% of the energy needed for primary aluminium production: model compares global primary-production data for 2019 with recycling datasets from Europe and North America; estimated saving is 95.5%, rounded here to about 95%. This is an energy comparison for aluminium, not a collection rate or a claim for every metal. https://international-aluminium.org/landing/aluminium-recycling-saves-95-of-the-energy-needed-for-primary-aluminium-production/",
+    "US EPA, Frequent Questions on Recycling: metal recyclables should be empty and rinsed free of food residue. https://www.epa.gov/recycle/frequent-questions-recycling",
+    "BBMP, Waste Management FAQs: keep kitchen recyclables clean and dry; blue bin for recyclable dry waste, including metal. Sorti routing is applied to ordinary food and drink cans. https://apps.bbmpgov.in/SWM/Home/Forms/PublicInformation.aspx?page=FAQs",
+    "US EPA, Public Health, Occupational Safety, and Environmental Concerns in Municipal Solid Waste Recycling Operations: handling recyclables can expose consumers and waste workers to sharp-object injuries. https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=30002V62.TXT"
+   ],
+   "photo_pages": [
+    "https://commons.wikimedia.org/wiki/File:Otranto_-_Cava_di_bauxite_-_2.jpg",
+    "https://commons.wikimedia.org/wiki/File:Old_Bauxite_mine_in_Spinazzola_-_Puglia_-_Italy_-4.jpg",
+    "https://commons.wikimedia.org/wiki/File:Cans_recycling.jpg",
+    "https://commons.wikimedia.org/wiki/File:Aluminium_Can_Degrading_in_Environment.jpg",
+    "https://commons.wikimedia.org/wiki/File:Empty_recyclable_beverage_containers_in_plastic_bag.jpg",
+    "https://commons.wikimedia.org/wiki/File:202601_A_Coffee_beverage_can_with_French_marigolds_garden_of_orange.jpg",
+    "https://commons.wikimedia.org/wiki/File:Photograph_of_a_man_engaging_haphazardly_in_welding_or_brazing_work_on_the_side_of_a_busy_road_in_Amritsar,_Punjab,_India,_8_April_2023.jpg",
+    "https://commons.wikimedia.org/wiki/File:Workers_loading_scrap_metal_on_board_a_truck_for_recycling.jpg"
+   ]
+  }
+ ],
+ "organic_waste": [
+  {
+   "id": "general_photo",
+   "title": {
+    "en": "Food scraps: back to the soil",
+    "hi": "खाने का कचरा: मिट्टी के काम आए",
+    "ta": "சாப்பாட்டு மிச்சம்: மண்ணுக்கு திரும்பட்டும்"
+   },
+   "video": "organic_waste/general_photo.mp4",
+   "vo_files": {
+    "en": "organic_waste/general_photo_en.wav",
+    "hi": "organic_waste/general_photo_hi.wav",
+    "ta": "organic_waste/general_photo_ta.wav"
+   },
+   "poster": "organic_waste/general_photo.jpg",
+   "credit": "Photos via Wikimedia Commons: MaplesyrupSushi (CC BY-SA 4.0); L. Shyamal (CC BY-SA 4.0); SuSanA Secretariat (CC BY 2.0); ராஜலட்சுமி ராஜேந்திரன் (CC BY-SA 4.0); Datariumrex (CC0); Dharmadhyaksha (CC BY-SA 4.0); SuSanA Secretariat (CC BY 2.0); Ka23 13 (CC BY-SA 4.0)",
+   "page": "",
+   "vo": {
+    "en": "Vegetable peels, leftover rice, and yesterday's flowers can become something useful. Their journey starts in our kitchens. Buried in a landfill without oxygen, food waste releases methane, a gas that warms the planet. When plastic gets mixed in, workers must separate it before composting. Nutrients that could help our soil become harder to recover. Separate food scraps, peels, flowers, and leaves from packaging. Put this wet waste in the green bin for composting. Serve smaller portions. At home, compost vegetable peels with dry leaves and let air circulate. What remains can nourish the garden.",
+    "hi": "सब्ज़ी के छिलके, बचा हुआ चावल और कल के फूल काम आ सकते हैं। इनका सफ़र हमारी किचन से शुरू होता है। डंप में दबे खाने के कचरे को ऑक्सीजन नहीं मिलती, तो मीथेन निकलती है। ये गैस धरती की गर्मी बढ़ाती है। प्लास्टिक मिल जाए तो कम्पोस्ट बनाने से पहले वर्कर्स को उसे अलग करना पड़ता है। मिट्टी के काम आने वाले पोषक तत्व वापस पाना मुश्किल हो जाता है। खाने का कचरा, छिलके, फूल और पत्ते पैकेजिंग से अलग करो। ये गीला कचरा कम्पोस्ट बनने के लिए ग्रीन बिन में डालो। खाना थोड़ा परोसो। घर पर सब्ज़ी के छिलकों और सूखे पत्तों से कम्पोस्ट बनाओ, हवा आने दो। जो बचे, वो बगीचे के काम आ सकता है।",
+    "ta": "காய்கறித் தோல், மீந்த சாதம், நேத்துப் பூ எல்லாம் பயனுள்ளதா மாறலாம். அதுக்கு ஆரம்பம் நம்ம கிச்சன்ல தான். குப்பை மேட்டுல புதைஞ்சு ஆக்சிஜன் கிடைக்காம அழுகுற சாப்பாட்டு மிச்சத்துல இருந்து மீத்தேன் வரும். இந்த கேஸ் பூமி சூடாகுறத அதிகப்படுத்தும். பிளாஸ்டிக் கலந்துட்டா, கம்போஸ்ட் பண்றதுக்கு முன்னாடி தொழிலாளர்கள் அதைப் பிரிக்கணும். நம்ம மண்ணுக்கு உதவுற சத்துகளை திரும்பப் பெறுறது கஷ்டமாகும். சாப்பாட்டு மிச்சம், தோல், பூ, இலை எல்லாத்தையும் பேக்கேஜிங்கிலிருந்து பிரிங்க. இந்த ஈரக் குப்பைய கம்போஸ்ட் பண்றதுக்கு க்ரீன் பின்ல போடுங்க. சாப்பாட்ட கொஞ்சமா பரிமாறுங்க. வீட்டுல காய்கறித் தோலோட காஞ்ச இலைகளைச் சேர்த்து, காத்து போற மாதிரி கம்போஸ்ட் பண்ணுங்க. மிச்சமாவது தோட்டத்துக்கு சத்தா மாறலாம்."
+   },
+   "sources": [
+    "US EPA, Composting: organic materials decomposing without oxygen in landfills generate methane, a powerful greenhouse gas; composting recovers nutrients. https://www.epa.gov/sustainable-management-food/composting",
+    "US EPA, Composting At Home: keep contamination out; vegetable scraps and dry leaves are suitable ingredients, with air and moisture needed. Home-compost advice here is limited to vegetable peels and leaves, not all cooked leftovers. https://www.epa.gov/recycle/composting-home",
+    "MoHUA, PIB, 30 October 2022: green bin for wet waste, blue bin for dry waste. https://www.pib.gov.in/PressReleasePage.aspx?PRID=1871983&lang=2&reg=48"
+   ],
+   "photo_pages": [
+    "https://commons.wikimedia.org/wiki/File:Photograph_of_public-waste_segregation_bins,_Amritsar,_Punjab,_India,_8_April_2023.jpg",
+    "https://commons.wikimedia.org/wiki/File:Mavallipura_landfill_3.jpg",
+    "https://commons.wikimedia.org/wiki/File:Pandharpur_landfill_(2731725010).jpg",
+    "https://commons.wikimedia.org/wiki/File:Horse_with_landfill.jpg",
+    "https://commons.wikimedia.org/wiki/File:13._Peeler_and_kitchen_knife.jpg",
+    "https://commons.wikimedia.org/wiki/File:Plate_of_Indian_meals_-_03.JPG",
+    "https://commons.wikimedia.org/wiki/File:Composter_at_the_start_of_being_filled_(2_weeks_old)_(3319714316).jpg",
+    "https://commons.wikimedia.org/wiki/File:Nasu_20210724_113015.jpg"
+   ]
+  }
+ ],
+ "light_bulbs": [
+  {
+   "id": "general_photo",
+   "title": {
+    "en": "Old lights: handle with care",
+    "hi": "पुरानी लाइट: सँभालकर रखो",
+    "ta": "பழைய லைட்: கவனமா கையாளுங்க"
+   },
+   "video": "light_bulbs/general_photo.mp4",
+   "vo_files": {
+    "en": "light_bulbs/general_photo_en.wav",
+    "hi": "light_bulbs/general_photo_hi.wav",
+    "ta": "light_bulbs/general_photo_ta.wav"
+   },
+   "poster": "light_bulbs/general_photo.jpg",
+   "credit": "Photos via Wikimedia Commons: Mænsard vokser (CC BY-SA 4.0); SecretDisc (CC BY-SA 3.0); Kuebi = Armin Kübelbeck; Edit by Waugsberg (less cropped) (CC BY-SA 3.0); Jules Verne Times Two (CC BY-SA 4.0); W.carter (CC0); Geoffrey.landis at English Wikipedia (CC BY 3.0); Loadmaster (David R. Tribble)\n\n\n\n\n\n\nThis image was made by Loadmaster (David R. Tribble).\nEmail the author:  David R. Tribble\nAlso see my personal gallery at Google Photos (CC BY-SA 4.0); Borges Gracián (CC BY-SA 4.0)",
+   "page": "",
+   "vo": {
+    "en": "A light goes out, and we reach for a replacement. The old bulb still needs a careful journey. CFLs and fluorescent tubes contain mercury. It stays inside intact lamps, but can escape if they break. LEDs don't contain mercury. Broken glass can cut waste workers. Mercury exposure can harm developing nervous systems, making children especially vulnerable. Switch off and let the bulb cool. Wrap and box it without breaking. Place it gently in the red bin, never normal trash. Choose LEDs: they use at least seventy five per cent less energy than incandescent bulbs. Switch off lights in empty rooms.",
+    "hi": "लाइट बंद होती है, तो हम नया बल्ब ढूँढते हैं। पुराने बल्ब को भी सँभालकर आगे देना ज़रूरी है। सीएफ़एल और फ़्लोरोसेंट ट्यूब में मरकरी होती है। साबुत लाइट में ये अंदर रहती है, लेकिन टूटने पर निकल सकती है। एलईडी में मरकरी नहीं होती। टूटे काँच से कचरा सँभालने वाले वर्कर्स को चोट लग सकती है। मरकरी बढ़ते नर्वस सिस्टम को नुकसान पहुँचा सकती है, इसलिए बच्चों को ख़ास ख़तरा है। स्विच बंद करो और बल्ब ठंडा होने दो। बिना तोड़े लपेटकर बॉक्स में रखो। रेड बिन में धीरे से रखो, आम कचरे में कभी नहीं। एलईडी चुनो। पुराने फ़िलामेंट बल्ब के मुकाबले ये कम से कम पचहत्तर परसेंट कम बिजली लेते हैं। खाली कमरों की लाइट बंद करो।",
+    "ta": "லைட் போயிடுச்சுன்னா புது பல்ப் எடுக்குறோம். பழைய பல்பையும் கவனமா எடுத்துக் கொடுக்கணும். சிஎஃப்எல், ஃப்ளூரசென்ட் டியூப்ல மெர்க்குரி இருக்கு. உடையாத லைட்டுல அது உள்ளயே இருக்கும். உடைஞ்சா வெளிய வரலாம். எல்ஈடியில மெர்க்குரி கிடையாது. உடைஞ்ச கண்ணாடி குப்பை கையாளுற தொழிலாளர்களைக் காயப்படுத்தலாம். மெர்க்குரி வளர்ற நரம்பு மண்டலத்த பாதிக்கலாம். அதனால குழந்தைகளுக்கு ஆபத்து அதிகம். ஸ்விட்ச் ஆஃப் பண்ணி பல்ப் ஆறட்டும். உடைக்காம சுத்தி பாக்ஸ்ல வைங்க. ரெட் பின்ல மெதுவா வைங்க. சாதாரண குப்பையில போடவே கூடாது. எல்ஈடி தேர்ந்தெடுங்க. பழைய ஃபிலமென்ட் பல்பைவிட குறைஞ்சது எழுபத்தஞ்சு பர்சன்ட் கம்மியா கரண்ட் எடுக்கும். யாரும் இல்லாத ரூம்ல லைட்ட ஆஃப் பண்ணுங்க."
+   },
+   "sources": [
+    "US EPA, What are the Connections between Mercury and CFLs?: intact fluorescent lamps retain mercury; breakage can release it; LEDs contain no mercury. https://www.epa.gov/mercury/what-are-connections-between-mercury-and-cfls",
+    "US EPA, Health Effects of Exposures to Mercury: developing nervous systems are especially vulnerable. https://www.epa.gov/mercury/health-effects-exposures-mercury",
+    "US Department of Energy, Guide to Energy Efficient Lighting (2010): LEDs use at least 75 percent less energy than incandescent bulbs. Comparison is with incandescent lighting, not CFLs or fluorescent tubes. https://www.energy.gov/sites/prod/files/guide_to_energy_efficient_lighting.pdf",
+    "all bulbs use Sorti's dedicated red hazardous collection route; this does not imply every bulb contains mercury or that red is a universal municipal lamp-bin colour. Keep bulbs intact."
+   ],
+   "photo_pages": [
+    "https://commons.wikimedia.org/wiki/File:Waste_collection_point_containers_-_Legnano_(MI),_Lombardy,_Italy_-_2021-02-26.jpg",
+    "https://commons.wikimedia.org/wiki/File:Defective_compact_fluorescent_lamp_x-ray.jpg",
+    "https://commons.wikimedia.org/wiki/File:Energiesparlampe_01a.jpg",
+    "https://commons.wikimedia.org/wiki/File:Low-key_photograph_of_light_bulb,_Straume,_Norway_julesvernex2.jpg",
+    "https://commons.wikimedia.org/wiki/File:Shattered_light_fixture_3.jpg",
+    "https://commons.wikimedia.org/wiki/File:LED_bulbs.jpg",
+    "https://commons.wikimedia.org/wiki/File:LED-E27-Light-Bulb-1112_01.jpg",
+    "https://commons.wikimedia.org/wiki/File:Luminarias_LED_de_ATP_Iluminaci%C3%B3n_(2200_K)_en_la_plaza_de_los_Coches,_Cartagena_de_Indias,.jpg"
+   ]
+  }
+ ]
+}

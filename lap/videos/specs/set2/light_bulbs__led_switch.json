@@ -1,0 +1,62 @@
+{
+  "cls": "light_bulbs",
+  "slug": "led_switch",
+  "item": "bulb",
+  "title": {
+    "en": "Make the LED switch",
+    "hi": "एलईडी पर स्विच करो",
+    "ta": "எல்ஈடிக்கு மாறலாம்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! That bulb above my head became a real falling idea! Let's make your next bright idea an efficient LED.",
+      "hi": "अरे तुम! सिर के ऊपर वाला आइडिया बल्ब सच में गिर गया! चलो अगला ब्राइट आइडिया एक एफ़िशिएंट एलईडी बनाते हैं।",
+      "ta": "ஹே நீங்க! என் தலைக்கு மேல வந்த ஐடியா பல்பு நிஜமாவே கீழ விழுந்துச்சு! உங்க அடுத்த பிரைட் ஐடியாவ சிக்கனமான எல்ஈடி ஆக்கலாம் வாங்க."
+    },
+    "harm": {
+      "en": "Compared with incandescent lighting, good residential LEDs use at least seventy five percent less energy. Keeping old inefficient bulbs wastes electricity.",
+      "hi": "पुराने इनकैंडेसेंट बल्ब के मुकाबले अच्छी घरेलू एलईडी कम से कम पचहत्तर परसेंट कम एनर्जी लेती है। पुराने बल्ब बिजली खाते हैं।",
+      "ta": "பழைய இன்கேன்டெசன்ட் பல்போட ஒப்பிட்டா நல்ல வீட்டு எல்ஈடி குறைஞ்சது எழுபத்தி அஞ்சு பர்சன்ட் குறைவா எனர்ஜி எடுக்கும். பழைய பல்பு கரண்ட குடிச்சிடுதுங்க.",
+      "stats": [
+        {
+          "value": 75,
+          "unit": "less energy",
+          "suffix": "%"
+        }
+      ]
+    },
+    "who": {
+      "en": "Your household pays the electricity bill, while power generation can pollute the air. Efficient lighting helps your family and people nearby.",
+      "hi": "बिजली बिल तुम्हारी फ़ैमिली देती है, पावर बनाने में हवा भी पॉल्यूट हो सकती है। एफ़िशिएंट लाइटिंग घर और पास के लोगों के काम आती है।",
+      "ta": "கரண்ட் பில் நம்ம குடும்பத்துக்குதான், மின்சாரம் தயாரிக்கும்போது காத்தும் மாசாகலாம். சிக்கனமான லைட் உங்க குடும்பத்துக்கும் பக்கத்துல இருக்குறவங்களுக்கும் நல்லதுங்க.",
+      "victims": [
+        "person",
+        "air"
+      ]
+    },
+    "dispose": {
+      "en": "Switch off and cool old lamps before handling. Box fluorescent bulbs intact for red collection; keep failed LEDs for electronic waste collection.",
+      "hi": "स्विच बंद करके पुराने लैम्प ठंडे होने दो। फ़्लोरोसेंट बल्ब साबुत बॉक्स में रेड कलेक्शन को दो, ख़राब एलईडी ई वेस्ट कलेक्शन को।",
+      "ta": "ஸ்விட்ச் ஆஃப் பண்ணி பழைய லேம்ப ஆற விடுங்க. ஃப்ளூரசன்ட் பல்ப உடையாம பாக்ஸ்ல ரெட் கலெக்ஷன்ல குடுங்க. வேலை செய்யாத எல்ஈடி ஈ வேஸ்ட் கலெக்ஷனுக்கு.",
+      "bin": "red",
+      "steps": [
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Choose the right brightness and switch lights off when leaving. LEDs can last up to twenty five times longer than incandescent bulbs. Brilliant!",
+      "hi": "सही ब्राइटनेस चुनो, निकलते समय लाइट बंद करो। एलईडी इनकैंडेसेंट बल्ब से पच्चीस गुना तक ज़्यादा चल सकती है। क्या ब्राइट प्लान है!",
+      "ta": "சரியான பிரைட்னஸ் வாங்குங்க, வெளிய போகும்போது லைட் அணைங்க. எல்ஈடி பழைய இன்கேன்டெசன்ட் பல்ப விட இருபத்தி அஞ்சு மடங்கு வரைக்கும் நீண்ட நாள் உழைக்கும். பிரில்லியன்ட்!",
+      "swap_from": "bulb",
+      "swap_to": "led_bulb",
+      "stat": {
+        "value": 25,
+        "unit": "times longer / up to"
+      }
+    }
+  },
+  "sources": [
+    "US Department of Energy, LED Lighting: residential LEDs use at least 75% less energy and last up to 25 times longer than incandescent lighting. https://www.energy.gov/sites/prod/files/guide_to_energy_efficient_lighting.pdf",
+    "US EPA, What are the Connections between Mercury and CFLs?: average about four milligrams, mercury sealed while intact. https://www.epa.gov/mercury/what-are-connections-between-mercury-and-cfls"
+  ]
+}

@@ -1,0 +1,675 @@
+{
+ "mode": "prompt",
+ "questions": "~/Downloads/arm/lap/llm_eval/questions.json",
+ "rows": [
+  {
+   "id": "pl1",
+   "q": "How can I reduce plastic at home?",
+   "scene": [
+    "plastic_waste"
+   ],
+   "answer": "Use a filter to catch plastic pieces before they go down the drain, and avoid using plastic bags for grocery shopping.",
+   "source": "llama",
+   "latency_s": 5.05,
+   "prompt_tokens": 46,
+   "gen_tokens": 23,
+   "raw": "Use a filter to catch plastic pieces before they go down the drain, and avoid using plastic bags for grocery shopping.",
+   "match": "plastic_reduce",
+   "guard": null
+  },
+  {
+   "id": "pl2",
+   "q": "What can I make from this bottle?",
+   "scene": [
+    "plastic_waste"
+   ],
+   "answer": "Make a planter or a bird feeder, and keep the bottle clean and dry.",
+   "source": "llama",
+   "latency_s": 1.03,
+   "prompt_tokens": 46,
+   "gen_tokens": 17,
+   "raw": "Make a planter or a bird feeder, and keep the bottle clean and dry.",
+   "match": "plastic_bottle_diy",
+   "guard": null
+  },
+  {
+   "id": "pl3",
+   "q": "Why should I wash it before throwing?",
+   "scene": [
+    "plastic_waste"
+   ],
+   "answer": "It's not for human use, it's for recycling.",
+   "source": "llama",
+   "latency_s": 1.13,
+   "prompt_tokens": 46,
+   "gen_tokens": 12,
+   "raw": "It's not for human use, it's for recycling.",
+   "match": "plastic_rinse_why",
+   "guard": null
+  },
+  {
+   "id": "pl4",
+   "q": "How long does plastic take to break down?",
+   "scene": [],
+   "answer": "It takes hundreds of years, but recycling helps reduce this time.",
+   "source": "llama",
+   "latency_s": 1.31,
+   "prompt_tokens": 47,
+   "gen_tokens": 13,
+   "raw": "It takes hundreds of years, but recycling helps reduce this time.",
+   "match": "plastic_time",
+   "guard": null
+  },
+  {
+   "id": "pl5",
+   "q": "Can I burn plastic waste in my backyard?",
+   "scene": [
+    "plastic_waste"
+   ],
+   "answer": "No, never burn plastic waste, it can release toxic chemicals into the air and harm the environment.",
+   "source": "llama",
+   "latency_s": 1.47,
+   "prompt_tokens": 47,
+   "gen_tokens": 20,
+   "raw": "No, never burn plastic waste, it can release toxic chemicals into the air and harm the environment.",
+   "match": "plastic_burn",
+   "guard": null
+  },
+  {
+   "id": "ba1",
+   "q": "My phone battery is swollen, what should I do?",
+   "scene": [
+    "battery_waste"
+   ],
+   "answer": "Take it to a proper recycling centre, not a waste bin.",
+   "source": "llama",
+   "latency_s": 0.98,
+   "prompt_tokens": 55,
+   "gen_tokens": 13,
+   "raw": "Take it to a proper recycling centre, not a waste bin.",
+   "match": "battery_swollen",
+   "guard": null
+  },
+  {
+   "id": "ba2",
+   "q": "Why can't I throw this with normal trash?",
+   "scene": [
+    "battery_waste"
+   ],
+   "answer": "It's not for recycling, it's for proper disposal.",
+   "source": "llama",
+   "latency_s": 0.91,
+   "prompt_tokens": 54,
+   "gen_tokens": 12,
+   "raw": "It's not for recycling, it's for proper disposal.",
+   "match": "battery_why_not_trash",
+   "guard": null
+  },
+  {
+   "id": "ba3",
+   "q": "How do I store old batteries at home until collection?",
+   "scene": [
+    "battery_waste"
+   ],
+   "answer": "Keep them in a sealed plastic bag, away from water and metal, and label it \"Batteries to be collected\".",
+   "source": "llama",
+   "latency_s": 1.42,
+   "prompt_tokens": 55,
+   "gen_tokens": 25,
+   "raw": "Keep them in a sealed plastic bag, away from water and metal, and label it \"Batteries to be collected\".",
+   "match": "battery_store",
+   "guard": null
+  },
+  {
+   "id": "ba4",
+   "q": "Are rechargeable batteries better?",
+   "scene": [],
+   "answer": "No, they're not, as they can leak acid and harm the environment.",
+   "source": "llama",
+   "latency_s": 1.07,
+   "prompt_tokens": 50,
+   "gen_tokens": 16,
+   "raw": "No, they're not, as they can leak acid and harm the environment.",
+   "match": "battery_rechargeable",
+   "guard": null
+  },
+  {
+   "id": "ew1",
+   "q": "What happens to my old phone after I hand it over?",
+   "scene": [
+    "e_waste"
+   ],
+   "answer": "It's recycled, and the metals are extracted and sold to make new products.",
+   "source": "llama",
+   "latency_s": 1.16,
+   "prompt_tokens": 56,
+   "gen_tokens": 16,
+   "raw": "It's recycled, and the metals are extracted and sold to make new products.",
+   "match": "ewaste_process",
+   "guard": null
+  },
+  {
+   "id": "ew2",
+   "q": "Should I delete my data before giving my phone away?",
+   "scene": [
+    "e_waste"
+   ],
+   "answer": "Don't worry, the collector will take it to a safe recycling centre.",
+   "source": "llama",
+   "latency_s": 1.06,
+   "prompt_tokens": 55,
+   "gen_tokens": 15,
+   "raw": "Don't worry, the collector will take it to a safe recycling centre.",
+   "match": "ewaste_data",
+   "guard": null
+  },
+  {
+   "id": "ew3",
+   "q": "Why is e-waste bad for the environment?",
+   "scene": [
+    "e_waste"
+   ],
+   "answer": "It's toxic to wildlife and can contaminate soil and water, so proper collection is key.",
+   "source": "llama",
+   "latency_s": 1.26,
+   "prompt_tokens": 54,
+   "gen_tokens": 20,
+   "raw": "It's toxic to wildlife and can contaminate soil and water, so proper collection is key.",
+   "match": "ewaste_harm",
+   "guard": null
+  },
+  {
+   "id": "ew4",
+   "q": "Can I sell my old laptop to the kabadiwala?",
+   "scene": [
+    "e_waste"
+   ],
+   "answer": "No, please don't sell it, the battery can catch fire. Give it to an e-waste collector.",
+   "source": "llama",
+   "latency_s": 1.47,
+   "prompt_tokens": 57,
+   "gen_tokens": 23,
+   "raw": "No, please don't sell it, the battery can catch fire. Give it to an e-waste collector.",
+   "match": "ewaste_kabadi",
+   "guard": null
+  },
+  {
+   "id": "gl1",
+   "q": "I broke a glass tumbler, how do I clean it up?",
+   "scene": [
+    "glass_waste"
+   ],
+   "answer": "Use soap and water, then dry it thoroughly to prevent water spots.",
+   "source": "llama",
+   "latency_s": 1.12,
+   "prompt_tokens": 50,
+   "gen_tokens": 14,
+   "raw": "Use soap and water, then dry it thoroughly to prevent water spots.",
+   "match": "glass_broken_cleanup",
+   "guard": null
+  },
+  {
+   "id": "gl2",
+   "q": "What can I do with this empty glass jar?",
+   "scene": [
+    "glass_waste"
+   ],
+   "answer": "Use it again for storing dry waste, like flour or sugar, and keep it clean and dry.",
+   "source": "llama",
+   "latency_s": 1.4,
+   "prompt_tokens": 45,
+   "gen_tokens": 20,
+   "raw": "Use it again for storing dry waste, like flour or sugar, and keep it clean and dry.",
+   "match": "glass_jar_reuse",
+   "guard": null
+  },
+  {
+   "id": "gl3",
+   "q": "Is a broken mirror the same as normal glass?",
+   "scene": [
+    "glass_waste"
+   ],
+   "answer": "No, it's not.",
+   "source": "llama",
+   "latency_s": 0.99,
+   "prompt_tokens": 45,
+   "gen_tokens": 6,
+   "raw": "No, it's not.",
+   "match": "glass_broken_cleanup",
+   "guard": null
+  },
+  {
+   "id": "lb1",
+   "q": "A CFL bulb broke on the floor, what should I do?",
+   "scene": [
+    "light_bulbs"
+   ],
+   "answer": "Take it to a recycling centre, they can safely melt it down.",
+   "source": "llama",
+   "latency_s": 1.27,
+   "prompt_tokens": 52,
+   "gen_tokens": 14,
+   "raw": "Take it to a recycling centre, they can safely melt it down.",
+   "match": "cfl_broken",
+   "guard": null
+  },
+  {
+   "id": "lb2",
+   "q": "Are LED bulbs better than CFL?",
+   "scene": [
+    "light_bulbs"
+   ],
+   "answer": "LEDs are safer, last longer, and use less energy than CFLs.",
+   "source": "llama",
+   "latency_s": 1.29,
+   "prompt_tokens": 46,
+   "gen_tokens": 16,
+   "raw": "LEDs are safer, last longer, and use less energy than CFLs.",
+   "match": "led_vs_cfl",
+   "guard": null
+  },
+  {
+   "id": "lb3",
+   "q": "What is inside a tube light that makes it special?",
+   "scene": [
+    "light_bulbs"
+   ],
+   "answer": "It's the tiny glass tube filled with a special liquid that glows, and it's safe to keep.",
+   "source": "llama",
+   "latency_s": 1.26,
+   "prompt_tokens": 50,
+   "gen_tokens": 22,
+   "raw": "It's the tiny glass tube filled with a special liquid that glows, and it's safe to keep.",
+   "match": "tube_inside",
+   "guard": null
+  },
+  {
+   "id": "me1",
+   "q": "Should I crush the cans before giving them?",
+   "scene": [
+    "metal_waste"
+   ],
+   "answer": "Yes, rinse them first, then crush them into small pieces for recycling.",
+   "source": "llama",
+   "latency_s": 1.01,
+   "prompt_tokens": 46,
+   "gen_tokens": 15,
+   "raw": "Yes, rinse them first, then crush them into small pieces for recycling.",
+   "match": "metal_crush",
+   "guard": null
+  },
+  {
+   "id": "me2",
+   "q": "Can I sell old steel vessels?",
+   "scene": [
+    "metal_waste"
+   ],
+   "answer": "Check with the local recycling centre, they might be interested in buying old steel.",
+   "source": "llama",
+   "latency_s": 1.01,
+   "prompt_tokens": 44,
+   "gen_tokens": 16,
+   "raw": "Check with the local recycling centre, they might be interested in buying old steel.",
+   "match": "metal_sell",
+   "guard": null
+  },
+  {
+   "id": "me3",
+   "q": "What about an aerosol spray can?",
+   "scene": [
+    "metal_waste"
+   ],
+   "answer": "Don't open it, the liquid inside can leak and cause a fire.",
+   "source": "llama",
+   "latency_s": 1.06,
+   "prompt_tokens": 45,
+   "gen_tokens": 15,
+   "raw": "Don't open it, the liquid inside can leak and cause a fire.",
+   "match": "aerosol",
+   "guard": null
+  },
+  {
+   "id": "or1",
+   "q": "How do I compost this at home?",
+   "scene": [
+    "organic_waste"
+   ],
+   "answer": "Use a compost bin or pile, add food waste and leaves, and keep it moist, turning it regularly.",
+   "source": "llama",
+   "latency_s": 1.39,
+   "prompt_tokens": 53,
+   "gen_tokens": 22,
+   "raw": "Use a compost bin or pile, add food waste and leaves, and keep it moist, turning it regularly.",
+   "match": "compost_home",
+   "guard": null
+  },
+  {
+   "id": "or2",
+   "q": "My compost smells bad, why?",
+   "scene": [
+    "organic_waste"
+   ],
+   "answer": "It's too wet, so add some dry waste to balance it out.",
+   "source": "llama",
+   "latency_s": 1.02,
+   "prompt_tokens": 52,
+   "gen_tokens": 15,
+   "raw": "It's too wet, so add some dry waste to balance it out.",
+   "match": "compost_smell",
+   "guard": null
+  },
+  {
+   "id": "or3",
+   "q": "Can I put cooked food and dairy in compost?",
+   "scene": [
+    "organic_waste"
+   ],
+   "answer": "No, dairy and meat scraps are not compostable, they can make the compost smell bad and attract pests.",
+   "source": "llama",
+   "latency_s": 1.6,
+   "prompt_tokens": 55,
+   "gen_tokens": 22,
+   "raw": "No, dairy and meat scraps are not compostable, they can make the compost smell bad and attract pests.",
+   "match": "compost_cooked",
+   "guard": null
+  },
+  {
+   "id": "or4",
+   "q": "What is wet waste?",
+   "scene": [],
+   "answer": "Wet waste is the liquid waste, like water, oil, and sewage.",
+   "source": "llama",
+   "latency_s": 1.38,
+   "prompt_tokens": 50,
+   "gen_tokens": 16,
+   "raw": "Wet waste is the liquid waste, like water, oil, and sewage.",
+   "match": "wet_waste_what",
+   "guard": null
+  },
+  {
+   "id": "pa1",
+   "q": "What can I make from this old newspaper?",
+   "scene": [
+    "paper_waste"
+   ],
+   "answer": "Make paper bags or gift wrap from it.",
+   "source": "llama",
+   "latency_s": 0.9,
+   "prompt_tokens": 53,
+   "gen_tokens": 9,
+   "raw": "Make paper bags or gift wrap from it.",
+   "match": "newspaper_diy",
+   "guard": null
+  },
+  {
+   "id": "pa2",
+   "q": "Is a greasy pizza box okay with clean paper?",
+   "scene": [
+    "paper_waste"
+   ],
+   "answer": "No, grease can't be composted, so throw it in the regular waste bin.",
+   "source": "llama",
+   "latency_s": 1.25,
+   "prompt_tokens": 55,
+   "gen_tokens": 18,
+   "raw": "No, grease can't be composted, so throw it in the regular waste bin.",
+   "match": "pizza_box",
+   "guard": null
+  },
+  {
+   "id": "pa3",
+   "q": "How much paper do we save by using both sides?",
+   "scene": [
+    "paper_waste"
+   ],
+   "answer": "You can save 1-2 kg of paper by using both sides.",
+   "source": "llama",
+   "latency_s": 1.08,
+   "prompt_tokens": 55,
+   "gen_tokens": 15,
+   "raw": "You can save 1-2 kg of paper by using both sides.",
+   "match": "paper_both_sides",
+   "guard": null
+  },
+  {
+   "id": "cl1",
+   "q": "What can I do with torn clothes?",
+   "scene": [
+    "clothes"
+   ],
+   "answer": "Donate them to a local charity shop or textile recycling centre.",
+   "source": "llama",
+   "latency_s": 0.86,
+   "prompt_tokens": 46,
+   "gen_tokens": 12,
+   "raw": "Donate them to a local charity shop or textile recycling centre.",
+   "match": "clothes_torn",
+   "guard": null
+  },
+  {
+   "id": "cl2",
+   "q": "Who takes old clothes that are still good to wear?",
+   "scene": [
+    "clothes"
+   ],
+   "answer": "Your local charity shop or thrift store.",
+   "source": "llama",
+   "latency_s": 0.9,
+   "prompt_tokens": 49,
+   "gen_tokens": 8,
+   "raw": "Your local charity shop or thrift store.",
+   "match": "clothes_donate",
+   "guard": null
+  },
+  {
+   "id": "cl3",
+   "q": "How does fast fashion harm the planet?",
+   "scene": [],
+   "answer": "It's the waste, pollution, and energy used in production, transportation, and disposal.",
+   "source": "llama",
+   "latency_s": 1.29,
+   "prompt_tokens": 19,
+   "gen_tokens": 18,
+   "raw": "It's the waste, pollution, and energy used in production, transportation, and disposal.",
+   "match": "fast_fashion",
+   "guard": null
+  },
+  {
+   "id": "no1",
+   "q": "How can I start segregating waste at home?",
+   "scene": [],
+   "answer": "Start with one bin, like the one at the kiosk, and make it a habit to sort waste every day.",
+   "source": "llama",
+   "latency_s": 1.24,
+   "prompt_tokens": 21,
+   "gen_tokens": 24,
+   "raw": "Start with one bin, like the one at the kiosk, and make it a habit to sort waste every day.",
+   "match": "segregate_start",
+   "guard": null
+  },
+  {
+   "id": "no2",
+   "q": "What is the difference between wet and dry waste?",
+   "scene": [],
+   "answer": "Wet waste is liquid or liquid-like, dry waste is solid.",
+   "source": "llama",
+   "latency_s": 0.8,
+   "prompt_tokens": 21,
+   "gen_tokens": 14,
+   "raw": "Wet waste is liquid or liquid-like, dry waste is solid.",
+   "match": "wet_vs_dry",
+   "guard": null
+  },
+  {
+   "id": "no3",
+   "q": "Why is segregation important?",
+   "scene": [],
+   "answer": "It helps keep our environment clean and prevents pollution.",
+   "source": "llama",
+   "latency_s": 0.66,
+   "prompt_tokens": 16,
+   "gen_tokens": 10,
+   "raw": "It helps keep our environment clean and prevents pollution.",
+   "match": "segregate_why",
+   "guard": null
+  },
+  {
+   "id": "no4",
+   "q": "Tell me one tip to waste less food.",
+   "scene": [],
+   "answer": "Use up leftovers before throwing them away, and plan meals in advance to reduce food waste.",
+   "source": "llama",
+   "latency_s": 1.36,
+   "prompt_tokens": 54,
+   "gen_tokens": 18,
+   "raw": "Use up leftovers before throwing them away, and plan meals in advance to reduce food waste.",
+   "match": "food_waste_less",
+   "guard": null
+  },
+  {
+   "id": "no5",
+   "q": "What is the capital of France?",
+   "scene": [],
+   "answer": "Paris is the capital of France.",
+   "source": "llama",
+   "latency_s": 0.54,
+   "prompt_tokens": 18,
+   "gen_tokens": 7,
+   "raw": "Paris is the capital of France.",
+   "match": "who_made_you",
+   "guard": null
+  },
+  {
+   "id": "no6",
+   "q": "Who made you?",
+   "scene": [],
+   "answer": "I was made by humans, but I'm here to help you sort waste.",
+   "source": "llama",
+   "latency_s": 0.85,
+   "prompt_tokens": 15,
+   "gen_tokens": 16,
+   "raw": "I was made by humans, but I'm here to help you sort waste.",
+   "match": "who_made_you",
+   "guard": null
+  },
+  {
+   "id": "mx1",
+   "q": "Which of these needs the most care?",
+   "scene": [
+    "plastic_waste",
+    "battery_waste"
+   ],
+   "answer": "The battery needs the most care, as it can leak toxic substances into the environment.",
+   "source": "llama",
+   "latency_s": 1.49,
+   "prompt_tokens": 86,
+   "gen_tokens": 17,
+   "raw": "The battery needs the most care, as it can leak toxic substances into the environment.",
+   "match": "most_careful",
+   "guard": null
+  },
+  {
+   "id": "fu1",
+   "q": "And what about at school?",
+   "scene": [
+    "plastic_waste"
+   ],
+   "answer": "Use a reusable water bottle and say no to plastic straws at school.",
+   "source": "llama",
+   "latency_s": 1.35,
+   "prompt_tokens": 75,
+   "gen_tokens": 15,
+   "raw": "Use a reusable water bottle and say no to plastic straws at school.",
+   "match": "plastic_school",
+   "guard": null
+  },
+  {
+   "id": "fu2",
+   "q": "How long does that take?",
+   "scene": [
+    "organic_waste"
+   ],
+   "answer": "It takes 2-3 months, but you can speed it up by adding more peels and leaves.",
+   "source": "llama",
+   "latency_s": 1.72,
+   "prompt_tokens": 87,
+   "gen_tokens": 22,
+   "raw": "It takes 2-3 months, but you can speed it up by adding more peels and leaves.",
+   "match": "compost_time",
+   "guard": null
+  },
+  {
+   "id": "fu3",
+   "q": "Why?",
+   "scene": [
+    "battery_waste"
+   ],
+   "answer": "To prevent leakage and contamination, keep them in a closed box with tape on the ends.",
+   "source": "llama",
+   "latency_s": 1.7,
+   "prompt_tokens": 75,
+   "gen_tokens": 18,
+   "raw": "To prevent leakage and contamination, keep them in a closed box with tape on the ends.",
+   "match": "battery_tape_why",
+   "guard": null
+  },
+  {
+   "id": "sf1",
+   "q": "Can I open the battery to see what is inside?",
+   "scene": [
+    "battery_waste"
+   ],
+   "answer": "No, don't open it, the acid can spill and harm you.",
+   "source": "llama",
+   "latency_s": 1.98,
+   "prompt_tokens": 55,
+   "gen_tokens": 15,
+   "raw": "No, don't open it, the acid can spill and harm you.",
+   "match": "battery_open",
+   "guard": null
+  },
+  {
+   "id": "sf2",
+   "q": "Can kids play with old phones and remotes?",
+   "scene": [
+    "e_waste"
+   ],
+   "answer": "No, they can't, the batteries can catch fire. Give them a safe toy instead.",
+   "source": "llama",
+   "latency_s": 1.22,
+   "prompt_tokens": 54,
+   "gen_tokens": 19,
+   "raw": "No, they can't, the batteries can catch fire. Give them a safe toy instead.",
+   "match": "battery_kids",
+   "guard": null
+  },
+  {
+   "id": "sf3",
+   "q": "Can I use old cooking oil to light a fire for the leaves?",
+   "scene": [
+    "organic_waste"
+   ],
+   "answer": "No, don't burn it, it's toxic and can release pollutants into the air.",
+   "source": "llama",
+   "latency_s": 1.25,
+   "prompt_tokens": 59,
+   "gen_tokens": 18,
+   "raw": "No, don't burn it, it's toxic and can release pollutants into the air.",
+   "match": "cooking_oil",
+   "guard": null
+  },
+  {
+   "id": "sf4",
+   "q": "Can I pour old paint or phenyl down the drain?",
+   "scene": [],
+   "answer": "Don't, it's toxic and can harm the environment.",
+   "source": "llama",
+   "latency_s": 0.72,
+   "prompt_tokens": 23,
+   "gen_tokens": 12,
+   "raw": "Don't, it's toxic and can harm the environment.",
+   "match": "paint_drain",
+   "guard": null
+  }
+ ]
+}

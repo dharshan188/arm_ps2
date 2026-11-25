@@ -1,0 +1,61 @@
+{
+  "cls": "e_waste",
+  "slug": "burning_ewaste",
+  "item": "cable",
+  "title": {
+    "en": "Copper without toxic smoke",
+    "hi": "कॉपर चाहिए, ज़हरीला धुआँ नहीं",
+    "ta": "காப்பர் வேணும், நச்சு புகை வேணாம்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This cable tried to crown me spaghetti king! Burning its coating for copper gives everyone a much nastier surprise.",
+      "hi": "अरे तुम! इस केबल ने मुझे नूडल्स किंग बना दिया! लेकिन कॉपर के लिए इसकी कोटिंग जलाना बहुत बुरा सरप्राइज़ देता है।",
+      "ta": "ஹே நீங்க! இந்த கேபிள் எனக்கு நூடுல்ஸ் ராஜா பட்டம் குடுத்துச்சு! ஆனா காப்பர் எடுக்க இதோட கோட்டிங்க எரிச்சா எல்லாருக்கும் மோசமான சர்ப்ரைஸ் தாங்க."
+    },
+    "harm": {
+      "en": "Only about twenty two percent of global electronic waste was formally recycled in twenty twenty two. Informal burning releases toxic pollution.",
+      "hi": "दो हज़ार बाईस में दुनिया का सिर्फ़ करीब बाईस परसेंट ई वेस्ट फ़ॉर्मली रीसायकल हुआ। खुले में जलाने से ज़हरीला पॉल्यूशन निकलता है।",
+      "ta": "ரெண்டாயிரத்து இருபத்தி ரெண்டுல உலக ஈ வேஸ்ட்ல சுமார் இருபத்தி ரெண்டு பர்சன்ட் தான் முறையா ரீசைக்கிள் ஆச்சு. திறந்தவெளியில எரிச்சா நச்சு புகை வருதுங்க.",
+      "stats": [
+        {
+          "value": 22.3,
+          "unit": "formally recycled",
+          "decimals": 1,
+          "suffix": "%"
+        }
+      ]
+    },
+    "who": {
+      "en": "Workers extracting copper breathe the smoke, and nearby children breathe it too. Toxic dust also settles on soil around their homes.",
+      "hi": "कॉपर निकालने वाले वर्कर्स धुआँ साँस में लेते हैं, पास के बच्चे भी। ज़हरीली धूल उनके घरों की मिट्टी पर भी बैठती है।",
+      "ta": "காப்பர் எடுக்குற வொர்க்கர்ஸும் பக்கத்து குழந்தைங்களும் அந்த புகைய சுவாசிக்குறாங்க. அவங்க வீட்ட சுத்தி மண்ணுலயும் நச்சு தூசி படியும். அது ரொம்ப கஷ்டமுங்க.",
+      "victims": [
+        "worker",
+        "child",
+        "air",
+        "soil"
+      ]
+    },
+    "dispose": {
+      "en": "Never burn wires or boards, and never strip them yourself. Hand intact electronic waste to an authorised collector for safe processing.",
+      "hi": "तार और बोर्ड कभी मत जलाओ, खुद कोटिंग भी मत उतारो। ई वेस्ट साबुत ऑथराइज़्ड कलेक्टर को दो, सेफ़ प्रोसेसिंग के लिए।",
+      "ta": "வயரையும் போர்டையும் எரிக்காதீங்க, நீங்களே கோட்டிங்க பிரிக்காதீங்க. ஈ வேஸ்ட்ட அப்படியே அங்கீகாரம் வாங்குன கலெக்டர்கிட்ட குடுங்க. பாதுகாப்பா அவங்க பிரிச்சு கையாளட்டும்.",
+      "bin": "ewaste",
+      "steps": [
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Repair and reuse electronics, then choose responsible collection. Copper can get another life without turning somebody's neighbourhood into a smoke machine!",
+      "hi": "इलेक्ट्रॉनिक्स रिपेयर और रीयूज़ करो, फिर सही कलेक्शन चुनो। कॉपर की नई लाइफ़ के लिए किसी का मोहल्ला स्मोक मशीन क्यों बने!",
+      "ta": "எலக்ட்ரானிக்ஸ ரிப்பேர் பண்ணி திரும்ப யூஸ் பண்ணுங்க, அப்புறம் சரியான கலெக்ஷன்ல குடுங்க. காப்பருக்கு புது லைஃப் குடுக்க ஊரையே ஸ்மோக் மெஷின் ஆக்க வேணாமே!",
+      "swap_from": "cable",
+      "swap_to": "wrench"
+    }
+  },
+  "sources": [
+    "UNITAR/ITU, Global E-waste Monitor 2024: globally 62 million tonnes generated in 2022; 22.3% documented formally collected and recycled. https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+    "WHO, Electronic waste, 1 October 2024: informal burning releases hazardous substances; children and workers vulnerable. https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)"
+  ]
+}

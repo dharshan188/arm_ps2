@@ -1,0 +1,62 @@
+{
+ "cls": "plastic_waste",
+ "slug": "wrappers",
+ "item": "wrapper",
+ "title": {
+  "en": "Snack Wrappers",
+  "hi": "चिप्स के रैपर",
+  "ta": "சிப்ஸ் ரேப்பர்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Crunch crunch... hey! Who dropped this chips wrapper on my head? Was it you? Okay, I forgive you. Let's fix it together!",
+   "hi": "कुरकुर कुरकुर... अरे! मेरे सिर पे चिप्स का रैपर किसने गिराया? तुमने? चलो माफ़ किया। आओ मिलके ठीक करते हैं!",
+   "ta": "கருக் முருக்... ஹே! என் தலைல சிப்ஸ் ரேப்பர போட்டது யாரு? நீங்களா? சரி பரவால்ல, மன்னிச்சுட்டேன். வாங்க சேர்ந்து சரி பண்ணலாம்!"
+  },
+  "harm": {
+   "en": "Wrappers are thin layers glued together, so they are really hard to recycle. About eighty five per cent of plastic packaging ends up in landfills or dumped.",
+   "hi": "रैपर कई पतली परतें चिपका के बनते हैं, इसलिए रीसायकल करना बहुत मुश्किल है। करीब पचासी परसेंट प्लास्टिक पैकेजिंग लैंडफ़िल में या खुले में फेंकी जाती है।",
+   "ta": "ரேப்பர் நிறைய மெல்லிசான லேயர ஒட்டி பண்றது, அதனால ரீசைக்கிள் பண்றது ரொம்ப கஷ்டம். கிட்டத்தட்ட எம்பத்தி அஞ்சு பர்சன்ட் பிளாஸ்டிக் பேக்கேஜிங் குப்பை மேட்டுக்கு தான் போகுது.",
+   "stats": [
+    {
+     "value": 85,
+     "suffix": "%",
+     "unit": "packaging dumped",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "They blow into fields and rivers, sit in the soil for ages, and waste pickers can't sell them, so nobody picks them up.",
+   "hi": "ये उड़के खेतों और नदियों में जाते हैं, सालों मिट्टी में पड़े रहते हैं, और कबाड़ी वाले इन्हें बेच नहीं पाते, तो कोई उठाता भी नहीं।",
+   "ta": "இது பறந்து வயல்லயும் ஆத்துலயும் போய் விழுது, வருஷக்கணக்கா மண்ணுல கிடக்குது. பழைய பொருள் எடுக்கறவங்க இத விக்க முடியாது, அதனால யாரும் எடுக்க மாட்டாங்க.",
+   "victims": [
+    "soil",
+    "river",
+    "worker"
+   ]
+  },
+  "dispose": {
+   "en": "Shake out the crumbs, keep it dry, and stuff all your wrappers into one wrapper. Blue bin! Then they can become fuel in cement factories.",
+   "hi": "चूरा झाड़ो, सूखा रखो, और सारे रैपर एक रैपर में ठूँस दो। ब्लू बिन! फिर ये सीमेंट फ़ैक्ट्री में ईंधन बन सकते हैं।",
+   "ta": "உள்ள இருக்கற தூள உதறி, காய வெச்சு, எல்லா ரேப்பரையும் ஒரே ரேப்பருக்குள்ள அடைச்சிடுங்க. ப்ளூ பின்! அப்புறம் சிமென்ட் ஃபேக்டரில எரிபொருளா யூஸ் ஆகும்.",
+   "bin": "blue",
+   "steps": [
+    "dry",
+    "squash"
+   ]
+  },
+  "prevent": {
+   "en": "Smarter snack: buy one big pack and share it from a tiffin, or grab peanuts and fruit instead. Fewer wrappers, same crunch. Deal?",
+   "hi": "स्मार्ट स्नैक: एक बड़ा पैक लो और टिफ़िन में बाँट लो, या मूँगफली और फल खाओ। रैपर कम, कुरकुर उतनी ही। डील?",
+   "ta": "ஸ்மார்ட் ஸ்நாக்: ஒரு பெரிய பாக்கெட் வாங்கி டிஃபன்ல பங்கு போட்டுக்கோங்க, இல்லனா கடலை, பழம் சாப்பிடுங்க. ரேப்பர் கம்மி, க்ரஞ்ச் அதே தான். டீலா?",
+   "swap_from": "wrapper",
+   "swap_to": "tiffin",
+   "swap_to2": "apple"
+  }
+ },
+ "sources": [
+  "UNEP, Beat Plastic Pollution facts: about 36% of plastics produced are packaging, approximately 85% of which ends up in landfills or as unregulated waste",
+  "MoEFCC, Plastic Waste Management Rules 2016: non-recyclable multilayered plastic to be used for energy recovery / co-processing in cement kilns"
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "cls": "clothes",
+ "slug": "general_photo",
+ "title": {
+  "en": "Clothes: keep them in use",
+  "hi": "कपड़े: फिर पहनने का मौक़ा",
+  "ta": "துணிகள்: இன்னும் பயன்படட்டும்"
+ },
+ "beats": {
+  "intro": {
+   "en": "A shirt left in a cupboard may still have years of wear ahead. Clothes deserve a longer life.",
+   "hi": "अलमारी में पड़ी शर्ट शायद अभी कई साल पहनी जा सकती है। कपड़े और वक़्त तक काम आ सकते हैं।",
+   "ta": "அலமாரியில இருக்குற சட்டைய இன்னும் பல வருஷம் போட முடியலாம். துணிகள் இன்னும் நிறைய நாள் பயன்படலாம்."
+  },
+  "harm": {
+   "en": "Making fabric takes water and energy. Throwing usable clothes away means replacing them sooner, and using more resources.",
+   "hi": "कपड़ा बनाने में पानी और एनर्जी लगती है। काम के कपड़े फेंकने से नए जल्दी खरीदने पड़ते हैं और ज़्यादा रिसोर्स लगते हैं।",
+   "ta": "துணி தயாரிக்க தண்ணியும் எனர்ஜியும் தேவை. நல்ல துணிய தூக்கிப் போட்டா, சீக்கிரமே புதுசு வாங்க வேண்டியிருக்கும். இன்னும் அதிகமா வளங்கள் தேவைப்படும்."
+  },
+  "who": {
+   "en": "Untreated dyeing wastewater can harm rivers and nearby communities. Keeping clothes in use helps reduce demand for new production.",
+   "hi": "बिना ट्रीटमेंट छोड़ा गया डाइंग का गंदा पानी नदियों और आसपास के लोगों को नुकसान पहुँचा सकता है। कपड़े ज़्यादा वक़्त पहनने से नए प्रोडक्शन की माँग कम करने में मदद मिलती है।",
+   "ta": "டையிங் பண்றப்போ வர்ற கழிவுத் தண்ணிய சுத்தம் பண்ணாம விட்டா, ஆறுகளும் பக்கத்துல வாழுற மக்களும் பாதிக்கப்படலாம். துணிகள தொடர்ந்து போட்டா, புதுத் துணி தயாரிக்கிற தேவைய குறைக்க உதவும்."
+  },
+  "dispose": {
+   "en": "Sort clothes, wash and dry them, then donate wearable pieces. Send worn textiles to the designated textile collection or blue bin.",
+   "hi": "कपड़े छाँटो, धोकर सुखाओ, फिर पहनने लायक कपड़े डोनेट करो। घिसे कपड़े तय टेक्सटाइल कलेक्शन या ब्लू बिन में दो।",
+   "ta": "துணிகள பிரிச்சு, துவைச்சு காய வைங்க. போடக்கூடிய துணிகள டொனேட் பண்ணுங்க. தேஞ்ச துணிகள அதுக்கான டெக்ஸ்டைல் கலெக்ஷன்ல இல்ல ப்ளூ பின்ல குடுங்க."
+  },
+  "prevent": {
+   "en": "Mend a seam, swap a saree, reuse cotton as cleaning cloths. Buy fewer clothes, and choose pieces you will keep wearing.",
+   "hi": "सिलाई ठीक करो, साड़ी आपस में बदलो, पुराने कॉटन से सफ़ाई करो। कम कपड़े खरीदो और ऐसे चुनो जिन्हें बार-बार पहनोगे।",
+   "ta": "பிரிஞ்ச தையல சரி பண்ணுங்க. புடவைய ஒருத்தருக்கொருத்தர் மாத்திக்கலாம். பழைய காட்டன் துணிய துடைக்க யூஸ் பண்ணலாம். கம்மியா வாங்குங்க. தொடர்ந்து போடுற மாதிரி துணிகள தேர்ந்தெடுங்க."
+  }
+ },
+ "shots": {
+  "intro": [
+   {
+    "img": "saree_00.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "harm": [
+   {
+    "img": "harm0_01.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "harm1_01.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "who": [
+   {
+    "img": "noyyal_00.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "harm1_00.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "dispose": [
+   {
+    "img": "used_02.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "dispose1_00.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "prevent": [
+   {
+    "img": "tailor_00.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "prevent1_00.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ]
+ },
+ "overlays": {
+  "dispose": [
+   {
+    "type": "steps",
+    "n": 4,
+    "steps_at": [
+     0.02,
+     0.12,
+     0.29,
+     0.49
+    ],
+    "bin": "blue",
+    "bin_at": 0.86,
+    "until": 1.0
+   }
+  ]
+ },
+ "sources": [
+  "UNEP and UN-Habitat, International Day of Zero Waste 2025: textile waste prevention through longer use, reuse, and repair. https://wedocs.unep.org/items/edfc24da-89f5-4785-afbc-0a9172b0af57",
+  "USAID, Sector Environmental Guidelines: Wet Textile Operations, 2013: water and energy use in processing; untreated dye and chemical wastewater can damage water supplies and affect neighbouring communities. The narration specifies untreated discharge, not all textile factories. https://www.usaid.gov/sites/default/files/2022-05/USAID-MSE-Sector-Guideline-Wet-Textiles-2013.pdf",
+  "BBMP, Waste Management FAQs and Dry Waste Streams: fabric is dry waste and blue identifies the recyclable dry-waste stream. Donation first, then designated textile collection or blue bin is Sorti routing, not a claim that all municipal recyclers accept all fabrics. https://apps.bbmpgov.in/SWM/Home/Forms/PublicInformation.aspx?page=FAQs https://apps.bbmpgov.in/SWM/Home/Forms/Publicwastestream.aspx?Page=dry"
+ ]
+}

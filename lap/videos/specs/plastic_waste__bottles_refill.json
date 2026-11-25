@@ -1,0 +1,66 @@
+{
+ "cls": "plastic_waste",
+ "slug": "bottles_refill",
+ "item": "bottle",
+ "title": {
+  "en": "Refill, Don't Rebuy",
+  "hi": "बोतल दोबारा भरो",
+  "ta": "பாட்டில் ரீஃபில்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Thunk! Another water bottle on my head, that's the third one today! Hey you, thirsty? Let's make this the last one.",
+   "hi": "धप्प! फिर से पानी की बोतल मेरे सिर पे, आज की तीसरी! अरे तुम, प्यास लगी? चलो इसको आख़िरी बना देते हैं।",
+   "ta": "டப்! மறுபடியும் ஒரு தண்ணி பாட்டில் என் தலைல, இன்னிக்கு இது மூணாவது! ஹே நீங்க, தாகமா இருக்கா? இத கடைசி பாட்டிலா ஆக்கிடலாம்."
+  },
+  "harm": {
+   "en": "Around the world, people buy about one million plastic bottles every single minute. Most are used just once and thrown away.",
+   "hi": "दुनिया में हर एक मिनट में करीब दस लाख प्लास्टिक बोतलें ख़रीदी जाती हैं। ज़्यादातर बस एक बार इस्तेमाल होके फेंक दी जाती हैं।",
+   "ta": "உலகம் முழுக்க ஒவ்வொரு நிமிஷமும் கிட்டத்தட்ட பத்து லட்சம் பிளாஸ்டிக் பாட்டில் வாங்கறாங்க. நிறைய பாட்டில ஒரே தடவை யூஸ் பண்ணிட்டு தூக்கி போட்டுடறாங்க.",
+   "stats": [
+    {
+     "value": 1,
+     "unit": "million bottles / minute",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "Bottles float down rivers into the sea, fish nibble on the broken bits, and children end up playing on beaches covered in them.",
+   "hi": "बोतलें नदियों से बहके समंदर तक जाती हैं, मछलियाँ टूटे टुकड़े कुतरती हैं, और बच्चे इनसे भरे बीच पे खेलते हैं।",
+   "ta": "பாட்டில் ஆத்துல மிதந்து கடலுக்கு போகுது, உடைஞ்ச துண்டுகள மீனுங்க கொறிக்குது, குழந்தைங்க அது நிறைஞ்ச பீச்ல விளையாடுறாங்க.",
+   "victims": [
+    "river",
+    "fish",
+    "child"
+   ]
+  },
+  "dispose": {
+   "en": "Empty it, take the cap off, squash it flat, and drop both in the blue bin. Clean bottles become new bottles, shirts and even carpets!",
+   "hi": "ख़ाली करो, ढक्कन खोलो, दबा के चपटा करो, और दोनों ब्लू बिन में डालो। साफ़ बोतल से नई बोतल, टी शर्ट और कालीन तक बनते हैं!",
+   "ta": "காலி பண்ணி, மூடிய கழட்டி, நசுக்கி தட்டையாக்கி, ரெண்டையும் ப்ளூ பின்ல போடுங்க. சுத்தமான பாட்டில்ல இருந்து புது பாட்டில், டீ ஷர்ட், கார்பெட் கூட பண்ணுவாங்க!",
+   "bin": "blue",
+   "steps": [
+    "rinse",
+    "squash"
+   ]
+  },
+  "prevent": {
+   "en": "Best move: carry a steel bottle and refill it. Otherwise plastic waste could almost triple by twenty sixty. Refill, don't rebuy! High five!",
+   "hi": "सबसे बढ़िया: स्टील की बोतल रखो और भरते रहो। वरना दो हज़ार साठ तक प्लास्टिक कचरा लगभग तीन गुना हो सकता है। भरो, मत ख़रीदो! हाई फ़ाइव!",
+   "ta": "பெஸ்ட் ஐடியா: ஒரு ஸ்டீல் பாட்டில் வெச்சுக்கிட்டு ரீஃபில் பண்ணுங்க. இல்லனா ரெண்டாயிரத்து அறுபதுக்குள்ள பிளாஸ்டிக் குப்பை கிட்டத்தட்ட மூணு மடங்கு ஆகலாம். ரீஃபில் பண்ணுங்க, புதுசு வாங்காதீங்க! ஹை ஃபைவ்!",
+   "swap_from": "bottle",
+   "swap_to": "steel_bottle",
+   "stat": {
+    "value": 3,
+    "suffix": "x",
+    "unit": "plastic waste by 2060",
+    "bad": true
+   }
+  }
+ },
+ "sources": [
+  "UNEP, Beat Plastic Pollution: about 1 million plastic drinking bottles are purchased every minute worldwide",
+  "OECD, Global Plastics Outlook: Policy Scenarios to 2060 (2022): plastic waste almost triples by 2060 under business as usual"
+ ]
+}

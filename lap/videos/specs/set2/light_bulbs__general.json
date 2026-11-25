@@ -1,0 +1,59 @@
+{
+  "cls": "light_bulbs",
+  "slug": "general",
+  "item": "bulb",
+  "title": {
+    "en": "Lights out, careful collection",
+    "hi": "लाइट बंद, कलेक्शन सही",
+    "ta": "லைட் ஆஃப், கவனமா கலெக்ட்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This bulb landed on my head; my electricity bill has become personal! CFLs, tube lights, and LEDs need careful collection.",
+      "hi": "अरे सुनो! बल्ब मेरे सिर पर गिरा, बिजली का बिल पर्सनल हो गया! सीएफ़एल, ट्यूब लाइट और एलईडी को सँभालकर कलेक्ट करो।",
+      "ta": "ஹே நீங்க! பல்ப் என் தலையில விழுந்துச்சு, கரண்ட் பில் பர்சனலா ஆயிடுச்சே! சிஎஃப்எல், டியூப் லைட், எல்ஈடி எல்லாத்தையும் கவனமா கலெக்ட் பண்ணுங்க."
+    },
+    "harm": {
+      "en": "CFLs and fluorescent tubes contain mercury, which can escape when broken. Old incandescent bulbs waste electricity; LEDs offer a more efficient option.",
+      "hi": "सीएफ़एल और फ़्लोरोसेंट ट्यूब में मरकरी होती है, टूटने पर निकल सकती है। पुराने फ़िलामेंट बल्ब बिजली ज़्यादा लेते हैं, एलईडी बेहतर ऑप्शन है।",
+      "ta": "சிஎஃப்எல், ஃப்ளூரசென்ட் டியூப்ல மெர்க்குரி இருக்கு, உடைஞ்சா வெளிய வரலாம். பழைய ஃபிலமென்ட் பல்ப் கரண்ட் அதிகம் எடுக்கும், எல்ஈடி நல்ல ஆப்ஷனுங்க."
+    },
+    "who": {
+      "en": "Broken lamps can cut workers, and mercury can harm children's developing nervous systems. Keep lamps intact, away from curious hands and feet.",
+      "hi": "टूटी लाइट से वर्कर्स कट सकते हैं, मरकरी बच्चों के बढ़ते नर्वस सिस्टम को नुकसान देती है। लाइट साबुत रखो, बच्चों से दूर।",
+      "ta": "உடைஞ்ச லைட் வொர்க்கர்ஸ காயப்படுத்தலாம், மெர்க்குரி குழந்தைங்க வளருற நரம்பு மண்டலத்த பாதிக்கலாம். லைட்ட உடையாம வைங்க, குழந்தைங்க கை கால்ல படாம பாத்துக்கோங்க.",
+      "victims": [
+        "worker",
+        "child",
+        "soil"
+      ]
+    },
+    "dispose": {
+      "en": "Let lamps cool; wrap and box them without breaking. Give CFLs, tubes, LEDs, and old bulbs to the red collection bin.",
+      "hi": "लाइट ठंडी होने दो, बिना तोड़े लपेटकर बॉक्स में रखो। सीएफ़एल, ट्यूब, एलईडी और पुराने बल्ब रेड कलेक्शन बिन को दो।",
+      "ta": "லைட் ஆறட்டும், உடைக்காம சுத்தி பாக்ஸ்ல வைங்க. சிஎஃப்எல், டியூப், எல்ஈடி, பழைய பல்ப் எல்லாத்தையும் ரெட் கலெக்ஷன் பின்ல குடுங்க.",
+      "bin": "red",
+      "steps": [
+        "wrap",
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Choose LEDs: they use at least seventy five percent less energy than incandescent bulbs. Switch off empty rooms; even lights deserve bedtime!",
+      "hi": "एलईडी चुनो, फ़िलामेंट बल्ब से कम से कम पचहत्तर परसेंट कम एनर्जी लगती है। खाली कमरे की लाइट बंद करो, उसे भी सोने दो!",
+      "ta": "எல்ஈடி வாங்குங்க, ஃபிலமென்ட் பல்பைவிட குறைஞ்சது எழுபத்தி அஞ்சு பர்சன்ட் எனர்ஜி மிச்சம். காலி ரூம்ல லைட் ஆஃப் பண்ணுங்க, லைட்டுக்கும் தூக்கம் வேணுமே!",
+      "swap_from": "tube",
+      "swap_to": "led_bulb",
+      "stat": {
+        "value": 75,
+        "suffix": "%",
+        "unit": "vs filament bulbs"
+      }
+    }
+  },
+  "sources": [
+    "US Department of Energy, Addressing Misinformation on DOE Appliance Standards: LEDs consume 75% less energy than incandescent bulbs; comparison does not imply the same savings over CFLs or tubes. https://www.energy.gov/articles/addressing-misinformation-doe-appliance-standards",
+    "US EPA, What are the Connections between Mercury and CFLs?: intact lamps retain mercury; broken lamps can release it. Fluorescent tubes also contain mercury; LEDs/incandescent bulbs do not share this mercury hazard. https://www.epa.gov/mercury/what-are-connections-between-mercury-and-cfls",
+    "US EPA, Health Effects of Exposures to Mercury: developing nervous system vulnerable. Dedicated red lamp collection follows kiosk routing. https://www.epa.gov/mercury/health-effects-exposures-mercury"
+  ]
+}

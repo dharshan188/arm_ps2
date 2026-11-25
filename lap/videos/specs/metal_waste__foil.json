@@ -1,0 +1,60 @@
+{
+ "cls": "metal_waste",
+ "slug": "foil",
+ "item": "foil",
+ "title": {
+  "en": "Aluminium Foil: Ball It Up",
+  "hi": "एल्युमिनियम फ़ॉइल: गेंद बनाओ",
+  "ta": "அலுமினியம் ஃபாயில்: உருண்டை பண்ணுங்க"
+ },
+ "beats": {
+  "intro": {
+   "en": "Crinkle crinkle! Foil on my head, now I'm a shiny robot! Beep boop! Hey you, let's figure out where foil goes.",
+   "hi": "चर्र चर्र! सिर पर फ़ॉइल, अब मैं चमकीला रोबोट हूँ! बीप बूप! अरे तुम, चलो पता करें फ़ॉइल कहाँ जाती है।",
+   "ta": "சரசர! தலைல ஃபாயில், இப்போ நான் பளபளக்குற ரோபோ! பீப் பூப்! ஹே நீங்க, ஃபாயில் எங்க போகணும்னு பார்க்கலாம் வாங்க."
+  },
+  "harm": {
+   "en": "Foil is aluminium! About seventy-five per cent of all aluminium ever made is still in use, but greasy foil in the trash gets lost.",
+   "hi": "फ़ॉइल एल्युमिनियम है! अब तक बना करीब पचहत्तर परसेंट एल्युमिनियम आज भी इस्तेमाल में है, पर कचरे में गई चिकनी फ़ॉइल हमेशा के लिए खो जाती है।",
+   "ta": "ஃபாயில் அலுமினியம் தான்! இதுவரைக்கும் பண்ண அலுமினியத்துல கிட்டத்தட்ட எழுபத்தி அஞ்சு பர்சன்ட் இன்னும் யூஸ்ல இருக்கு, ஆனா குப்பைல போற எண்ணெய் ஃபாயில் வீணா போயிடுது.",
+   "stats": [
+    {
+     "value": 75,
+     "suffix": "%",
+     "unit": "aluminium still in use"
+    }
+   ]
+  },
+  "who": {
+   "en": "Cows lick greasy foil and swallow it, foil scraps never rot in the soil, and burning foil with trash smokes up the air.",
+   "hi": "गायें चिकनी फ़ॉइल चाटकर निगल जाती हैं, फ़ॉइल के टुकड़े मिट्टी में कभी नहीं गलते, और कचरे के साथ जलाने पर हवा में धुआँ भरता है।",
+   "ta": "மாடுங்க எண்ணெய் ஃபாயில நக்கி முழுங்குது, ஃபாயில் துண்டு மண்ணுல மக்கவே மக்காது, குப்பையோட எரிச்சா காத்துல புகை கலக்குது.",
+   "victims": [
+    "cow",
+    "soil",
+    "air"
+   ]
+  },
+  "dispose": {
+   "en": "Wipe off the food, scrunch the clean foil into a ball at least fist-sized, and drop it in the blue bin. Tiny bits get lost!",
+   "hi": "खाना पोंछ लो, साफ़ फ़ॉइल को कम से कम मुट्ठी जितनी गेंद बना लो, और ब्लू बिन में डालो। छोटे टुकड़े खो जाते हैं!",
+   "ta": "சாப்பாட துடைச்சு, சுத்தமான ஃபாயில குறைஞ்சது கை முஷ்டி அளவு உருண்டையா உருட்டி, ப்ளூ பின்ல போடுங்க. குட்டி துண்டு காணாம போயிடும்!",
+   "bin": "blue",
+   "steps": [
+    "rinse",
+    "squash"
+   ]
+  },
+  "prevent": {
+   "en": "Better still, pack rotis in a steel tiffin or a cloth instead of foil. Hot food, zero waste, still shiny! High five!",
+   "hi": "और भी बढ़िया, रोटियाँ फ़ॉइल की जगह स्टील के टिफ़िन या कपड़े में पैक करो। गरम खाना, ज़ीरो वेस्ट, फिर भी चमकदार! हाई फ़ाइव!",
+   "ta": "இன்னும் சூப்பர்னா, சப்பாத்திய ஃபாயில்ல இல்லாம ஸ்டீல் டிஃபன்லயோ துணிலயோ பேக் பண்ணுங்க. சூடான சாப்பாடு, ஜீரோ வேஸ்ட், அதே பளபளப்பு! ஹை ஃபைவ்!",
+   "swap_from": "foil",
+   "swap_to": "tiffin",
+   "swap_to2": "cloth_bag"
+  }
+ },
+ "sources": [
+  "The Aluminum Association / International Aluminium Institute: about 75% of all aluminium ever produced is still in use"
+ ]
+}

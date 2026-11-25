@@ -1,0 +1,61 @@
+{
+ "cls": "organic_waste",
+ "slug": "home_compost",
+ "item": "compost_bin",
+ "title": {
+  "en": "Home Composting Made Easy",
+  "hi": "घर पर खाद बनाओ",
+  "ta": "வீட்லயே கம்போஸ்ட்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Clang! A compost bin fell on my head! Must be a sign. Hey you, want to make free plant food from kitchen scraps?",
+   "hi": "धड़ाम! मेरे सिर पर कम्पोस्ट बिन गिरा! ज़रूर कोई इशारा है। अरे तुम, किचन के कचरे से मुफ़्त खाद बनानी है?",
+   "ta": "டங்! என் தலைல கம்போஸ்ட் பின் விழுந்துடுச்சு! ஏதோ சிக்னல் தான். ஹே நீங்க, கிச்சன் குப்பைல இருந்து ஃப்ரீ உரம் பண்ணலாமா?"
+  },
+  "harm": {
+   "en": "Dumped kitchen waste rots into methane. Indore composts its wet waste, and was named India's cleanest city seven years in a row!",
+   "hi": "डंप में पड़ा किचन कचरा सड़कर मीथेन बनाता है। इंदौर अपने गीले कचरे की खाद बनाता है, और लगातार सात साल इंडिया का सबसे साफ़ शहर बना!",
+   "ta": "டம்ப்ல கிடக்குற கிச்சன் குப்பை அழுகி மீத்தேன் ஆகுது. இந்தூர் தன் ஈரக் குப்பைய உரமா மாத்துது, தொடர்ந்து ஏழு வருஷம் இந்தியாவோட சுத்தமான சிட்டி ஆச்சு!",
+   "stats": [
+    {
+     "value": 7,
+     "unit": "years cleanest city"
+    }
+   ]
+  },
+  "who": {
+   "en": "Without compost, the soil goes hungry, farmers buy more chemical fertiliser, and workers haul mountains of wet waste to dumps.",
+   "hi": "खाद के बिना मिट्टी भूखी रहती है, किसान ज़्यादा केमिकल खाद ख़रीदते हैं, और मज़दूर गीले कचरे के पहाड़ डंप तक ढोते हैं।",
+   "ta": "உரம் இல்லனா மண்ணு பசியா இருக்கும், விவசாயிங்க ஜாஸ்தி கெமிக்கல் உரம் வாங்குறாங்க, தொழிலாளிங்க ஈரக் குப்பை மலைய டம்ப் வரைக்கும் தூக்கிட்டு போறாங்க.",
+   "victims": [
+    "soil",
+    "farmer",
+    "worker"
+   ]
+  },
+  "dispose": {
+   "en": "Layer peels with dry leaves in a pot, keep it damp, and stir weekly. In about two months, you get compost!",
+   "hi": "मटके में छिलके और सूखे पत्ते परत बनाकर डालो, हल्का गीला रखो, हर हफ़्ते चलाओ। करीब दो महीने में खाद तैयार!",
+   "ta": "ஒரு பானைல தோலும் காய்ஞ்ச இலையும் அடுக்கடுக்கா போடுங்க, லேசா ஈரமா வெச்சு வாரா வாரம் கிளறுங்க. கிட்டத்தட்ட ரெண்டு மாசத்துல உரம் ரெடி!",
+   "bin": "green",
+   "steps": [],
+   "stat": {
+    "value": 2,
+    "unit": "months to compost"
+   }
+  },
+  "prevent": {
+   "en": "Skip the plastic bin bag, feed the compost pot instead, and your plants will thank you with flowers. Garden glow-up? High five!",
+   "hi": "प्लास्टिक कचरा थैली छोड़ो, कम्पोस्ट पॉट को खिलाओ, पौधे तुम्हें फूलों से थैंक यू बोलेंगे। गार्डन ग्लो अप? हाई फ़ाइव!",
+   "ta": "பிளாஸ்டிக் குப்பை கவர் வேணாம், கம்போஸ்ட் பானைக்கு சாப்பாடு போடுங்க, செடிங்க பூ பூத்து தேங்க்ஸ் சொல்லும். கார்டன் க்ளோ அப்? ஹை ஃபைவ்!",
+   "swap_from": "bag",
+   "swap_to": "compost_bin",
+   "swap_to2": "flowers"
+  }
+ },
+ "sources": [
+  "MoHUA Swachh Survekshan 2017-2023: Indore ranked India's cleanest city seven times in a row",
+  "ICAR / municipal home-composting guides: aerobic pot composting takes roughly 6-8 weeks to 3 months"
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "cls": "e_waste",
+ "slug": "general_photo",
+ "title": {
+  "en": "Electronics: beyond the drawer",
+  "hi": "इलेक्ट्रॉनिक्स: दराज़ से आगे",
+  "ta": "எலக்ட்ரானிக்ஸ்: டிராயருக்கு அப்புறம்"
+ },
+ "beats": {
+  "intro": {
+   "en": "An old phone sits in a drawer. Chargers and broken earphones join it. These electronics still contain valuable materials.",
+   "hi": "दराज़ में पुराना फ़ोन पड़ा है। साथ में चार्जर और टूटे ईयरफ़ोन भी हैं। इन इलेक्ट्रॉनिक्स में अब भी कीमती मटेरियल हैं।",
+   "ta": "பழைய ஃபோன் டிராயர்ல கிடக்கு. கூடவே சார்ஜரும் உடைஞ்ச இயர்ஃபோனும் சேருது. இந்த எலக்ட்ரானிக்ஸ்ல இன்னும் மதிப்புள்ள பொருட்கள் இருக்கு."
+  },
+  "harm": {
+   "en": "India estimated about seventeen and a half lakh tonnes of electronic waste in the year from April twenty twenty three to March twenty twenty four.",
+   "hi": "अप्रैल दो हज़ार तेईस से मार्च दो हज़ार चौबीस तक के साल में इंडिया में करीब साढ़े सत्रह लाख टन ई वेस्ट होने का अनुमान था।",
+   "ta": "ரெண்டாயிரத்து இருபத்தி மூணு ஏப்ரல்ல இருந்து ரெண்டாயிரத்து இருபத்தி நாலு மார்ச் வரைக்கும், இந்தியால கிட்டத்தட்ட பதினேழரை லட்சம் டன் ஈ வேஸ்ட் உருவானதா கணக்கு போட்டிருக்காங்க."
+  },
+  "who": {
+   "en": "Unsafe burning releases toxic pollutants. Workers and nearby children can be exposed through polluted air, soil, and water.",
+   "hi": "ग़लत तरीके से जलाने पर ज़हरीले प्रदूषक निकलते हैं। दूषित हवा, मिट्टी और पानी से वर्कर्स और आसपास के बच्चों तक ये पहुँच सकते हैं।",
+   "ta": "பாதுகாப்பில்லாம எரிச்சா நச்சுப் பொருட்கள் வெளிய வரும். மாசான காத்து, மண், தண்ணி மூலமா தொழிலாளர்களும் பக்கத்துல இருக்கிற குழந்தைகளும் பாதிக்கப்படலாம்."
+  },
+  "dispose": {
+   "en": "Erase personal data. Keep devices intact. Hand them to an authorised e-waste collector or collection point, never the normal bins.",
+   "hi": "पर्सनल डेटा मिटाओ। डिवाइस साबुत रखो। ऑथराइज़्ड ई वेस्ट कलेक्टर या कलेक्शन पॉइंट पर दो, आम बिन में कभी नहीं।",
+   "ta": "பர்சனல் டேட்டாவ அழிங்க. டிவைஸ அப்படியே வைங்க. அனுமதி வாங்கியிருக்கிற ஈ வேஸ்ட் கலெக்டர்கிட்டயோ கலெக்ஷன் பாயிண்ட்லயோ கொடுங்க. சாதாரண பின்ல போடவே கூடாது."
+  },
+  "prevent": {
+   "en": "Repair before replacing. Donate working devices after wiping data. Never burn cables or pry out built-in batteries yourself.",
+   "hi": "बदलने से पहले रिपेयर करवाओ। काम करने वाले डिवाइस का डेटा मिटाकर डोनेट करो। केबल मत जलाओ, अंदर लगी बैटरी ख़ुद उखाड़कर मत निकालो।",
+   "ta": "மாத்துறதுக்கு முன்னாடி ரிப்பேர் பண்ணிப் பாருங்க. வேலை செய்யுற டிவைஸ்ல டேட்டாவ அழிச்சிட்டு டொனேட் பண்ணுங்க. கேபிளை எரிக்காதீங்க. உள்ள பொருத்தியிருக்கிற பேட்டரிய நீங்களே நெம்பி எடுக்காதீங்க."
+  }
+ },
+ "shots": {
+  "intro": [
+   {
+    "img": "phones_03.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "harm": [
+   {
+    "img": "ewaste_02.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "harm0_02.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "who": [
+   {
+    "img": "who0_02.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   },
+   {
+    "img": "who0_01.jpg",
+    "z": [
+     1.0,
+     1.15
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.45,
+      0.55
+     ]
+    ]
+   }
+  ],
+  "dispose": [
+   {
+    "img": "ewaste_03.jpg",
+    "z": [
+     1.15,
+     1.0
+    ],
+    "c": [
+     [
+      0.5,
+      0.5
+     ],
+     [
+      0.55,
+      0.45
+     ]
+    ]
+   },
+   {
+    "img": "who1_01.jpg",
+    "z": [
+     1.0,
+     1.18
+    ],
+    "c": [
+     [
+      0.45,
+      0.45
+     ],
+     [
+      0.55,
+      0.5
+     ]
+    ]
+   }
+  ],
+  "prevent": [
+   {
+    "img": "prevent0_00.jpg",
+    "z": [
+     1.12,
+     1.0
+    ],
+    "c": [
+     [
+      0.55,
+      0.5
+     ],
+     [
+      0.45,
+      0.5
+     ]
+    ]
+   }
+  ]
+ },
+ "overlays": {
+  "harm": [
+   {
+    "type": "stat",
+    "value": "17.5",
+    "fmt": "{:.0f}",
+    "unit": "lakh tonnes · India, 2023–24",
+    "at": 0.15,
+    "count": false
+   }
+  ],
+  "dispose": [
+   {
+    "type": "steps",
+    "n": 3,
+    "steps_at": [
+     0.0,
+     0.14,
+     0.3
+    ],
+    "bin": "ewaste",
+    "bin_at": 0.66,
+    "until": 1.0
+   }
+  ]
+ },
+ "sources": [
+  "MoHUA, Rajya Sabha Unstarred Question 2384, 16 December 2024: CPCB estimated 1,751,236 metric tonnes nationally in April 2023–March 2024, rounded here to about 17.5 lakh tonnes. Estimate covers 106 notified electrical/electronic equipment types and uses producer sales and average equipment life; not a measured collection total or directly comparable with earlier narrower-scope years. https://sansad.in/getFile/annex/266/AU2384_9gmDUV.pdf?source=pqars",
+  "WHO, Electronic waste (e-waste), 1 October 2024: valuable resources in electronics; unsafe burning releases toxic pollutants into air, soil and water, exposing workers and neighbouring communities, especially children. https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)",
+  "MoHUA parliamentary answer above: e-waste must reach registered producers, refurbishers or recyclers. Authorised collection in this script means a collection route to these registered operators, never normal bins.",
+  "US EPA, Electronics Donation and Recycling: remove personal information; consider repair and donation of working equipment before recycling. https://www.epa.gov/recycle/electronics-donation-and-recycling",
+  "US EPA, Used Household Batteries: some built-in batteries are not readily removable; use electronics collection rather than forcing them out. https://www.epa.gov/recycle/used-household-batteries"
+ ]
+}

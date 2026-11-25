@@ -1,0 +1,60 @@
+{
+ "cls": "plastic_waste",
+ "slug": "milk_packets",
+ "item": "milk_packet",
+ "title": {
+  "en": "Milk Packets",
+  "hi": "दूध की थैली",
+  "ta": "பால் பாக்கெட்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Splat! A milk packet landed on my head and now my hair smells like curd. Hey you, come help me out here!",
+   "hi": "छपाक! दूध की थैली मेरे सिर पे गिरी, अब मेरे बालों से दही की बदबू आ रही है। अरे तुम, ज़रा मदद करो!",
+   "ta": "சொத்! ஒரு பால் பாக்கெட் என் தலைல விழுந்துச்சு, இப்போ முடில தயிர் வாசனை அடிக்குது. ஹே நீங்க, கொஞ்சம் ஹெல்ப் பண்ணுங்க!"
+  },
+  "harm": {
+   "en": "India makes about a quarter of the world's milk, so lakhs of packets get thrown away every day. Leftover milk inside rots and stinks.",
+   "hi": "दुनिया का करीब एक चौथाई दूध इंडिया में बनता है, तो रोज़ लाखों थैलियाँ फेंकी जाती हैं। अंदर बचा दूध सड़ता है और बदबू मारता है।",
+   "ta": "உலகத்து பால்ல கிட்டத்தட்ட நாலுல ஒரு பங்கு இந்தியால தான், அதனால தினமும் லட்சக்கணக்குல பாக்கெட் குப்பைக்கு போகுது. உள்ள இருக்கற பால் கெட்டு நாறுது.",
+   "stats": [
+    {
+     "value": 24,
+     "suffix": "%",
+     "unit": "of world milk"
+    }
+   ]
+  },
+  "who": {
+   "en": "Stray dogs and cows tear the smelly packets open, and sanitation workers have to clean up the sour mess with their hands.",
+   "hi": "आवारा कुत्ते और गायें बदबूदार थैलियाँ फाड़ देते हैं, और सफ़ाई वाले भैया को वो खट्टा गंद हाथ से साफ़ करना पड़ता है।",
+   "ta": "தெரு நாய், மாடுங்க அந்த நாத்தம் அடிக்கற பாக்கெட்ட கிழிச்சுடுது, அந்த புளிச்ச குப்பைய சுத்தம் பண்ற அண்ணன்ங்க கையால தான் எடுக்கணும்.",
+   "victims": [
+    "dog",
+    "cow",
+    "worker"
+   ]
+  },
+  "dispose": {
+   "en": "Cut just one small corner so it stays in one piece. Rinse it, dry it, and drop it in the blue bin. Clean packets recycle easily!",
+   "hi": "बस एक छोटा कोना काटो, ताकि थैली एक ही टुकड़ा रहे। धोओ, सुखाओ, और ब्लू बिन में डालो। साफ़ थैली आसानी से रीसायकल होती है!",
+   "ta": "ஒரு சின்ன மூலைய மட்டும் வெட்டுங்க, பாக்கெட் ஒரே பீஸா இருக்கணும். கழுவி, காய வெச்சு, ப்ளூ பின்ல போடுங்க. சுத்தமான பாக்கெட் ஈஸியா ரீசைக்கிள் ஆகும்!",
+   "bin": "blue",
+   "steps": [
+    "rinse",
+    "dry"
+   ]
+  },
+  "prevent": {
+   "en": "Got a dairy nearby? Take your own steel can or jar and buy loose milk. Zero packets, fresh milk. Moo-velous! High five!",
+   "hi": "पास में डेयरी है? अपना स्टील का डिब्बा या बरनी ले जाओ और खुला दूध लो। थैली ज़ीरो, दूध ताज़ा। हाई फ़ाइव!",
+   "ta": "பக்கத்துல பால் பண்ணை இருக்கா? உங்க ஸ்டீல் தூக்கோ ஜாடியோ எடுத்துட்டு போய் லூஸ் பால் வாங்குங்க. பாக்கெட் ஜீரோ, பால் ஃப்ரெஷ். ஹை ஃபைவ்!",
+   "swap_from": "milk_packet",
+   "swap_to": "jar",
+   "swap_to2": "steel_cup"
+  }
+ },
+ "sources": [
+  "Dept. of Animal Husbandry & Dairying, Basic Animal Husbandry Statistics 2022 / NDDB: India contributes about 24% of global milk production"
+ ]
+}

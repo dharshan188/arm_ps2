@@ -1,0 +1,65 @@
+# ---------------------------------------------------------------- large models (fetched, never committed)
+# Speech / VAD / translation: ./download_models.sh
+voice/stt_*/
+voice/tts_*/
+voice/vad/
+voice/_dl/
+translate/nllb_600m_ct2_int8/
+# Llama 3.2 1B INT4 (.pte + tokenizer): see docs/SETUP_PI5.md, step 5
+llama/*.pte
+llama/checkpoint/
+llama/outputs/
+llama/_spin/
+
+# ---------------------------------------------------------------- generated on the device
+translate/nllb_vmap_*/
+pi/base_zone.json
+pi/logs/
+vision/det/_export_deps/
+vision/det/_ultralytics_settings/
+vision/det/*.pt
+
+# ---------------------------------------------------------------- heavy / generated media
+lap/stt_eval/**/*.wav
+lap/stt_eval/**/*.flac
+lap/stt_eval/**/*.mp3
+lap/videos/review/
+lap/videos/**/raw/
+lap/videos/**/sheets/
+lap/videos/photos/*/cand/
+lap/videos/*/*.mp4
+lap/videos/*/*.wav
+lap/videos/*/*.jpg
+!lap/videos/*/general_photo.mp4
+!lap/videos/*/general_photo_*.wav
+!lap/videos/*/general_photo.jpg
+
+# ---------------------------------------------------------------- secrets (never commit)
+.env
+.env.*
+*.pem
+*.key
+.pixabay_key
+kaggle.json
+.huggingface/
+
+# ---------------------------------------------------------------- python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+
+# ---------------------------------------------------------------- misc
+*.log
+*.pid
+*.bak*
+*.part
+*.tmp
+.DS_Store
+.vscode/
+.idea/

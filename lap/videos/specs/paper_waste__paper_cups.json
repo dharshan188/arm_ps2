@@ -1,0 +1,60 @@
+{
+ "cls": "paper_waste",
+ "slug": "paper_cups",
+ "item": "paper_cup",
+ "title": {
+  "en": "Paper Cups",
+  "hi": "पेपर कप",
+  "ta": "பேப்பர் கப்"
+ },
+ "beats": {
+  "intro": {
+   "en": "Hot hot hot! A paper cup of chai just tipped onto my head. Hey you, think paper cups are totally eco friendly? Plot twist!",
+   "hi": "गरम गरम! चाय वाला पेपर कप मेरे सिर पे उलट गया। अरे तुम, सोचते हो पेपर कप पूरा इको फ़्रेंडली है? ट्विस्ट आ रहा है!",
+   "ta": "சூடு சூடு! டீ இருந்த பேப்பர் கப் என் தலைல கவிழ்ந்துடுச்சு. ஹே நீங்க, பேப்பர் கப் முழுசா இயற்கைக்கு நல்லதுன்னு நினைக்கறீங்களா? ட்விஸ்ட் வருது!"
+  },
+  "harm": {
+   "en": "Paper cups hide a thin plastic lining. An IIT Kharagpur study found hot tea can pick up about twenty five thousand tiny plastic bits in fifteen minutes.",
+   "hi": "पेपर कप के अंदर प्लास्टिक की पतली परत होती है। आई आई टी खड़गपुर की स्टडी में मिला कि गरम चाय पंद्रह मिनट में करीब पच्चीस हज़ार बारीक प्लास्टिक कण उठा सकती है।",
+   "ta": "பேப்பர் கப்புக்குள்ள மெல்லிசா ஒரு பிளாஸ்டிக் லேயர் இருக்கு. ஐ ஐ டி கரக்பூர் ஸ்டடில, சூடான டீ பதினஞ்சு நிமிஷத்துல கிட்டத்தட்ட இருபத்தி அஞ்சாயிரம் குட்டி பிளாஸ்டிக் துகள எடுத்துக்கலாம்னு கண்டுபிடிச்சாங்க.",
+   "stats": [
+    {
+     "value": 25000,
+     "unit": "microplastic bits / cup",
+     "bad": true
+    }
+   ]
+  },
+  "who": {
+   "en": "We drink those bits, and so do our children. When cups are dumped, the paper rots, but the plastic lining stays in the soil.",
+   "hi": "वो कण हम पी जाते हैं, हमारे बच्चे भी। फेंके गए कप का पेपर गल जाता है, पर प्लास्टिक की परत मिट्टी में रह जाती है।",
+   "ta": "அந்த துகள நாமளும் குடிக்கறோம், நம்ம குழந்தைங்களும் தான். கப்ப தூக்கி போட்டா பேப்பர் மக்கிடும், ஆனா பிளாஸ்டிக் லேயர் மண்ணுலயே இருக்கும்.",
+   "victims": [
+    "person",
+    "child",
+    "soil"
+   ]
+  },
+  "dispose": {
+   "en": "That lining makes it hard for normal paper mills to recycle. Empty it, rinse it, squash it, and put it in the blue bin, away from newspapers.",
+   "hi": "उस परत की वजह से आम पेपर मिल इसे आसानी से रीसायकल नहीं कर पाती। ख़ाली करो, धोओ, दबाओ, और ब्लू बिन में डालो, अख़बार के साथ मत मिलाओ।",
+   "ta": "அந்த லேயர்னால சாதாரண பேப்பர் மில்லால இத ஈஸியா ரீசைக்கிள் பண்ண முடியாது. காலி பண்ணி, கழுவி, நசுக்கி, ப்ளூ பின்ல போடுங்க, நியூஸ்பேப்பர் கூட கலக்காதீங்க.",
+   "bin": "blue",
+   "steps": [
+    "rinse",
+    "squash"
+   ]
+  },
+  "prevent": {
+   "en": "Easy fix: carry a steel tumbler and ask the tea shop to pour into it. Your chai stays hot and plastic free. Cheers!",
+   "hi": "आसान तरीका: स्टील का गिलास साथ रखो, और चाय वाले भैया से उसी में डलवाओ। चाय भी गरम, प्लास्टिक भी नहीं। चियर्स!",
+   "ta": "ஈஸி வழி: ஒரு ஸ்டீல் டம்ளர் கூடவே வெச்சுக்கோங்க, டீ கடை அண்ணன்கிட்ட அதுலயே ஊத்த சொல்லுங்க. டீ சூடா இருக்கும், பிளாஸ்டிக்கும் இல்ல. சியர்ஸ்!",
+   "swap_from": "paper_cup",
+   "swap_to": "steel_cup",
+   "swap_to2": "steel_bottle"
+  }
+ },
+ "sources": [
+  "IIT Kharagpur (Ranjan, Goel et al., Journal of Hazardous Materials, 2021): about 25,000 micron-sized microplastic particles released into 100 ml of hot liquid in a paper cup within 15 minutes"
+ ]
+}

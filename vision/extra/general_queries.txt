@@ -1,0 +1,17 @@
+duster|blackboard duster|25
+eraser|chalkboard eraser|25
+whiteboard|whiteboard eraser|20
+sponge|kitchen sponge|25
+scrub|scrubber dish|15
+tissue|used tissue paper|20
+napkin|crumpled paper napkin|15
+cigarette|cigarette butts|25
+ceramic|broken ceramic pieces|20
+pottery|broken pottery shards|15
+toothbrush|old toothbrush|20
+diaper|disposable diaper|15
+rubbereraser|rubber eraser|20
+mop|mop head|15
+broom|broom|15
+cottonswab|cotton swab|15
+chewinggum|chewing gum|15

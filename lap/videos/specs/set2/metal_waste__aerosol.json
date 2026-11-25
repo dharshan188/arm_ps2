@@ -1,0 +1,57 @@
+{
+  "cls": "metal_waste",
+  "slug": "aerosol",
+  "item": "can",
+  "title": {
+    "en": "Empty aerosol, careful exit",
+    "hi": "खाली एरोसॉल, सही एग्ज़िट",
+    "ta": "காலி ஸ்ப்ரே கேன், கவனமான எக்ஸிட்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! This spray can tried giving my hair a makeover; I have no hair! Empty aerosols still need careful handling.",
+      "hi": "अरे तुम! स्प्रे कैन मेरे बालों का मेकओवर करने आया, मेरे बाल ही नहीं! खाली एरोसॉल भी संभालकर रखना पड़ता है।",
+      "ta": "ஹே நீங்க! ஸ்ப்ரே கேன் என் முடிக்கு மேக்கோவர் குடுக்க வந்துச்சு, எனக்கு முடியே இல்ல! காலி ஏரோசாலையும் கவனமா கையாளணும் தாங்க, வாங்க பார்க்கலாம்."
+    },
+    "harm": {
+      "en": "Even empty spray cans can retain pressurised propellant. Steel recycling saves resources: each tonne of scrap avoids about one point four tonnes of ore.",
+      "hi": "खाली स्प्रे कैन में भी प्रेशर वाला गैस बच सकता है। स्टील स्क्रैप का हर टन करीब एक दशमलव चार टन आयरन ओर बचाता है।",
+      "ta": "காலி ஸ்ப்ரே கேன்லயும் பிரஷர் கேஸ் மிச்சம் இருக்கலாம். ஒவ்வொரு டன் ஸ்டீல் ஸ்க்ராப்பும் சுமார் ஒண்ணு புள்ளி நாலு டன் இரும்புத்தாது சேமிக்குதுங்க.",
+      "stats": [
+        {
+          "value": 1.4,
+          "unit": "t ore / t steel scrap",
+          "decimals": 1
+        }
+      ]
+    },
+    "who": {
+      "en": "Punctured or heated cans can injure waste workers and people nearby. Keep children away from discarded sprays; this is no toy rocket.",
+      "hi": "छेद करने या गर्म करने से कैन वर्कर्स और पास के लोगों को चोट दे सकती है। बच्चों से दूर रखो, ये टॉय रॉकेट नहीं।",
+      "ta": "ஓட்டை போட்டா இல்ல சூடு பண்ணா கேன் வொர்க்கர்ஸுக்கும் பக்கத்து ஆளுங்களுக்கும் காயம் தரலாம். குழந்தைங்கள கிட்ட விடாதீங்க, இது பொம்மை ராக்கெட் இல்லங்க.",
+      "victims": [
+        "worker",
+        "child",
+        "person"
+      ]
+    },
+    "dispose": {
+      "en": "Use up normally; only empty cans go to accepted blue metal collection. Never puncture, crush, or burn; ask staff about leftover contents.",
+      "hi": "नॉर्मली यूज़ करके खाली करो, सिर्फ़ खाली कैन मान्य ब्लू मेटल कलेक्शन को दो। छेद, कुचलना, जलाना मत करो। बचा कंटेंट हो तो पूछो।",
+      "ta": "வழக்கம்போல யூஸ் பண்ணி காலி பண்ணுங்க, காலி கேன் மட்டும் வாங்குற ப்ளூ மெட்டல் கலெக்ஷன்ல குடுங்க. ஓட்டை, நசுக்குறது, எரிக்குறது வேணாம். மீதமிருந்தா ஸ்டாஃப்கிட்ட கேளுங்க.",
+      "bin": "blue",
+      "steps": []
+    },
+    "prevent": {
+      "en": "Choose refillable or pump alternatives when practical, and buy only what you need. Your bin wants metal, not a surprise fireworks show!",
+      "hi": "हो सके तो रीफ़िल या पम्प वाला ऑप्शन चुनो, ज़रूरत जितना खरीदो। तुम्हारे बिन को मेटल चाहिए, सरप्राइज़ फ़ायरवर्क शो नहीं!",
+      "ta": "முடிஞ்சா ரீஃபில் இல்ல பம்ப் ஆப்ஷன் வாங்குங்க, தேவைப்படுற அளவு போதும். உங்க பின்க்கு மெட்டல் தான் வேணும், சர்ப்ரைஸ் பட்டாசு ஷோ வேணாமே!",
+      "swap_from": "can",
+      "swap_to": "bottle"
+    }
+  },
+  "sources": [
+    "Staffordshire Fire and Rescue Service, Gas cylinder and aerosol safety: never puncture or burn even empty cans. https://www.staffordshirefire.gov.uk/your-safety/gas-cylinder-and-aerosol-safety/ ; WRAP Recycle Now, Aerosols: completely empty, do not pierce/crush/flatten. https://www.recyclenow.com/recycle-an-item/aerosols",
+    "World Steel Association, Climate change and the production of iron and steel (2025): each tonne of steel scrap used avoids 1.4 tonnes iron ore consumption. https://worldsteel.org/climate-action/climate-change-and-the-production-of-iron-and-steel/"
+  ]
+}

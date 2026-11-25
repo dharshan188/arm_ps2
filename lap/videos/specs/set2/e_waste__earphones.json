@@ -1,0 +1,59 @@
+{
+  "cls": "e_waste",
+  "slug": "earphones",
+  "item": "earphones",
+  "title": {
+    "en": "Earphones need an exit",
+    "hi": "ईयरफ़ोन का सही एग्ज़िट",
+    "ta": "இயர்ஃபோனுக்கு சரியான எக்ஸிட்"
+  },
+  "beats": {
+    "intro": {
+      "en": "Hey you! These earphones bonked me with a surprise remix! When only one side sings, where should the pair go?",
+      "hi": "अरे सुनो! इन ईयरफ़ोन्स ने मेरे सिर पर सरप्राइज़ रीमिक्स बजाया! जब एक साइड ही गाए, तो जोड़ी कहाँ जाएगी?",
+      "ta": "ஹே நீங்க! இந்த இயர்ஃபோன் என் தலையில சர்ப்ரைஸ் ரீமிக்ஸ் போட்டுச்சு! ஒரு பக்கம் மட்டும் பாடுனா, இந்த ஜோடிய எங்க கொண்டு போறது?"
+    },
+    "harm": {
+      "en": "The world generated sixty two million tonnes of electronic waste in twenty twenty two. Even tiny gadgets join that enormous pile!",
+      "hi": "दो हज़ार बाईस में दुनिया में छह करोड़ बीस लाख टन इलेक्ट्रॉनिक वेस्ट बना। छोटे गैजेट्स भी उस बड़े ढेर में जुड़ते हैं!",
+      "ta": "ரெண்டாயிரத்து இருபத்தி ரெண்டுல உலகம் முழுக்க ஆறு கோடியே இருபது லட்சம் டன் எலக்ட்ரானிக் வேஸ்ட் வந்துச்சு. சின்ன கேஜெட்டும் அந்த பெரிய குவியல்ல சேருதுங்க!",
+      "stats": [
+        {
+          "value": 62,
+          "unit": "million t / 2022"
+        }
+      ]
+    },
+    "who": {
+      "en": "Workers handling broken electronics face toxic dust; nearby children can breathe it too. Your old gadget should never become somebody's health problem.",
+      "hi": "टूटे इलेक्ट्रॉनिक्स संभालने वाले वर्कर्स को ज़हरीली धूल लगती है, पास के बच्चे भी साँस में लेते हैं। अपना गैजेट सेफ़ली दो।",
+      "ta": "உடைஞ்ச எலக்ட்ரானிக்ஸ் எடுக்குற வொர்க்கர்ஸுக்கு நச்சு தூசி படும், பக்கத்துல குழந்தைங்களும் சுவாசிப்பாங்க. நம்ம பழைய கேஜெட்டால அவங்களுக்கு கஷ்டம் வரக்கூடாதுல்ல?",
+      "victims": [
+        "worker",
+        "child",
+        "soil"
+      ]
+    },
+    "dispose": {
+      "en": "Keep broken earphones separate from household rubbish. Take wired or wireless pairs to authorised electronic waste collection, keeping batteries inside.",
+      "hi": "टूटे ईयरफ़ोन घर के कचरे से अलग रखो। तार वाले हों या वायरलेस, ऑथराइज़्ड ई वेस्ट सेंटर दो, अंदर की बैटरी मत खोलो।",
+      "ta": "உடைஞ்ச இயர்ஃபோன வீட்டு குப்பையோட கலக்காதீங்க. வயர் இருந்தாலும் வயர்லெஸ்னாலும் அங்கீகாரம் வாங்குன ஈ வேஸ்ட் சென்டர்ல குடுங்க. உள்ள பேட்டரிய நீங்களே பிரிக்காதீங்க.",
+      "bin": "ewaste",
+      "steps": [
+        "box"
+      ]
+    },
+    "prevent": {
+      "en": "Store them in a case and pull the plug, never the wire. Repair when practical; let's keep both ears smiling!",
+      "hi": "केस में रखो, प्लग पकड़कर निकालो, तार खींचकर नहीं। हो सके तो रिपेयर कराओ। दोनों कानों की स्माइल चालू रखो!",
+      "ta": "கேஸ்ல வையுங்க, பிளக்க பிடிச்சு எடுங்க, வயர இழுக்காதீங்க. முடிஞ்சா ரிப்பேர் பண்ணுங்க. ரெண்டு காதுக்கும் ஹேப்பியா பாட்டு கேட்கட்டும், டீலா!",
+      "swap_from": "earphones",
+      "swap_to": "box"
+    }
+  },
+  "sources": [
+    "UNITAR/ITU, Global E-waste Monitor 2024: globally 62 million tonnes generated in 2022; 22.3% documented formally collected and recycled. https://ewastemonitor.info/the-global-e-waste-monitor-2024/",
+    "WHO, Electronic waste, 1 October 2024: informal burning releases hazardous substances; children and workers vulnerable. https://www.who.int/news-room/fact-sheets/detail/electronic-waste-(e-waste)",
+    "US EPA, Used Household Batteries: separate collection, insulate terminals; lithium batteries never in household garbage or recycling. https://www.epa.gov/recycle/used-household-batteries"
+  ]
+}
